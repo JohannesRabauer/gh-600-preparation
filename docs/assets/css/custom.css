@@ -1,251 +1,518 @@
-/* Custom CSS for GH-600 Exam Prep Site
- * Modern styling with subtle animations
- */
+/* ==========================================================================
+   GH-600 Study Site — Custom Styles
+   Modern glassmorphism + micro-interactions for MkDocs Material
+   ========================================================================== */
 
-/* ============================================================
-   Smooth Page Transitions & Animations
-   ============================================================ */
-.md-content {
-  animation: fadeInUp 0.4s ease-out;
+:root {
+  --gh-primary: #6366f1;
+  --gh-primary-light: #818cf8;
+  --gh-accent: #06b6d4;
+  --gh-success: #10b981;
+  --gh-warning: #f59e0b;
+  --gh-danger: #ef4444;
+  --gh-surface: rgba(255, 255, 255, 0.7);
+  --gh-glass: rgba(255, 255, 255, 0.15);
+  --gh-glass-border: rgba(255, 255, 255, 0.3);
+  --gh-blur: 12px;
+  --gh-radius: 16px;
+  --gh-radius-sm: 8px;
+  --gh-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  --gh-shadow-hover: 0 12px 40px rgba(99, 102, 241, 0.15);
+  --gh-transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --gh-font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+  --domain-1: #6366f1;
+  --domain-2: #06b6d4;
+  --domain-3: #10b981;
+  --domain-4: #f59e0b;
+  --domain-5: #ef4444;
+  --domain-6: #8b5cf6;
+  --gh-progress-size: 120px;
+  --gh-progress-stroke: 8px;
 }
 
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(12px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+[data-md-color-scheme="slate"] {
+  --gh-surface: rgba(30, 30, 40, 0.7);
+  --gh-glass: rgba(255, 255, 255, 0.05);
+  --gh-glass-border: rgba(255, 255, 255, 0.1);
+  --gh-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  --gh-shadow-hover: 0 12px 40px rgba(99, 102, 241, 0.25);
 }
 
-/* Animate headings on scroll */
-.md-typeset h2,
-.md-typeset h3 {
-  animation: slideIn 0.5s ease-out;
+/* ==========================================================================
+   Typography & Spacing
+   ========================================================================== */
+
+.md-typeset h1 { letter-spacing: -0.02em; font-weight: 800; }
+.md-typeset h2 { letter-spacing: -0.01em; font-weight: 700; margin-top: 2em; }
+.md-typeset h3 { font-weight: 600; }
+.md-typeset p { line-height: 1.8; }
+
+/* ==========================================================================
+   Hero Section — Animated Gradient
+   ========================================================================== */
+
+.hero-section {
+  background: linear-gradient(-45deg, var(--domain-1), var(--domain-2), var(--domain-3), var(--domain-6));
+  background-size: 400% 400%;
+  animation: heroGradient 12s ease infinite;
+  padding: 3rem 2rem;
+  border-radius: var(--gh-radius);
+  color: #fff;
+  text-align: center;
+  margin-bottom: 2rem;
+  position: relative;
+  overflow: hidden;
 }
 
-@keyframes slideIn {
-  from {
-    opacity: 0;
-    transform: translateX(-8px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
+.hero-section::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 30% 50%, rgba(255,255,255,0.1) 0%, transparent 60%);
 }
 
-/* ============================================================
-   Enhanced Admonitions
-   ============================================================ */
+@keyframes heroGradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* ==========================================================================
+   Glassmorphism Cards — Admonitions & Sections
+   ========================================================================== */
+
 .md-typeset .admonition,
 .md-typeset details {
-  transition: box-shadow 0.3s ease, transform 0.2s ease;
-  border-radius: 8px;
+  background: var(--gh-surface);
+  backdrop-filter: blur(var(--gh-blur));
+  -webkit-backdrop-filter: blur(var(--gh-blur));
+  border: 1px solid var(--gh-glass-border);
+  border-radius: var(--gh-radius-sm);
+  box-shadow: var(--gh-shadow);
+  transition: transform var(--gh-transition), box-shadow var(--gh-transition);
 }
 
 .md-typeset .admonition:hover,
 .md-typeset details:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  transform: translateY(-1px);
+  transform: translateY(-2px);
+  box-shadow: var(--gh-shadow-hover);
 }
 
-/* ============================================================
-   Table Enhancements
-   ============================================================ */
-.md-typeset table:not([class]) {
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+/* ==========================================================================
+   Study Grid & Cards
+   ========================================================================== */
+
+.study-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
 }
 
-.md-typeset table:not([class]) thead {
-  background: var(--md-primary-fg-color);
-  color: var(--md-primary-bg-color);
-}
-
-.md-typeset table:not([class]) thead th {
-  color: white;
-  font-weight: 600;
-}
-
-.md-typeset table:not([class]) tbody tr {
-  transition: background 0.2s ease;
-}
-
-.md-typeset table:not([class]) tbody tr:hover {
-  background: var(--md-code-bg-color);
-}
-
-/* ============================================================
-   Code Block Enhancements
-   ============================================================ */
-.md-typeset pre {
-  border-radius: 8px;
-  transition: box-shadow 0.3s ease;
-}
-
-.md-typeset pre:hover {
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-}
-
-/* ============================================================
-   Navigation Enhancements
-   ============================================================ */
-.md-nav__link {
-  transition: color 0.2s ease, padding-left 0.2s ease;
-}
-
-.md-nav__link:hover {
-  padding-left: 4px;
-}
-
-.md-nav__item--active > .md-nav__link {
-  font-weight: 600;
-}
-
-/* ============================================================
-   Card-like sections for Study Notes
-   ============================================================ */
-.md-typeset h3 {
-  padding-top: 1.5rem;
-  border-top: 1px solid var(--md-default-fg-color--lightest);
-  margin-top: 2rem;
-}
-
-/* ============================================================
-   Flashcard Styling (details/summary)
-   ============================================================ */
-.md-typeset details.question {
-  border-left: 4px solid var(--md-primary-fg-color);
-  background: var(--md-code-bg-color);
-  margin-bottom: 0.75rem;
-  transition: all 0.3s ease;
-}
-
-.md-typeset details.question:hover {
-  border-left-color: var(--md-accent-fg-color);
-}
-
-.md-typeset details.question summary {
-  font-weight: 500;
-  cursor: pointer;
-}
-
-.md-typeset details.question[open] {
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-}
-
-/* ============================================================
-   Hero Section (Landing Page)
-   ============================================================ */
-.hero-section {
-  text-align: center;
-  padding: 2rem 1rem;
-  margin-bottom: 2rem;
-  background: linear-gradient(135deg, 
-    var(--md-primary-fg-color) 0%, 
-    var(--md-accent-fg-color) 100%);
-  border-radius: 12px;
-  color: white;
-}
-
-.hero-section p {
-  color: rgba(255, 255, 255, 0.9);
-  font-size: 1.1rem;
-}
-
-.hero-section strong {
-  display: block;
-  font-size: 1.6rem;
-  margin-bottom: 0.5rem;
-  color: white;
-}
-
-/* Dark mode hero */
-[data-md-color-scheme="slate"] .hero-section {
-  background: linear-gradient(135deg, 
-    var(--md-primary-fg-color) 0%, 
-    #6a1b9a 100%);
-}
-
-/* ============================================================
-   Smooth Scrolling
-   ============================================================ */
-html {
-  scroll-behavior: smooth;
-}
-
-/* ============================================================
-   Mermaid Diagram Container
-   ============================================================ */
-.mermaid {
-  animation: fadeIn 0.6s ease-out;
-  margin: 1.5rem 0;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-
-/* ============================================================
-   Readiness Score Visual
-   ============================================================ */
-.readiness-score {
-  text-align: center;
+.study-card {
+  background: var(--gh-surface);
+  backdrop-filter: blur(var(--gh-blur));
+  border: 1px solid var(--gh-glass-border);
+  border-radius: var(--gh-radius);
   padding: 1.5rem;
-  margin: 1rem 0;
-  background: var(--md-code-bg-color);
-  border-radius: 12px;
-  border: 2px solid var(--md-primary-fg-color);
+  box-shadow: var(--gh-shadow);
+  transition: transform var(--gh-transition), box-shadow var(--gh-transition);
+  position: relative;
+  overflow: hidden;
 }
 
-/* ============================================================
-   Progress Indicators
-   ============================================================ */
-.md-typeset .progress-bar {
+.study-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--gh-primary), var(--gh-accent));
+  border-radius: var(--gh-radius) var(--gh-radius) 0 0;
+}
+
+.study-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--gh-shadow-hover);
+}
+
+/* ==========================================================================
+   Stat Cards
+   ========================================================================== */
+
+.stat-card {
+  background: var(--gh-surface);
+  backdrop-filter: blur(var(--gh-blur));
+  border: 1px solid var(--gh-glass-border);
+  border-radius: var(--gh-radius-sm);
+  padding: 1.25rem;
+  text-align: center;
+  box-shadow: var(--gh-shadow);
+  transition: transform var(--gh-transition);
+}
+
+.stat-card:hover { transform: scale(1.03); }
+
+.stat-card .stat-value {
+  font-size: 2rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, var(--gh-primary), var(--gh-accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.stat-card .stat-label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  opacity: 0.7;
+  margin-top: 0.25rem;
+}
+
+/* Animated counter */
+.stat-value[data-count] {
+  transition: all 0.6s ease-out;
+}
+
+/* ==========================================================================
+   Domain Indicators & Pills
+   ========================================================================== */
+
+.domain-1 { --domain-color: var(--domain-1); }
+.domain-2 { --domain-color: var(--domain-2); }
+.domain-3 { --domain-color: var(--domain-3); }
+.domain-4 { --domain-color: var(--domain-4); }
+.domain-5 { --domain-color: var(--domain-5); }
+.domain-6 { --domain-color: var(--domain-6); }
+
+.domain-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.2em 0.7em;
+  border-radius: 99px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  background: color-mix(in srgb, var(--domain-color, var(--gh-primary)) 15%, transparent);
+  color: var(--domain-color, var(--gh-primary));
+  border: 1px solid color-mix(in srgb, var(--domain-color, var(--gh-primary)) 30%, transparent);
+  white-space: nowrap;
+}
+
+.domain-weight {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  padding: 0.3em 0.8em;
+  border-radius: var(--gh-radius-sm);
+  font-size: 0.8rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--domain-color, var(--gh-primary)), color-mix(in srgb, var(--domain-color, var(--gh-primary)) 70%, #000));
+  color: #fff;
+}
+
+/* ==========================================================================
+   Progress Bar
+   ========================================================================== */
+
+.progress-bar {
+  width: 100%;
   height: 8px;
-  background: var(--md-default-fg-color--lightest);
-  border-radius: 4px;
+  background: var(--gh-glass);
+  border-radius: 99px;
   overflow: hidden;
   margin: 0.5rem 0;
 }
 
-.md-typeset .progress-fill {
+.progress-bar-fill {
   height: 100%;
-  background: var(--md-primary-fg-color);
-  border-radius: 4px;
-  transition: width 1s ease;
+  background: linear-gradient(90deg, var(--gh-primary), var(--gh-accent));
+  border-radius: 99px;
+  transition: width 0.6s ease-out;
 }
 
-/* ============================================================
-   Responsive Enhancements
-   ============================================================ */
+/* ==========================================================================
+   Confidence Score — Circular Progress
+   ========================================================================== */
+
+.confidence-ring {
+  width: var(--gh-progress-size);
+  height: var(--gh-progress-size);
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.confidence-ring svg {
+  transform: rotate(-90deg);
+  width: 100%;
+  height: 100%;
+}
+
+.confidence-ring .ring-bg {
+  fill: none;
+  stroke: var(--gh-glass-border);
+  stroke-width: var(--gh-progress-stroke);
+}
+
+.confidence-ring .ring-fill {
+  fill: none;
+  stroke: var(--gh-primary);
+  stroke-width: var(--gh-progress-stroke);
+  stroke-linecap: round;
+  transition: stroke-dashoffset 1s ease-out;
+}
+
+.confidence-ring .ring-text {
+  position: absolute;
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+/* ==========================================================================
+   Flashcards — Flip Cards
+   ========================================================================== */
+
+.flashcard {
+  perspective: 1000px;
+  height: 220px;
+  cursor: pointer;
+}
+
+.flashcard-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  transform-style: preserve-3d;
+}
+
+.flashcard.flipped .flashcard-inner { transform: rotateY(180deg); }
+
+.flashcard-front, .flashcard-back {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  border-radius: var(--gh-radius);
+  background: var(--gh-surface);
+  backdrop-filter: blur(var(--gh-blur));
+  border: 1px solid var(--gh-glass-border);
+  box-shadow: var(--gh-shadow);
+  text-align: center;
+}
+
+.flashcard-back {
+  transform: rotateY(180deg);
+  background: linear-gradient(135deg, color-mix(in srgb, var(--gh-primary) 10%, var(--gh-surface)), var(--gh-surface));
+}
+
+/* ==========================================================================
+   Progress Tracker
+   ========================================================================== */
+
+.progress-tracker {
+  background: var(--gh-surface);
+  backdrop-filter: blur(var(--gh-blur));
+  border: 1px solid var(--gh-glass-border);
+  border-radius: var(--gh-radius);
+  padding: 1.5rem;
+  box-shadow: var(--gh-shadow);
+}
+
+.progress-ring {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem auto;
+}
+
+.domain-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--gh-glass-border);
+  cursor: pointer;
+  transition: background var(--gh-transition);
+  border-radius: var(--gh-radius-sm);
+  padding: 0.5rem 0.75rem;
+}
+
+.domain-checkbox:hover { background: var(--gh-glass); }
+
+.domain-checkbox input[type="checkbox"] {
+  width: 1.1rem;
+  height: 1.1rem;
+  accent-color: var(--gh-primary);
+}
+
+.domain-checkbox.completed {
+  opacity: 0.6;
+  text-decoration: line-through;
+}
+
+/* ==========================================================================
+   Tabs Enhancement
+   ========================================================================== */
+
+.md-typeset .tabbed-labels > label {
+  border-radius: var(--gh-radius-sm) var(--gh-radius-sm) 0 0;
+  transition: background var(--gh-transition), color var(--gh-transition);
+}
+
+.md-typeset .tabbed-labels > label:hover {
+  background: var(--gh-glass);
+}
+
+.md-typeset .tabbed-content {
+  border-radius: 0 0 var(--gh-radius-sm) var(--gh-radius-sm);
+  border: 1px solid var(--gh-glass-border);
+  border-top: none;
+}
+
+/* ==========================================================================
+   Mermaid Diagrams
+   ========================================================================== */
+
+.md-typeset .mermaid {
+  background: var(--gh-surface);
+  backdrop-filter: blur(var(--gh-blur));
+  border: 1px solid var(--gh-glass-border);
+  border-radius: var(--gh-radius-sm);
+  padding: 1.5rem;
+  box-shadow: var(--gh-shadow);
+  overflow-x: auto;
+}
+
+/* ==========================================================================
+   Quiz Container Enhancements (non-breaking)
+   ========================================================================== */
+
+.quiz-container {
+  background: var(--gh-surface);
+  backdrop-filter: blur(var(--gh-blur));
+  border: 1px solid var(--gh-glass-border);
+  border-radius: var(--gh-radius);
+  box-shadow: var(--gh-shadow);
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.quiz-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.quiz-progress-bar {
+  width: 100%;
+  height: 6px;
+  background: var(--gh-glass);
+  border-radius: 99px;
+  overflow: hidden;
+  margin: 0.75rem 0;
+}
+
+.quiz-progress-bar .fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--gh-primary), var(--gh-accent));
+  border-radius: 99px;
+  transition: width 0.4s ease;
+}
+
+.quiz-progress-info {
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+.quiz-timer {
+  font-family: var(--gh-font-mono);
+  font-size: 0.9rem;
+  padding: 0.3em 0.7em;
+  background: var(--gh-glass);
+  border-radius: var(--gh-radius-sm);
+}
+
+.quiz-option {
+  display: block;
+  width: 100%;
+  padding: 0.85rem 1rem;
+  margin: 0.5rem 0;
+  border: 1px solid var(--gh-glass-border);
+  border-radius: var(--gh-radius-sm);
+  background: var(--gh-surface);
+  cursor: pointer;
+  transition: all var(--gh-transition);
+  text-align: left;
+}
+
+.quiz-option:hover {
+  border-color: var(--gh-primary-light);
+  transform: translateX(4px);
+}
+
+.quiz-option.correct {
+  border-color: var(--gh-success);
+  background: color-mix(in srgb, var(--gh-success) 10%, var(--gh-surface));
+}
+
+.quiz-option.incorrect {
+  border-color: var(--gh-danger);
+  background: color-mix(in srgb, var(--gh-danger) 10%, var(--gh-surface));
+}
+
+.quiz-option.selected {
+  border-color: var(--gh-primary);
+  background: color-mix(in srgb, var(--gh-primary) 10%, var(--gh-surface));
+}
+
+.quiz-explanation {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: color-mix(in srgb, var(--gh-accent) 8%, var(--gh-surface));
+  border-left: 3px solid var(--gh-accent);
+  border-radius: 0 var(--gh-radius-sm) var(--gh-radius-sm) 0;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+
 @media (max-width: 768px) {
-  .hero-section {
-    padding: 1.5rem 1rem;
-  }
-  
-  .hero-section strong {
-    font-size: 1.3rem;
-  }
+  .study-grid { grid-template-columns: 1fr; }
+  .hero-section { padding: 2rem 1rem; }
+  :root { --gh-progress-size: 90px; }
+  .flashcard { height: 180px; }
 }
 
-/* ============================================================
-   Print Styles (for study materials)
-   ============================================================ */
+/* ==========================================================================
+   Print Styles
+   ========================================================================== */
+
 @media print {
-  .md-typeset .admonition,
-  .md-typeset details {
+  .hero-section { background: #f3f4f6 !important; color: #000 !important; animation: none !important; }
+  .study-card, .stat-card, .quiz-container, .progress-tracker {
+    backdrop-filter: none !important;
+    box-shadow: none !important;
+    border: 1px solid #ddd !important;
     break-inside: avoid;
   }
-  
-  .hero-section {
-    background: none;
-    color: inherit;
-    border: 2px solid #333;
-  }
+  .flashcard-inner { transform: none !important; }
+  .flashcard-back { display: block; position: static; transform: none; backface-visibility: visible; margin-top: 0.5rem; }
+  .progress-ring, .quiz-timer { display: none !important; }
 }

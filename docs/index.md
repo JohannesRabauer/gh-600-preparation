@@ -1,112 +1,162 @@
-# GH-600 Exam Preparation Guide
+---
+hide:
+  - navigation
+  - toc
+---
 
 <div class="hero-section" markdown>
 
-**GitHub Certified Agentic AI Developer**
+# :material-robot-excited: Pass the GH-600 Exam
 
-Your comprehensive study resource for mastering agentic AI development with GitHub Copilot.
+**GitHub Certified Agentic AI Developer**
+{ .hero-subtitle }
+
+Your focused, no-fluff study system. Master all 6 domains. Score 70%+. Get certified.
+
+[Start Studying :material-arrow-right:](study_notes.md){ .md-button .md-button--primary }
+[Practice Questions](questions.md){ .md-button }
 
 </div>
 
 ---
 
-## Exam Overview
+## :material-clipboard-text: Exam Quick Facts
 
-| Property | Details |
-|----------|---------|
-| **Certification** | GitHub Certified Agentic AI Developer |
+| | |
+|---|---|
 | **Exam Code** | GH-600 |
-| **Format** | Multiple choice, multiple select, scenario-based |
 | **Duration** | 120 minutes |
-| **Passing Score** | 700/1000 (70%) |
-| **Total Domains** | 6 |
-| **Languages** | English |
-
-!!! important "Exam Focus"
-    This exam validates your ability to design, implement, secure, and optimize agentic AI solutions using GitHub Copilot and related tools. Focus on hands-on skills and real-world application patterns.
+| **Passing Score** | 70% (700/1000) |
+| **Questions** | ~50 (multiple choice, multi-select, scenario) |
+| **Cost** | $99 USD |
+| **Language** | English |
 
 ---
 
-## Domain Breakdown
-
-| # | Domain | Weight | Topics |
-|---|--------|--------|--------|
-| 1 | Prepare agent architecture and SDLC processes | 15–20% | Agent design patterns, SDLC integration, orchestration |
-| 2 | Design and implement agentic solutions | 20–25% | Copilot agent mode, MCP, tools, extensions |
-| 3 | Evaluate and optimize agent performance | 10–15% | Quality metrics, latency, monitoring |
-| 4 | Secure and govern agentic AI solutions | 15–20% | Access control, permissions, data governance |
-| 5 | Collaborate with AI agents in development | 15–20% | Code generation, debugging, CI/CD, docs |
-| 6 | Implement responsible AI practices | 10–15% | Ethics, transparency, bias, compliance |
-
----
-
-## Quick Links
-
-### :material-book-open-variant: Study Materials
-
-- [**Study Notes**](study_notes.md) — Comprehensive coverage of all 6 domains
-- [**Curriculum**](curriculum.md) — Structured 12-module learning path
-- [**Revision Resources**](revision.md) — Cheat sheets, flashcards, and mnemonics
-
-### :material-clipboard-check: Practice & Assessment
-
-- [**Practice Questions**](questions.md) — 60 questions across 3 difficulty levels
-- [**Mock Exams**](mock_exam.md) — Full-length timed practice exams
-- [**Gap Analysis**](gap_report.md) — Identify weak areas
-- [**Readiness Assessment**](readiness.md) — Final readiness score and study plan
-
-### :material-connection: Connections
-
-- [**Cross-Domain Map**](cross_domain.md) — How concepts connect across domains
-
----
-
-## Study Path
-
-!!! tip "Recommended Approach"
-    Follow this sequence for optimal retention and exam readiness.
+## :material-chart-pie: Domain Weights
 
 ```mermaid
-graph LR
-    A[1. Curriculum] --> B[2. Study Notes]
-    B --> C[3. Revision]
-    C --> D[4. Practice Questions]
-    D --> E[5. Mock Exam]
-    E --> F[6. Gap Analysis]
-    F --> G[7. Readiness Check]
-    G -->|Score < 70%| B
-    G -->|Score ≥ 70%| H[Schedule Exam]
+pie title GH-600 Exam Domains
+    "Design & Implement Agentic Solutions" : 22.5
+    "Prepare Agent Architecture & SDLC" : 17.5
+    "Secure & Govern Agentic AI" : 17.5
+    "Collaborate with AI Agents" : 17.5
+    "Evaluate & Optimize Performance" : 12.5
+    "Responsible AI Practices" : 12.5
 ```
 
-1. **Review the [Curriculum](curriculum.md)** — Understand the learning path and time commitments
-2. **Study domain by domain** using [Study Notes](study_notes.md) — Deep-dive into each topic
-3. **Quick review** with [Revision Resources](revision.md) — Flashcards, cheat sheets, mnemonics
-4. **Test yourself** with [Practice Questions](questions.md) — Easy → Intermediate → Advanced
-5. **Simulate the exam** with [Mock Exams](mock_exam.md) — Timed, scored, with explanations
-6. **Analyze gaps** via [Gap Report](gap_report.md) — Target weak areas for focused study
-7. **Check readiness** in [Readiness Assessment](readiness.md) — Get your go/no-go recommendation
+---
+
+## :material-map-marker-path: Your Study Path
+
+```mermaid
+flowchart LR
+    A[":material-book: Study Guide"] --> B[":material-help-circle: Practice Questions"]
+    B --> C[":material-timer: Mock Exams"]
+    C --> D{Score ≥ 70%?}
+    D -->|Yes| E[":material-party-popper: Schedule Exam!"]
+    D -->|No| A
+```
+
+| Phase | Resource | Goal |
+|-------|----------|------|
+| 1. Learn | [Study Guide](study_notes.md) | Master all 6 domains |
+| 2. Practice | [Practice Questions](questions.md) | Test recall & application |
+| 3. Simulate | [Mock Exams](mock_exam.md) | Build exam stamina |
+| 4. Repeat | Loop back if <70% | Target weak domains |
 
 ---
 
-## Key Concepts to Master
+## :material-checkbox-marked-outline: Progress Tracker
 
-!!! note "High-Priority Topics"
-    These topics carry the most weight on the exam. Prioritize them in your study plan.
+<div class="progress-tracker" markdown>
 
-| Topic | Domain | Why It Matters |
-|-------|--------|---------------|
-| GitHub Copilot Agent Mode | 2, 5 | Core feature — multi-step autonomous coding |
-| Model Context Protocol (MCP) | 2, 4 | Standard for tool integration with LLMs |
-| Responsible AI Principles | 6, 4 | Ethics, transparency, bias mitigation |
-| Agent Security & Permissions | 4, 2 | Access control, least privilege, secrets |
-| CI/CD with AI Agents | 5, 1 | Automated testing, deployment, code review |
-| Performance Evaluation | 3, 5 | Metrics, monitoring, optimization |
+<!-- JS will render interactive checkboxes here -->
+
+</div>
 
 ---
 
-## About This Resource
+## :material-view-grid: Domain Overview
 
-This study guide was built specifically for the GH-600 certification exam. It covers all six domains with detailed explanations, practical examples, code snippets, and exam-focused tips. The content is organized to support both linear study (following the curriculum) and targeted review (jumping to specific topics).
+!!! abstract "Domain 1 — Prepare Agent Architecture & SDLC (15–20%)"
 
-!!! warning "Disclaimer"
-    This is an independent study resource. Always refer to the [official Microsoft Learn study guide](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-600) for the most current exam objectives.
+    - Agent design patterns (ReAct, tool-use, planning)
+    - SDLC integration & orchestration strategies
+    - Selecting appropriate agent frameworks
+
+!!! example "Domain 2 — Design & Implement Agentic Solutions (20–25%) :material-star:"
+
+    - GitHub Copilot Agent Mode & multi-step workflows
+    - Model Context Protocol (MCP) servers & tools
+    - Copilot Extensions & custom agents
+
+!!! warning "Domain 3 — Evaluate & Optimize Performance (10–15%)"
+
+    - Quality metrics & evaluation frameworks
+    - Latency optimization & cost management
+    - Monitoring & observability for agents
+
+!!! danger "Domain 4 — Secure & Govern Agentic AI (15–20%)"
+
+    - Access control & least-privilege for agents
+    - Secret management & permission boundaries
+    - Data governance & compliance
+
+!!! info "Domain 5 — Collaborate with AI Agents (15–20%)"
+
+    - AI-assisted code generation & debugging
+    - CI/CD pipeline integration
+    - Documentation & knowledge management with AI
+
+!!! success "Domain 6 — Responsible AI Practices (10–15%)"
+
+    - Transparency & explainability
+    - Bias detection & mitigation
+    - Human oversight & ethical guardrails
+
+---
+
+## :material-target: Key Concepts to Master
+
+| Topic | Domains | Priority |
+|-------|---------|----------|
+| GitHub Copilot Agent Mode | 2, 5 | :material-alert-circle:{ .high } Critical |
+| Model Context Protocol (MCP) | 2, 4 | :material-alert-circle:{ .high } Critical |
+| Agent Security & Permissions | 4, 1 | :material-alert:{ .high } High |
+| Responsible AI Principles | 6, 4 | :material-alert:{ .high } High |
+| CI/CD with AI Agents | 5, 1 | :material-alert:{ .medium } Medium-High |
+| Performance Metrics & Evaluation | 3, 5 | :material-alert:{ .medium } Medium-High |
+| Copilot Extensions Architecture | 2, 5 | :material-alert:{ .medium } Medium-High |
+| Agent Design Patterns (ReAct, CoT) | 1, 2 | :material-alert:{ .medium } Medium-High |
+
+---
+
+??? tip "Quick Tips for Exam Day :material-lightbulb:"
+
+    **Before the exam:**
+
+    - :material-sleep: Get 7–8 hours of sleep the night before
+    - :material-food: Eat a proper meal — the exam is 2 hours
+    - :material-identifier: Have your government-issued ID ready
+    - :material-monitor: Test your webcam, mic, and internet if taking online
+
+    **During the exam:**
+
+    - :material-clock-outline: Budget ~2.4 minutes per question — don't stall
+    - :material-flag: Flag difficult questions and come back
+    - :material-cancel: Eliminate obviously wrong answers first
+    - :material-book-open: Read scenario questions carefully — keywords matter
+    - :material-shield-check: When in doubt, choose the most **secure** and **least-privilege** option
+
+    **Strategy:**
+
+    - Focus on Domains 2 & 4 — they carry the most weight combined
+    - Scenario questions test *application*, not memorization
+    - MCP and Agent Mode appear across multiple domains — know them cold
+
+---
+
+!!! quote "Disclaimer"
+
+    This is an independent study resource. For the most current exam objectives, always refer to the [official Microsoft Learn study guide for GH-600](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-600). Exam content may change without notice.

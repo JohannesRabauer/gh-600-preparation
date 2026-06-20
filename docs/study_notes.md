@@ -1,13 +1,32 @@
 # Study Notes
 
+## About This Guide
+
+This comprehensive study guide covers all six domains of the **GitHub Certified Agentic AI Developer (GH-600)** certification exam. It provides detailed explanations, code examples, Mermaid diagrams, and exam tips for each topic. Use this as your primary reference for understanding agent architecture, MCP, security, performance optimization, collaboration patterns, and responsible AI practices in the GitHub ecosystem.
+
+## Domain Weight Summary
+
+| Domain | Topic | Weight | Priority |
+|--------|-------|--------|----------|
+| 1 | Prepare Agent Architecture and SDLC Processes | 15–20% | :material-star: :material-star: :material-star: |
+| 2 | Design and Implement Agentic Solutions | 20–25% | :material-star: :material-star: :material-star: :material-star: |
+| 3 | Evaluate and Optimize Agent Performance | 10–15% | :material-star: :material-star: |
+| 4 | Secure and Govern Agentic AI Solutions | 15–20% | :material-star: :material-star: :material-star: |
+| 5 | Collaborate with AI Agents in Development | 15–20% | :material-star: :material-star: :material-star: |
+| 6 | Implement Responsible AI Practices | 10–15% | :material-star: :material-star: |
+
+!!! info "Study Strategy"
+    Domain 2 carries the most weight — allocate proportionally more study time to MCP, agent mode, and multi-step workflows. Domains 1, 4, and 5 are equally weighted and together make up 45–60% of the exam.
+
 ## Table of Contents
 
-- [Domain 1: Prepare Agent Architecture and SDLC Processes](#domain-1-prepare-agent-architecture-and-sdlc-processes)
-- [Domain 2: Design and Implement Agentic Solutions](#domain-2-design-and-implement-agentic-solutions)
-- [Domain 3: Evaluate and Optimize Agent Performance](#domain-3-evaluate-and-optimize-agent-performance)
-- [Domain 4: Secure and Govern Agentic AI Solutions](#domain-4-secure-and-govern-agentic-ai-solutions)
-- [Domain 5: Collaborate with AI Agents in Development](#domain-5-collaborate-with-ai-agents-in-development)
-- [Domain 6: Implement Responsible AI Practices](#domain-6-implement-responsible-ai-practices)
+- [Domain 1: Prepare Agent Architecture and SDLC Processes](#domain-1-prepare-agent-architecture-and-sdlc-processes) — Architecture patterns, SDLC integration, orchestration
+- [Domain 2: Design and Implement Agentic Solutions](#domain-2-design-and-implement-agentic-solutions) — Agent mode, MCP, workflows, tools, extensions
+- [Domain 3: Evaluate and Optimize Agent Performance](#domain-3-evaluate-and-optimize-agent-performance) — Quality metrics, latency, monitoring
+- [Domain 4: Secure and Govern Agentic AI Solutions](#domain-4-secure-and-govern-agentic-ai-solutions) — Access controls, permissions, secrets, compliance
+- [Domain 5: Collaborate with AI Agents in Development](#domain-5-collaborate-with-ai-agents-in-development) — Code generation, debugging, CI/CD, interaction patterns
+- [Domain 6: Implement Responsible AI Practices](#domain-6-implement-responsible-ai-practices) — Ethics, transparency, bias, compliance, auditing
+- [Quick Reference](#quick-reference) — Flashcards, mnemonics, cheat sheets, cross-domain connections
 
 ---
 
@@ -272,6 +291,25 @@ def select_agent_config(task):
 ## Domain 2: Design and Implement Agentic Solutions
 
 **Weight: 20–25% of exam** (highest-weighted domain)
+
+### MCP Architecture Overview
+
+```mermaid
+graph TB
+  subgraph Host["Host (IDE/Editor)"]
+    Client["MCP Client"]
+  end
+  subgraph Server["MCP Server"]
+    Tools["Tools (Actions)"]
+    Resources["Resources (Data)"]
+    Prompts["Prompts (Templates)"]
+  end
+  Client -->|"JSON-RPC 2.0"| Transport
+  Transport -->|"stdio / HTTP+SSE"| Server
+  Tools --> Execute["Execute Actions"]
+  Resources --> Read["Read Data"]
+  Prompts --> Template["Apply Templates"]
+```
 
 ### 2.1 GitHub Copilot Agent Mode
 
@@ -890,6 +928,21 @@ monitoring:
 
 **Weight: 15–20% of exam**
 
+### Permission Layers Overview
+
+```mermaid
+graph TD
+  O["Organization Policy"] --> R["Repository Settings"]
+  R --> U["User Permissions"]
+  U --> S["Session Scope"]
+  S --> T["Tool-Level Access"]
+  style O fill:#e53935,color:#fff
+  style R fill:#fb8c00,color:#fff
+  style U fill:#fdd835,color:#000
+  style S fill:#43a047,color:#fff
+  style T fill:#1e88e5,color:#fff
+```
+
 ### 4.1 Access Controls for AI Agents
 
 #### Overview
@@ -1338,6 +1391,37 @@ Effective collaboration between developers and AI agents requires clear communic
 
 **Weight: 10–15% of exam**
 
+### Responsible AI Principles Map
+
+```mermaid
+mindmap
+  root((Responsible AI))
+    Fairness
+      Equitable treatment
+      Bias detection
+      Inclusive language
+    Reliability
+      Consistent outputs
+      Error handling
+      Testing
+    Privacy
+      Data classification
+      Secret management
+      Consent
+    Inclusiveness
+      Accessibility
+      Multiple languages
+      Diverse testing
+    Transparency
+      Explain decisions
+      Cite sources
+      Confidence levels
+    Accountability
+      Human oversight
+      Audit trails
+      Incident response
+```
+
 ### 6.1 Ethical Guidelines for Agent Behavior
 
 #### Overview
@@ -1572,3 +1656,245 @@ MCP appears in Domains 2, 4, and 5:
 - **Domain 2**: Implementing MCP servers and tools
 - **Domain 4**: Securing MCP connections and data
 - **Domain 5**: Using MCP in CI/CD and collaboration
+
+---
+
+## Quick Reference
+
+### Flashcards
+
+??? question "Q: What are the four MCP components?"
+    **Host** (application running the model), **Client** (protocol handler maintaining connections), **Server** (exposes tools/resources/prompts), **Transport** (communication layer — stdio or HTTP/SSE).
+
+??? question "Q: What transport protocols does MCP use?"
+    JSON-RPC 2.0 over **stdio** (local processes) or **HTTP with Server-Sent Events (SSE)** (remote servers).
+
+??? question "Q: What distinguishes Agent Mode from Chat mode in Copilot?"
+    Agent Mode is autonomous and multi-step: it creates/edits files, runs terminal commands, iterates on failures, and uses the entire workspace as context. Chat mode gives a single response without tool use.
+
+??? question "Q: What is the plan-execute-iterate loop?"
+    The core agent cycle: (1) Plan steps from user request, (2) Execute each step using tools, (3) Iterate — adjust plan based on results/errors until task is complete.
+
+??? question "Q: Name the five access control levels for AI agents (top to bottom)."
+    Organization Policy → Repository Settings → User Permissions → Session Scope → Tool-Level Access.
+
+??? question "Q: What is the principle of least privilege for agents?"
+    Agents should only have access to the resources and permissions they need to complete their current task — no more.
+
+??? question "Q: How should secrets be handled in agent workflows?"
+    Agents reference secrets by **name** (environment variables), never by value. Use vault services (GitHub Secrets, Azure Key Vault). Enable secret scanning. Never hardcode secrets.
+
+??? question "Q: What are Microsoft's 6 Responsible AI principles?"
+    **T**ransparency, **F**airness, **R**eliability & Safety, **I**nclusiveness, **P**rivacy & Security, **A**ccountability. (Mnemonic: TFRIPA)
+
+??? question "Q: What tool risk categories exist for agent permissions?"
+    **Read** (safe, no approval) → **Write** (requires review) → **Shell** (highest risk, explicit consent) → **Network** (data exposure risk).
+
+??? question "Q: What are the three MCP server capability types?"
+    **Tools** (actions the agent can execute), **Resources** (data the agent can read), **Prompts** (reusable prompt templates).
+
+??? question "Q: When should an agent require human approval?"
+    For high-risk operations: file deletion, package installation, configuration changes, deployment, accessing production systems, and any terminal commands that modify state.
+
+??? question "Q: What is context window management?"
+    Prioritizing what information fits in the LLM's token limit. Priority order: user request > explicit references > active file > semantic search results > project structure.
+
+??? question "Q: What metrics define good agent performance?"
+    Task completion rate (>85%), user acceptance rate (>75%), average iterations (<5), error rate (<5%), latency p95 (<5s).
+
+??? question "Q: How does streaming reduce perceived latency?"
+    The agent sends output tokens as they're generated rather than waiting for the full response. Users see results immediately, even if total generation time is the same.
+
+??? question "Q: What data classification levels apply to agent access?"
+    Public (unrestricted) → Internal (with auth) → Confidential (prohibited/encrypted) → Restricted (never exposed to agents).
+
+??? question "Q: What is an MCP server configuration file?"
+    A JSON file (e.g., in `.vscode/mcp.json` or `settings.json`) that defines MCP server name, command, args, and env vars for each tool server the agent can connect to.
+
+??? question "Q: What makes a good agent prompt vs. a bad one?"
+    Good: Specific, constrained, provides context ("Create a Python function that validates email using regex, returns bool, handles + aliases"). Bad: Vague ("validate email").
+
+??? question "Q: What is the role of human oversight across all domains?"
+    Agents suggest → humans approve (production). Agents generate → humans review (code). Agents monitor → humans decide (incidents). Agents flag → humans investigate (security).
+
+??? question "Q: What are GitHub Copilot Extensions?"
+    Custom agents invoked via @mentions in Copilot Chat. They extend Copilot with domain-specific knowledge, skills, or workflows via an HTTP endpoint.
+
+??? question "Q: How do agents integrate into CI/CD?"
+    Pre-commit (auto-fix), Build (optimize config), Test (generate tests), Review (automated PR review), Release (changelogs), Deploy (validation). Never auto-deploy to prod without human approval.
+
+??? question "Q: What is bias in AI agent outputs?"
+    Bias types: training data (deprecated patterns), cultural (English-only), gender (pronouns in docs), accessibility (no a11y), language (preferring one language). Mitigate with inclusive alternatives and diverse testing.
+
+---
+
+### Mnemonics
+
+#### TFRIPA — Six Responsible AI Principles
+
+| Letter | Principle | Remember |
+|--------|-----------|----------|
+| **T** | Transparency | Tell users what you're doing |
+| **F** | Fairness | Fair treatment for all |
+| **R** | Reliability & Safety | Reliable, safe behavior |
+| **I** | Inclusiveness | Include everyone |
+| **P** | Privacy & Security | Protect data |
+| **A** | Accountability | Always have human oversight |
+
+#### ORUST — Permission Levels (top → bottom)
+
+| Letter | Level | Remember |
+|--------|-------|----------|
+| **O** | Organization Policy | Org sets the rules |
+| **R** | Repository Settings | Repo-level controls |
+| **U** | User Permissions | User-specific access |
+| **S** | Session Scope | Scoped per invocation |
+| **T** | Tool-Level Access | Tool approval required |
+
+#### RWSN — Tool Risk Categories (lowest → highest)
+
+| Letter | Category | Risk Level |
+|--------|----------|-----------|
+| **R** | Read | Safe — no approval needed |
+| **W** | Write | Medium — requires review |
+| **S** | Shell | High — explicit consent |
+| **N** | Network | High — data exposure risk |
+
+#### HCST — MCP Components
+
+| Letter | Component | Role |
+|--------|-----------|------|
+| **H** | Host | Application running the AI model |
+| **C** | Client | Protocol handler / connection manager |
+| **S** | Server | Exposes tools, resources, prompts |
+| **T** | Transport | Communication layer (stdio/HTTP+SSE) |
+
+#### PEI — Agent Loop
+
+| Letter | Phase | What Happens |
+|--------|-------|-------------|
+| **P** | Plan | Analyze request, create steps |
+| **E** | Execute | Run tools, modify files, run commands |
+| **I** | Iterate | Check results, fix errors, repeat |
+
+---
+
+### Cheat Sheet Tables
+
+#### Domain 1: Agent Architecture & SDLC
+
+| Concept | Key Facts |
+|---------|-----------|
+| Single Agent | One LLM + tools, simple tasks |
+| Multi-Agent | Specialized agents, complex workflows |
+| Orchestrator-Worker | Central coordinator delegates |
+| Autonomy Levels | Full (formatting) → Supervised (deploy) → Advisory (architecture) |
+| SDLC Phases | Plan → Code → Test → Review → Deploy → Monitor |
+| Agent ≠ Assistant | Agents have autonomy, state, tool use, error recovery |
+
+#### Domain 2: Design & Implementation
+
+| Concept | Key Facts |
+|---------|-----------|
+| Agent Mode | Multi-step, autonomous, full tool access, workspace context |
+| Chat Mode | Single response, limited tools, conversation context |
+| MCP Protocol | JSON-RPC 2.0, stdio or HTTP/SSE transport |
+| MCP Tools | Actions agent can execute (functions) |
+| MCP Resources | Data agent can read (files, APIs) |
+| MCP Prompts | Reusable prompt templates |
+| Workflow Design | Decompose → Error handle → Checkpoint → Validate → Rollback |
+| Extensions | @mention invocation, HTTP endpoint, domain-specific |
+
+#### Domain 3: Performance & Optimization
+
+| Concept | Key Facts |
+|---------|-----------|
+| Latency Targets | Inline <200ms, Chat <2s, Agent step <10s, Full task <5min |
+| Streaming | Primary technique for perceived speed |
+| Task Completion | Target >85%, alert <70% |
+| User Acceptance | Target >75% |
+| Avg Iterations | Target <5, warning >10 |
+| Optimization | Cache, smaller models, context pruning, parallel tool calls |
+
+#### Domain 4: Security & Governance
+
+| Concept | Key Facts |
+|---------|-----------|
+| Least Privilege | Only access what's needed for current task |
+| Permission Levels | Org → Repo → User → Session → Tool |
+| Sensitive Files | .env, secrets/, *.key — always deny agent access |
+| Audit Logs | Timestamp, user, session, action, target, approval status |
+| Data Classification | Public → Internal → Confidential → Restricted |
+| Secrets | Reference by name, never by value; use vaults |
+
+#### Domain 5: Collaboration
+
+| Concept | Key Facts |
+|---------|-----------|
+| Code Gen Patterns | Prompt-driven, test-first, refactor, pattern-extension, docs-first |
+| Effective Prompts | Specific, constrained, provide context |
+| CI/CD Integration | Lint-fix, test-gen, PR review, release notes, deploy validation |
+| Never Auto-deploy | Production requires human approval always |
+| Interaction Patterns | Direct, iterative, constraint-setting, example-driven, exploratory |
+
+#### Domain 6: Responsible AI
+
+| Concept | Key Facts |
+|---------|-----------|
+| 6 Principles | Transparency, Fairness, Reliability, Inclusiveness, Privacy, Accountability |
+| Bias Types | Training data, cultural, gender, accessibility, language |
+| Inclusive Terms | main (not master), replica (not slave), allowlist/denylist |
+| Transparency | Disclose AI content, explain reasoning, show confidence, cite sources |
+| Compliance | GDPR/CCPA, audit logs, opt-out mechanisms, incident response |
+| Monitoring | Content safety, fairness metrics, compliance logs, alerting |
+
+---
+
+### Cross-Domain Connections
+
+The following themes span multiple domains — expect exam questions that test your understanding of how these concepts interconnect:
+
+```mermaid
+graph LR
+  subgraph "Cross-Cutting Concerns"
+    MCP["MCP Protocol"]
+    SEC["Security"]
+    HO["Human Oversight"]
+    PERF["Performance"]
+  end
+
+  subgraph "Domains"
+    D1["D1: Architecture"]
+    D2["D2: Implementation"]
+    D3["D3: Performance"]
+    D4["D4: Security"]
+    D5["D5: Collaboration"]
+    D6["D6: Responsible AI"]
+  end
+
+  MCP --> D2
+  MCP --> D4
+  MCP --> D5
+  SEC --> D1
+  SEC --> D2
+  SEC --> D3
+  SEC --> D4
+  SEC --> D5
+  SEC --> D6
+  HO --> D1
+  HO --> D4
+  HO --> D5
+  HO --> D6
+  PERF --> D2
+  PERF --> D3
+  PERF --> D5
+```
+
+| Cross-Domain Theme | Where It Appears | Key Insight |
+|-------------------|------------------|-------------|
+| **MCP** | D2 (implement), D4 (secure), D5 (CI/CD) | One protocol, multiple security and implementation concerns |
+| **Security** | All 6 domains | Not just Domain 4 — secure architecture, secure tools, secure pipelines, compliance |
+| **Human Oversight** | D1 (autonomy levels), D4 (approval gates), D5 (review), D6 (accountability) | Every domain requires human decision points for high-risk actions |
+| **Performance** | D2 (streaming), D3 (core metrics), D5 (CI/CD speed) | Balance thoroughness with speed; streaming is universal solution for latency |
+| **Context Management** | D2 (context window), D3 (optimization), D4 (data boundaries) | What the agent sees determines quality AND security |
+| **Tool Permissions** | D2 (tool categories), D4 (least privilege), D5 (CI/CD safety) | RWSN risk model applies everywhere tools are used |

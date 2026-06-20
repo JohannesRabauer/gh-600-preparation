@@ -1,14 +1,14 @@
-# MkDocs configuration for GH-600 Exam Prep Study Website
-
 site_name: GH-600 Exam Prep
 site_url: https://JohannesRabauer.github.io/gh-600-preparation/
-site_description: Comprehensive study guide for the GitHub Certified Agentic AI Developer (GH-600) certification
+site_description: 'Pass the GitHub Certified Agentic AI Developer (GH-600) exam - comprehensive study guide with practice questions and mock exams'
 use_directory_urls: true
 
 theme:
   name: material
   custom_dir: docs/overrides
   features:
+    - navigation.instant
+    - navigation.tracking
     - navigation.sidebar
     - navigation.tabs
     - navigation.path
@@ -52,6 +52,8 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - tables
   - toc:
       permalink: true
@@ -67,21 +69,17 @@ extra_css:
 
 extra_javascript:
   - assets/js/quiz.js
+  - assets/js/progress.js
 
 extra:
   social: []
 
 nav:
   - Home: index.md
-  - Study Notes: study_notes.md
-  - Curriculum: curriculum.md
-  - Revision Resources: revision.md
+  - Study Guide: study_notes.md
   - Practice Questions: questions.md
   - Mock Exams:
       - Overview: mock_exam.md
       - "Mock Exam 1": mock_exam_1.md
       - "Mock Exam 2": mock_exam_2.md
       - "Mock Exam 3": mock_exam_3.md
-  - Gap Analysis: gap_report.md
-  - Readiness Assessment: readiness.md
-  - Cross-Domain Connections: cross_domain.md
