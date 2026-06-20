@@ -1,0 +1,132 @@
+# Practice Questions
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Easy Questions](#easy-questions)
+- [Intermediate Questions](#intermediate-questions)
+- [Advanced Questions](#advanced-questions)
+- [Domain Distribution](#domain-distribution)
+
+---
+
+## Overview
+
+| Difficulty | Count |
+|-----------|-------|
+| Easy | {{ easy | length }} |
+| Intermediate | {{ intermediate | length }} |
+| Advanced | {{ advanced | length }} |
+| **Total** | **{{ easy | length + intermediate | length + advanced | length }}** |
+
+!!! tip "Study Strategy"
+    Start with easy questions to build confidence, then progress to intermediate and advanced levels. Advanced questions often require combining multiple concepts.
+
+---
+
+## Easy Questions
+
+!!! note "Difficulty: Easy"
+    These questions test single-concept recall and basic understanding.
+
+{% for q in easy %}
+### Question {{ loop.index }}
+
+**Domain**: {{ q.domain_id }} | **Format**: {{ q.format.value | replace('_', ' ') | title }}
+
+{% if q.scenario %}
+> **Scenario**: {{ q.scenario }}
+
+{% endif %}
+{{ q.stem }}
+
+{% for opt in q.options -%}
+- {{ opt.id }}. {{ opt.text }}
+{% endfor %}
+
+??? success "Answer"
+    **Correct**: {{ q.correct_answer_ids | join(', ') }}
+
+    {{ q.explanation }}
+
+{% for opt_id, reason in q.incorrect_explanations.items() %}
+    - **{{ opt_id }}** (incorrect): {{ reason }}
+{% endfor %}
+
+---
+
+{% endfor %}
+
+## Intermediate Questions
+
+!!! note "Difficulty: Intermediate"
+    These questions require applying concepts to practical situations.
+
+{% for q in intermediate %}
+### Question {{ loop.index }}
+
+**Domain**: {{ q.domain_id }} | **Format**: {{ q.format.value | replace('_', ' ') | title }}
+
+{% if q.scenario %}
+> **Scenario**: {{ q.scenario }}
+
+{% endif %}
+{{ q.stem }}
+
+{% for opt in q.options -%}
+- {{ opt.id }}. {{ opt.text }}
+{% endfor %}
+
+??? success "Answer"
+    **Correct**: {{ q.correct_answer_ids | join(', ') }}
+
+    {{ q.explanation }}
+
+{% for opt_id, reason in q.incorrect_explanations.items() %}
+    - **{{ opt_id }}** (incorrect): {{ reason }}
+{% endfor %}
+
+---
+
+{% endfor %}
+
+## Advanced Questions
+
+!!! note "Difficulty: Advanced"
+    These questions require multi-topic analysis and scenario-based reasoning.
+
+{% for q in advanced %}
+### Question {{ loop.index }}
+
+**Domain**: {{ q.domain_id }} | **Format**: {{ q.format.value | replace('_', ' ') | title }} | **Topics**: {{ q.topic_ids | join(', ') }}
+
+{% if q.scenario %}
+> **Scenario**: {{ q.scenario }}
+
+{% endif %}
+{{ q.stem }}
+
+{% for opt in q.options -%}
+- {{ opt.id }}. {{ opt.text }}
+{% endfor %}
+
+??? success "Answer"
+    **Correct**: {{ q.correct_answer_ids | join(', ') }}
+
+    {{ q.explanation }}
+
+{% for opt_id, reason in q.incorrect_explanations.items() %}
+    - **{{ opt_id }}** (incorrect): {{ reason }}
+{% endfor %}
+
+---
+
+{% endfor %}
+
+## Domain Distribution
+
+| Domain | Questions |
+|--------|-----------|
+{% for domain_id, count in domain_distribution.items() -%}
+| {{ domain_id }} | {{ count }} |
+{% endfor %}

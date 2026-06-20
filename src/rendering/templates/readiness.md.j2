@@ -1,0 +1,121 @@
+# Readiness Assessment
+
+## Table of Contents
+
+- [Readiness Score](#readiness-score)
+- [Score Components](#score-components)
+- [Recommendation](#recommendation)
+- [High-Risk Topics](#high-risk-topics)
+- [Last-Minute Focus Areas](#last-minute-focus-areas)
+- [24-Hour Study Plan](#24-hour-study-plan)
+{% if remediation_plan -%}
+- [Remediation Plan](#remediation-plan)
+{% endif %}
+
+---
+
+## Readiness Score
+
+| Metric | Value |
+|--------|-------|
+| **Readiness Score** | **{{ readiness_score }}%** |
+| Recommendation | {{ recommendation | title }} |
+
+{% if readiness_score >= 70 %}
+!!! tip "Ready for the Exam"
+    Your readiness score of **{{ readiness_score }}%** indicates you are prepared. Consider reviewing high-risk topics as a final check.
+{% else %}
+!!! warning "Not Yet Ready"
+    Your readiness score of **{{ readiness_score }}%** is below the recommended threshold of 70%. Follow the remediation plan before scheduling the exam.
+{% endif %}
+
+## Score Components
+
+| Component | Score |
+|-----------|-------|
+| Objectives Fully Covered | {{ score_components.coverage_pct | round(1) }}% |
+| Topics with Notes + Questions | {{ score_components.notes_pct | round(1) }}% |
+| Inverse Gap Percentage | {{ score_components.inverse_gap_pct | round(1) }}% |
+
+!!! note "Score Calculation"
+    The readiness score is the arithmetic mean of the three components above.
+
+---
+
+## Recommendation
+
+{% if recommendation == "ready" %}
+!!! tip "Proceed with Confidence"
+    Based on your preparation level, you are ready to take the GH-600 exam. Review the high-risk topics below for a final confidence boost.
+{% else %}
+!!! important "Defer Exam"
+    Based on your current preparation level, it is recommended to defer the exam and follow the remediation plan. Focus on the high-risk topics and last-minute areas identified below.
+{% endif %}
+
+---
+
+## High-Risk Topics
+
+!!! warning "Priority Review"
+    These topics have the highest risk of appearing on the exam with insufficient preparation.
+
+{% if high_risk_topics %}
+| # | Topic | Priority Score | Gap Reason | Missing Points |
+|---|-------|---------------|------------|----------------|
+{% for topic in high_risk_topics -%}
+| {{ loop.index }} | {{ topic.topic_name }} | {{ topic.priority_score }}/10 | {{ topic.gap_reason }} | {{ topic.missing_points }} |
+{% endfor %}
+{% else %}
+No high-risk topics identified.
+{% endif %}
+
+---
+
+## Last-Minute Focus Areas
+
+{% if last_minute_areas %}
+| # | Area | Details |
+|---|------|---------|
+{% for area in last_minute_areas -%}
+| {{ loop.index }} | {{ area.topic | default(area.get('name', 'N/A')) }} | {{ area.reason | default(area.get('description', '')) }} |
+{% endfor %}
+{% else %}
+No last-minute focus areas identified.
+{% endif %}
+
+---
+
+## 24-Hour Study Plan
+
+!!! note "Final Day Schedule"
+    Follow this plan in the 24 hours before your exam. Each block is 60 minutes.
+
+| Hour | Topic | Resource Type | Priority |
+|------|-------|--------------|----------|
+{% for block in study_plan_24h -%}
+| {{ block.start_hour }} | {{ block.topic }} | {{ block.resource_type | replace('_', ' ') | title }} | {{ block.priority_score }}/10 |
+{% endfor %}
+
+{% if remediation_plan %}
+---
+
+## Remediation Plan
+
+!!! important "Extended Study Required"
+    Your readiness score is below 70%. Follow this plan before rescheduling the exam.
+
+| Property | Value |
+|----------|-------|
+| Target Duration | {{ remediation_plan.target_duration_days }} days |
+| Modules to Revisit | {{ remediation_plan.modules_to_revisit | join(', ') }} |
+
+### Daily Schedule
+
+{% for day in remediation_plan.daily_schedule %}
+#### Day {{ day.day }}
+
+- **Topics**: {{ day.topics | join(', ') }}
+- **Activities**: {{ day.activities | join(', ') }}
+
+{% endfor %}
+{% endif %}

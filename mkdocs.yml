@@ -1,0 +1,67 @@
+# MkDocs configuration for GH-600 Exam Prep Study Website
+# Satisfies Requirements: 13.1-13.7, 14.1, 14.2, 14.5, 14.7
+
+site_name: GH-600 Exam Prep
+site_url: https://JohannesRabauer.github.io/gh-600-preparation/
+use_directory_urls: true
+
+theme:
+  name: material
+  custom_dir: docs/overrides
+  features:
+    - navigation.sidebar
+    - navigation.tabs
+    - navigation.path          # breadcrumbs (Req 13.7)
+    - navigation.indexes
+    - navigation.footer        # prev/next navigation (Req 13.7)
+    - search.suggest           # search suggestions (Req 13.4)
+    - search.highlight         # highlight search matches (Req 13.4)
+    - content.code.copy        # code copy button
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font: false  # Disable external Google Fonts CDN (Req 14.7)
+
+plugins:
+  - search                     # Client-side full-text search (Req 13.4)
+
+markdown_extensions:
+  - admonition                 # Callout blocks: Note, Tip, Warning, Important (Req 13.5)
+  - pymdownx.details           # Collapsible admonitions
+  - pymdownx.superfences:      # Fenced code blocks and Mermaid diagrams (Req 13.5)
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:        # Syntax highlighting (Req 13.5)
+      anchor_linenums: true
+  - pymdownx.inlinehilite      # Inline code highlighting
+  - tables                     # Tables (Req 13.5)
+  - toc:
+      permalink: true          # Permalink anchors for headings
+  - attr_list                  # Attribute lists for extended Markdown
+  - md_in_html                 # Markdown inside HTML blocks
+
+extra:
+  social: []
+
+# Placeholder nav structure for standalone MkDocs builds.
+# The SiteRenderer dynamically regenerates this from pipeline artifacts.
+nav:
+- Home: index.md
+- Study Notes: study_notes.md
+- Curriculum: curriculum.md
+- Revision Resources: revision.md
+- Practice Questions: questions.md
+- Mock Exam: mock_exam.md
+- Cross-Domain Connections: cross_domain.md

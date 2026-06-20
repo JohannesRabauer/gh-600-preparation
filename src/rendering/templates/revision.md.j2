@@ -1,0 +1,99 @@
+# Revision Resources
+
+## Table of Contents
+
+- [Executive Summary](#executive-summary)
+- [Cheat Sheets](#cheat-sheets)
+{% for sheet in cheat_sheets -%}
+  - [{{ sheet.domain_name }}](#{{ sheet.domain_name | lower | replace(' ', '-') | replace('/', '') | replace('(', '') | replace(')', '') }})
+{% endfor %}
+- [Flashcards](#flashcards)
+- [Mnemonics](#mnemonics)
+
+---
+
+## Executive Summary
+
+!!! note "Quick Review"
+    This executive summary covers all 6 exam domains in a condensed format for last-minute revision.
+
+{{ executive_summary }}
+
+---
+
+## Cheat Sheets
+
+{% for sheet in cheat_sheets %}
+### {{ sheet.domain_name }}
+
+{% for table in sheet.tables %}
+#### {{ table.title }}
+
+| {{ table.headers | join(' | ') }} |
+|{% for h in table.headers %} --- |{% endfor %}
+{% for row in table.rows -%}
+| {{ row | join(' | ') }} |
+{% endfor %}
+
+{% endfor %}
+
+{% if sheet.key_commands %}
+#### Key Commands
+
+```bash
+{% for cmd in sheet.key_commands -%}
+{{ cmd }}
+{% endfor %}
+```
+
+{% endif %}
+
+{% if sheet.patterns %}
+#### Key Patterns
+
+{% for pattern in sheet.patterns -%}
+- {{ pattern }}
+{% endfor %}
+{% endif %}
+
+---
+
+{% endfor %}
+
+## Flashcards
+
+!!! tip "How to Use Flashcards"
+    Cover the answer and try to recall it from memory. Focus on cards with higher priority scores first.
+
+**Total Flashcards**: {{ flashcards | length }}
+
+{% for card in flashcards %}
+---
+
+**Domain**: {{ card.domain_name }} | **Priority**: {{ card.priority_score }}/10
+
+{{ card.question }}
+
+{{ card.answer }}
+
+{% endfor %}
+
+---
+
+## Mnemonics
+
+!!! tip "Memory Aids"
+    Mnemonics help you remember sequences and related concepts. Use them for topics with multiple steps or components.
+
+{% for mnemonic in mnemonics %}
+### {{ mnemonic.topic_name }}
+
+**Mnemonic**: {{ mnemonic.mnemonic }}
+
+**Components**:
+
+{% for component in mnemonic.components -%}
+{{ loop.index }}. {{ component }}
+{% endfor %}
+
+{% endfor %}

@@ -1,0 +1,116 @@
+# Study Notes
+
+## Table of Contents
+
+{% for note in notes -%}
+- [{{ note.topic_name }}](#{{ note.topic_name | lower | replace(' ', '-') | replace('/', '') | replace('(', '') | replace(')', '') }})
+{% endfor %}
+{% if cross_domain_themes -%}
+- [Cross-Domain Themes](#cross-domain-themes)
+{% endif %}
+
+---
+
+{% for note in notes %}
+## {{ note.topic_name }}
+
+| Property | Value |
+|----------|-------|
+| Domain | {{ note.domain_id }} |
+| Priority Score | {{ note.priority_score }}/10 |
+| High Priority | {% if note.priority_score >= 8 %}Yes{% else %}No{% endif %} |
+{% if note.is_supplemented %}
+!!! note "Supplemented Content"
+    Some content in this section was inferred from related materials and marked accordingly.
+
+{% endif %}
+
+### Overview
+
+{{ note.overview }}
+
+### Detailed Explanation
+
+{{ note.explanation }}
+
+### Key Facts
+
+{% for fact in note.key_facts -%}
+- {{ fact }}
+{% endfor %}
+
+### Common Mistakes
+
+!!! warning "Avoid These Mistakes"
+{% for mistake in note.common_mistakes %}
+    - {{ mistake }}
+{% endfor %}
+
+### Examples
+
+{% for example in note.examples -%}
+{{ loop.index }}. {{ example }}
+{% endfor %}
+
+{% if note.code_blocks %}
+### Code Examples
+
+{% for block in note.code_blocks %}
+```{{ block.language }}
+{{ block.code }}
+```
+
+{% if block.comments -%}
+!!! tip "Code Notes"
+    {{ block.comments }}
+
+{% endif %}
+{% endfor %}
+{% endif %}
+
+{% if note.step_by_step %}
+### Step-by-Step Instructions
+
+{% for step in note.step_by_step %}
+{{ loop.index }}. **{{ step.step }}**
+{% if step.rationale %}
+    - *Rationale*: {{ step.rationale }}
+{% endif %}
+{% endfor %}
+{% endif %}
+
+### Exam Tips
+
+!!! tip "Exam Tips"
+{% for tip in note.exam_tips %}
+    - {{ tip }}
+{% endfor %}
+
+{% if note.related_topics %}
+### Related Topics
+
+| Topic | Domain | Relationship |
+|-------|--------|-------------|
+{% for rel in note.related_topics -%}
+| [{{ rel.topic_id }}](#{{ rel.topic_id | lower | replace(' ', '-') }}) | {{ rel.domain_name }} | {{ rel.relationship }} |
+{% endfor %}
+{% endif %}
+
+---
+
+{% endfor %}
+
+{% if cross_domain_themes %}
+## Cross-Domain Themes
+
+{% for theme in cross_domain_themes %}
+### {{ theme.theme }}
+
+**Domains**: {{ theme.domains | join(', ') }}
+
+{% for manifestation in theme.manifestations -%}
+- {{ manifestation }}
+{% endfor %}
+
+{% endfor %}
+{% endif %}

@@ -1,0 +1,141 @@
+# Gap Analysis Report
+
+## Table of Contents
+
+- [Summary](#summary)
+- [Critical Gaps](#critical-gaps)
+- [Weak Coverage](#weak-coverage)
+- [Not Covered](#not-covered)
+- [Full Coverage Matrix](#full-coverage-matrix)
+
+---
+
+## Summary
+
+| Metric | Value |
+|--------|-------|
+| Total Objectives | {{ total_objectives }} |
+| Fully Covered | {{ fully_covered_count }} ({{ ((fully_covered_count / total_objectives) * 100) | round(1) }}%) |
+| Weakly Covered | {{ weakly_covered_count }} ({{ ((weakly_covered_count / total_objectives) * 100) | round(1) }}%) |
+| Not Covered | {{ not_covered_count }} ({{ ((not_covered_count / total_objectives) * 100) | round(1) }}%) |
+
+{% if critical_gaps %}
+!!! warning "Critical Gaps Detected"
+    There are **{{ critical_gaps | length }}** critical gaps in high-priority topics. Address these first.
+{% else %}
+!!! tip "Good Coverage"
+    No critical gaps detected in high-priority topics.
+{% endif %}
+
+---
+
+## Critical Gaps
+
+!!! important "High Priority — Address First"
+    These gaps affect high-priority topics with significant exam weight.
+
+{% if critical_gaps %}
+| Objective | Domain | Knowledge Points | Recommendations |
+|-----------|--------|-----------------|-----------------|
+{% for gap in critical_gaps -%}
+| {{ gap.objective_description }} | {{ gap.domain_id }} | {{ gap.knowledge_point_count }} | {{ gap.recommendations | length }} available |
+{% endfor %}
+
+{% for gap in critical_gaps %}
+### {{ gap.objective_id }}: {{ gap.objective_description }}
+
+- **Domain**: {{ gap.domain_id }}
+- **Status**: {{ gap.status.value | replace('_', ' ') | title }}
+- **Knowledge Points**: {{ gap.knowledge_point_count }}
+
+#### Recommendations
+
+{% for rec in gap.recommendations -%}
+{{ loop.index }}. **{{ rec.topic_area }}**: {{ rec.description }}
+   - Resource: {{ rec.resource }}
+{% endfor %}
+
+---
+
+{% endfor %}
+{% else %}
+No critical gaps found.
+{% endif %}
+
+---
+
+## Weak Coverage
+
+!!! note "Partial Coverage"
+    These objectives have some coverage (1-2 knowledge points) but would benefit from additional study.
+
+{% if weak_gaps %}
+| Objective | Domain | Knowledge Points |
+|-----------|--------|-----------------|
+{% for gap in weak_gaps -%}
+| {{ gap.objective_description }} | {{ gap.domain_id }} | {{ gap.knowledge_point_count }} |
+{% endfor %}
+
+{% for gap in weak_gaps %}
+### {{ gap.objective_id }}: {{ gap.objective_description }}
+
+- **Domain**: {{ gap.domain_id }}
+- **Knowledge Points**: {{ gap.knowledge_point_count }}
+
+#### Recommendations
+
+{% for rec in gap.recommendations -%}
+{{ loop.index }}. **{{ rec.topic_area }}**: {{ rec.description }}
+   - Resource: {{ rec.resource }}
+{% endfor %}
+
+---
+
+{% endfor %}
+{% else %}
+No weakly covered objectives found.
+{% endif %}
+
+---
+
+## Not Covered
+
+!!! warning "Missing Coverage"
+    These objectives have no coverage in current study materials.
+
+{% if not_covered_gaps %}
+| Objective | Domain | Recommendations |
+|-----------|--------|-----------------|
+{% for gap in not_covered_gaps -%}
+| {{ gap.objective_description }} | {{ gap.domain_id }} | {{ gap.recommendations | length }} available |
+{% endfor %}
+
+{% for gap in not_covered_gaps %}
+### {{ gap.objective_id }}: {{ gap.objective_description }}
+
+- **Domain**: {{ gap.domain_id }}
+- **Status**: Not Covered
+
+#### Recommendations
+
+{% for rec in gap.recommendations -%}
+{{ loop.index }}. **{{ rec.topic_area }}**: {{ rec.description }}
+   - Resource: {{ rec.resource }}
+{% endfor %}
+
+---
+
+{% endfor %}
+{% else %}
+All objectives have at least some coverage.
+{% endif %}
+
+---
+
+## Full Coverage Matrix
+
+| Objective ID | Status | Knowledge Points |
+|-------------|--------|-----------------|
+{% for item in coverage_items -%}
+| {{ item.objective_id }} | {{ item.status | replace('_', ' ') | title }} | {{ item.point_count }} |
+{% endfor %}

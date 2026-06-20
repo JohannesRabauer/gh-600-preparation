@@ -1,0 +1,125 @@
+# Mock Exam
+
+## Table of Contents
+
+- [Exam Information](#exam-information)
+- [Instructions](#instructions)
+- [Questions](#questions)
+- [Answer Key](#answer-key)
+- [Solutions](#solutions)
+- [Grading Rubric](#grading-rubric)
+- [Domain Distribution](#domain-distribution)
+
+---
+
+## Exam Information
+
+| Property | Value |
+|----------|-------|
+| Total Questions | {{ questions | length }} |
+| Time Limit | {{ time_limit_minutes }} minutes |
+| Pass Threshold | {{ grading_rubric.pass_threshold }}/{{ grading_rubric.max_score }} ({{ grading_rubric.pass_percentage }}%) |
+| Scoring | {{ grading_rubric.points_per_single_answer }} point per single-answer, {{ grading_rubric.multi_select_scoring }} for multi-select |
+
+!!! important "Exam Conditions"
+    Attempt this mock exam under timed conditions. Set a timer for **{{ time_limit_minutes }} minutes** and work through all questions without looking at answers.
+
+## Instructions
+
+1. Set a timer for {{ time_limit_minutes }} minutes
+2. Answer all {{ questions | length }} questions in order
+3. Do not refer to study materials during the exam
+4. Mark questions you are unsure about for review
+5. After completing, check the [Answer Key](#answer-key) and review [Solutions](#solutions)
+
+---
+
+## Questions
+
+{% for q in questions %}
+### Question {{ loop.index }}
+
+**Format**: {{ q.format.value | replace('_', ' ') | title }}
+{% if q.format.value == 'multiple_select' %}
+!!! note "Select ALL that apply"
+{% endif %}
+
+{% if q.scenario %}
+> **Scenario**: {{ q.scenario }}
+
+{% endif %}
+{{ q.stem }}
+
+{% for opt in q.options -%}
+- {{ opt.id }}. {{ opt.text }}
+{% endfor %}
+
+---
+
+{% endfor %}
+
+## Answer Key
+
+!!! warning "Spoiler Alert"
+    Only check the answer key after completing all questions.
+
+| # | Question ID | Correct Answer(s) |
+|---|-------------|-------------------|
+{% for q in questions -%}
+| {{ loop.index }} | {{ q.id }} | {{ answer_key[q.id] | join(', ') }} |
+{% endfor %}
+
+---
+
+## Solutions
+
+{% for sol in solutions %}
+### Question {{ loop.index }} — {{ sol.question_id }}
+
+**Domain**: {{ sol.domain }} | **Topic**: {{ sol.topic }}
+
+{{ sol.reasoning }}
+
+{% if sol.incorrect_explanations %}
+**Why other options are wrong**:
+
+{% for opt_id, reason in sol.incorrect_explanations.items() -%}
+- **{{ opt_id }}**: {{ reason }}
+{% endfor %}
+{% endif %}
+
+---
+
+{% endfor %}
+
+## Grading Rubric
+
+| Criterion | Value |
+|-----------|-------|
+| Total Questions | {{ grading_rubric.total_questions }} |
+| Points per Single Answer | {{ grading_rubric.points_per_single_answer }} |
+| Multi-Select Scoring | {{ grading_rubric.multi_select_scoring }} |
+| Maximum Score | {{ grading_rubric.max_score }} |
+| Pass Threshold | {{ grading_rubric.pass_threshold }} |
+| Pass Percentage | {{ grading_rubric.pass_percentage }}% |
+
+!!! tip "Scoring Guide"
+    - **Single-answer questions**: {{ grading_rubric.points_per_single_answer }} point for correct, 0 for incorrect
+    - **Multi-select questions**: Full credit only if ALL correct options selected ({{ grading_rubric.multi_select_scoring }})
+    - **Pass score**: {{ grading_rubric.pass_threshold }}/{{ grading_rubric.max_score }}
+
+## Domain Distribution
+
+| Domain | Questions | Percentage |
+|--------|-----------|-----------|
+{% for domain_id, count in domain_distribution.items() -%}
+| {{ domain_id }} | {{ count }} | {{ ((count / questions | length) * 100) | round(1) }}% |
+{% endfor %}
+
+## Format Distribution
+
+| Format | Questions | Percentage |
+|--------|-----------|-----------|
+{% for fmt, count in format_distribution.items() -%}
+| {{ fmt | replace('_', ' ') | title }} | {{ count }} | {{ ((count / questions | length) * 100) | round(1) }}% |
+{% endfor %}

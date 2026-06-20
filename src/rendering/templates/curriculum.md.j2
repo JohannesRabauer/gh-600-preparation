@@ -1,0 +1,64 @@
+# Curriculum
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Learning Path](#learning-path)
+{% for module in modules -%}
+- [{{ module.id }}: {{ module.title }}](#{{ module.id | lower }}-{{ module.title | lower | replace(' ', '-') | replace('/', '') | replace('(', '') | replace(')', '') }})
+{% endfor %}
+
+---
+
+## Overview
+
+| Property | Value |
+|----------|-------|
+| Total Modules | {{ modules | length }} |
+| Total Study Time | {{ total_time_minutes }} minutes (~{{ (total_time_minutes / 60) | round(1) }} hours) |
+| High-Priority Modules | {{ modules | selectattr('contains_high_priority') | list | length }} |
+
+!!! important "Study Time Commitment"
+    The estimated total study time is **{{ (total_time_minutes / 60) | round(1) }} hours**. Plan your schedule accordingly and prioritize high-priority modules.
+
+## Learning Path
+
+Follow modules in this order to respect prerequisite dependencies:
+
+{% for module_id in learning_path -%}
+{{ loop.index }}. {{ module_id }}
+{% endfor %}
+
+---
+
+{% for module in modules %}
+## {{ module.id }}: {{ module.title }}
+
+| Property | Value |
+|----------|-------|
+| Time Estimate | {{ module.time_estimate_minutes }} minutes |
+| Prerequisites | {{ module.prerequisites | join(', ') }} |
+| High Priority | {% if module.contains_high_priority %}Yes{% else %}No{% endif %} |
+| Topics Covered | {{ module.topic_ids | length }} |
+
+{% if module.contains_high_priority -%}
+!!! important "High-Priority Module"
+    This module covers high-priority topics that are heavily weighted on the exam.
+
+{% endif %}
+
+### Learning Objectives
+
+{% for objective in module.objectives -%}
+{{ loop.index }}. {{ objective }}
+{% endfor %}
+
+### Topics
+
+{% for topic_id in module.topic_ids -%}
+- [{{ topic_id }}](study_notes.md#{{ topic_id | lower | replace(' ', '-') }})
+{% endfor %}
+
+---
+
+{% endfor %}
