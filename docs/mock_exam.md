@@ -1,5 +1,14 @@
 # Mock Exam
 
+!!! tip "Interactive Mock Exams"
+    Take the interactive mock exams with instant feedback and scoring:
+
+    - [Mock Exam 1 (Interactive)](mock_exam_1.md) — 60 questions, timed, with explanations
+    - [Mock Exam 2 (Interactive)](mock_exam_2.md) — 60 questions, timed, with explanations
+    - [Mock Exam 3 (Interactive)](mock_exam_3.md) — 60 questions, timed, with explanations
+
+---
+
 ## Table of Contents
 
 - [Exam Information](#exam-information)

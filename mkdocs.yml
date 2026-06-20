@@ -69,7 +69,11 @@ nav:
 - Curriculum: curriculum.md
 - Revision Resources: revision.md
 - Practice Questions: questions.md
-- Mock Exam: mock_exam.md
+- Mock Exams:
+  - Overview: mock_exam.md
+  - "Mock Exam 1 (Interactive)": mock_exam_1.md
+  - "Mock Exam 2 (Interactive)": mock_exam_2.md
+  - "Mock Exam 3 (Interactive)": mock_exam_3.md
 - Gap Analysis: gap_report.md
 - Readiness Assessment: readiness.md
 - Cross-Domain Connections: cross_domain.md
