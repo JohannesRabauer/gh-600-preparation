@@ -52,6 +52,12 @@ markdown_extensions:
   - attr_list                  # Attribute lists for extended Markdown
   - md_in_html                 # Markdown inside HTML blocks
 
+extra_css:
+  - assets/css/quiz.css
+
+extra_javascript:
+  - assets/js/quiz.js
+
 extra:
   social: []
 
@@ -64,4 +70,6 @@ nav:
 - Revision Resources: revision.md
 - Practice Questions: questions.md
 - Mock Exam: mock_exam.md
+- Gap Analysis: gap_report.md
+- Readiness Assessment: readiness.md
 - Cross-Domain Connections: cross_domain.md

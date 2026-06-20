@@ -17,23 +17,23 @@
 | Certification | GitHub Certified Agentic AI Developer |
 | Exam Code | GH-600 |
 | Total Domains | 6 |
-| Total Topics | 4 |
-| High-Priority Topics | 4 |
-| Estimated Study Time | 1.0 hours |
+| Total Topics | 59 |
+| High-Priority Topics | 59 |
+| Estimated Study Time | 5.7 hours |
 
 !!! important "Exam Readiness"
-    Your current readiness score is **0%**. Consider following the remediation plan before scheduling your exam.
+    Your current readiness score is **33%**. Consider following the remediation plan before scheduling your exam.
 
 ## Progress Tracker
 
 | Domain | Topics Covered | Completion |
 |--------|---------------|------------|
-| Prepare agent architecture and SDLC processes | 0/0 | 0% |
-| Design and implement agentic solutions | 0/0 | 0% |
-| Evaluate and optimize agent performance | 0/2 | 0% |
-| Secure and govern agentic AI solutions | 0/0 | 0% |
-| Collaborate with AI agents in the development workflow | 0/2 | 0% |
-| Implement responsible AI practices | 0/0 | 0% |
+| Prepare agent architecture and SDLC processes | 14/14 | 100% |
+| Design and implement agentic solutions | 12/12 | 100% |
+| Evaluate and optimize agent performance | 0/0 | 0% |
+| Secure and govern agentic AI solutions | 13/13 | 100% |
+| Collaborate with AI agents in the development workflow | 8/8 | 100% |
+| Implement responsible AI practices | 12/12 | 100% |
 
 
 !!! tip "Study Strategy"
@@ -60,43 +60,43 @@
 ### Prepare agent architecture and SDLC processes
 
 - **Weight**: 15%–20%
-- **Topics**: 0
-- **High-Priority**: 0
+- **Topics**: 14
+- **High-Priority**: 14
 
 
 ### Design and implement agentic solutions
 
 - **Weight**: 20%–25%
-- **Topics**: 0
-- **High-Priority**: 0
+- **Topics**: 12
+- **High-Priority**: 12
 
 
 ### Evaluate and optimize agent performance
 
 - **Weight**: 10%–15%
-- **Topics**: 2
-- **High-Priority**: 2
+- **Topics**: 0
+- **High-Priority**: 0
 
 
 ### Secure and govern agentic AI solutions
 
 - **Weight**: 15%–20%
-- **Topics**: 0
-- **High-Priority**: 0
+- **Topics**: 13
+- **High-Priority**: 13
 
 
 ### Collaborate with AI agents in the development workflow
 
 - **Weight**: 15%–20%
-- **Topics**: 2
-- **High-Priority**: 2
+- **Topics**: 8
+- **High-Priority**: 8
 
 
 ### Implement responsible AI practices
 
 - **Weight**: 10%–15%
-- **Topics**: 0
-- **High-Priority**: 0
+- **Topics**: 12
+- **High-Priority**: 12
 
 
 

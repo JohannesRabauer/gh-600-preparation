@@ -35,9 +35,11 @@
 **Domain**: domain-1 | **Format**: Multiple Choice
 
 
-Which of the following best describes Missing?
+Which of the following best describes Exam scoring and score reports | Microsoft Learn
+Table...?
 
-- A. Missing is part of the Prepare agent architecture and SDLC processes domain (domain-1) in the GH-600 certification.
+- A. Exam scoring and score reports | Microsoft Learn
+Table... is part of the Prepare agent architecture and SDLC processes domain (domain-1) in the GH-600 certification.
 - B. A process unrelated to Prepare agent architecture and SDLC processes that focuses on non-AI development practices.
 - C. A deprecated feature that has been replaced in modern GitHub workflows.
 - D. A third-party tool that operates independently of GitHub's ecosystem.
@@ -46,14 +48,19 @@ Which of the following best describes Missing?
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. Missing is part of the Prepare agent architecture and SDLC processes domain (domain-1) in the GH-600 certification. This is a key concept in the Prepare agent architecture and SDLC processes domain. See study notes: Missing (Prepare agent architecture and SDLC processes)
+    The correct answer is A. Exam scoring and score reports | Microsoft Learn
+Table... is part of the Prepare agent architecture and SDLC processes domain (domain-1) in the GH-600 certification. This is a key concept in the Prepare agent architecture and SDLC processes domain. See study notes: Exam scoring and score reports | Microsoft Learn
+Table... (Prepare agent architecture and SDLC processes)
 
 
-    - **B** (incorrect): Incorrect. Missing is directly related to Prepare agent architecture and SDLC processes and AI-assisted development.
+    - **B** (incorrect): Incorrect. Exam scoring and score reports | Microsoft Learn
+Table... is directly related to Prepare agent architecture and SDLC processes and AI-assisted development.
 
-    - **C** (incorrect): Incorrect. Missing is a current, actively used concept in the GH-600 certification scope.
+    - **C** (incorrect): Incorrect. Exam scoring and score reports | Microsoft Learn
+Table... is a current, actively used concept in the GH-600 certification scope.
 
-    - **D** (incorrect): Incorrect. Missing is integrated within GitHub's ecosystem, not a standalone third-party tool.
+    - **D** (incorrect): Incorrect. Exam scoring and score reports | Microsoft Learn
+Table... is integrated within GitHub's ecosystem, not a standalone third-party tool.
 
 
 ---
@@ -64,9 +71,9 @@ Which of the following best describes Missing?
 **Domain**: domain-1 | **Format**: Multiple Choice
 
 
-Which of the following best describes Missing?
+Which of the following best describes Request exam accommodations and frequently asked...?
 
-- A. Missing is part of the Prepare agent architecture and SDLC processes domain (domain-1) in the GH-600 certification.
+- A. Request exam accommodations and frequently asked... is part of the Prepare agent architecture and SDLC processes domain (domain-1) in the GH-600 certification.
 - B. A process unrelated to Prepare agent architecture and SDLC processes that focuses on non-AI development practices.
 - C. A deprecated feature that has been replaced in modern GitHub workflows.
 - D. A third-party tool that operates independently of GitHub's ecosystem.
@@ -75,14 +82,14 @@ Which of the following best describes Missing?
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. Missing is part of the Prepare agent architecture and SDLC processes domain (domain-1) in the GH-600 certification. This is a key concept in the Prepare agent architecture and SDLC processes domain. See study notes: Missing (Prepare agent architecture and SDLC processes)
+    The correct answer is A. Request exam accommodations and frequently asked... is part of the Prepare agent architecture and SDLC processes domain (domain-1) in the GH-600 certification. This is a key concept in the Prepare agent architecture and SDLC processes domain. See study notes: Request exam accommodations and frequently asked... (Prepare agent architecture and SDLC processes)
 
 
-    - **B** (incorrect): Incorrect. Missing is directly related to Prepare agent architecture and SDLC processes and AI-assisted development.
+    - **B** (incorrect): Incorrect. Request exam accommodations and frequently asked... is directly related to Prepare agent architecture and SDLC processes and AI-assisted development.
 
-    - **C** (incorrect): Incorrect. Missing is a current, actively used concept in the GH-600 certification scope.
+    - **C** (incorrect): Incorrect. Request exam accommodations and frequently asked... is a current, actively used concept in the GH-600 certification scope.
 
-    - **D** (incorrect): Incorrect. Missing is integrated within GitHub's ecosystem, not a standalone third-party tool.
+    - **D** (incorrect): Incorrect. Request exam accommodations and frequently asked... is integrated within GitHub's ecosystem, not a standalone third-party tool.
 
 
 ---
@@ -93,9 +100,9 @@ Which of the following best describes Missing?
 **Domain**: domain-1 | **Format**: Multiple Choice
 
 
-Which of the following best describes Missing?
+Which of the following best describes Search Product and Services Lifecycle Information -...?
 
-- A. Missing is part of the Prepare agent architecture and SDLC processes domain (domain-1) in the GH-600 certification.
+- A. Search Product and Services Lifecycle Information -... is part of the Prepare agent architecture and SDLC processes domain (domain-1) in the GH-600 certification.
 - B. A process unrelated to Prepare agent architecture and SDLC processes that focuses on non-AI development practices.
 - C. A deprecated feature that has been replaced in modern GitHub workflows.
 - D. A third-party tool that operates independently of GitHub's ecosystem.
@@ -104,14 +111,14 @@ Which of the following best describes Missing?
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. Missing is part of the Prepare agent architecture and SDLC processes domain (domain-1) in the GH-600 certification. This is a key concept in the Prepare agent architecture and SDLC processes domain. See study notes: Missing (Prepare agent architecture and SDLC processes)
+    The correct answer is A. Search Product and Services Lifecycle Information -... is part of the Prepare agent architecture and SDLC processes domain (domain-1) in the GH-600 certification. This is a key concept in the Prepare agent architecture and SDLC processes domain. See study notes: Search Product and Services Lifecycle Information -... (Prepare agent architecture and SDLC processes)
 
 
-    - **B** (incorrect): Incorrect. Missing is directly related to Prepare agent architecture and SDLC processes and AI-assisted development.
+    - **B** (incorrect): Incorrect. Search Product and Services Lifecycle Information -... is directly related to Prepare agent architecture and SDLC processes and AI-assisted development.
 
-    - **C** (incorrect): Incorrect. Missing is a current, actively used concept in the GH-600 certification scope.
+    - **C** (incorrect): Incorrect. Search Product and Services Lifecycle Information -... is a current, actively used concept in the GH-600 certification scope.
 
-    - **D** (incorrect): Incorrect. Missing is integrated within GitHub's ecosystem, not a standalone third-party tool.
+    - **D** (incorrect): Incorrect. Search Product and Services Lifecycle Information -... is integrated within GitHub's ecosystem, not a standalone third-party tool.
 
 
 ---
@@ -122,9 +129,9 @@ Which of the following best describes Missing?
 **Domain**: domain-1 | **Format**: Multiple Choice
 
 
-Which of the following best describes Missing?
+Which of the following best describes Exam and Applied Skills assessment lab retake policies |...?
 
-- A. Missing is part of the Prepare agent architecture and SDLC processes domain (domain-1) in the GH-600 certification.
+- A. Exam and Applied Skills assessment lab retake policies |... is part of the Prepare agent architecture and SDLC processes domain (domain-1) in the GH-600 certification.
 - B. A process unrelated to Prepare agent architecture and SDLC processes that focuses on non-AI development practices.
 - C. A deprecated feature that has been replaced in modern GitHub workflows.
 - D. A third-party tool that operates independently of GitHub's ecosystem.
@@ -133,14 +140,14 @@ Which of the following best describes Missing?
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. Missing is part of the Prepare agent architecture and SDLC processes domain (domain-1) in the GH-600 certification. This is a key concept in the Prepare agent architecture and SDLC processes domain. See study notes: Missing (Prepare agent architecture and SDLC processes)
+    The correct answer is A. Exam and Applied Skills assessment lab retake policies |... is part of the Prepare agent architecture and SDLC processes domain (domain-1) in the GH-600 certification. This is a key concept in the Prepare agent architecture and SDLC processes domain. See study notes: Exam and Applied Skills assessment lab retake policies |... (Prepare agent architecture and SDLC processes)
 
 
-    - **B** (incorrect): Incorrect. Missing is directly related to Prepare agent architecture and SDLC processes and AI-assisted development.
+    - **B** (incorrect): Incorrect. Exam and Applied Skills assessment lab retake policies |... is directly related to Prepare agent architecture and SDLC processes and AI-assisted development.
 
-    - **C** (incorrect): Incorrect. Missing is a current, actively used concept in the GH-600 certification scope.
+    - **C** (incorrect): Incorrect. Exam and Applied Skills assessment lab retake policies |... is a current, actively used concept in the GH-600 certification scope.
 
-    - **D** (incorrect): Incorrect. Missing is integrated within GitHub's ecosystem, not a standalone third-party tool.
+    - **D** (incorrect): Incorrect. Exam and Applied Skills assessment lab retake policies |... is integrated within GitHub's ecosystem, not a standalone third-party tool.
 
 
 ---
@@ -151,9 +158,9 @@ Which of the following best describes Missing?
 **Domain**: domain-2 | **Format**: Multiple Choice
 
 
-Which of the following best describes Implement GitHub Copilot agent mode?
+Which of the following best describes Study guide for Exam GH-600: Developing in Agentic AI...?
 
-- A. Implement GitHub Copilot agent mode is part of the Design and implement agentic solutions domain.
+- A. Study guide for Exam GH-600: Developing in Agentic AI... is part of the Design and implement agentic solutions domain (domain-2) in the GH-600 certification.
 - B. A process unrelated to Design and implement agentic solutions that focuses on non-AI development practices.
 - C. A deprecated feature that has been replaced in modern GitHub workflows.
 - D. A third-party tool that operates independently of GitHub's ecosystem.
@@ -162,14 +169,14 @@ Which of the following best describes Implement GitHub Copilot agent mode?
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. Implement GitHub Copilot agent mode is part of the Design and implement agentic solutions domain. This is a key concept in the Design and implement agentic solutions domain. See study notes: Implement GitHub Copilot agent mode (Design and implement agentic solutions)
+    The correct answer is A. Study guide for Exam GH-600: Developing in Agentic AI... is part of the Design and implement agentic solutions domain (domain-2) in the GH-600 certification. This is a key concept in the Design and implement agentic solutions domain. See study notes: Study guide for Exam GH-600: Developing in Agentic AI... (Design and implement agentic solutions)
 
 
-    - **B** (incorrect): Incorrect. Implement GitHub Copilot agent mode is directly related to Design and implement agentic solutions and AI-assisted development.
+    - **B** (incorrect): Incorrect. Study guide for Exam GH-600: Developing in Agentic AI... is directly related to Design and implement agentic solutions and AI-assisted development.
 
-    - **C** (incorrect): Incorrect. Implement GitHub Copilot agent mode is a current, actively used concept in the GH-600 certification scope.
+    - **C** (incorrect): Incorrect. Study guide for Exam GH-600: Developing in Agentic AI... is a current, actively used concept in the GH-600 certification scope.
 
-    - **D** (incorrect): Incorrect. Implement GitHub Copilot agent mode is integrated within GitHub's ecosystem, not a standalone third-party tool.
+    - **D** (incorrect): Incorrect. Study guide for Exam GH-600: Developing in Agentic AI... is integrated within GitHub's ecosystem, not a standalone third-party tool.
 
 
 ---
@@ -180,9 +187,9 @@ Which of the following best describes Implement GitHub Copilot agent mode?
 **Domain**: domain-2 | **Format**: Multiple Choice
 
 
-Which of the following best describes Design multi-step agent workflows?
+Which of the following best describes Tooling, MCP, and Agent Execution Environments -...?
 
-- A. Design multi-step agent workflows is part of the Design and implement agentic solutions domain.
+- A. Tooling, MCP, and Agent Execution Environments -... is part of the Design and implement agentic solutions domain (domain-2) in the GH-600 certification.
 - B. A process unrelated to Design and implement agentic solutions that focuses on non-AI development practices.
 - C. A deprecated feature that has been replaced in modern GitHub workflows.
 - D. A third-party tool that operates independently of GitHub's ecosystem.
@@ -191,14 +198,14 @@ Which of the following best describes Design multi-step agent workflows?
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. Design multi-step agent workflows is part of the Design and implement agentic solutions domain. This is a key concept in the Design and implement agentic solutions domain. See study notes: Design multi-step agent workflows (Design and implement agentic solutions)
+    The correct answer is A. Tooling, MCP, and Agent Execution Environments -... is part of the Design and implement agentic solutions domain (domain-2) in the GH-600 certification. This is a key concept in the Design and implement agentic solutions domain. See study notes: Tooling, MCP, and Agent Execution Environments -... (Design and implement agentic solutions)
 
 
-    - **B** (incorrect): Incorrect. Design multi-step agent workflows is directly related to Design and implement agentic solutions and AI-assisted development.
+    - **B** (incorrect): Incorrect. Tooling, MCP, and Agent Execution Environments -... is directly related to Design and implement agentic solutions and AI-assisted development.
 
-    - **C** (incorrect): Incorrect. Design multi-step agent workflows is a current, actively used concept in the GH-600 certification scope.
+    - **C** (incorrect): Incorrect. Tooling, MCP, and Agent Execution Environments -... is a current, actively used concept in the GH-600 certification scope.
 
-    - **D** (incorrect): Incorrect. Design multi-step agent workflows is integrated within GitHub's ecosystem, not a standalone third-party tool.
+    - **D** (incorrect): Incorrect. Tooling, MCP, and Agent Execution Environments -... is integrated within GitHub's ecosystem, not a standalone third-party tool.
 
 
 ---
@@ -209,9 +216,9 @@ Which of the following best describes Design multi-step agent workflows?
 **Domain**: domain-2 | **Format**: Multiple Choice
 
 
-Which of the following best describes Configure agent tools and capabilities?
+Which of the following best describes Microsoft previous versions of technical documentation |...?
 
-- A. Configure agent tools and capabilities is part of the Design and implement agentic solutions domain.
+- A. Microsoft previous versions of technical documentation |... is part of the Design and implement agentic solutions domain (domain-2) in the GH-600 certification.
 - B. A process unrelated to Design and implement agentic solutions that focuses on non-AI development practices.
 - C. A deprecated feature that has been replaced in modern GitHub workflows.
 - D. A third-party tool that operates independently of GitHub's ecosystem.
@@ -220,14 +227,14 @@ Which of the following best describes Configure agent tools and capabilities?
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. Configure agent tools and capabilities is part of the Design and implement agentic solutions domain. This is a key concept in the Design and implement agentic solutions domain. See study notes: Configure agent tools and capabilities (Design and implement agentic solutions)
+    The correct answer is A. Microsoft previous versions of technical documentation |... is part of the Design and implement agentic solutions domain (domain-2) in the GH-600 certification. This is a key concept in the Design and implement agentic solutions domain. See study notes: Microsoft previous versions of technical documentation |... (Design and implement agentic solutions)
 
 
-    - **B** (incorrect): Incorrect. Configure agent tools and capabilities is directly related to Design and implement agentic solutions and AI-assisted development.
+    - **B** (incorrect): Incorrect. Microsoft previous versions of technical documentation |... is directly related to Design and implement agentic solutions and AI-assisted development.
 
-    - **C** (incorrect): Incorrect. Configure agent tools and capabilities is a current, actively used concept in the GH-600 certification scope.
+    - **C** (incorrect): Incorrect. Microsoft previous versions of technical documentation |... is a current, actively used concept in the GH-600 certification scope.
 
-    - **D** (incorrect): Incorrect. Configure agent tools and capabilities is integrated within GitHub's ecosystem, not a standalone third-party tool.
+    - **D** (incorrect): Incorrect. Microsoft previous versions of technical documentation |... is integrated within GitHub's ecosystem, not a standalone third-party tool.
 
 
 ---
@@ -238,9 +245,9 @@ Which of the following best describes Configure agent tools and capabilities?
 **Domain**: domain-2 | **Format**: Multiple Choice
 
 
-Which of the following best describes Implement agent context management?
+Which of the following best describes Study guide for Exam GH-600: Developing in Agentic AI...?
 
-- A. Implement agent context management is part of the Design and implement agentic solutions domain.
+- A. Study guide for Exam GH-600: Developing in Agentic AI... is part of the Design and implement agentic solutions domain (domain-2) in the GH-600 certification.
 - B. A process unrelated to Design and implement agentic solutions that focuses on non-AI development practices.
 - C. A deprecated feature that has been replaced in modern GitHub workflows.
 - D. A third-party tool that operates independently of GitHub's ecosystem.
@@ -249,14 +256,14 @@ Which of the following best describes Implement agent context management?
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. Implement agent context management is part of the Design and implement agentic solutions domain. This is a key concept in the Design and implement agentic solutions domain. See study notes: Implement agent context management (Design and implement agentic solutions)
+    The correct answer is A. Study guide for Exam GH-600: Developing in Agentic AI... is part of the Design and implement agentic solutions domain (domain-2) in the GH-600 certification. This is a key concept in the Design and implement agentic solutions domain. See study notes: Study guide for Exam GH-600: Developing in Agentic AI... (Design and implement agentic solutions)
 
 
-    - **B** (incorrect): Incorrect. Implement agent context management is directly related to Design and implement agentic solutions and AI-assisted development.
+    - **B** (incorrect): Incorrect. Study guide for Exam GH-600: Developing in Agentic AI... is directly related to Design and implement agentic solutions and AI-assisted development.
 
-    - **C** (incorrect): Incorrect. Implement agent context management is a current, actively used concept in the GH-600 certification scope.
+    - **C** (incorrect): Incorrect. Study guide for Exam GH-600: Developing in Agentic AI... is a current, actively used concept in the GH-600 certification scope.
 
-    - **D** (incorrect): Incorrect. Implement agent context management is integrated within GitHub's ecosystem, not a standalone third-party tool.
+    - **D** (incorrect): Incorrect. Study guide for Exam GH-600: Developing in Agentic AI... is integrated within GitHub's ecosystem, not a standalone third-party tool.
 
 
 ---
@@ -325,9 +332,11 @@ Which of the following best describes Optimize agent response latency?
 **Domain**: domain-4 | **Format**: Multiple Choice
 
 
-Which of the following best describes Implement access controls for AI agents?
+Which of the following best describes Terms of Use | Microsoft Learn
+learn?
 
-- A. Implement access controls for AI agents is part of the Secure and govern agentic AI solutions domain.
+- A. Terms of Use | Microsoft Learn
+learn is part of the Secure and govern agentic AI solutions domain (domain-4) in the GH-600 certification.
 - B. A process unrelated to Secure and govern agentic AI solutions that focuses on non-AI development practices.
 - C. A deprecated feature that has been replaced in modern GitHub workflows.
 - D. A third-party tool that operates independently of GitHub's ecosystem.
@@ -336,14 +345,19 @@ Which of the following best describes Implement access controls for AI agents?
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. Implement access controls for AI agents is part of the Secure and govern agentic AI solutions domain. This is a key concept in the Secure and govern agentic AI solutions domain. See study notes: Implement access controls for AI agents (Secure and govern agentic AI solutions)
+    The correct answer is A. Terms of Use | Microsoft Learn
+learn is part of the Secure and govern agentic AI solutions domain (domain-4) in the GH-600 certification. This is a key concept in the Secure and govern agentic AI solutions domain. See study notes: Terms of Use | Microsoft Learn
+learn (Secure and govern agentic AI solutions)
 
 
-    - **B** (incorrect): Incorrect. Implement access controls for AI agents is directly related to Secure and govern agentic AI solutions and AI-assisted development.
+    - **B** (incorrect): Incorrect. Terms of Use | Microsoft Learn
+learn is directly related to Secure and govern agentic AI solutions and AI-assisted development.
 
-    - **C** (incorrect): Incorrect. Implement access controls for AI agents is a current, actively used concept in the GH-600 certification scope.
+    - **C** (incorrect): Incorrect. Terms of Use | Microsoft Learn
+learn is a current, actively used concept in the GH-600 certification scope.
 
-    - **D** (incorrect): Incorrect. Implement access controls for AI agents is integrated within GitHub's ecosystem, not a standalone third-party tool.
+    - **D** (incorrect): Incorrect. Terms of Use | Microsoft Learn
+learn is integrated within GitHub's ecosystem, not a standalone third-party tool.
 
 
 ---
@@ -354,9 +368,9 @@ Which of the following best describes Implement access controls for AI agents?
 **Domain**: domain-4 | **Format**: Multiple Choice
 
 
-Which of the following best describes Configure agent permissions and boundaries?
+Which of the following best describes Modern Lifecycle Policy - Microsoft Lifecycle |...?
 
-- A. Configure agent permissions and boundaries is part of the Secure and govern agentic AI solutions domain.
+- A. Modern Lifecycle Policy - Microsoft Lifecycle |... is part of the Secure and govern agentic AI solutions domain (domain-4) in the GH-600 certification.
 - B. A process unrelated to Secure and govern agentic AI solutions that focuses on non-AI development practices.
 - C. A deprecated feature that has been replaced in modern GitHub workflows.
 - D. A third-party tool that operates independently of GitHub's ecosystem.
@@ -365,14 +379,14 @@ Which of the following best describes Configure agent permissions and boundaries
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. Configure agent permissions and boundaries is part of the Secure and govern agentic AI solutions domain. This is a key concept in the Secure and govern agentic AI solutions domain. See study notes: Configure agent permissions and boundaries (Secure and govern agentic AI solutions)
+    The correct answer is A. Modern Lifecycle Policy - Microsoft Lifecycle |... is part of the Secure and govern agentic AI solutions domain (domain-4) in the GH-600 certification. This is a key concept in the Secure and govern agentic AI solutions domain. See study notes: Modern Lifecycle Policy - Microsoft Lifecycle |... (Secure and govern agentic AI solutions)
 
 
-    - **B** (incorrect): Incorrect. Configure agent permissions and boundaries is directly related to Secure and govern agentic AI solutions and AI-assisted development.
+    - **B** (incorrect): Incorrect. Modern Lifecycle Policy - Microsoft Lifecycle |... is directly related to Secure and govern agentic AI solutions and AI-assisted development.
 
-    - **C** (incorrect): Incorrect. Configure agent permissions and boundaries is a current, actively used concept in the GH-600 certification scope.
+    - **C** (incorrect): Incorrect. Modern Lifecycle Policy - Microsoft Lifecycle |... is a current, actively used concept in the GH-600 certification scope.
 
-    - **D** (incorrect): Incorrect. Configure agent permissions and boundaries is integrated within GitHub's ecosystem, not a standalone third-party tool.
+    - **D** (incorrect): Incorrect. Modern Lifecycle Policy - Microsoft Lifecycle |... is integrated within GitHub's ecosystem, not a standalone third-party tool.
 
 
 ---
@@ -383,9 +397,11 @@ Which of the following best describes Configure agent permissions and boundaries
 **Domain**: domain-4 | **Format**: Multiple Choice
 
 
-Which of the following best describes Monitor agent actions for security compliance?
+Which of the following best describes Browse Credentials | Microsoft Learn
+Browse...?
 
-- A. Monitor agent actions for security compliance is part of the Secure and govern agentic AI solutions domain.
+- A. Browse Credentials | Microsoft Learn
+Browse... is part of the Secure and govern agentic AI solutions domain (domain-4) in the GH-600 certification.
 - B. A process unrelated to Secure and govern agentic AI solutions that focuses on non-AI development practices.
 - C. A deprecated feature that has been replaced in modern GitHub workflows.
 - D. A third-party tool that operates independently of GitHub's ecosystem.
@@ -394,14 +410,19 @@ Which of the following best describes Monitor agent actions for security complia
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. Monitor agent actions for security compliance is part of the Secure and govern agentic AI solutions domain. This is a key concept in the Secure and govern agentic AI solutions domain. See study notes: Monitor agent actions for security compliance (Secure and govern agentic AI solutions)
+    The correct answer is A. Browse Credentials | Microsoft Learn
+Browse... is part of the Secure and govern agentic AI solutions domain (domain-4) in the GH-600 certification. This is a key concept in the Secure and govern agentic AI solutions domain. See study notes: Browse Credentials | Microsoft Learn
+Browse... (Secure and govern agentic AI solutions)
 
 
-    - **B** (incorrect): Incorrect. Monitor agent actions for security compliance is directly related to Secure and govern agentic AI solutions and AI-assisted development.
+    - **B** (incorrect): Incorrect. Browse Credentials | Microsoft Learn
+Browse... is directly related to Secure and govern agentic AI solutions and AI-assisted development.
 
-    - **C** (incorrect): Incorrect. Monitor agent actions for security compliance is a current, actively used concept in the GH-600 certification scope.
+    - **C** (incorrect): Incorrect. Browse Credentials | Microsoft Learn
+Browse... is a current, actively used concept in the GH-600 certification scope.
 
-    - **D** (incorrect): Incorrect. Monitor agent actions for security compliance is integrated within GitHub's ecosystem, not a standalone third-party tool.
+    - **D** (incorrect): Incorrect. Browse Credentials | Microsoft Learn
+Browse... is integrated within GitHub's ecosystem, not a standalone third-party tool.
 
 
 ---
@@ -412,9 +433,9 @@ Which of the following best describes Monitor agent actions for security complia
 **Domain**: domain-4 | **Format**: Multiple Choice
 
 
-Which of the following best describes Implement data governance for agent interactions?
+Which of the following best describes About online exams with Pearson VUE | Microsoft...?
 
-- A. Implement data governance for agent interactions is part of the Secure and govern agentic AI solutions domain.
+- A. About online exams with Pearson VUE | Microsoft... is part of the Secure and govern agentic AI solutions domain (domain-4) in the GH-600 certification.
 - B. A process unrelated to Secure and govern agentic AI solutions that focuses on non-AI development practices.
 - C. A deprecated feature that has been replaced in modern GitHub workflows.
 - D. A third-party tool that operates independently of GitHub's ecosystem.
@@ -423,14 +444,14 @@ Which of the following best describes Implement data governance for agent intera
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. Implement data governance for agent interactions is part of the Secure and govern agentic AI solutions domain. This is a key concept in the Secure and govern agentic AI solutions domain. See study notes: Implement data governance for agent interactions (Secure and govern agentic AI solutions)
+    The correct answer is A. About online exams with Pearson VUE | Microsoft... is part of the Secure and govern agentic AI solutions domain (domain-4) in the GH-600 certification. This is a key concept in the Secure and govern agentic AI solutions domain. See study notes: About online exams with Pearson VUE | Microsoft... (Secure and govern agentic AI solutions)
 
 
-    - **B** (incorrect): Incorrect. Implement data governance for agent interactions is directly related to Secure and govern agentic AI solutions and AI-assisted development.
+    - **B** (incorrect): Incorrect. About online exams with Pearson VUE | Microsoft... is directly related to Secure and govern agentic AI solutions and AI-assisted development.
 
-    - **C** (incorrect): Incorrect. Implement data governance for agent interactions is a current, actively used concept in the GH-600 certification scope.
+    - **C** (incorrect): Incorrect. About online exams with Pearson VUE | Microsoft... is a current, actively used concept in the GH-600 certification scope.
 
-    - **D** (incorrect): Incorrect. Implement data governance for agent interactions is integrated within GitHub's ecosystem, not a standalone third-party tool.
+    - **D** (incorrect): Incorrect. About online exams with Pearson VUE | Microsoft... is integrated within GitHub's ecosystem, not a standalone third-party tool.
 
 
 ---
@@ -441,9 +462,9 @@ Which of the following best describes Implement data governance for agent intera
 **Domain**: domain-5 | **Format**: Multiple Choice
 
 
-Which of the following best describes Use GitHub Copilot for code generation and review?
+Which of the following best describes Exercise - Develop with AI-powered code suggestions by...?
 
-- A. Use GitHub Copilot for code generation and review is part of the Collaborate with AI agents in the development workflow domain.
+- A. Exercise - Develop with AI-powered code suggestions by... is part of the Collaborate with AI agents in the development workflow domain (domain-5) in the GH-600 certification.
 - B. A process unrelated to Collaborate with AI agents in the development workflow that focuses on non-AI development practices.
 - C. A deprecated feature that has been replaced in modern GitHub workflows.
 - D. A third-party tool that operates independently of GitHub's ecosystem.
@@ -452,14 +473,14 @@ Which of the following best describes Use GitHub Copilot for code generation and
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. Use GitHub Copilot for code generation and review is part of the Collaborate with AI agents in the development workflow domain. This is a key concept in the Collaborate with AI agents in the development workflow domain. See study notes: Use GitHub Copilot for code generation and review (Collaborate with AI agents in the development workflow)
+    The correct answer is A. Exercise - Develop with AI-powered code suggestions by... is part of the Collaborate with AI agents in the development workflow domain (domain-5) in the GH-600 certification. This is a key concept in the Collaborate with AI agents in the development workflow domain. See study notes: Exercise - Develop with AI-powered code suggestions by... (Collaborate with AI agents in the development workflow)
 
 
-    - **B** (incorrect): Incorrect. Use GitHub Copilot for code generation and review is directly related to Collaborate with AI agents in the development workflow and AI-assisted development.
+    - **B** (incorrect): Incorrect. Exercise - Develop with AI-powered code suggestions by... is directly related to Collaborate with AI agents in the development workflow and AI-assisted development.
 
-    - **C** (incorrect): Incorrect. Use GitHub Copilot for code generation and review is a current, actively used concept in the GH-600 certification scope.
+    - **C** (incorrect): Incorrect. Exercise - Develop with AI-powered code suggestions by... is a current, actively used concept in the GH-600 certification scope.
 
-    - **D** (incorrect): Incorrect. Use GitHub Copilot for code generation and review is integrated within GitHub's ecosystem, not a standalone third-party tool.
+    - **D** (incorrect): Incorrect. Exercise - Develop with AI-powered code suggestions by... is integrated within GitHub's ecosystem, not a standalone third-party tool.
 
 
 ---
@@ -470,9 +491,9 @@ Which of the following best describes Use GitHub Copilot for code generation and
 **Domain**: domain-5 | **Format**: Multiple Choice
 
 
-Which of the following best describes Leverage agent-assisted debugging and testing?
+Which of the following best describes Exercise - Develop with AI-powered code suggestions by...?
 
-- A. Leverage agent-assisted debugging and testing is part of the Collaborate with AI agents in the development workflow domain.
+- A. Exercise - Develop with AI-powered code suggestions by... is part of the Collaborate with AI agents in the development workflow domain (domain-5) in the GH-600 certification.
 - B. A process unrelated to Collaborate with AI agents in the development workflow that focuses on non-AI development practices.
 - C. A deprecated feature that has been replaced in modern GitHub workflows.
 - D. A third-party tool that operates independently of GitHub's ecosystem.
@@ -481,14 +502,14 @@ Which of the following best describes Leverage agent-assisted debugging and test
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. Leverage agent-assisted debugging and testing is part of the Collaborate with AI agents in the development workflow domain. This is a key concept in the Collaborate with AI agents in the development workflow domain. See study notes: Leverage agent-assisted debugging and testing (Collaborate with AI agents in the development workflow)
+    The correct answer is A. Exercise - Develop with AI-powered code suggestions by... is part of the Collaborate with AI agents in the development workflow domain (domain-5) in the GH-600 certification. This is a key concept in the Collaborate with AI agents in the development workflow domain. See study notes: Exercise - Develop with AI-powered code suggestions by... (Collaborate with AI agents in the development workflow)
 
 
-    - **B** (incorrect): Incorrect. Leverage agent-assisted debugging and testing is directly related to Collaborate with AI agents in the development workflow and AI-assisted development.
+    - **B** (incorrect): Incorrect. Exercise - Develop with AI-powered code suggestions by... is directly related to Collaborate with AI agents in the development workflow and AI-assisted development.
 
-    - **C** (incorrect): Incorrect. Leverage agent-assisted debugging and testing is a current, actively used concept in the GH-600 certification scope.
+    - **C** (incorrect): Incorrect. Exercise - Develop with AI-powered code suggestions by... is a current, actively used concept in the GH-600 certification scope.
 
-    - **D** (incorrect): Incorrect. Leverage agent-assisted debugging and testing is integrated within GitHub's ecosystem, not a standalone third-party tool.
+    - **D** (incorrect): Incorrect. Exercise - Develop with AI-powered code suggestions by... is integrated within GitHub's ecosystem, not a standalone third-party tool.
 
 
 ---
@@ -499,9 +520,9 @@ Which of the following best describes Leverage agent-assisted debugging and test
 **Domain**: domain-5 | **Format**: Multiple Choice
 
 
-Which of the following best describes Integrate AI agents into CI/CD pipelines?
+Which of the following best describes Exercise - Develop with AI-powered code suggestions by...?
 
-- A. Integrate AI agents into CI/CD pipelines is part of the Collaborate with AI agents in the development workflow domain.
+- A. Exercise - Develop with AI-powered code suggestions by... is part of the Collaborate with AI agents in the development workflow domain (domain-5) in the GH-600 certification.
 - B. A process unrelated to Collaborate with AI agents in the development workflow that focuses on non-AI development practices.
 - C. A deprecated feature that has been replaced in modern GitHub workflows.
 - D. A third-party tool that operates independently of GitHub's ecosystem.
@@ -510,14 +531,14 @@ Which of the following best describes Integrate AI agents into CI/CD pipelines?
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. Integrate AI agents into CI/CD pipelines is part of the Collaborate with AI agents in the development workflow domain. This is a key concept in the Collaborate with AI agents in the development workflow domain. See study notes: Integrate AI agents into CI/CD pipelines (Collaborate with AI agents in the development workflow)
+    The correct answer is A. Exercise - Develop with AI-powered code suggestions by... is part of the Collaborate with AI agents in the development workflow domain (domain-5) in the GH-600 certification. This is a key concept in the Collaborate with AI agents in the development workflow domain. See study notes: Exercise - Develop with AI-powered code suggestions by... (Collaborate with AI agents in the development workflow)
 
 
-    - **B** (incorrect): Incorrect. Integrate AI agents into CI/CD pipelines is directly related to Collaborate with AI agents in the development workflow and AI-assisted development.
+    - **B** (incorrect): Incorrect. Exercise - Develop with AI-powered code suggestions by... is directly related to Collaborate with AI agents in the development workflow and AI-assisted development.
 
-    - **C** (incorrect): Incorrect. Integrate AI agents into CI/CD pipelines is a current, actively used concept in the GH-600 certification scope.
+    - **C** (incorrect): Incorrect. Exercise - Develop with AI-powered code suggestions by... is a current, actively used concept in the GH-600 certification scope.
 
-    - **D** (incorrect): Incorrect. Integrate AI agents into CI/CD pipelines is integrated within GitHub's ecosystem, not a standalone third-party tool.
+    - **D** (incorrect): Incorrect. Exercise - Develop with AI-powered code suggestions by... is integrated within GitHub's ecosystem, not a standalone third-party tool.
 
 
 ---
@@ -528,9 +549,9 @@ Which of the following best describes Integrate AI agents into CI/CD pipelines?
 **Domain**: domain-5 | **Format**: Multiple Choice
 
 
-Which of the following best describes Collaborate with agents for documentation?
+Which of the following best describes Exercise - Develop with AI-powered code suggestions by...?
 
-- A. Collaborate with agents for documentation is part of the Collaborate with AI agents in the development workflow domain.
+- A. Exercise - Develop with AI-powered code suggestions by... is part of the Collaborate with AI agents in the development workflow domain (domain-5) in the GH-600 certification.
 - B. A process unrelated to Collaborate with AI agents in the development workflow that focuses on non-AI development practices.
 - C. A deprecated feature that has been replaced in modern GitHub workflows.
 - D. A third-party tool that operates independently of GitHub's ecosystem.
@@ -539,14 +560,14 @@ Which of the following best describes Collaborate with agents for documentation?
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. Collaborate with agents for documentation is part of the Collaborate with AI agents in the development workflow domain. This is a key concept in the Collaborate with AI agents in the development workflow domain. See study notes: Collaborate with agents for documentation (Collaborate with AI agents in the development workflow)
+    The correct answer is A. Exercise - Develop with AI-powered code suggestions by... is part of the Collaborate with AI agents in the development workflow domain (domain-5) in the GH-600 certification. This is a key concept in the Collaborate with AI agents in the development workflow domain. See study notes: Exercise - Develop with AI-powered code suggestions by... (Collaborate with AI agents in the development workflow)
 
 
-    - **B** (incorrect): Incorrect. Collaborate with agents for documentation is directly related to Collaborate with AI agents in the development workflow and AI-assisted development.
+    - **B** (incorrect): Incorrect. Exercise - Develop with AI-powered code suggestions by... is directly related to Collaborate with AI agents in the development workflow and AI-assisted development.
 
-    - **C** (incorrect): Incorrect. Collaborate with agents for documentation is a current, actively used concept in the GH-600 certification scope.
+    - **C** (incorrect): Incorrect. Exercise - Develop with AI-powered code suggestions by... is a current, actively used concept in the GH-600 certification scope.
 
-    - **D** (incorrect): Incorrect. Collaborate with agents for documentation is integrated within GitHub's ecosystem, not a standalone third-party tool.
+    - **D** (incorrect): Incorrect. Exercise - Develop with AI-powered code suggestions by... is integrated within GitHub's ecosystem, not a standalone third-party tool.
 
 
 ---
@@ -557,9 +578,9 @@ Which of the following best describes Collaborate with agents for documentation?
 **Domain**: domain-6 | **Format**: Multiple Choice
 
 
-Which of the following best describes Apply ethical guidelines to agent behavior?
+Which of the following best describes Microsoft Certification Renewal | Microsoft...?
 
-- A. Apply ethical guidelines to agent behavior is part of the Implement responsible AI practices domain.
+- A. Microsoft Certification Renewal | Microsoft... is part of the Implement responsible AI practices domain (domain-6) in the GH-600 certification.
 - B. A process unrelated to Implement responsible AI practices that focuses on non-AI development practices.
 - C. A deprecated feature that has been replaced in modern GitHub workflows.
 - D. A third-party tool that operates independently of GitHub's ecosystem.
@@ -568,14 +589,14 @@ Which of the following best describes Apply ethical guidelines to agent behavior
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. Apply ethical guidelines to agent behavior is part of the Implement responsible AI practices domain. This is a key concept in the Implement responsible AI practices domain. See study notes: Apply ethical guidelines to agent behavior (Implement responsible AI practices)
+    The correct answer is A. Microsoft Certification Renewal | Microsoft... is part of the Implement responsible AI practices domain (domain-6) in the GH-600 certification. This is a key concept in the Implement responsible AI practices domain. See study notes: Microsoft Certification Renewal | Microsoft... (Implement responsible AI practices)
 
 
-    - **B** (incorrect): Incorrect. Apply ethical guidelines to agent behavior is directly related to Implement responsible AI practices and AI-assisted development.
+    - **B** (incorrect): Incorrect. Microsoft Certification Renewal | Microsoft... is directly related to Implement responsible AI practices and AI-assisted development.
 
-    - **C** (incorrect): Incorrect. Apply ethical guidelines to agent behavior is a current, actively used concept in the GH-600 certification scope.
+    - **C** (incorrect): Incorrect. Microsoft Certification Renewal | Microsoft... is a current, actively used concept in the GH-600 certification scope.
 
-    - **D** (incorrect): Incorrect. Apply ethical guidelines to agent behavior is integrated within GitHub's ecosystem, not a standalone third-party tool.
+    - **D** (incorrect): Incorrect. Microsoft Certification Renewal | Microsoft... is integrated within GitHub's ecosystem, not a standalone third-party tool.
 
 
 ---
@@ -586,9 +607,11 @@ Which of the following best describes Apply ethical guidelines to agent behavior
 **Domain**: domain-6 | **Format**: Multiple Choice
 
 
-Which of the following best describes Implement transparency and explainability?
+Which of the following best describes Introduction - Training | Microsoft Learn
+Read in...?
 
-- A. Implement transparency and explainability is part of the Implement responsible AI practices domain.
+- A. Introduction - Training | Microsoft Learn
+Read in... is part of the Implement responsible AI practices domain (domain-6) in the GH-600 certification.
 - B. A process unrelated to Implement responsible AI practices that focuses on non-AI development practices.
 - C. A deprecated feature that has been replaced in modern GitHub workflows.
 - D. A third-party tool that operates independently of GitHub's ecosystem.
@@ -597,14 +620,19 @@ Which of the following best describes Implement transparency and explainability?
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. Implement transparency and explainability is part of the Implement responsible AI practices domain. This is a key concept in the Implement responsible AI practices domain. See study notes: Implement transparency and explainability (Implement responsible AI practices)
+    The correct answer is A. Introduction - Training | Microsoft Learn
+Read in... is part of the Implement responsible AI practices domain (domain-6) in the GH-600 certification. This is a key concept in the Implement responsible AI practices domain. See study notes: Introduction - Training | Microsoft Learn
+Read in... (Implement responsible AI practices)
 
 
-    - **B** (incorrect): Incorrect. Implement transparency and explainability is directly related to Implement responsible AI practices and AI-assisted development.
+    - **B** (incorrect): Incorrect. Introduction - Training | Microsoft Learn
+Read in... is directly related to Implement responsible AI practices and AI-assisted development.
 
-    - **C** (incorrect): Incorrect. Implement transparency and explainability is a current, actively used concept in the GH-600 certification scope.
+    - **C** (incorrect): Incorrect. Introduction - Training | Microsoft Learn
+Read in... is a current, actively used concept in the GH-600 certification scope.
 
-    - **D** (incorrect): Incorrect. Implement transparency and explainability is integrated within GitHub's ecosystem, not a standalone third-party tool.
+    - **D** (incorrect): Incorrect. Introduction - Training | Microsoft Learn
+Read in... is integrated within GitHub's ecosystem, not a standalone third-party tool.
 
 
 ---
@@ -622,21 +650,29 @@ Which of the following best describes Implement transparency and explainability?
 **Domain**: domain-1 | **Format**: Multiple Choice
 
 
-A developer needs to implement Missing in their GitHub Copilot workflow. Which approach should they use?
+A developer needs to implement Exam scoring and score reports | Microsoft Learn
+Table... in their GitHub Copilot workflow. Which approach should they use?
 
-- A. A developer uses Missing when configuring GitHub Copilot agent mode to assist with code generation and review tasks in their development workflow.
-- B. Skip Missing configuration and rely on default settings without validation.
-- C. Implement a custom solution that bypasses GitHub's built-in Missing support.
-- D. Defer Missing implementation to a later phase without any interim measures.
+- A. A developer uses Exam scoring and score reports | Microsoft Learn
+Table... when configuring GitHub Copilot agent mode to assist with code generation and review tasks in their development workflow.
+- B. Skip Exam scoring and score reports | Microsoft Learn
+Table... configuration and rely on default settings without validation.
+- C. Implement a custom solution that bypasses GitHub's built-in Exam scoring and score reports | Microsoft Learn
+Table... support.
+- D. Defer Exam scoring and score reports | Microsoft Learn
+Table... implementation to a later phase without any interim measures.
 
 
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. When implementing Missing, developers should follow established best practices that align with the Prepare agent architecture and SDLC processes domain requirements. See study notes: Missing (Prepare agent architecture and SDLC processes)
+    The correct answer is A. When implementing Exam scoring and score reports | Microsoft Learn
+Table..., developers should follow established best practices that align with the Prepare agent architecture and SDLC processes domain requirements. See study notes: Exam scoring and score reports | Microsoft Learn
+Table... (Prepare agent architecture and SDLC processes)
 
 
-    - **B** (incorrect): Incorrect. Relying on defaults without validation may miss critical Missing requirements.
+    - **B** (incorrect): Incorrect. Relying on defaults without validation may miss critical Exam scoring and score reports | Microsoft Learn
+Table... requirements.
 
     - **C** (incorrect): Incorrect. Custom solutions that bypass built-in support add unnecessary complexity and risk.
 
@@ -651,24 +687,24 @@ A developer needs to implement Missing in their GitHub Copilot workflow. Which a
 **Domain**: domain-1 | **Format**: Multiple Select
 
 
-Which of the following are valid considerations when working with Missing? (Select all that apply)
+Which of the following are valid considerations when working with Request exam accommodations and frequently asked...? (Select all that apply)
 
-- A. Missing is part of the Prepare agent architecture and SDLC processes domain (domain-1) in the GH-600 certification.
-- B. This topic covers 3 knowledge point(s) that candidates must understand.
-- C. Ignoring Missing requirements has no impact on the development workflow.
-- D. Missing is only relevant for non-GitHub platforms.
-- E. Focus on understanding the practical applications of Missing rather than just memorizing definitions.
+- A. Request exam accommodations and frequently asked... is part of the Prepare agent architecture and SDLC processes domain (domain-1) in the GH-600 certification.
+- B. This topic covers 2 knowledge point(s) that candidates must understand.
+- C. Ignoring Request exam accommodations and frequently asked... requirements has no impact on the development workflow.
+- D. Request exam accommodations and frequently asked... is only relevant for non-GitHub platforms.
+- E. Focus on understanding the practical applications of Request exam accommodations and frequently asked... rather than just memorizing definitions.
 
 
 ??? success "Answer"
     **Correct**: A, B, E
 
-    Options A, B, E are correct. When working with Missing, developers must consider multiple factors that align with Prepare agent architecture and SDLC processes best practices. See study notes: Missing (Prepare agent architecture and SDLC processes)
+    Options A, B, E are correct. When working with Request exam accommodations and frequently asked..., developers must consider multiple factors that align with Prepare agent architecture and SDLC processes best practices. See study notes: Request exam accommodations and frequently asked... (Prepare agent architecture and SDLC processes)
 
 
-    - **C** (incorrect): Incorrect. Missing requirements directly impact workflow quality and outcomes.
+    - **C** (incorrect): Incorrect. Request exam accommodations and frequently asked... requirements directly impact workflow quality and outcomes.
 
-    - **D** (incorrect): Incorrect. Missing is a core GitHub ecosystem concept relevant to GH-600.
+    - **D** (incorrect): Incorrect. Request exam accommodations and frequently asked... is a core GitHub ecosystem concept relevant to GH-600.
 
 
 ---
@@ -679,21 +715,21 @@ Which of the following are valid considerations when working with Missing? (Sele
 **Domain**: domain-1 | **Format**: Multiple Choice
 
 
-A developer needs to implement Missing in their GitHub Copilot workflow. Which approach should they use?
+A developer needs to implement Search Product and Services Lifecycle Information -... in their GitHub Copilot workflow. Which approach should they use?
 
-- A. A developer uses Missing when configuring GitHub Copilot agent mode to assist with code generation and review tasks in their development workflow.
-- B. Skip Missing configuration and rely on default settings without validation.
-- C. Implement a custom solution that bypasses GitHub's built-in Missing support.
-- D. Defer Missing implementation to a later phase without any interim measures.
+- A. A developer uses Search Product and Services Lifecycle Information -... when configuring GitHub Copilot agent mode to assist with code generation and review tasks in their development workflow.
+- B. Skip Search Product and Services Lifecycle Information -... configuration and rely on default settings without validation.
+- C. Implement a custom solution that bypasses GitHub's built-in Search Product and Services Lifecycle Information -... support.
+- D. Defer Search Product and Services Lifecycle Information -... implementation to a later phase without any interim measures.
 
 
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. When implementing Missing, developers should follow established best practices that align with the Prepare agent architecture and SDLC processes domain requirements. See study notes: Missing (Prepare agent architecture and SDLC processes)
+    The correct answer is A. When implementing Search Product and Services Lifecycle Information -..., developers should follow established best practices that align with the Prepare agent architecture and SDLC processes domain requirements. See study notes: Search Product and Services Lifecycle Information -... (Prepare agent architecture and SDLC processes)
 
 
-    - **B** (incorrect): Incorrect. Relying on defaults without validation may miss critical Missing requirements.
+    - **B** (incorrect): Incorrect. Relying on defaults without validation may miss critical Search Product and Services Lifecycle Information -... requirements.
 
     - **C** (incorrect): Incorrect. Custom solutions that bypass built-in support add unnecessary complexity and risk.
 
@@ -708,24 +744,24 @@ A developer needs to implement Missing in their GitHub Copilot workflow. Which a
 **Domain**: domain-1 | **Format**: Multiple Select
 
 
-Which of the following are valid considerations when working with Missing? (Select all that apply)
+Which of the following are valid considerations when working with Exam and Applied Skills assessment lab retake policies |...? (Select all that apply)
 
-- A. Missing is part of the Prepare agent architecture and SDLC processes domain (domain-1) in the GH-600 certification.
-- B. This topic covers 3 knowledge point(s) that candidates must understand.
-- C. Ignoring Missing requirements has no impact on the development workflow.
-- D. Missing is only relevant for non-GitHub platforms.
-- E. Focus on understanding the practical applications of Missing rather than just memorizing definitions.
+- A. Exam and Applied Skills assessment lab retake policies |... is part of the Prepare agent architecture and SDLC processes domain (domain-1) in the GH-600 certification.
+- B. This topic covers 2 knowledge point(s) that candidates must understand.
+- C. Ignoring Exam and Applied Skills assessment lab retake policies |... requirements has no impact on the development workflow.
+- D. Exam and Applied Skills assessment lab retake policies |... is only relevant for non-GitHub platforms.
+- E. Focus on understanding the practical applications of Exam and Applied Skills assessment lab retake policies |... rather than just memorizing definitions.
 
 
 ??? success "Answer"
     **Correct**: A, B, E
 
-    Options A, B, E are correct. When working with Missing, developers must consider multiple factors that align with Prepare agent architecture and SDLC processes best practices. See study notes: Missing (Prepare agent architecture and SDLC processes)
+    Options A, B, E are correct. When working with Exam and Applied Skills assessment lab retake policies |..., developers must consider multiple factors that align with Prepare agent architecture and SDLC processes best practices. See study notes: Exam and Applied Skills assessment lab retake policies |... (Prepare agent architecture and SDLC processes)
 
 
-    - **C** (incorrect): Incorrect. Missing requirements directly impact workflow quality and outcomes.
+    - **C** (incorrect): Incorrect. Exam and Applied Skills assessment lab retake policies |... requirements directly impact workflow quality and outcomes.
 
-    - **D** (incorrect): Incorrect. Missing is a core GitHub ecosystem concept relevant to GH-600.
+    - **D** (incorrect): Incorrect. Exam and Applied Skills assessment lab retake policies |... is a core GitHub ecosystem concept relevant to GH-600.
 
 
 ---
@@ -736,21 +772,21 @@ Which of the following are valid considerations when working with Missing? (Sele
 **Domain**: domain-2 | **Format**: Multiple Choice
 
 
-A developer needs to implement Implement GitHub Copilot agent mode in their GitHub Copilot workflow. Which approach should they use?
+A developer needs to implement Study guide for Exam GH-600: Developing in Agentic AI... in their GitHub Copilot workflow. Which approach should they use?
 
-- A. A developer applies Implement GitHub Copilot agent mode in their workflow.
-- B. Skip Implement GitHub Copilot agent mode configuration and rely on default settings without validation.
-- C. Implement a custom solution that bypasses GitHub's built-in Implement GitHub Copilot agent mode support.
-- D. Defer Implement GitHub Copilot agent mode implementation to a later phase without any interim measures.
+- A. A developer uses Study guide for Exam GH-600: Developing in Agentic AI... when configuring GitHub Copilot agent mode to assist with code generation and review tasks in their development workflow.
+- B. Skip Study guide for Exam GH-600: Developing in Agentic AI... configuration and rely on default settings without validation.
+- C. Implement a custom solution that bypasses GitHub's built-in Study guide for Exam GH-600: Developing in Agentic AI... support.
+- D. Defer Study guide for Exam GH-600: Developing in Agentic AI... implementation to a later phase without any interim measures.
 
 
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. When implementing Implement GitHub Copilot agent mode, developers should follow established best practices that align with the Design and implement agentic solutions domain requirements. See study notes: Implement GitHub Copilot agent mode (Design and implement agentic solutions)
+    The correct answer is A. When implementing Study guide for Exam GH-600: Developing in Agentic AI..., developers should follow established best practices that align with the Design and implement agentic solutions domain requirements. See study notes: Study guide for Exam GH-600: Developing in Agentic AI... (Design and implement agentic solutions)
 
 
-    - **B** (incorrect): Incorrect. Relying on defaults without validation may miss critical Implement GitHub Copilot agent mode requirements.
+    - **B** (incorrect): Incorrect. Relying on defaults without validation may miss critical Study guide for Exam GH-600: Developing in Agentic AI... requirements.
 
     - **C** (incorrect): Incorrect. Custom solutions that bypass built-in support add unnecessary complexity and risk.
 
@@ -765,24 +801,24 @@ A developer needs to implement Implement GitHub Copilot agent mode in their GitH
 **Domain**: domain-2 | **Format**: Multiple Select
 
 
-Which of the following are valid considerations when working with Design multi-step agent workflows? (Select all that apply)
+Which of the following are valid considerations when working with Tooling, MCP, and Agent Execution Environments -...? (Select all that apply)
 
-- A. Design multi-step agent workflows is part of the Design and implement agentic solutions domain.
-- B. This topic is tested in the GH-600 certification exam.
-- C. Ignoring Design multi-step agent workflows requirements has no impact on the development workflow.
-- D. Design multi-step agent workflows is only relevant for non-GitHub platforms.
-- E. Focus on practical applications of Design multi-step agent workflows.
+- A. Tooling, MCP, and Agent Execution Environments -... is part of the Design and implement agentic solutions domain (domain-2) in the GH-600 certification.
+- B. This topic covers 4 knowledge point(s) that candidates must understand.
+- C. Ignoring Tooling, MCP, and Agent Execution Environments -... requirements has no impact on the development workflow.
+- D. Tooling, MCP, and Agent Execution Environments -... is only relevant for non-GitHub platforms.
+- E. Focus on understanding the practical applications of Tooling, MCP, and Agent Execution Environments -... rather than just memorizing definitions.
 
 
 ??? success "Answer"
     **Correct**: A, B, E
 
-    Options A, B, E are correct. When working with Design multi-step agent workflows, developers must consider multiple factors that align with Design and implement agentic solutions best practices. See study notes: Design multi-step agent workflows (Design and implement agentic solutions)
+    Options A, B, E are correct. When working with Tooling, MCP, and Agent Execution Environments -..., developers must consider multiple factors that align with Design and implement agentic solutions best practices. See study notes: Tooling, MCP, and Agent Execution Environments -... (Design and implement agentic solutions)
 
 
-    - **C** (incorrect): Incorrect. Design multi-step agent workflows requirements directly impact workflow quality and outcomes.
+    - **C** (incorrect): Incorrect. Tooling, MCP, and Agent Execution Environments -... requirements directly impact workflow quality and outcomes.
 
-    - **D** (incorrect): Incorrect. Design multi-step agent workflows is a core GitHub ecosystem concept relevant to GH-600.
+    - **D** (incorrect): Incorrect. Tooling, MCP, and Agent Execution Environments -... is a core GitHub ecosystem concept relevant to GH-600.
 
 
 ---
@@ -793,21 +829,21 @@ Which of the following are valid considerations when working with Design multi-s
 **Domain**: domain-2 | **Format**: Multiple Choice
 
 
-A developer needs to implement Configure agent tools and capabilities in their GitHub Copilot workflow. Which approach should they use?
+A developer needs to implement Microsoft previous versions of technical documentation |... in their GitHub Copilot workflow. Which approach should they use?
 
-- A. A developer applies Configure agent tools and capabilities in their workflow.
-- B. Skip Configure agent tools and capabilities configuration and rely on default settings without validation.
-- C. Implement a custom solution that bypasses GitHub's built-in Configure agent tools and capabilities support.
-- D. Defer Configure agent tools and capabilities implementation to a later phase without any interim measures.
+- A. A developer uses Microsoft previous versions of technical documentation |... when configuring GitHub Copilot agent mode to assist with code generation and review tasks in their development workflow.
+- B. Skip Microsoft previous versions of technical documentation |... configuration and rely on default settings without validation.
+- C. Implement a custom solution that bypasses GitHub's built-in Microsoft previous versions of technical documentation |... support.
+- D. Defer Microsoft previous versions of technical documentation |... implementation to a later phase without any interim measures.
 
 
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. When implementing Configure agent tools and capabilities, developers should follow established best practices that align with the Design and implement agentic solutions domain requirements. See study notes: Configure agent tools and capabilities (Design and implement agentic solutions)
+    The correct answer is A. When implementing Microsoft previous versions of technical documentation |..., developers should follow established best practices that align with the Design and implement agentic solutions domain requirements. See study notes: Microsoft previous versions of technical documentation |... (Design and implement agentic solutions)
 
 
-    - **B** (incorrect): Incorrect. Relying on defaults without validation may miss critical Configure agent tools and capabilities requirements.
+    - **B** (incorrect): Incorrect. Relying on defaults without validation may miss critical Microsoft previous versions of technical documentation |... requirements.
 
     - **C** (incorrect): Incorrect. Custom solutions that bypass built-in support add unnecessary complexity and risk.
 
@@ -822,24 +858,24 @@ A developer needs to implement Configure agent tools and capabilities in their G
 **Domain**: domain-2 | **Format**: Multiple Select
 
 
-Which of the following are valid considerations when working with Implement agent context management? (Select all that apply)
+Which of the following are valid considerations when working with Study guide for Exam GH-600: Developing in Agentic AI...? (Select all that apply)
 
-- A. Implement agent context management is part of the Design and implement agentic solutions domain.
-- B. This topic is tested in the GH-600 certification exam.
-- C. Ignoring Implement agent context management requirements has no impact on the development workflow.
-- D. Implement agent context management is only relevant for non-GitHub platforms.
-- E. Focus on practical applications of Implement agent context management.
+- A. Study guide for Exam GH-600: Developing in Agentic AI... is part of the Design and implement agentic solutions domain (domain-2) in the GH-600 certification.
+- B. This topic covers 54 knowledge point(s) that candidates must understand.
+- C. Ignoring Study guide for Exam GH-600: Developing in Agentic AI... requirements has no impact on the development workflow.
+- D. Study guide for Exam GH-600: Developing in Agentic AI... is only relevant for non-GitHub platforms.
+- E. Focus on understanding the practical applications of Study guide for Exam GH-600: Developing in Agentic AI... rather than just memorizing definitions.
 
 
 ??? success "Answer"
     **Correct**: A, B, E
 
-    Options A, B, E are correct. When working with Implement agent context management, developers must consider multiple factors that align with Design and implement agentic solutions best practices. See study notes: Implement agent context management (Design and implement agentic solutions)
+    Options A, B, E are correct. When working with Study guide for Exam GH-600: Developing in Agentic AI..., developers must consider multiple factors that align with Design and implement agentic solutions best practices. See study notes: Study guide for Exam GH-600: Developing in Agentic AI... (Design and implement agentic solutions)
 
 
-    - **C** (incorrect): Incorrect. Implement agent context management requirements directly impact workflow quality and outcomes.
+    - **C** (incorrect): Incorrect. Study guide for Exam GH-600: Developing in Agentic AI... requirements directly impact workflow quality and outcomes.
 
-    - **D** (incorrect): Incorrect. Implement agent context management is a core GitHub ecosystem concept relevant to GH-600.
+    - **D** (incorrect): Incorrect. Study guide for Exam GH-600: Developing in Agentic AI... is a core GitHub ecosystem concept relevant to GH-600.
 
 
 ---
@@ -907,21 +943,29 @@ Which of the following are valid considerations when working with Optimize agent
 **Domain**: domain-4 | **Format**: Multiple Choice
 
 
-A developer needs to implement Implement access controls for AI agents in their GitHub Copilot workflow. Which approach should they use?
+A developer needs to implement Terms of Use | Microsoft Learn
+learn in their GitHub Copilot workflow. Which approach should they use?
 
-- A. A developer applies Implement access controls for AI agents in their workflow.
-- B. Skip Implement access controls for AI agents configuration and rely on default settings without validation.
-- C. Implement a custom solution that bypasses GitHub's built-in Implement access controls for AI agents support.
-- D. Defer Implement access controls for AI agents implementation to a later phase without any interim measures.
+- A. A developer uses Terms of Use | Microsoft Learn
+learn when configuring GitHub Copilot agent mode to assist with code generation and review tasks in their development workflow.
+- B. Skip Terms of Use | Microsoft Learn
+learn configuration and rely on default settings without validation.
+- C. Implement a custom solution that bypasses GitHub's built-in Terms of Use | Microsoft Learn
+learn support.
+- D. Defer Terms of Use | Microsoft Learn
+learn implementation to a later phase without any interim measures.
 
 
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. When implementing Implement access controls for AI agents, developers should follow established best practices that align with the Secure and govern agentic AI solutions domain requirements. See study notes: Implement access controls for AI agents (Secure and govern agentic AI solutions)
+    The correct answer is A. When implementing Terms of Use | Microsoft Learn
+learn, developers should follow established best practices that align with the Secure and govern agentic AI solutions domain requirements. See study notes: Terms of Use | Microsoft Learn
+learn (Secure and govern agentic AI solutions)
 
 
-    - **B** (incorrect): Incorrect. Relying on defaults without validation may miss critical Implement access controls for AI agents requirements.
+    - **B** (incorrect): Incorrect. Relying on defaults without validation may miss critical Terms of Use | Microsoft Learn
+learn requirements.
 
     - **C** (incorrect): Incorrect. Custom solutions that bypass built-in support add unnecessary complexity and risk.
 
@@ -936,24 +980,24 @@ A developer needs to implement Implement access controls for AI agents in their 
 **Domain**: domain-4 | **Format**: Multiple Select
 
 
-Which of the following are valid considerations when working with Configure agent permissions and boundaries? (Select all that apply)
+Which of the following are valid considerations when working with Modern Lifecycle Policy - Microsoft Lifecycle |...? (Select all that apply)
 
-- A. Configure agent permissions and boundaries is part of the Secure and govern agentic AI solutions domain.
-- B. This topic is tested in the GH-600 certification exam.
-- C. Ignoring Configure agent permissions and boundaries requirements has no impact on the development workflow.
-- D. Configure agent permissions and boundaries is only relevant for non-GitHub platforms.
-- E. Focus on practical applications of Configure agent permissions and boundaries.
+- A. Modern Lifecycle Policy - Microsoft Lifecycle |... is part of the Secure and govern agentic AI solutions domain (domain-4) in the GH-600 certification.
+- B. This topic covers 4 knowledge point(s) that candidates must understand.
+- C. Ignoring Modern Lifecycle Policy - Microsoft Lifecycle |... requirements has no impact on the development workflow.
+- D. Modern Lifecycle Policy - Microsoft Lifecycle |... is only relevant for non-GitHub platforms.
+- E. Focus on understanding the practical applications of Modern Lifecycle Policy - Microsoft Lifecycle |... rather than just memorizing definitions.
 
 
 ??? success "Answer"
     **Correct**: A, B, E
 
-    Options A, B, E are correct. When working with Configure agent permissions and boundaries, developers must consider multiple factors that align with Secure and govern agentic AI solutions best practices. See study notes: Configure agent permissions and boundaries (Secure and govern agentic AI solutions)
+    Options A, B, E are correct. When working with Modern Lifecycle Policy - Microsoft Lifecycle |..., developers must consider multiple factors that align with Secure and govern agentic AI solutions best practices. See study notes: Modern Lifecycle Policy - Microsoft Lifecycle |... (Secure and govern agentic AI solutions)
 
 
-    - **C** (incorrect): Incorrect. Configure agent permissions and boundaries requirements directly impact workflow quality and outcomes.
+    - **C** (incorrect): Incorrect. Modern Lifecycle Policy - Microsoft Lifecycle |... requirements directly impact workflow quality and outcomes.
 
-    - **D** (incorrect): Incorrect. Configure agent permissions and boundaries is a core GitHub ecosystem concept relevant to GH-600.
+    - **D** (incorrect): Incorrect. Modern Lifecycle Policy - Microsoft Lifecycle |... is a core GitHub ecosystem concept relevant to GH-600.
 
 
 ---
@@ -964,21 +1008,29 @@ Which of the following are valid considerations when working with Configure agen
 **Domain**: domain-4 | **Format**: Multiple Choice
 
 
-A developer needs to implement Monitor agent actions for security compliance in their GitHub Copilot workflow. Which approach should they use?
+A developer needs to implement Browse Credentials | Microsoft Learn
+Browse... in their GitHub Copilot workflow. Which approach should they use?
 
-- A. A developer applies Monitor agent actions for security compliance in their workflow.
-- B. Skip Monitor agent actions for security compliance configuration and rely on default settings without validation.
-- C. Implement a custom solution that bypasses GitHub's built-in Monitor agent actions for security compliance support.
-- D. Defer Monitor agent actions for security compliance implementation to a later phase without any interim measures.
+- A. A developer uses Browse Credentials | Microsoft Learn
+Browse... when configuring GitHub Copilot agent mode to assist with code generation and review tasks in their development workflow.
+- B. Skip Browse Credentials | Microsoft Learn
+Browse... configuration and rely on default settings without validation.
+- C. Implement a custom solution that bypasses GitHub's built-in Browse Credentials | Microsoft Learn
+Browse... support.
+- D. Defer Browse Credentials | Microsoft Learn
+Browse... implementation to a later phase without any interim measures.
 
 
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. When implementing Monitor agent actions for security compliance, developers should follow established best practices that align with the Secure and govern agentic AI solutions domain requirements. See study notes: Monitor agent actions for security compliance (Secure and govern agentic AI solutions)
+    The correct answer is A. When implementing Browse Credentials | Microsoft Learn
+Browse..., developers should follow established best practices that align with the Secure and govern agentic AI solutions domain requirements. See study notes: Browse Credentials | Microsoft Learn
+Browse... (Secure and govern agentic AI solutions)
 
 
-    - **B** (incorrect): Incorrect. Relying on defaults without validation may miss critical Monitor agent actions for security compliance requirements.
+    - **B** (incorrect): Incorrect. Relying on defaults without validation may miss critical Browse Credentials | Microsoft Learn
+Browse... requirements.
 
     - **C** (incorrect): Incorrect. Custom solutions that bypass built-in support add unnecessary complexity and risk.
 
@@ -993,24 +1045,24 @@ A developer needs to implement Monitor agent actions for security compliance in 
 **Domain**: domain-4 | **Format**: Multiple Select
 
 
-Which of the following are valid considerations when working with Implement data governance for agent interactions? (Select all that apply)
+Which of the following are valid considerations when working with About online exams with Pearson VUE | Microsoft...? (Select all that apply)
 
-- A. Implement data governance for agent interactions is part of the Secure and govern agentic AI solutions domain.
-- B. This topic is tested in the GH-600 certification exam.
-- C. Ignoring Implement data governance for agent interactions requirements has no impact on the development workflow.
-- D. Implement data governance for agent interactions is only relevant for non-GitHub platforms.
-- E. Focus on practical applications of Implement data governance for agent interactions.
+- A. About online exams with Pearson VUE | Microsoft... is part of the Secure and govern agentic AI solutions domain (domain-4) in the GH-600 certification.
+- B. This topic covers 1 knowledge point(s) that candidates must understand.
+- C. Ignoring About online exams with Pearson VUE | Microsoft... requirements has no impact on the development workflow.
+- D. About online exams with Pearson VUE | Microsoft... is only relevant for non-GitHub platforms.
+- E. Focus on understanding the practical applications of About online exams with Pearson VUE | Microsoft... rather than just memorizing definitions.
 
 
 ??? success "Answer"
     **Correct**: A, B, E
 
-    Options A, B, E are correct. When working with Implement data governance for agent interactions, developers must consider multiple factors that align with Secure and govern agentic AI solutions best practices. See study notes: Implement data governance for agent interactions (Secure and govern agentic AI solutions)
+    Options A, B, E are correct. When working with About online exams with Pearson VUE | Microsoft..., developers must consider multiple factors that align with Secure and govern agentic AI solutions best practices. See study notes: About online exams with Pearson VUE | Microsoft... (Secure and govern agentic AI solutions)
 
 
-    - **C** (incorrect): Incorrect. Implement data governance for agent interactions requirements directly impact workflow quality and outcomes.
+    - **C** (incorrect): Incorrect. About online exams with Pearson VUE | Microsoft... requirements directly impact workflow quality and outcomes.
 
-    - **D** (incorrect): Incorrect. Implement data governance for agent interactions is a core GitHub ecosystem concept relevant to GH-600.
+    - **D** (incorrect): Incorrect. About online exams with Pearson VUE | Microsoft... is a core GitHub ecosystem concept relevant to GH-600.
 
 
 ---
@@ -1021,21 +1073,21 @@ Which of the following are valid considerations when working with Implement data
 **Domain**: domain-5 | **Format**: Multiple Choice
 
 
-A developer needs to implement Use GitHub Copilot for code generation and review in their GitHub Copilot workflow. Which approach should they use?
+A developer needs to implement Exercise - Develop with AI-powered code suggestions by... in their GitHub Copilot workflow. Which approach should they use?
 
-- A. A developer applies Use GitHub Copilot for code generation and review in their workflow.
-- B. Skip Use GitHub Copilot for code generation and review configuration and rely on default settings without validation.
-- C. Implement a custom solution that bypasses GitHub's built-in Use GitHub Copilot for code generation and review support.
-- D. Defer Use GitHub Copilot for code generation and review implementation to a later phase without any interim measures.
+- A. A developer uses Exercise - Develop with AI-powered code suggestions by... when configuring GitHub Copilot agent mode to assist with code generation and review tasks in their development workflow.
+- B. Skip Exercise - Develop with AI-powered code suggestions by... configuration and rely on default settings without validation.
+- C. Implement a custom solution that bypasses GitHub's built-in Exercise - Develop with AI-powered code suggestions by... support.
+- D. Defer Exercise - Develop with AI-powered code suggestions by... implementation to a later phase without any interim measures.
 
 
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. When implementing Use GitHub Copilot for code generation and review, developers should follow established best practices that align with the Collaborate with AI agents in the development workflow domain requirements. See study notes: Use GitHub Copilot for code generation and review (Collaborate with AI agents in the development workflow)
+    The correct answer is A. When implementing Exercise - Develop with AI-powered code suggestions by..., developers should follow established best practices that align with the Collaborate with AI agents in the development workflow domain requirements. See study notes: Exercise - Develop with AI-powered code suggestions by... (Collaborate with AI agents in the development workflow)
 
 
-    - **B** (incorrect): Incorrect. Relying on defaults without validation may miss critical Use GitHub Copilot for code generation and review requirements.
+    - **B** (incorrect): Incorrect. Relying on defaults without validation may miss critical Exercise - Develop with AI-powered code suggestions by... requirements.
 
     - **C** (incorrect): Incorrect. Custom solutions that bypass built-in support add unnecessary complexity and risk.
 
@@ -1050,24 +1102,24 @@ A developer needs to implement Use GitHub Copilot for code generation and review
 **Domain**: domain-5 | **Format**: Multiple Select
 
 
-Which of the following are valid considerations when working with Leverage agent-assisted debugging and testing? (Select all that apply)
+Which of the following are valid considerations when working with Exercise - Develop with AI-powered code suggestions by...? (Select all that apply)
 
-- A. Leverage agent-assisted debugging and testing is part of the Collaborate with AI agents in the development workflow domain.
-- B. This topic is tested in the GH-600 certification exam.
-- C. Ignoring Leverage agent-assisted debugging and testing requirements has no impact on the development workflow.
-- D. Leverage agent-assisted debugging and testing is only relevant for non-GitHub platforms.
-- E. Focus on practical applications of Leverage agent-assisted debugging and testing.
+- A. Exercise - Develop with AI-powered code suggestions by... is part of the Collaborate with AI agents in the development workflow domain (domain-5) in the GH-600 certification.
+- B. This topic covers 2 knowledge point(s) that candidates must understand.
+- C. Ignoring Exercise - Develop with AI-powered code suggestions by... requirements has no impact on the development workflow.
+- D. Exercise - Develop with AI-powered code suggestions by... is only relevant for non-GitHub platforms.
+- E. Focus on understanding the practical applications of Exercise - Develop with AI-powered code suggestions by... rather than just memorizing definitions.
 
 
 ??? success "Answer"
     **Correct**: A, B, E
 
-    Options A, B, E are correct. When working with Leverage agent-assisted debugging and testing, developers must consider multiple factors that align with Collaborate with AI agents in the development workflow best practices. See study notes: Leverage agent-assisted debugging and testing (Collaborate with AI agents in the development workflow)
+    Options A, B, E are correct. When working with Exercise - Develop with AI-powered code suggestions by..., developers must consider multiple factors that align with Collaborate with AI agents in the development workflow best practices. See study notes: Exercise - Develop with AI-powered code suggestions by... (Collaborate with AI agents in the development workflow)
 
 
-    - **C** (incorrect): Incorrect. Leverage agent-assisted debugging and testing requirements directly impact workflow quality and outcomes.
+    - **C** (incorrect): Incorrect. Exercise - Develop with AI-powered code suggestions by... requirements directly impact workflow quality and outcomes.
 
-    - **D** (incorrect): Incorrect. Leverage agent-assisted debugging and testing is a core GitHub ecosystem concept relevant to GH-600.
+    - **D** (incorrect): Incorrect. Exercise - Develop with AI-powered code suggestions by... is a core GitHub ecosystem concept relevant to GH-600.
 
 
 ---
@@ -1078,21 +1130,21 @@ Which of the following are valid considerations when working with Leverage agent
 **Domain**: domain-5 | **Format**: Multiple Choice
 
 
-A developer needs to implement Integrate AI agents into CI/CD pipelines in their GitHub Copilot workflow. Which approach should they use?
+A developer needs to implement Exercise - Develop with AI-powered code suggestions by... in their GitHub Copilot workflow. Which approach should they use?
 
-- A. A developer applies Integrate AI agents into CI/CD pipelines in their workflow.
-- B. Skip Integrate AI agents into CI/CD pipelines configuration and rely on default settings without validation.
-- C. Implement a custom solution that bypasses GitHub's built-in Integrate AI agents into CI/CD pipelines support.
-- D. Defer Integrate AI agents into CI/CD pipelines implementation to a later phase without any interim measures.
+- A. A developer uses Exercise - Develop with AI-powered code suggestions by... when configuring GitHub Copilot agent mode to assist with code generation and review tasks in their development workflow.
+- B. Skip Exercise - Develop with AI-powered code suggestions by... configuration and rely on default settings without validation.
+- C. Implement a custom solution that bypasses GitHub's built-in Exercise - Develop with AI-powered code suggestions by... support.
+- D. Defer Exercise - Develop with AI-powered code suggestions by... implementation to a later phase without any interim measures.
 
 
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. When implementing Integrate AI agents into CI/CD pipelines, developers should follow established best practices that align with the Collaborate with AI agents in the development workflow domain requirements. See study notes: Integrate AI agents into CI/CD pipelines (Collaborate with AI agents in the development workflow)
+    The correct answer is A. When implementing Exercise - Develop with AI-powered code suggestions by..., developers should follow established best practices that align with the Collaborate with AI agents in the development workflow domain requirements. See study notes: Exercise - Develop with AI-powered code suggestions by... (Collaborate with AI agents in the development workflow)
 
 
-    - **B** (incorrect): Incorrect. Relying on defaults without validation may miss critical Integrate AI agents into CI/CD pipelines requirements.
+    - **B** (incorrect): Incorrect. Relying on defaults without validation may miss critical Exercise - Develop with AI-powered code suggestions by... requirements.
 
     - **C** (incorrect): Incorrect. Custom solutions that bypass built-in support add unnecessary complexity and risk.
 
@@ -1107,24 +1159,24 @@ A developer needs to implement Integrate AI agents into CI/CD pipelines in their
 **Domain**: domain-5 | **Format**: Multiple Select
 
 
-Which of the following are valid considerations when working with Collaborate with agents for documentation? (Select all that apply)
+Which of the following are valid considerations when working with Exercise - Develop with AI-powered code suggestions by...? (Select all that apply)
 
-- A. Collaborate with agents for documentation is part of the Collaborate with AI agents in the development workflow domain.
-- B. This topic is tested in the GH-600 certification exam.
-- C. Ignoring Collaborate with agents for documentation requirements has no impact on the development workflow.
-- D. Collaborate with agents for documentation is only relevant for non-GitHub platforms.
-- E. Focus on practical applications of Collaborate with agents for documentation.
+- A. Exercise - Develop with AI-powered code suggestions by... is part of the Collaborate with AI agents in the development workflow domain (domain-5) in the GH-600 certification.
+- B. This topic covers 2 knowledge point(s) that candidates must understand.
+- C. Ignoring Exercise - Develop with AI-powered code suggestions by... requirements has no impact on the development workflow.
+- D. Exercise - Develop with AI-powered code suggestions by... is only relevant for non-GitHub platforms.
+- E. Focus on understanding the practical applications of Exercise - Develop with AI-powered code suggestions by... rather than just memorizing definitions.
 
 
 ??? success "Answer"
     **Correct**: A, B, E
 
-    Options A, B, E are correct. When working with Collaborate with agents for documentation, developers must consider multiple factors that align with Collaborate with AI agents in the development workflow best practices. See study notes: Collaborate with agents for documentation (Collaborate with AI agents in the development workflow)
+    Options A, B, E are correct. When working with Exercise - Develop with AI-powered code suggestions by..., developers must consider multiple factors that align with Collaborate with AI agents in the development workflow best practices. See study notes: Exercise - Develop with AI-powered code suggestions by... (Collaborate with AI agents in the development workflow)
 
 
-    - **C** (incorrect): Incorrect. Collaborate with agents for documentation requirements directly impact workflow quality and outcomes.
+    - **C** (incorrect): Incorrect. Exercise - Develop with AI-powered code suggestions by... requirements directly impact workflow quality and outcomes.
 
-    - **D** (incorrect): Incorrect. Collaborate with agents for documentation is a core GitHub ecosystem concept relevant to GH-600.
+    - **D** (incorrect): Incorrect. Exercise - Develop with AI-powered code suggestions by... is a core GitHub ecosystem concept relevant to GH-600.
 
 
 ---
@@ -1135,21 +1187,21 @@ Which of the following are valid considerations when working with Collaborate wi
 **Domain**: domain-6 | **Format**: Multiple Choice
 
 
-A developer needs to implement Apply ethical guidelines to agent behavior in their GitHub Copilot workflow. Which approach should they use?
+A developer needs to implement Microsoft Certification Renewal | Microsoft... in their GitHub Copilot workflow. Which approach should they use?
 
-- A. A developer applies Apply ethical guidelines to agent behavior in their workflow.
-- B. Skip Apply ethical guidelines to agent behavior configuration and rely on default settings without validation.
-- C. Implement a custom solution that bypasses GitHub's built-in Apply ethical guidelines to agent behavior support.
-- D. Defer Apply ethical guidelines to agent behavior implementation to a later phase without any interim measures.
+- A. A developer uses Microsoft Certification Renewal | Microsoft... when configuring GitHub Copilot agent mode to assist with code generation and review tasks in their development workflow.
+- B. Skip Microsoft Certification Renewal | Microsoft... configuration and rely on default settings without validation.
+- C. Implement a custom solution that bypasses GitHub's built-in Microsoft Certification Renewal | Microsoft... support.
+- D. Defer Microsoft Certification Renewal | Microsoft... implementation to a later phase without any interim measures.
 
 
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. When implementing Apply ethical guidelines to agent behavior, developers should follow established best practices that align with the Implement responsible AI practices domain requirements. See study notes: Apply ethical guidelines to agent behavior (Implement responsible AI practices)
+    The correct answer is A. When implementing Microsoft Certification Renewal | Microsoft..., developers should follow established best practices that align with the Implement responsible AI practices domain requirements. See study notes: Microsoft Certification Renewal | Microsoft... (Implement responsible AI practices)
 
 
-    - **B** (incorrect): Incorrect. Relying on defaults without validation may miss critical Apply ethical guidelines to agent behavior requirements.
+    - **B** (incorrect): Incorrect. Relying on defaults without validation may miss critical Microsoft Certification Renewal | Microsoft... requirements.
 
     - **C** (incorrect): Incorrect. Custom solutions that bypass built-in support add unnecessary complexity and risk.
 
@@ -1164,24 +1216,33 @@ A developer needs to implement Apply ethical guidelines to agent behavior in the
 **Domain**: domain-6 | **Format**: Multiple Select
 
 
-Which of the following are valid considerations when working with Implement transparency and explainability? (Select all that apply)
+Which of the following are valid considerations when working with Introduction - Training | Microsoft Learn
+Read in...? (Select all that apply)
 
-- A. Implement transparency and explainability is part of the Implement responsible AI practices domain.
-- B. This topic is tested in the GH-600 certification exam.
-- C. Ignoring Implement transparency and explainability requirements has no impact on the development workflow.
-- D. Implement transparency and explainability is only relevant for non-GitHub platforms.
-- E. Focus on practical applications of Implement transparency and explainability.
+- A. Introduction - Training | Microsoft Learn
+Read in... is part of the Implement responsible AI practices domain (domain-6) in the GH-600 certification.
+- B. This topic covers 2 knowledge point(s) that candidates must understand.
+- C. Ignoring Introduction - Training | Microsoft Learn
+Read in... requirements has no impact on the development workflow.
+- D. Introduction - Training | Microsoft Learn
+Read in... is only relevant for non-GitHub platforms.
+- E. Focus on understanding the practical applications of Introduction - Training | Microsoft Learn
+Read in... rather than just memorizing definitions.
 
 
 ??? success "Answer"
     **Correct**: A, B, E
 
-    Options A, B, E are correct. When working with Implement transparency and explainability, developers must consider multiple factors that align with Implement responsible AI practices best practices. See study notes: Implement transparency and explainability (Implement responsible AI practices)
+    Options A, B, E are correct. When working with Introduction - Training | Microsoft Learn
+Read in..., developers must consider multiple factors that align with Implement responsible AI practices best practices. See study notes: Introduction - Training | Microsoft Learn
+Read in... (Implement responsible AI practices)
 
 
-    - **C** (incorrect): Incorrect. Implement transparency and explainability requirements directly impact workflow quality and outcomes.
+    - **C** (incorrect): Incorrect. Introduction - Training | Microsoft Learn
+Read in... requirements directly impact workflow quality and outcomes.
 
-    - **D** (incorrect): Incorrect. Implement transparency and explainability is a core GitHub ecosystem concept relevant to GH-600.
+    - **D** (incorrect): Incorrect. Introduction - Training | Microsoft Learn
+Read in... is a core GitHub ecosystem concept relevant to GH-600.
 
 
 ---
@@ -1196,31 +1257,41 @@ Which of the following are valid considerations when working with Implement tran
 
 ### Question 1
 
-**Domain**: domain-1 | **Format**: Scenario Based | **Topics**: t-missing, cross-ref-domain-1-governance
+**Domain**: domain-1 | **Format**: Scenario Based | **Topics**: topic-001, topic-006
 
 
-> **Scenario**: A development team is implementing a new AI-assisted workflow that involves both Missing and AI agent governance. During the implementation, they encounter a situation where the configuration for Missing conflicts with requirements from AI agent governance. The team needs to find an approach that satisfies both requirements while maintaining best practices for the Prepare agent architecture and SDLC processes domain.
+> **Scenario**: A development team is implementing a new AI-assisted workflow that involves both Exam scoring and score reports | Microsoft Learn
+Table... and Study guide for Exam GH-600: Developing in Agentic AI.... During the implementation, they encounter a situation where the configuration for Exam scoring and score reports | Microsoft Learn
+Table... conflicts with requirements from Study guide for Exam GH-600: Developing in Agentic AI.... The team needs to find an approach that satisfies both requirements while maintaining best practices for the Prepare agent architecture and SDLC processes domain.
 
 
-Given this scenario, what is the most appropriate approach to resolve the conflict between Missing and AI agent governance?
+Given this scenario, what is the most appropriate approach to resolve the conflict between Exam scoring and score reports | Microsoft Learn
+Table... and Study guide for Exam GH-600: Developing in Agentic AI...?
 
-- A. Analyze both Missing and AI agent governance requirements, then implement a unified configuration that addresses the core objectives of both while following Prepare agent architecture and SDLC processes principles.
-- B. Prioritize Missing over AI agent governance and disable the conflicting features entirely.
+- A. Analyze both Exam scoring and score reports | Microsoft Learn
+Table... and Study guide for Exam GH-600: Developing in Agentic AI... requirements, then implement a unified configuration that addresses the core objectives of both while following Prepare agent architecture and SDLC processes principles.
+- B. Prioritize Exam scoring and score reports | Microsoft Learn
+Table... over Study guide for Exam GH-600: Developing in Agentic AI... and disable the conflicting features entirely.
 - C. Implement separate, disconnected solutions for each requirement without considering their interaction.
-- D. Remove both Missing and AI agent governance configurations and proceed with manual processes instead.
+- D. Remove both Exam scoring and score reports | Microsoft Learn
+Table... and Study guide for Exam GH-600: Developing in Agentic AI... configurations and proceed with manual processes instead.
 
 
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. When facing conflicts between related concepts like Missing and AI agent governance, the best practice is to analyze both requirements and find a unified solution. This demonstrates advanced understanding of how multiple concepts interact within and across domains. See study notes: Missing (Prepare agent architecture and SDLC processes), AI agent governance
+    The correct answer is A. When facing conflicts between related concepts like Exam scoring and score reports | Microsoft Learn
+Table... and Study guide for Exam GH-600: Developing in Agentic AI..., the best practice is to analyze both requirements and find a unified solution. This demonstrates advanced understanding of how multiple concepts interact within and across domains. See study notes: Exam scoring and score reports | Microsoft Learn
+Table... (Prepare agent architecture and SDLC processes), Study guide for Exam GH-600: Developing in Agentic AI...
 
 
-    - **B** (incorrect): Incorrect. Disabling features entirely ignores the requirements of AI agent governance and reduces overall capability.
+    - **B** (incorrect): Incorrect. Disabling features entirely ignores the requirements of Study guide for Exam GH-600: Developing in Agentic AI... and reduces overall capability.
 
-    - **C** (incorrect): Incorrect. Disconnected solutions fail to address the interaction between Missing and AI agent governance, potentially causing runtime conflicts.
+    - **C** (incorrect): Incorrect. Disconnected solutions fail to address the interaction between Exam scoring and score reports | Microsoft Learn
+Table... and Study guide for Exam GH-600: Developing in Agentic AI..., potentially causing runtime conflicts.
 
-    - **D** (incorrect): Incorrect. Reverting to manual processes eliminates the benefits of both Missing and AI agent governance and doesn't demonstrate AI-assisted development skills.
+    - **D** (incorrect): Incorrect. Reverting to manual processes eliminates the benefits of both Exam scoring and score reports | Microsoft Learn
+Table... and Study guide for Exam GH-600: Developing in Agentic AI... and doesn't demonstrate AI-assisted development skills.
 
 
 ---
@@ -1228,26 +1299,26 @@ Given this scenario, what is the most appropriate approach to resolve the confli
 
 ### Question 2
 
-**Domain**: domain-1 | **Format**: Multiple Choice | **Topics**: t-missing, cross-ref-domain-1-governance
+**Domain**: domain-1 | **Format**: Multiple Choice | **Topics**: topic-002, topic-006
 
 
-When evaluating the interaction between Missing and governance in an enterprise GitHub Copilot deployment, which analysis is most accurate?
+When evaluating the interaction between Request exam accommodations and frequently asked... and Study guide for Exam GH-600: Developing in Agentic AI... in an enterprise GitHub Copilot deployment, which analysis is most accurate?
 
-- A. Missing and governance are complementary concepts that together ensure robust AI-assisted development within the Prepare agent architecture and SDLC processes domain.
-- B. Missing and governance are mutually exclusive and cannot be implemented simultaneously.
-- C. Missing completely subsumes governance, making the latter unnecessary in practice.
-- D. Neither Missing nor governance is relevant to enterprise deployments of GitHub Copilot.
+- A. Request exam accommodations and frequently asked... and Study guide for Exam GH-600: Developing in Agentic AI... are complementary concepts that together ensure robust AI-assisted development within the Prepare agent architecture and SDLC processes domain.
+- B. Request exam accommodations and frequently asked... and Study guide for Exam GH-600: Developing in Agentic AI... are mutually exclusive and cannot be implemented simultaneously.
+- C. Request exam accommodations and frequently asked... completely subsumes Study guide for Exam GH-600: Developing in Agentic AI..., making the latter unnecessary in practice.
+- D. Neither Request exam accommodations and frequently asked... nor Study guide for Exam GH-600: Developing in Agentic AI... is relevant to enterprise deployments of GitHub Copilot.
 
 
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. In enterprise deployments, Missing and governance work together to provide comprehensive coverage of Prepare agent architecture and SDLC processes requirements. Understanding their complementary nature is key for advanced GH-600 exam questions. See study notes: Missing (Prepare agent architecture and SDLC processes), governance
+    The correct answer is A. In enterprise deployments, Request exam accommodations and frequently asked... and Study guide for Exam GH-600: Developing in Agentic AI... work together to provide comprehensive coverage of Prepare agent architecture and SDLC processes requirements. Understanding their complementary nature is key for advanced GH-600 exam questions. See study notes: Request exam accommodations and frequently asked... (Prepare agent architecture and SDLC processes), Study guide for Exam GH-600: Developing in Agentic AI...
 
 
-    - **B** (incorrect): Incorrect. Missing and governance are not mutually exclusive; they can and should coexist.
+    - **B** (incorrect): Incorrect. Request exam accommodations and frequently asked... and Study guide for Exam GH-600: Developing in Agentic AI... are not mutually exclusive; they can and should coexist.
 
-    - **C** (incorrect): Incorrect. governance addresses distinct concerns that are not fully covered by Missing alone.
+    - **C** (incorrect): Incorrect. Study guide for Exam GH-600: Developing in Agentic AI... addresses distinct concerns that are not fully covered by Request exam accommodations and frequently asked... alone.
 
     - **D** (incorrect): Incorrect. Both concepts are directly relevant to enterprise GitHub Copilot deployments.
 
@@ -1257,31 +1328,31 @@ When evaluating the interaction between Missing and governance in an enterprise 
 
 ### Question 3
 
-**Domain**: domain-1 | **Format**: Scenario Based | **Topics**: t-missing, cross-ref-domain-1-governance
+**Domain**: domain-1 | **Format**: Scenario Based | **Topics**: topic-003, topic-006
 
 
-> **Scenario**: A development team is implementing a new AI-assisted workflow that involves both Missing and AI agent governance. During the implementation, they encounter a situation where the configuration for Missing conflicts with requirements from AI agent governance. The team needs to find an approach that satisfies both requirements while maintaining best practices for the Prepare agent architecture and SDLC processes domain.
+> **Scenario**: A development team is implementing a new AI-assisted workflow that involves both Search Product and Services Lifecycle Information -... and Study guide for Exam GH-600: Developing in Agentic AI.... During the implementation, they encounter a situation where the configuration for Search Product and Services Lifecycle Information -... conflicts with requirements from Study guide for Exam GH-600: Developing in Agentic AI.... The team needs to find an approach that satisfies both requirements while maintaining best practices for the Prepare agent architecture and SDLC processes domain.
 
 
-Given this scenario, what is the most appropriate approach to resolve the conflict between Missing and AI agent governance?
+Given this scenario, what is the most appropriate approach to resolve the conflict between Search Product and Services Lifecycle Information -... and Study guide for Exam GH-600: Developing in Agentic AI...?
 
-- A. Analyze both Missing and AI agent governance requirements, then implement a unified configuration that addresses the core objectives of both while following Prepare agent architecture and SDLC processes principles.
-- B. Prioritize Missing over AI agent governance and disable the conflicting features entirely.
+- A. Analyze both Search Product and Services Lifecycle Information -... and Study guide for Exam GH-600: Developing in Agentic AI... requirements, then implement a unified configuration that addresses the core objectives of both while following Prepare agent architecture and SDLC processes principles.
+- B. Prioritize Search Product and Services Lifecycle Information -... over Study guide for Exam GH-600: Developing in Agentic AI... and disable the conflicting features entirely.
 - C. Implement separate, disconnected solutions for each requirement without considering their interaction.
-- D. Remove both Missing and AI agent governance configurations and proceed with manual processes instead.
+- D. Remove both Search Product and Services Lifecycle Information -... and Study guide for Exam GH-600: Developing in Agentic AI... configurations and proceed with manual processes instead.
 
 
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. When facing conflicts between related concepts like Missing and AI agent governance, the best practice is to analyze both requirements and find a unified solution. This demonstrates advanced understanding of how multiple concepts interact within and across domains. See study notes: Missing (Prepare agent architecture and SDLC processes), AI agent governance
+    The correct answer is A. When facing conflicts between related concepts like Search Product and Services Lifecycle Information -... and Study guide for Exam GH-600: Developing in Agentic AI..., the best practice is to analyze both requirements and find a unified solution. This demonstrates advanced understanding of how multiple concepts interact within and across domains. See study notes: Search Product and Services Lifecycle Information -... (Prepare agent architecture and SDLC processes), Study guide for Exam GH-600: Developing in Agentic AI...
 
 
-    - **B** (incorrect): Incorrect. Disabling features entirely ignores the requirements of AI agent governance and reduces overall capability.
+    - **B** (incorrect): Incorrect. Disabling features entirely ignores the requirements of Study guide for Exam GH-600: Developing in Agentic AI... and reduces overall capability.
 
-    - **C** (incorrect): Incorrect. Disconnected solutions fail to address the interaction between Missing and AI agent governance, potentially causing runtime conflicts.
+    - **C** (incorrect): Incorrect. Disconnected solutions fail to address the interaction between Search Product and Services Lifecycle Information -... and Study guide for Exam GH-600: Developing in Agentic AI..., potentially causing runtime conflicts.
 
-    - **D** (incorrect): Incorrect. Reverting to manual processes eliminates the benefits of both Missing and AI agent governance and doesn't demonstrate AI-assisted development skills.
+    - **D** (incorrect): Incorrect. Reverting to manual processes eliminates the benefits of both Search Product and Services Lifecycle Information -... and Study guide for Exam GH-600: Developing in Agentic AI... and doesn't demonstrate AI-assisted development skills.
 
 
 ---
@@ -1289,26 +1360,26 @@ Given this scenario, what is the most appropriate approach to resolve the confli
 
 ### Question 4
 
-**Domain**: domain-1 | **Format**: Multiple Choice | **Topics**: t-missing, cross-ref-domain-1-governance
+**Domain**: domain-1 | **Format**: Multiple Choice | **Topics**: topic-004, topic-006
 
 
-When evaluating the interaction between Missing and governance in an enterprise GitHub Copilot deployment, which analysis is most accurate?
+When evaluating the interaction between Exam and Applied Skills assessment lab retake policies |... and Study guide for Exam GH-600: Developing in Agentic AI... in an enterprise GitHub Copilot deployment, which analysis is most accurate?
 
-- A. Missing and governance are complementary concepts that together ensure robust AI-assisted development within the Prepare agent architecture and SDLC processes domain.
-- B. Missing and governance are mutually exclusive and cannot be implemented simultaneously.
-- C. Missing completely subsumes governance, making the latter unnecessary in practice.
-- D. Neither Missing nor governance is relevant to enterprise deployments of GitHub Copilot.
+- A. Exam and Applied Skills assessment lab retake policies |... and Study guide for Exam GH-600: Developing in Agentic AI... are complementary concepts that together ensure robust AI-assisted development within the Prepare agent architecture and SDLC processes domain.
+- B. Exam and Applied Skills assessment lab retake policies |... and Study guide for Exam GH-600: Developing in Agentic AI... are mutually exclusive and cannot be implemented simultaneously.
+- C. Exam and Applied Skills assessment lab retake policies |... completely subsumes Study guide for Exam GH-600: Developing in Agentic AI..., making the latter unnecessary in practice.
+- D. Neither Exam and Applied Skills assessment lab retake policies |... nor Study guide for Exam GH-600: Developing in Agentic AI... is relevant to enterprise deployments of GitHub Copilot.
 
 
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. In enterprise deployments, Missing and governance work together to provide comprehensive coverage of Prepare agent architecture and SDLC processes requirements. Understanding their complementary nature is key for advanced GH-600 exam questions. See study notes: Missing (Prepare agent architecture and SDLC processes), governance
+    The correct answer is A. In enterprise deployments, Exam and Applied Skills assessment lab retake policies |... and Study guide for Exam GH-600: Developing in Agentic AI... work together to provide comprehensive coverage of Prepare agent architecture and SDLC processes requirements. Understanding their complementary nature is key for advanced GH-600 exam questions. See study notes: Exam and Applied Skills assessment lab retake policies |... (Prepare agent architecture and SDLC processes), Study guide for Exam GH-600: Developing in Agentic AI...
 
 
-    - **B** (incorrect): Incorrect. Missing and governance are not mutually exclusive; they can and should coexist.
+    - **B** (incorrect): Incorrect. Exam and Applied Skills assessment lab retake policies |... and Study guide for Exam GH-600: Developing in Agentic AI... are not mutually exclusive; they can and should coexist.
 
-    - **C** (incorrect): Incorrect. governance addresses distinct concerns that are not fully covered by Missing alone.
+    - **C** (incorrect): Incorrect. Study guide for Exam GH-600: Developing in Agentic AI... addresses distinct concerns that are not fully covered by Exam and Applied Skills assessment lab retake policies |... alone.
 
     - **D** (incorrect): Incorrect. Both concepts are directly relevant to enterprise GitHub Copilot deployments.
 
@@ -1318,31 +1389,42 @@ When evaluating the interaction between Missing and governance in an enterprise 
 
 ### Question 5
 
-**Domain**: domain-2 | **Format**: Scenario Based | **Topics**: placeholder-domain-2-0, t-missing
+**Domain**: domain-2 | **Format**: Scenario Based | **Topics**: topic-006, topic-001
 
 
-> **Scenario**: A development team is implementing a new AI-assisted workflow that involves both Implement GitHub Copilot agent mode and Missing. During the implementation, they encounter a situation where the configuration for Implement GitHub Copilot agent mode conflicts with requirements from Missing. The team needs to find an approach that satisfies both requirements while maintaining best practices for the Design and implement agentic solutions domain.
+> **Scenario**: A development team is implementing a new AI-assisted workflow that involves both Study guide for Exam GH-600: Developing in Agentic AI... and Exam scoring and score reports | Microsoft Learn
+Table.... During the implementation, they encounter a situation where the configuration for Study guide for Exam GH-600: Developing in Agentic AI... conflicts with requirements from Exam scoring and score reports | Microsoft Learn
+Table.... The team needs to find an approach that satisfies both requirements while maintaining best practices for the Design and implement agentic solutions domain.
 
 
-Given this scenario, what is the most appropriate approach to resolve the conflict between Implement GitHub Copilot agent mode and Missing?
+Given this scenario, what is the most appropriate approach to resolve the conflict between Study guide for Exam GH-600: Developing in Agentic AI... and Exam scoring and score reports | Microsoft Learn
+Table...?
 
-- A. Analyze both Implement GitHub Copilot agent mode and Missing requirements, then implement a unified configuration that addresses the core objectives of both while following Design and implement agentic solutions principles.
-- B. Prioritize Implement GitHub Copilot agent mode over Missing and disable the conflicting features entirely.
+- A. Analyze both Study guide for Exam GH-600: Developing in Agentic AI... and Exam scoring and score reports | Microsoft Learn
+Table... requirements, then implement a unified configuration that addresses the core objectives of both while following Design and implement agentic solutions principles.
+- B. Prioritize Study guide for Exam GH-600: Developing in Agentic AI... over Exam scoring and score reports | Microsoft Learn
+Table... and disable the conflicting features entirely.
 - C. Implement separate, disconnected solutions for each requirement without considering their interaction.
-- D. Remove both Implement GitHub Copilot agent mode and Missing configurations and proceed with manual processes instead.
+- D. Remove both Study guide for Exam GH-600: Developing in Agentic AI... and Exam scoring and score reports | Microsoft Learn
+Table... configurations and proceed with manual processes instead.
 
 
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. When facing conflicts between related concepts like Implement GitHub Copilot agent mode and Missing, the best practice is to analyze both requirements and find a unified solution. This demonstrates advanced understanding of how multiple concepts interact within and across domains. See study notes: Implement GitHub Copilot agent mode (Design and implement agentic solutions), Missing
+    The correct answer is A. When facing conflicts between related concepts like Study guide for Exam GH-600: Developing in Agentic AI... and Exam scoring and score reports | Microsoft Learn
+Table..., the best practice is to analyze both requirements and find a unified solution. This demonstrates advanced understanding of how multiple concepts interact within and across domains. See study notes: Study guide for Exam GH-600: Developing in Agentic AI... (Design and implement agentic solutions), Exam scoring and score reports | Microsoft Learn
+Table...
 
 
-    - **B** (incorrect): Incorrect. Disabling features entirely ignores the requirements of Missing and reduces overall capability.
+    - **B** (incorrect): Incorrect. Disabling features entirely ignores the requirements of Exam scoring and score reports | Microsoft Learn
+Table... and reduces overall capability.
 
-    - **C** (incorrect): Incorrect. Disconnected solutions fail to address the interaction between Implement GitHub Copilot agent mode and Missing, potentially causing runtime conflicts.
+    - **C** (incorrect): Incorrect. Disconnected solutions fail to address the interaction between Study guide for Exam GH-600: Developing in Agentic AI... and Exam scoring and score reports | Microsoft Learn
+Table..., potentially causing runtime conflicts.
 
-    - **D** (incorrect): Incorrect. Reverting to manual processes eliminates the benefits of both Implement GitHub Copilot agent mode and Missing and doesn't demonstrate AI-assisted development skills.
+    - **D** (incorrect): Incorrect. Reverting to manual processes eliminates the benefits of both Study guide for Exam GH-600: Developing in Agentic AI... and Exam scoring and score reports | Microsoft Learn
+Table... and doesn't demonstrate AI-assisted development skills.
 
 
 ---
@@ -1350,26 +1432,35 @@ Given this scenario, what is the most appropriate approach to resolve the confli
 
 ### Question 6
 
-**Domain**: domain-2 | **Format**: Multiple Choice | **Topics**: placeholder-domain-2-1, t-missing
+**Domain**: domain-2 | **Format**: Multiple Choice | **Topics**: topic-007, topic-001
 
 
-When evaluating the interaction between Design multi-step agent workflows and Missing in an enterprise GitHub Copilot deployment, which analysis is most accurate?
+When evaluating the interaction between Tooling, MCP, and Agent Execution Environments -... and Exam scoring and score reports | Microsoft Learn
+Table... in an enterprise GitHub Copilot deployment, which analysis is most accurate?
 
-- A. Design multi-step agent workflows and Missing are complementary concepts that together ensure robust AI-assisted development within the Design and implement agentic solutions domain.
-- B. Design multi-step agent workflows and Missing are mutually exclusive and cannot be implemented simultaneously.
-- C. Design multi-step agent workflows completely subsumes Missing, making the latter unnecessary in practice.
-- D. Neither Design multi-step agent workflows nor Missing is relevant to enterprise deployments of GitHub Copilot.
+- A. Tooling, MCP, and Agent Execution Environments -... and Exam scoring and score reports | Microsoft Learn
+Table... are complementary concepts that together ensure robust AI-assisted development within the Design and implement agentic solutions domain.
+- B. Tooling, MCP, and Agent Execution Environments -... and Exam scoring and score reports | Microsoft Learn
+Table... are mutually exclusive and cannot be implemented simultaneously.
+- C. Tooling, MCP, and Agent Execution Environments -... completely subsumes Exam scoring and score reports | Microsoft Learn
+Table..., making the latter unnecessary in practice.
+- D. Neither Tooling, MCP, and Agent Execution Environments -... nor Exam scoring and score reports | Microsoft Learn
+Table... is relevant to enterprise deployments of GitHub Copilot.
 
 
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. In enterprise deployments, Design multi-step agent workflows and Missing work together to provide comprehensive coverage of Design and implement agentic solutions requirements. Understanding their complementary nature is key for advanced GH-600 exam questions. See study notes: Design multi-step agent workflows (Design and implement agentic solutions), Missing
+    The correct answer is A. In enterprise deployments, Tooling, MCP, and Agent Execution Environments -... and Exam scoring and score reports | Microsoft Learn
+Table... work together to provide comprehensive coverage of Design and implement agentic solutions requirements. Understanding their complementary nature is key for advanced GH-600 exam questions. See study notes: Tooling, MCP, and Agent Execution Environments -... (Design and implement agentic solutions), Exam scoring and score reports | Microsoft Learn
+Table...
 
 
-    - **B** (incorrect): Incorrect. Design multi-step agent workflows and Missing are not mutually exclusive; they can and should coexist.
+    - **B** (incorrect): Incorrect. Tooling, MCP, and Agent Execution Environments -... and Exam scoring and score reports | Microsoft Learn
+Table... are not mutually exclusive; they can and should coexist.
 
-    - **C** (incorrect): Incorrect. Missing addresses distinct concerns that are not fully covered by Design multi-step agent workflows alone.
+    - **C** (incorrect): Incorrect. Exam scoring and score reports | Microsoft Learn
+Table... addresses distinct concerns that are not fully covered by Tooling, MCP, and Agent Execution Environments -... alone.
 
     - **D** (incorrect): Incorrect. Both concepts are directly relevant to enterprise GitHub Copilot deployments.
 
@@ -1379,31 +1470,42 @@ When evaluating the interaction between Design multi-step agent workflows and Mi
 
 ### Question 7
 
-**Domain**: domain-2 | **Format**: Scenario Based | **Topics**: placeholder-domain-2-2, t-missing
+**Domain**: domain-2 | **Format**: Scenario Based | **Topics**: topic-008, topic-001
 
 
-> **Scenario**: A development team is implementing a new AI-assisted workflow that involves both Configure agent tools and capabilities and Missing. During the implementation, they encounter a situation where the configuration for Configure agent tools and capabilities conflicts with requirements from Missing. The team needs to find an approach that satisfies both requirements while maintaining best practices for the Design and implement agentic solutions domain.
+> **Scenario**: A development team is implementing a new AI-assisted workflow that involves both Microsoft previous versions of technical documentation |... and Exam scoring and score reports | Microsoft Learn
+Table.... During the implementation, they encounter a situation where the configuration for Microsoft previous versions of technical documentation |... conflicts with requirements from Exam scoring and score reports | Microsoft Learn
+Table.... The team needs to find an approach that satisfies both requirements while maintaining best practices for the Design and implement agentic solutions domain.
 
 
-Given this scenario, what is the most appropriate approach to resolve the conflict between Configure agent tools and capabilities and Missing?
+Given this scenario, what is the most appropriate approach to resolve the conflict between Microsoft previous versions of technical documentation |... and Exam scoring and score reports | Microsoft Learn
+Table...?
 
-- A. Analyze both Configure agent tools and capabilities and Missing requirements, then implement a unified configuration that addresses the core objectives of both while following Design and implement agentic solutions principles.
-- B. Prioritize Configure agent tools and capabilities over Missing and disable the conflicting features entirely.
+- A. Analyze both Microsoft previous versions of technical documentation |... and Exam scoring and score reports | Microsoft Learn
+Table... requirements, then implement a unified configuration that addresses the core objectives of both while following Design and implement agentic solutions principles.
+- B. Prioritize Microsoft previous versions of technical documentation |... over Exam scoring and score reports | Microsoft Learn
+Table... and disable the conflicting features entirely.
 - C. Implement separate, disconnected solutions for each requirement without considering their interaction.
-- D. Remove both Configure agent tools and capabilities and Missing configurations and proceed with manual processes instead.
+- D. Remove both Microsoft previous versions of technical documentation |... and Exam scoring and score reports | Microsoft Learn
+Table... configurations and proceed with manual processes instead.
 
 
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. When facing conflicts between related concepts like Configure agent tools and capabilities and Missing, the best practice is to analyze both requirements and find a unified solution. This demonstrates advanced understanding of how multiple concepts interact within and across domains. See study notes: Configure agent tools and capabilities (Design and implement agentic solutions), Missing
+    The correct answer is A. When facing conflicts between related concepts like Microsoft previous versions of technical documentation |... and Exam scoring and score reports | Microsoft Learn
+Table..., the best practice is to analyze both requirements and find a unified solution. This demonstrates advanced understanding of how multiple concepts interact within and across domains. See study notes: Microsoft previous versions of technical documentation |... (Design and implement agentic solutions), Exam scoring and score reports | Microsoft Learn
+Table...
 
 
-    - **B** (incorrect): Incorrect. Disabling features entirely ignores the requirements of Missing and reduces overall capability.
+    - **B** (incorrect): Incorrect. Disabling features entirely ignores the requirements of Exam scoring and score reports | Microsoft Learn
+Table... and reduces overall capability.
 
-    - **C** (incorrect): Incorrect. Disconnected solutions fail to address the interaction between Configure agent tools and capabilities and Missing, potentially causing runtime conflicts.
+    - **C** (incorrect): Incorrect. Disconnected solutions fail to address the interaction between Microsoft previous versions of technical documentation |... and Exam scoring and score reports | Microsoft Learn
+Table..., potentially causing runtime conflicts.
 
-    - **D** (incorrect): Incorrect. Reverting to manual processes eliminates the benefits of both Configure agent tools and capabilities and Missing and doesn't demonstrate AI-assisted development skills.
+    - **D** (incorrect): Incorrect. Reverting to manual processes eliminates the benefits of both Microsoft previous versions of technical documentation |... and Exam scoring and score reports | Microsoft Learn
+Table... and doesn't demonstrate AI-assisted development skills.
 
 
 ---
@@ -1411,26 +1513,35 @@ Given this scenario, what is the most appropriate approach to resolve the confli
 
 ### Question 8
 
-**Domain**: domain-2 | **Format**: Multiple Choice | **Topics**: placeholder-domain-2-3, t-missing
+**Domain**: domain-2 | **Format**: Multiple Choice | **Topics**: topic-006, topic-001
 
 
-When evaluating the interaction between Implement agent context management and Missing in an enterprise GitHub Copilot deployment, which analysis is most accurate?
+When evaluating the interaction between Study guide for Exam GH-600: Developing in Agentic AI... and Exam scoring and score reports | Microsoft Learn
+Table... in an enterprise GitHub Copilot deployment, which analysis is most accurate?
 
-- A. Implement agent context management and Missing are complementary concepts that together ensure robust AI-assisted development within the Design and implement agentic solutions domain.
-- B. Implement agent context management and Missing are mutually exclusive and cannot be implemented simultaneously.
-- C. Implement agent context management completely subsumes Missing, making the latter unnecessary in practice.
-- D. Neither Implement agent context management nor Missing is relevant to enterprise deployments of GitHub Copilot.
+- A. Study guide for Exam GH-600: Developing in Agentic AI... and Exam scoring and score reports | Microsoft Learn
+Table... are complementary concepts that together ensure robust AI-assisted development within the Design and implement agentic solutions domain.
+- B. Study guide for Exam GH-600: Developing in Agentic AI... and Exam scoring and score reports | Microsoft Learn
+Table... are mutually exclusive and cannot be implemented simultaneously.
+- C. Study guide for Exam GH-600: Developing in Agentic AI... completely subsumes Exam scoring and score reports | Microsoft Learn
+Table..., making the latter unnecessary in practice.
+- D. Neither Study guide for Exam GH-600: Developing in Agentic AI... nor Exam scoring and score reports | Microsoft Learn
+Table... is relevant to enterprise deployments of GitHub Copilot.
 
 
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. In enterprise deployments, Implement agent context management and Missing work together to provide comprehensive coverage of Design and implement agentic solutions requirements. Understanding their complementary nature is key for advanced GH-600 exam questions. See study notes: Implement agent context management (Design and implement agentic solutions), Missing
+    The correct answer is A. In enterprise deployments, Study guide for Exam GH-600: Developing in Agentic AI... and Exam scoring and score reports | Microsoft Learn
+Table... work together to provide comprehensive coverage of Design and implement agentic solutions requirements. Understanding their complementary nature is key for advanced GH-600 exam questions. See study notes: Study guide for Exam GH-600: Developing in Agentic AI... (Design and implement agentic solutions), Exam scoring and score reports | Microsoft Learn
+Table...
 
 
-    - **B** (incorrect): Incorrect. Implement agent context management and Missing are not mutually exclusive; they can and should coexist.
+    - **B** (incorrect): Incorrect. Study guide for Exam GH-600: Developing in Agentic AI... and Exam scoring and score reports | Microsoft Learn
+Table... are not mutually exclusive; they can and should coexist.
 
-    - **C** (incorrect): Incorrect. Missing addresses distinct concerns that are not fully covered by Implement agent context management alone.
+    - **C** (incorrect): Incorrect. Exam scoring and score reports | Microsoft Learn
+Table... addresses distinct concerns that are not fully covered by Study guide for Exam GH-600: Developing in Agentic AI... alone.
 
     - **D** (incorrect): Incorrect. Both concepts are directly relevant to enterprise GitHub Copilot deployments.
 
@@ -1440,31 +1551,42 @@ When evaluating the interaction between Implement agent context management and M
 
 ### Question 9
 
-**Domain**: domain-3 | **Format**: Scenario Based | **Topics**: placeholder-domain-3-0, t-missing
+**Domain**: domain-3 | **Format**: Scenario Based | **Topics**: placeholder-domain-3-0, topic-001
 
 
-> **Scenario**: A development team is implementing a new AI-assisted workflow that involves both Measure agent output quality and Missing. During the implementation, they encounter a situation where the configuration for Measure agent output quality conflicts with requirements from Missing. The team needs to find an approach that satisfies both requirements while maintaining best practices for the Evaluate and optimize agent performance domain.
+> **Scenario**: A development team is implementing a new AI-assisted workflow that involves both Measure agent output quality and Exam scoring and score reports | Microsoft Learn
+Table.... During the implementation, they encounter a situation where the configuration for Measure agent output quality conflicts with requirements from Exam scoring and score reports | Microsoft Learn
+Table.... The team needs to find an approach that satisfies both requirements while maintaining best practices for the Evaluate and optimize agent performance domain.
 
 
-Given this scenario, what is the most appropriate approach to resolve the conflict between Measure agent output quality and Missing?
+Given this scenario, what is the most appropriate approach to resolve the conflict between Measure agent output quality and Exam scoring and score reports | Microsoft Learn
+Table...?
 
-- A. Analyze both Measure agent output quality and Missing requirements, then implement a unified configuration that addresses the core objectives of both while following Evaluate and optimize agent performance principles.
-- B. Prioritize Measure agent output quality over Missing and disable the conflicting features entirely.
+- A. Analyze both Measure agent output quality and Exam scoring and score reports | Microsoft Learn
+Table... requirements, then implement a unified configuration that addresses the core objectives of both while following Evaluate and optimize agent performance principles.
+- B. Prioritize Measure agent output quality over Exam scoring and score reports | Microsoft Learn
+Table... and disable the conflicting features entirely.
 - C. Implement separate, disconnected solutions for each requirement without considering their interaction.
-- D. Remove both Measure agent output quality and Missing configurations and proceed with manual processes instead.
+- D. Remove both Measure agent output quality and Exam scoring and score reports | Microsoft Learn
+Table... configurations and proceed with manual processes instead.
 
 
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. When facing conflicts between related concepts like Measure agent output quality and Missing, the best practice is to analyze both requirements and find a unified solution. This demonstrates advanced understanding of how multiple concepts interact within and across domains. See study notes: Measure agent output quality (Evaluate and optimize agent performance), Missing
+    The correct answer is A. When facing conflicts between related concepts like Measure agent output quality and Exam scoring and score reports | Microsoft Learn
+Table..., the best practice is to analyze both requirements and find a unified solution. This demonstrates advanced understanding of how multiple concepts interact within and across domains. See study notes: Measure agent output quality (Evaluate and optimize agent performance), Exam scoring and score reports | Microsoft Learn
+Table...
 
 
-    - **B** (incorrect): Incorrect. Disabling features entirely ignores the requirements of Missing and reduces overall capability.
+    - **B** (incorrect): Incorrect. Disabling features entirely ignores the requirements of Exam scoring and score reports | Microsoft Learn
+Table... and reduces overall capability.
 
-    - **C** (incorrect): Incorrect. Disconnected solutions fail to address the interaction between Measure agent output quality and Missing, potentially causing runtime conflicts.
+    - **C** (incorrect): Incorrect. Disconnected solutions fail to address the interaction between Measure agent output quality and Exam scoring and score reports | Microsoft Learn
+Table..., potentially causing runtime conflicts.
 
-    - **D** (incorrect): Incorrect. Reverting to manual processes eliminates the benefits of both Measure agent output quality and Missing and doesn't demonstrate AI-assisted development skills.
+    - **D** (incorrect): Incorrect. Reverting to manual processes eliminates the benefits of both Measure agent output quality and Exam scoring and score reports | Microsoft Learn
+Table... and doesn't demonstrate AI-assisted development skills.
 
 
 ---
@@ -1472,26 +1594,35 @@ Given this scenario, what is the most appropriate approach to resolve the confli
 
 ### Question 10
 
-**Domain**: domain-3 | **Format**: Multiple Choice | **Topics**: placeholder-domain-3-1, t-missing
+**Domain**: domain-3 | **Format**: Multiple Choice | **Topics**: placeholder-domain-3-1, topic-001
 
 
-When evaluating the interaction between Optimize agent response latency and Missing in an enterprise GitHub Copilot deployment, which analysis is most accurate?
+When evaluating the interaction between Optimize agent response latency and Exam scoring and score reports | Microsoft Learn
+Table... in an enterprise GitHub Copilot deployment, which analysis is most accurate?
 
-- A. Optimize agent response latency and Missing are complementary concepts that together ensure robust AI-assisted development within the Evaluate and optimize agent performance domain.
-- B. Optimize agent response latency and Missing are mutually exclusive and cannot be implemented simultaneously.
-- C. Optimize agent response latency completely subsumes Missing, making the latter unnecessary in practice.
-- D. Neither Optimize agent response latency nor Missing is relevant to enterprise deployments of GitHub Copilot.
+- A. Optimize agent response latency and Exam scoring and score reports | Microsoft Learn
+Table... are complementary concepts that together ensure robust AI-assisted development within the Evaluate and optimize agent performance domain.
+- B. Optimize agent response latency and Exam scoring and score reports | Microsoft Learn
+Table... are mutually exclusive and cannot be implemented simultaneously.
+- C. Optimize agent response latency completely subsumes Exam scoring and score reports | Microsoft Learn
+Table..., making the latter unnecessary in practice.
+- D. Neither Optimize agent response latency nor Exam scoring and score reports | Microsoft Learn
+Table... is relevant to enterprise deployments of GitHub Copilot.
 
 
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. In enterprise deployments, Optimize agent response latency and Missing work together to provide comprehensive coverage of Evaluate and optimize agent performance requirements. Understanding their complementary nature is key for advanced GH-600 exam questions. See study notes: Optimize agent response latency (Evaluate and optimize agent performance), Missing
+    The correct answer is A. In enterprise deployments, Optimize agent response latency and Exam scoring and score reports | Microsoft Learn
+Table... work together to provide comprehensive coverage of Evaluate and optimize agent performance requirements. Understanding their complementary nature is key for advanced GH-600 exam questions. See study notes: Optimize agent response latency (Evaluate and optimize agent performance), Exam scoring and score reports | Microsoft Learn
+Table...
 
 
-    - **B** (incorrect): Incorrect. Optimize agent response latency and Missing are not mutually exclusive; they can and should coexist.
+    - **B** (incorrect): Incorrect. Optimize agent response latency and Exam scoring and score reports | Microsoft Learn
+Table... are not mutually exclusive; they can and should coexist.
 
-    - **C** (incorrect): Incorrect. Missing addresses distinct concerns that are not fully covered by Optimize agent response latency alone.
+    - **C** (incorrect): Incorrect. Exam scoring and score reports | Microsoft Learn
+Table... addresses distinct concerns that are not fully covered by Optimize agent response latency alone.
 
     - **D** (incorrect): Incorrect. Both concepts are directly relevant to enterprise GitHub Copilot deployments.
 
@@ -1501,31 +1632,52 @@ When evaluating the interaction between Optimize agent response latency and Miss
 
 ### Question 11
 
-**Domain**: domain-4 | **Format**: Scenario Based | **Topics**: placeholder-domain-4-0, t-missing
+**Domain**: domain-4 | **Format**: Scenario Based | **Topics**: topic-009, topic-001
 
 
-> **Scenario**: A development team is implementing a new AI-assisted workflow that involves both Implement access controls for AI agents and Missing. During the implementation, they encounter a situation where the configuration for Implement access controls for AI agents conflicts with requirements from Missing. The team needs to find an approach that satisfies both requirements while maintaining best practices for the Secure and govern agentic AI solutions domain.
+> **Scenario**: A development team is implementing a new AI-assisted workflow that involves both Terms of Use | Microsoft Learn
+learn and Exam scoring and score reports | Microsoft Learn
+Table.... During the implementation, they encounter a situation where the configuration for Terms of Use | Microsoft Learn
+learn conflicts with requirements from Exam scoring and score reports | Microsoft Learn
+Table.... The team needs to find an approach that satisfies both requirements while maintaining best practices for the Secure and govern agentic AI solutions domain.
 
 
-Given this scenario, what is the most appropriate approach to resolve the conflict between Implement access controls for AI agents and Missing?
+Given this scenario, what is the most appropriate approach to resolve the conflict between Terms of Use | Microsoft Learn
+learn and Exam scoring and score reports | Microsoft Learn
+Table...?
 
-- A. Analyze both Implement access controls for AI agents and Missing requirements, then implement a unified configuration that addresses the core objectives of both while following Secure and govern agentic AI solutions principles.
-- B. Prioritize Implement access controls for AI agents over Missing and disable the conflicting features entirely.
+- A. Analyze both Terms of Use | Microsoft Learn
+learn and Exam scoring and score reports | Microsoft Learn
+Table... requirements, then implement a unified configuration that addresses the core objectives of both while following Secure and govern agentic AI solutions principles.
+- B. Prioritize Terms of Use | Microsoft Learn
+learn over Exam scoring and score reports | Microsoft Learn
+Table... and disable the conflicting features entirely.
 - C. Implement separate, disconnected solutions for each requirement without considering their interaction.
-- D. Remove both Implement access controls for AI agents and Missing configurations and proceed with manual processes instead.
+- D. Remove both Terms of Use | Microsoft Learn
+learn and Exam scoring and score reports | Microsoft Learn
+Table... configurations and proceed with manual processes instead.
 
 
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. When facing conflicts between related concepts like Implement access controls for AI agents and Missing, the best practice is to analyze both requirements and find a unified solution. This demonstrates advanced understanding of how multiple concepts interact within and across domains. See study notes: Implement access controls for AI agents (Secure and govern agentic AI solutions), Missing
+    The correct answer is A. When facing conflicts between related concepts like Terms of Use | Microsoft Learn
+learn and Exam scoring and score reports | Microsoft Learn
+Table..., the best practice is to analyze both requirements and find a unified solution. This demonstrates advanced understanding of how multiple concepts interact within and across domains. See study notes: Terms of Use | Microsoft Learn
+learn (Secure and govern agentic AI solutions), Exam scoring and score reports | Microsoft Learn
+Table...
 
 
-    - **B** (incorrect): Incorrect. Disabling features entirely ignores the requirements of Missing and reduces overall capability.
+    - **B** (incorrect): Incorrect. Disabling features entirely ignores the requirements of Exam scoring and score reports | Microsoft Learn
+Table... and reduces overall capability.
 
-    - **C** (incorrect): Incorrect. Disconnected solutions fail to address the interaction between Implement access controls for AI agents and Missing, potentially causing runtime conflicts.
+    - **C** (incorrect): Incorrect. Disconnected solutions fail to address the interaction between Terms of Use | Microsoft Learn
+learn and Exam scoring and score reports | Microsoft Learn
+Table..., potentially causing runtime conflicts.
 
-    - **D** (incorrect): Incorrect. Reverting to manual processes eliminates the benefits of both Implement access controls for AI agents and Missing and doesn't demonstrate AI-assisted development skills.
+    - **D** (incorrect): Incorrect. Reverting to manual processes eliminates the benefits of both Terms of Use | Microsoft Learn
+learn and Exam scoring and score reports | Microsoft Learn
+Table... and doesn't demonstrate AI-assisted development skills.
 
 
 ---
@@ -1533,26 +1685,35 @@ Given this scenario, what is the most appropriate approach to resolve the confli
 
 ### Question 12
 
-**Domain**: domain-4 | **Format**: Multiple Choice | **Topics**: placeholder-domain-4-1, t-missing
+**Domain**: domain-4 | **Format**: Multiple Choice | **Topics**: topic-010, topic-001
 
 
-When evaluating the interaction between Configure agent permissions and boundaries and Missing in an enterprise GitHub Copilot deployment, which analysis is most accurate?
+When evaluating the interaction between Modern Lifecycle Policy - Microsoft Lifecycle |... and Exam scoring and score reports | Microsoft Learn
+Table... in an enterprise GitHub Copilot deployment, which analysis is most accurate?
 
-- A. Configure agent permissions and boundaries and Missing are complementary concepts that together ensure robust AI-assisted development within the Secure and govern agentic AI solutions domain.
-- B. Configure agent permissions and boundaries and Missing are mutually exclusive and cannot be implemented simultaneously.
-- C. Configure agent permissions and boundaries completely subsumes Missing, making the latter unnecessary in practice.
-- D. Neither Configure agent permissions and boundaries nor Missing is relevant to enterprise deployments of GitHub Copilot.
+- A. Modern Lifecycle Policy - Microsoft Lifecycle |... and Exam scoring and score reports | Microsoft Learn
+Table... are complementary concepts that together ensure robust AI-assisted development within the Secure and govern agentic AI solutions domain.
+- B. Modern Lifecycle Policy - Microsoft Lifecycle |... and Exam scoring and score reports | Microsoft Learn
+Table... are mutually exclusive and cannot be implemented simultaneously.
+- C. Modern Lifecycle Policy - Microsoft Lifecycle |... completely subsumes Exam scoring and score reports | Microsoft Learn
+Table..., making the latter unnecessary in practice.
+- D. Neither Modern Lifecycle Policy - Microsoft Lifecycle |... nor Exam scoring and score reports | Microsoft Learn
+Table... is relevant to enterprise deployments of GitHub Copilot.
 
 
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. In enterprise deployments, Configure agent permissions and boundaries and Missing work together to provide comprehensive coverage of Secure and govern agentic AI solutions requirements. Understanding their complementary nature is key for advanced GH-600 exam questions. See study notes: Configure agent permissions and boundaries (Secure and govern agentic AI solutions), Missing
+    The correct answer is A. In enterprise deployments, Modern Lifecycle Policy - Microsoft Lifecycle |... and Exam scoring and score reports | Microsoft Learn
+Table... work together to provide comprehensive coverage of Secure and govern agentic AI solutions requirements. Understanding their complementary nature is key for advanced GH-600 exam questions. See study notes: Modern Lifecycle Policy - Microsoft Lifecycle |... (Secure and govern agentic AI solutions), Exam scoring and score reports | Microsoft Learn
+Table...
 
 
-    - **B** (incorrect): Incorrect. Configure agent permissions and boundaries and Missing are not mutually exclusive; they can and should coexist.
+    - **B** (incorrect): Incorrect. Modern Lifecycle Policy - Microsoft Lifecycle |... and Exam scoring and score reports | Microsoft Learn
+Table... are not mutually exclusive; they can and should coexist.
 
-    - **C** (incorrect): Incorrect. Missing addresses distinct concerns that are not fully covered by Configure agent permissions and boundaries alone.
+    - **C** (incorrect): Incorrect. Exam scoring and score reports | Microsoft Learn
+Table... addresses distinct concerns that are not fully covered by Modern Lifecycle Policy - Microsoft Lifecycle |... alone.
 
     - **D** (incorrect): Incorrect. Both concepts are directly relevant to enterprise GitHub Copilot deployments.
 
@@ -1562,31 +1723,52 @@ When evaluating the interaction between Configure agent permissions and boundari
 
 ### Question 13
 
-**Domain**: domain-4 | **Format**: Scenario Based | **Topics**: placeholder-domain-4-2, t-missing
+**Domain**: domain-4 | **Format**: Scenario Based | **Topics**: topic-011, topic-001
 
 
-> **Scenario**: A development team is implementing a new AI-assisted workflow that involves both Monitor agent actions for security compliance and Missing. During the implementation, they encounter a situation where the configuration for Monitor agent actions for security compliance conflicts with requirements from Missing. The team needs to find an approach that satisfies both requirements while maintaining best practices for the Secure and govern agentic AI solutions domain.
+> **Scenario**: A development team is implementing a new AI-assisted workflow that involves both Browse Credentials | Microsoft Learn
+Browse... and Exam scoring and score reports | Microsoft Learn
+Table.... During the implementation, they encounter a situation where the configuration for Browse Credentials | Microsoft Learn
+Browse... conflicts with requirements from Exam scoring and score reports | Microsoft Learn
+Table.... The team needs to find an approach that satisfies both requirements while maintaining best practices for the Secure and govern agentic AI solutions domain.
 
 
-Given this scenario, what is the most appropriate approach to resolve the conflict between Monitor agent actions for security compliance and Missing?
+Given this scenario, what is the most appropriate approach to resolve the conflict between Browse Credentials | Microsoft Learn
+Browse... and Exam scoring and score reports | Microsoft Learn
+Table...?
 
-- A. Analyze both Monitor agent actions for security compliance and Missing requirements, then implement a unified configuration that addresses the core objectives of both while following Secure and govern agentic AI solutions principles.
-- B. Prioritize Monitor agent actions for security compliance over Missing and disable the conflicting features entirely.
+- A. Analyze both Browse Credentials | Microsoft Learn
+Browse... and Exam scoring and score reports | Microsoft Learn
+Table... requirements, then implement a unified configuration that addresses the core objectives of both while following Secure and govern agentic AI solutions principles.
+- B. Prioritize Browse Credentials | Microsoft Learn
+Browse... over Exam scoring and score reports | Microsoft Learn
+Table... and disable the conflicting features entirely.
 - C. Implement separate, disconnected solutions for each requirement without considering their interaction.
-- D. Remove both Monitor agent actions for security compliance and Missing configurations and proceed with manual processes instead.
+- D. Remove both Browse Credentials | Microsoft Learn
+Browse... and Exam scoring and score reports | Microsoft Learn
+Table... configurations and proceed with manual processes instead.
 
 
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. When facing conflicts between related concepts like Monitor agent actions for security compliance and Missing, the best practice is to analyze both requirements and find a unified solution. This demonstrates advanced understanding of how multiple concepts interact within and across domains. See study notes: Monitor agent actions for security compliance (Secure and govern agentic AI solutions), Missing
+    The correct answer is A. When facing conflicts between related concepts like Browse Credentials | Microsoft Learn
+Browse... and Exam scoring and score reports | Microsoft Learn
+Table..., the best practice is to analyze both requirements and find a unified solution. This demonstrates advanced understanding of how multiple concepts interact within and across domains. See study notes: Browse Credentials | Microsoft Learn
+Browse... (Secure and govern agentic AI solutions), Exam scoring and score reports | Microsoft Learn
+Table...
 
 
-    - **B** (incorrect): Incorrect. Disabling features entirely ignores the requirements of Missing and reduces overall capability.
+    - **B** (incorrect): Incorrect. Disabling features entirely ignores the requirements of Exam scoring and score reports | Microsoft Learn
+Table... and reduces overall capability.
 
-    - **C** (incorrect): Incorrect. Disconnected solutions fail to address the interaction between Monitor agent actions for security compliance and Missing, potentially causing runtime conflicts.
+    - **C** (incorrect): Incorrect. Disconnected solutions fail to address the interaction between Browse Credentials | Microsoft Learn
+Browse... and Exam scoring and score reports | Microsoft Learn
+Table..., potentially causing runtime conflicts.
 
-    - **D** (incorrect): Incorrect. Reverting to manual processes eliminates the benefits of both Monitor agent actions for security compliance and Missing and doesn't demonstrate AI-assisted development skills.
+    - **D** (incorrect): Incorrect. Reverting to manual processes eliminates the benefits of both Browse Credentials | Microsoft Learn
+Browse... and Exam scoring and score reports | Microsoft Learn
+Table... and doesn't demonstrate AI-assisted development skills.
 
 
 ---
@@ -1594,26 +1776,35 @@ Given this scenario, what is the most appropriate approach to resolve the confli
 
 ### Question 14
 
-**Domain**: domain-4 | **Format**: Multiple Choice | **Topics**: placeholder-domain-4-3, t-missing
+**Domain**: domain-4 | **Format**: Multiple Choice | **Topics**: topic-012, topic-001
 
 
-When evaluating the interaction between Implement data governance for agent interactions and Missing in an enterprise GitHub Copilot deployment, which analysis is most accurate?
+When evaluating the interaction between About online exams with Pearson VUE | Microsoft... and Exam scoring and score reports | Microsoft Learn
+Table... in an enterprise GitHub Copilot deployment, which analysis is most accurate?
 
-- A. Implement data governance for agent interactions and Missing are complementary concepts that together ensure robust AI-assisted development within the Secure and govern agentic AI solutions domain.
-- B. Implement data governance for agent interactions and Missing are mutually exclusive and cannot be implemented simultaneously.
-- C. Implement data governance for agent interactions completely subsumes Missing, making the latter unnecessary in practice.
-- D. Neither Implement data governance for agent interactions nor Missing is relevant to enterprise deployments of GitHub Copilot.
+- A. About online exams with Pearson VUE | Microsoft... and Exam scoring and score reports | Microsoft Learn
+Table... are complementary concepts that together ensure robust AI-assisted development within the Secure and govern agentic AI solutions domain.
+- B. About online exams with Pearson VUE | Microsoft... and Exam scoring and score reports | Microsoft Learn
+Table... are mutually exclusive and cannot be implemented simultaneously.
+- C. About online exams with Pearson VUE | Microsoft... completely subsumes Exam scoring and score reports | Microsoft Learn
+Table..., making the latter unnecessary in practice.
+- D. Neither About online exams with Pearson VUE | Microsoft... nor Exam scoring and score reports | Microsoft Learn
+Table... is relevant to enterprise deployments of GitHub Copilot.
 
 
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. In enterprise deployments, Implement data governance for agent interactions and Missing work together to provide comprehensive coverage of Secure and govern agentic AI solutions requirements. Understanding their complementary nature is key for advanced GH-600 exam questions. See study notes: Implement data governance for agent interactions (Secure and govern agentic AI solutions), Missing
+    The correct answer is A. In enterprise deployments, About online exams with Pearson VUE | Microsoft... and Exam scoring and score reports | Microsoft Learn
+Table... work together to provide comprehensive coverage of Secure and govern agentic AI solutions requirements. Understanding their complementary nature is key for advanced GH-600 exam questions. See study notes: About online exams with Pearson VUE | Microsoft... (Secure and govern agentic AI solutions), Exam scoring and score reports | Microsoft Learn
+Table...
 
 
-    - **B** (incorrect): Incorrect. Implement data governance for agent interactions and Missing are not mutually exclusive; they can and should coexist.
+    - **B** (incorrect): Incorrect. About online exams with Pearson VUE | Microsoft... and Exam scoring and score reports | Microsoft Learn
+Table... are not mutually exclusive; they can and should coexist.
 
-    - **C** (incorrect): Incorrect. Missing addresses distinct concerns that are not fully covered by Implement data governance for agent interactions alone.
+    - **C** (incorrect): Incorrect. Exam scoring and score reports | Microsoft Learn
+Table... addresses distinct concerns that are not fully covered by About online exams with Pearson VUE | Microsoft... alone.
 
     - **D** (incorrect): Incorrect. Both concepts are directly relevant to enterprise GitHub Copilot deployments.
 
@@ -1623,31 +1814,42 @@ When evaluating the interaction between Implement data governance for agent inte
 
 ### Question 15
 
-**Domain**: domain-5 | **Format**: Scenario Based | **Topics**: placeholder-domain-5-0, t-missing
+**Domain**: domain-5 | **Format**: Scenario Based | **Topics**: topic-013, topic-001
 
 
-> **Scenario**: A development team is implementing a new AI-assisted workflow that involves both Use GitHub Copilot for code generation and review and Missing. During the implementation, they encounter a situation where the configuration for Use GitHub Copilot for code generation and review conflicts with requirements from Missing. The team needs to find an approach that satisfies both requirements while maintaining best practices for the Collaborate with AI agents in the development workflow domain.
+> **Scenario**: A development team is implementing a new AI-assisted workflow that involves both Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
+Table.... During the implementation, they encounter a situation where the configuration for Exercise - Develop with AI-powered code suggestions by... conflicts with requirements from Exam scoring and score reports | Microsoft Learn
+Table.... The team needs to find an approach that satisfies both requirements while maintaining best practices for the Collaborate with AI agents in the development workflow domain.
 
 
-Given this scenario, what is the most appropriate approach to resolve the conflict between Use GitHub Copilot for code generation and review and Missing?
+Given this scenario, what is the most appropriate approach to resolve the conflict between Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
+Table...?
 
-- A. Analyze both Use GitHub Copilot for code generation and review and Missing requirements, then implement a unified configuration that addresses the core objectives of both while following Collaborate with AI agents in the development workflow principles.
-- B. Prioritize Use GitHub Copilot for code generation and review over Missing and disable the conflicting features entirely.
+- A. Analyze both Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
+Table... requirements, then implement a unified configuration that addresses the core objectives of both while following Collaborate with AI agents in the development workflow principles.
+- B. Prioritize Exercise - Develop with AI-powered code suggestions by... over Exam scoring and score reports | Microsoft Learn
+Table... and disable the conflicting features entirely.
 - C. Implement separate, disconnected solutions for each requirement without considering their interaction.
-- D. Remove both Use GitHub Copilot for code generation and review and Missing configurations and proceed with manual processes instead.
+- D. Remove both Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
+Table... configurations and proceed with manual processes instead.
 
 
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. When facing conflicts between related concepts like Use GitHub Copilot for code generation and review and Missing, the best practice is to analyze both requirements and find a unified solution. This demonstrates advanced understanding of how multiple concepts interact within and across domains. See study notes: Use GitHub Copilot for code generation and review (Collaborate with AI agents in the development workflow), Missing
+    The correct answer is A. When facing conflicts between related concepts like Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
+Table..., the best practice is to analyze both requirements and find a unified solution. This demonstrates advanced understanding of how multiple concepts interact within and across domains. See study notes: Exercise - Develop with AI-powered code suggestions by... (Collaborate with AI agents in the development workflow), Exam scoring and score reports | Microsoft Learn
+Table...
 
 
-    - **B** (incorrect): Incorrect. Disabling features entirely ignores the requirements of Missing and reduces overall capability.
+    - **B** (incorrect): Incorrect. Disabling features entirely ignores the requirements of Exam scoring and score reports | Microsoft Learn
+Table... and reduces overall capability.
 
-    - **C** (incorrect): Incorrect. Disconnected solutions fail to address the interaction between Use GitHub Copilot for code generation and review and Missing, potentially causing runtime conflicts.
+    - **C** (incorrect): Incorrect. Disconnected solutions fail to address the interaction between Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
+Table..., potentially causing runtime conflicts.
 
-    - **D** (incorrect): Incorrect. Reverting to manual processes eliminates the benefits of both Use GitHub Copilot for code generation and review and Missing and doesn't demonstrate AI-assisted development skills.
+    - **D** (incorrect): Incorrect. Reverting to manual processes eliminates the benefits of both Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
+Table... and doesn't demonstrate AI-assisted development skills.
 
 
 ---
@@ -1655,26 +1857,35 @@ Given this scenario, what is the most appropriate approach to resolve the confli
 
 ### Question 16
 
-**Domain**: domain-5 | **Format**: Multiple Choice | **Topics**: placeholder-domain-5-1, t-missing
+**Domain**: domain-5 | **Format**: Multiple Choice | **Topics**: topic-013, topic-001
 
 
-When evaluating the interaction between Leverage agent-assisted debugging and testing and Missing in an enterprise GitHub Copilot deployment, which analysis is most accurate?
+When evaluating the interaction between Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
+Table... in an enterprise GitHub Copilot deployment, which analysis is most accurate?
 
-- A. Leverage agent-assisted debugging and testing and Missing are complementary concepts that together ensure robust AI-assisted development within the Collaborate with AI agents in the development workflow domain.
-- B. Leverage agent-assisted debugging and testing and Missing are mutually exclusive and cannot be implemented simultaneously.
-- C. Leverage agent-assisted debugging and testing completely subsumes Missing, making the latter unnecessary in practice.
-- D. Neither Leverage agent-assisted debugging and testing nor Missing is relevant to enterprise deployments of GitHub Copilot.
+- A. Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
+Table... are complementary concepts that together ensure robust AI-assisted development within the Collaborate with AI agents in the development workflow domain.
+- B. Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
+Table... are mutually exclusive and cannot be implemented simultaneously.
+- C. Exercise - Develop with AI-powered code suggestions by... completely subsumes Exam scoring and score reports | Microsoft Learn
+Table..., making the latter unnecessary in practice.
+- D. Neither Exercise - Develop with AI-powered code suggestions by... nor Exam scoring and score reports | Microsoft Learn
+Table... is relevant to enterprise deployments of GitHub Copilot.
 
 
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. In enterprise deployments, Leverage agent-assisted debugging and testing and Missing work together to provide comprehensive coverage of Collaborate with AI agents in the development workflow requirements. Understanding their complementary nature is key for advanced GH-600 exam questions. See study notes: Leverage agent-assisted debugging and testing (Collaborate with AI agents in the development workflow), Missing
+    The correct answer is A. In enterprise deployments, Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
+Table... work together to provide comprehensive coverage of Collaborate with AI agents in the development workflow requirements. Understanding their complementary nature is key for advanced GH-600 exam questions. See study notes: Exercise - Develop with AI-powered code suggestions by... (Collaborate with AI agents in the development workflow), Exam scoring and score reports | Microsoft Learn
+Table...
 
 
-    - **B** (incorrect): Incorrect. Leverage agent-assisted debugging and testing and Missing are not mutually exclusive; they can and should coexist.
+    - **B** (incorrect): Incorrect. Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
+Table... are not mutually exclusive; they can and should coexist.
 
-    - **C** (incorrect): Incorrect. Missing addresses distinct concerns that are not fully covered by Leverage agent-assisted debugging and testing alone.
+    - **C** (incorrect): Incorrect. Exam scoring and score reports | Microsoft Learn
+Table... addresses distinct concerns that are not fully covered by Exercise - Develop with AI-powered code suggestions by... alone.
 
     - **D** (incorrect): Incorrect. Both concepts are directly relevant to enterprise GitHub Copilot deployments.
 
@@ -1684,31 +1895,42 @@ When evaluating the interaction between Leverage agent-assisted debugging and te
 
 ### Question 17
 
-**Domain**: domain-5 | **Format**: Scenario Based | **Topics**: placeholder-domain-5-2, t-missing
+**Domain**: domain-5 | **Format**: Scenario Based | **Topics**: topic-013, topic-001
 
 
-> **Scenario**: A development team is implementing a new AI-assisted workflow that involves both Integrate AI agents into CI/CD pipelines and Missing. During the implementation, they encounter a situation where the configuration for Integrate AI agents into CI/CD pipelines conflicts with requirements from Missing. The team needs to find an approach that satisfies both requirements while maintaining best practices for the Collaborate with AI agents in the development workflow domain.
+> **Scenario**: A development team is implementing a new AI-assisted workflow that involves both Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
+Table.... During the implementation, they encounter a situation where the configuration for Exercise - Develop with AI-powered code suggestions by... conflicts with requirements from Exam scoring and score reports | Microsoft Learn
+Table.... The team needs to find an approach that satisfies both requirements while maintaining best practices for the Collaborate with AI agents in the development workflow domain.
 
 
-Given this scenario, what is the most appropriate approach to resolve the conflict between Integrate AI agents into CI/CD pipelines and Missing?
+Given this scenario, what is the most appropriate approach to resolve the conflict between Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
+Table...?
 
-- A. Analyze both Integrate AI agents into CI/CD pipelines and Missing requirements, then implement a unified configuration that addresses the core objectives of both while following Collaborate with AI agents in the development workflow principles.
-- B. Prioritize Integrate AI agents into CI/CD pipelines over Missing and disable the conflicting features entirely.
+- A. Analyze both Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
+Table... requirements, then implement a unified configuration that addresses the core objectives of both while following Collaborate with AI agents in the development workflow principles.
+- B. Prioritize Exercise - Develop with AI-powered code suggestions by... over Exam scoring and score reports | Microsoft Learn
+Table... and disable the conflicting features entirely.
 - C. Implement separate, disconnected solutions for each requirement without considering their interaction.
-- D. Remove both Integrate AI agents into CI/CD pipelines and Missing configurations and proceed with manual processes instead.
+- D. Remove both Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
+Table... configurations and proceed with manual processes instead.
 
 
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. When facing conflicts between related concepts like Integrate AI agents into CI/CD pipelines and Missing, the best practice is to analyze both requirements and find a unified solution. This demonstrates advanced understanding of how multiple concepts interact within and across domains. See study notes: Integrate AI agents into CI/CD pipelines (Collaborate with AI agents in the development workflow), Missing
+    The correct answer is A. When facing conflicts between related concepts like Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
+Table..., the best practice is to analyze both requirements and find a unified solution. This demonstrates advanced understanding of how multiple concepts interact within and across domains. See study notes: Exercise - Develop with AI-powered code suggestions by... (Collaborate with AI agents in the development workflow), Exam scoring and score reports | Microsoft Learn
+Table...
 
 
-    - **B** (incorrect): Incorrect. Disabling features entirely ignores the requirements of Missing and reduces overall capability.
+    - **B** (incorrect): Incorrect. Disabling features entirely ignores the requirements of Exam scoring and score reports | Microsoft Learn
+Table... and reduces overall capability.
 
-    - **C** (incorrect): Incorrect. Disconnected solutions fail to address the interaction between Integrate AI agents into CI/CD pipelines and Missing, potentially causing runtime conflicts.
+    - **C** (incorrect): Incorrect. Disconnected solutions fail to address the interaction between Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
+Table..., potentially causing runtime conflicts.
 
-    - **D** (incorrect): Incorrect. Reverting to manual processes eliminates the benefits of both Integrate AI agents into CI/CD pipelines and Missing and doesn't demonstrate AI-assisted development skills.
+    - **D** (incorrect): Incorrect. Reverting to manual processes eliminates the benefits of both Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
+Table... and doesn't demonstrate AI-assisted development skills.
 
 
 ---
@@ -1716,26 +1938,35 @@ Given this scenario, what is the most appropriate approach to resolve the confli
 
 ### Question 18
 
-**Domain**: domain-5 | **Format**: Multiple Choice | **Topics**: placeholder-domain-5-3, t-missing
+**Domain**: domain-5 | **Format**: Multiple Choice | **Topics**: topic-013, topic-001
 
 
-When evaluating the interaction between Collaborate with agents for documentation and Missing in an enterprise GitHub Copilot deployment, which analysis is most accurate?
+When evaluating the interaction between Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
+Table... in an enterprise GitHub Copilot deployment, which analysis is most accurate?
 
-- A. Collaborate with agents for documentation and Missing are complementary concepts that together ensure robust AI-assisted development within the Collaborate with AI agents in the development workflow domain.
-- B. Collaborate with agents for documentation and Missing are mutually exclusive and cannot be implemented simultaneously.
-- C. Collaborate with agents for documentation completely subsumes Missing, making the latter unnecessary in practice.
-- D. Neither Collaborate with agents for documentation nor Missing is relevant to enterprise deployments of GitHub Copilot.
+- A. Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
+Table... are complementary concepts that together ensure robust AI-assisted development within the Collaborate with AI agents in the development workflow domain.
+- B. Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
+Table... are mutually exclusive and cannot be implemented simultaneously.
+- C. Exercise - Develop with AI-powered code suggestions by... completely subsumes Exam scoring and score reports | Microsoft Learn
+Table..., making the latter unnecessary in practice.
+- D. Neither Exercise - Develop with AI-powered code suggestions by... nor Exam scoring and score reports | Microsoft Learn
+Table... is relevant to enterprise deployments of GitHub Copilot.
 
 
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. In enterprise deployments, Collaborate with agents for documentation and Missing work together to provide comprehensive coverage of Collaborate with AI agents in the development workflow requirements. Understanding their complementary nature is key for advanced GH-600 exam questions. See study notes: Collaborate with agents for documentation (Collaborate with AI agents in the development workflow), Missing
+    The correct answer is A. In enterprise deployments, Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
+Table... work together to provide comprehensive coverage of Collaborate with AI agents in the development workflow requirements. Understanding their complementary nature is key for advanced GH-600 exam questions. See study notes: Exercise - Develop with AI-powered code suggestions by... (Collaborate with AI agents in the development workflow), Exam scoring and score reports | Microsoft Learn
+Table...
 
 
-    - **B** (incorrect): Incorrect. Collaborate with agents for documentation and Missing are not mutually exclusive; they can and should coexist.
+    - **B** (incorrect): Incorrect. Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
+Table... are not mutually exclusive; they can and should coexist.
 
-    - **C** (incorrect): Incorrect. Missing addresses distinct concerns that are not fully covered by Collaborate with agents for documentation alone.
+    - **C** (incorrect): Incorrect. Exam scoring and score reports | Microsoft Learn
+Table... addresses distinct concerns that are not fully covered by Exercise - Develop with AI-powered code suggestions by... alone.
 
     - **D** (incorrect): Incorrect. Both concepts are directly relevant to enterprise GitHub Copilot deployments.
 
@@ -1745,31 +1976,42 @@ When evaluating the interaction between Collaborate with agents for documentatio
 
 ### Question 19
 
-**Domain**: domain-6 | **Format**: Scenario Based | **Topics**: placeholder-domain-6-0, t-missing
+**Domain**: domain-6 | **Format**: Scenario Based | **Topics**: topic-014, topic-001
 
 
-> **Scenario**: A development team is implementing a new AI-assisted workflow that involves both Apply ethical guidelines to agent behavior and Missing. During the implementation, they encounter a situation where the configuration for Apply ethical guidelines to agent behavior conflicts with requirements from Missing. The team needs to find an approach that satisfies both requirements while maintaining best practices for the Implement responsible AI practices domain.
+> **Scenario**: A development team is implementing a new AI-assisted workflow that involves both Microsoft Certification Renewal | Microsoft... and Exam scoring and score reports | Microsoft Learn
+Table.... During the implementation, they encounter a situation where the configuration for Microsoft Certification Renewal | Microsoft... conflicts with requirements from Exam scoring and score reports | Microsoft Learn
+Table.... The team needs to find an approach that satisfies both requirements while maintaining best practices for the Implement responsible AI practices domain.
 
 
-Given this scenario, what is the most appropriate approach to resolve the conflict between Apply ethical guidelines to agent behavior and Missing?
+Given this scenario, what is the most appropriate approach to resolve the conflict between Microsoft Certification Renewal | Microsoft... and Exam scoring and score reports | Microsoft Learn
+Table...?
 
-- A. Analyze both Apply ethical guidelines to agent behavior and Missing requirements, then implement a unified configuration that addresses the core objectives of both while following Implement responsible AI practices principles.
-- B. Prioritize Apply ethical guidelines to agent behavior over Missing and disable the conflicting features entirely.
+- A. Analyze both Microsoft Certification Renewal | Microsoft... and Exam scoring and score reports | Microsoft Learn
+Table... requirements, then implement a unified configuration that addresses the core objectives of both while following Implement responsible AI practices principles.
+- B. Prioritize Microsoft Certification Renewal | Microsoft... over Exam scoring and score reports | Microsoft Learn
+Table... and disable the conflicting features entirely.
 - C. Implement separate, disconnected solutions for each requirement without considering their interaction.
-- D. Remove both Apply ethical guidelines to agent behavior and Missing configurations and proceed with manual processes instead.
+- D. Remove both Microsoft Certification Renewal | Microsoft... and Exam scoring and score reports | Microsoft Learn
+Table... configurations and proceed with manual processes instead.
 
 
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. When facing conflicts between related concepts like Apply ethical guidelines to agent behavior and Missing, the best practice is to analyze both requirements and find a unified solution. This demonstrates advanced understanding of how multiple concepts interact within and across domains. See study notes: Apply ethical guidelines to agent behavior (Implement responsible AI practices), Missing
+    The correct answer is A. When facing conflicts between related concepts like Microsoft Certification Renewal | Microsoft... and Exam scoring and score reports | Microsoft Learn
+Table..., the best practice is to analyze both requirements and find a unified solution. This demonstrates advanced understanding of how multiple concepts interact within and across domains. See study notes: Microsoft Certification Renewal | Microsoft... (Implement responsible AI practices), Exam scoring and score reports | Microsoft Learn
+Table...
 
 
-    - **B** (incorrect): Incorrect. Disabling features entirely ignores the requirements of Missing and reduces overall capability.
+    - **B** (incorrect): Incorrect. Disabling features entirely ignores the requirements of Exam scoring and score reports | Microsoft Learn
+Table... and reduces overall capability.
 
-    - **C** (incorrect): Incorrect. Disconnected solutions fail to address the interaction between Apply ethical guidelines to agent behavior and Missing, potentially causing runtime conflicts.
+    - **C** (incorrect): Incorrect. Disconnected solutions fail to address the interaction between Microsoft Certification Renewal | Microsoft... and Exam scoring and score reports | Microsoft Learn
+Table..., potentially causing runtime conflicts.
 
-    - **D** (incorrect): Incorrect. Reverting to manual processes eliminates the benefits of both Apply ethical guidelines to agent behavior and Missing and doesn't demonstrate AI-assisted development skills.
+    - **D** (incorrect): Incorrect. Reverting to manual processes eliminates the benefits of both Microsoft Certification Renewal | Microsoft... and Exam scoring and score reports | Microsoft Learn
+Table... and doesn't demonstrate AI-assisted development skills.
 
 
 ---
@@ -1777,31 +2019,52 @@ Given this scenario, what is the most appropriate approach to resolve the confli
 
 ### Question 20
 
-**Domain**: domain-6 | **Format**: Scenario Based | **Topics**: placeholder-domain-6-1, t-missing
+**Domain**: domain-6 | **Format**: Scenario Based | **Topics**: topic-015, topic-001
 
 
-> **Scenario**: A development team is implementing a new AI-assisted workflow that involves both Implement transparency and explainability and Missing. During the implementation, they encounter a situation where the configuration for Implement transparency and explainability conflicts with requirements from Missing. The team needs to find an approach that satisfies both requirements while maintaining best practices for the Implement responsible AI practices domain.
+> **Scenario**: A development team is implementing a new AI-assisted workflow that involves both Introduction - Training | Microsoft Learn
+Read in... and Exam scoring and score reports | Microsoft Learn
+Table.... During the implementation, they encounter a situation where the configuration for Introduction - Training | Microsoft Learn
+Read in... conflicts with requirements from Exam scoring and score reports | Microsoft Learn
+Table.... The team needs to find an approach that satisfies both requirements while maintaining best practices for the Implement responsible AI practices domain.
 
 
-Given this scenario, what is the most appropriate approach to resolve the conflict between Implement transparency and explainability and Missing?
+Given this scenario, what is the most appropriate approach to resolve the conflict between Introduction - Training | Microsoft Learn
+Read in... and Exam scoring and score reports | Microsoft Learn
+Table...?
 
-- A. Analyze both Implement transparency and explainability and Missing requirements, then implement a unified configuration that addresses the core objectives of both while following Implement responsible AI practices principles.
-- B. Prioritize Implement transparency and explainability over Missing and disable the conflicting features entirely.
+- A. Analyze both Introduction - Training | Microsoft Learn
+Read in... and Exam scoring and score reports | Microsoft Learn
+Table... requirements, then implement a unified configuration that addresses the core objectives of both while following Implement responsible AI practices principles.
+- B. Prioritize Introduction - Training | Microsoft Learn
+Read in... over Exam scoring and score reports | Microsoft Learn
+Table... and disable the conflicting features entirely.
 - C. Implement separate, disconnected solutions for each requirement without considering their interaction.
-- D. Remove both Implement transparency and explainability and Missing configurations and proceed with manual processes instead.
+- D. Remove both Introduction - Training | Microsoft Learn
+Read in... and Exam scoring and score reports | Microsoft Learn
+Table... configurations and proceed with manual processes instead.
 
 
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. When facing conflicts between related concepts like Implement transparency and explainability and Missing, the best practice is to analyze both requirements and find a unified solution. This demonstrates advanced understanding of how multiple concepts interact within and across domains. See study notes: Implement transparency and explainability (Implement responsible AI practices), Missing
+    The correct answer is A. When facing conflicts between related concepts like Introduction - Training | Microsoft Learn
+Read in... and Exam scoring and score reports | Microsoft Learn
+Table..., the best practice is to analyze both requirements and find a unified solution. This demonstrates advanced understanding of how multiple concepts interact within and across domains. See study notes: Introduction - Training | Microsoft Learn
+Read in... (Implement responsible AI practices), Exam scoring and score reports | Microsoft Learn
+Table...
 
 
-    - **B** (incorrect): Incorrect. Disabling features entirely ignores the requirements of Missing and reduces overall capability.
+    - **B** (incorrect): Incorrect. Disabling features entirely ignores the requirements of Exam scoring and score reports | Microsoft Learn
+Table... and reduces overall capability.
 
-    - **C** (incorrect): Incorrect. Disconnected solutions fail to address the interaction between Implement transparency and explainability and Missing, potentially causing runtime conflicts.
+    - **C** (incorrect): Incorrect. Disconnected solutions fail to address the interaction between Introduction - Training | Microsoft Learn
+Read in... and Exam scoring and score reports | Microsoft Learn
+Table..., potentially causing runtime conflicts.
 
-    - **D** (incorrect): Incorrect. Reverting to manual processes eliminates the benefits of both Implement transparency and explainability and Missing and doesn't demonstrate AI-assisted development skills.
+    - **D** (incorrect): Incorrect. Reverting to manual processes eliminates the benefits of both Introduction - Training | Microsoft Learn
+Read in... and Exam scoring and score reports | Microsoft Learn
+Table... and doesn't demonstrate AI-assisted development skills.
 
 
 ---
