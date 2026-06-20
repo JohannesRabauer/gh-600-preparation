@@ -1,209 +1,152 @@
 # Cross-Domain Connections
 
-## Relationship Diagram
+## Overview
 
-The following diagram shows how high-priority concepts (Priority_Score ≥ 7) relate across exam domains.
+The GH-600 exam tests integrated knowledge — concepts that span multiple domains. Understanding these connections helps you answer complex scenario-based questions that combine topics from different areas.
+
+---
+
+## Relationship Diagram
 
 ```mermaid
 graph LR
-    subgraph domain_1[Prepare agent architecture and SDLC processes]
-        topic_001[Exam scoring and score reports | Microsoft Learn
-Table...]
-        topic_002[Request exam accommodations and frequently asked...]
-        topic_006[Study guide for Exam GH-600: Developing in Agentic AI...]
-        topic_007[Tooling, MCP, and Agent Execution Environments -...]
-        topic_008[Microsoft previous versions of technical documentation |...]
-        topic_009[Terms of Use | Microsoft Learn
-learn]
-        topic_010[Modern Lifecycle Policy - Microsoft Lifecycle |...]
-        topic_012[About online exams with Pearson VUE | Microsoft...]
-        topic_013[Exercise - Develop with AI-powered code suggestions by...]
-        topic_015[Introduction - Training | Microsoft Learn
-Read in...]
-        topic_016[Mitigate AI risks - Training | Microsoft Learn
-Read in...]
+    subgraph D1[Domain 1: Architecture]
+        A1[Agent Patterns]
+        A2[SDLC Integration]
     end
-    subgraph domain_2[Design and implement agentic solutions]
-        topic_001[Exam scoring and score reports | Microsoft Learn
-Table...]
-        topic_002[Request exam accommodations and frequently asked...]
-        topic_006[Study guide for Exam GH-600: Developing in Agentic AI...]
-        topic_007[Tooling, MCP, and Agent Execution Environments -...]
-        topic_008[Microsoft previous versions of technical documentation |...]
-        topic_009[Terms of Use | Microsoft Learn
-learn]
-        topic_010[Modern Lifecycle Policy - Microsoft Lifecycle |...]
-        topic_012[About online exams with Pearson VUE | Microsoft...]
-        topic_013[Exercise - Develop with AI-powered code suggestions by...]
-        topic_014[Microsoft Certification Renewal | Microsoft...]
-        topic_015[Introduction - Training | Microsoft Learn
-Read in...]
-        topic_016[Mitigate AI risks - Training | Microsoft Learn
-Read in...]
+    subgraph D2[Domain 2: Implementation]
+        B1[Agent Mode]
+        B2[MCP]
+        B3[Extensions]
     end
-    subgraph domain_4[Secure and govern agentic AI solutions]
-        topic_001[Exam scoring and score reports | Microsoft Learn
-Table...]
-        topic_002[Request exam accommodations and frequently asked...]
-        topic_006[Study guide for Exam GH-600: Developing in Agentic AI...]
-        topic_007[Tooling, MCP, and Agent Execution Environments -...]
-        topic_008[Microsoft previous versions of technical documentation |...]
-        topic_009[Terms of Use | Microsoft Learn
-learn]
-        topic_010[Modern Lifecycle Policy - Microsoft Lifecycle |...]
-        topic_012[About online exams with Pearson VUE | Microsoft...]
-        topic_013[Exercise - Develop with AI-powered code suggestions by...]
-        topic_014[Microsoft Certification Renewal | Microsoft...]
-        topic_015[Introduction - Training | Microsoft Learn
-Read in...]
-        topic_016[Mitigate AI risks - Training | Microsoft Learn
-Read in...]
+    subgraph D3[Domain 3: Performance]
+        C1[Quality Metrics]
+        C2[Monitoring]
     end
-    subgraph domain_5[Collaborate with AI agents in the development workflow]
-        topic_001[Exam scoring and score reports | Microsoft Learn
-Table...]
-        topic_006[Study guide for Exam GH-600: Developing in Agentic AI...]
-        topic_007[Tooling, MCP, and Agent Execution Environments -...]
-        topic_009[Terms of Use | Microsoft Learn
-learn]
-        topic_010[Modern Lifecycle Policy - Microsoft Lifecycle |...]
-        topic_013[Exercise - Develop with AI-powered code suggestions by...]
-        topic_015[Introduction - Training | Microsoft Learn
-Read in...]
-        topic_016[Mitigate AI risks - Training | Microsoft Learn
-Read in...]
+    subgraph D4[Domain 4: Security]
+        D41[Access Control]
+        D42[Secrets Mgmt]
+        D43[Audit Logging]
     end
-    subgraph domain_6[Implement responsible AI practices]
-        topic_001[Exam scoring and score reports | Microsoft Learn
-Table...]
-        topic_002[Request exam accommodations and frequently asked...]
-        topic_006[Study guide for Exam GH-600: Developing in Agentic AI...]
-        topic_007[Tooling, MCP, and Agent Execution Environments -...]
-        topic_008[Microsoft previous versions of technical documentation |...]
-        topic_009[Terms of Use | Microsoft Learn
-learn]
-        topic_010[Modern Lifecycle Policy - Microsoft Lifecycle |...]
-        topic_012[About online exams with Pearson VUE | Microsoft...]
-        topic_013[Exercise - Develop with AI-powered code suggestions by...]
-        topic_014[Microsoft Certification Renewal | Microsoft...]
-        topic_015[Introduction - Training | Microsoft Learn
-Read in...]
-        topic_016[Mitigate AI risks - Training | Microsoft Learn
-Read in...]
+    subgraph D5[Domain 5: Collaboration]
+        E1[Code Gen/Review]
+        E2[CI/CD]
+        E3[Testing]
     end
-    topic_001 -.- |spans| domain_1 & domain_2
-    topic_013 -.- |spans| domain_1 & domain_2
-    topic_015 -.- |spans| domain_1 & domain_2
-    topic_016 -.- |spans| domain_1 & domain_2
-    topic_010 -.- |spans| domain_1 & domain_2
-    topic_006 -.- |spans| domain_1 & domain_2
-    topic_009 -.- |spans| domain_1 & domain_2
-    topic_007 -.- |spans| domain_1 & domain_2
-    topic_012 -.- |spans| domain_1 & domain_2
-    topic_008 -.- |spans| domain_1 & domain_2
-    topic_002 -.- |spans| domain_1 & domain_2
-    topic_014 -.- |spans| domain_2 & domain_4
+    subgraph D6[Domain 6: Responsible AI]
+        F1[6 Principles]
+        F2[Bias/Fairness]
+        F3[Compliance]
+    end
+
+    A1 --> B1
+    A1 --> B2
+    A2 --> E2
+    B1 --> E1
+    B2 --> D41
+    B2 --> E2
+    C1 --> E3
+    C2 --> D43
+    D41 --> F3
+    D43 --> F3
+    E1 --> F2
+    E2 --> D41
 ```
 
-## Cross-Domain Concepts
+---
 
-Concepts that appear in multiple exam domains with links to their coverage in each domain.
+## Key Cross-Domain Concepts
 
-| Concept | Domains | Priority Score |
-|---------|---------|---------------|
-| [Exam scoring and score reports | Microsoft Learn
-Table...](study_notes.md#exam-scoring-and-score-reports-|-microsoft-learn
-table...) | [Prepare agent architecture and SDLC processes](study_notes.md#exam-scoring-and-score-reports-|-microsoft-learn
-table...), [Design and implement agentic solutions](study_notes.md#exam-scoring-and-score-reports-|-microsoft-learn
-table...), [Secure and govern agentic AI solutions](study_notes.md#exam-scoring-and-score-reports-|-microsoft-learn
-table...), [Collaborate with AI agents in the development workflow](study_notes.md#exam-scoring-and-score-reports-|-microsoft-learn
-table...), [Implement responsible AI practices](study_notes.md#exam-scoring-and-score-reports-|-microsoft-learn
-table...) | 10/10 |
-| [Exercise - Develop with AI-powered code suggestions by...](study_notes.md#exercise---develop-with-ai-powered-code-suggestions-by...) | [Prepare agent architecture and SDLC processes](study_notes.md#exercise---develop-with-ai-powered-code-suggestions-by...), [Design and implement agentic solutions](study_notes.md#exercise---develop-with-ai-powered-code-suggestions-by...), [Secure and govern agentic AI solutions](study_notes.md#exercise---develop-with-ai-powered-code-suggestions-by...), [Collaborate with AI agents in the development workflow](study_notes.md#exercise---develop-with-ai-powered-code-suggestions-by...), [Implement responsible AI practices](study_notes.md#exercise---develop-with-ai-powered-code-suggestions-by...) | 10/10 |
-| [Introduction - Training | Microsoft Learn
-Read in...](study_notes.md#introduction---training-|-microsoft-learn
-read-in...) | [Prepare agent architecture and SDLC processes](study_notes.md#introduction---training-|-microsoft-learn
-read-in...), [Design and implement agentic solutions](study_notes.md#introduction---training-|-microsoft-learn
-read-in...), [Secure and govern agentic AI solutions](study_notes.md#introduction---training-|-microsoft-learn
-read-in...), [Collaborate with AI agents in the development workflow](study_notes.md#introduction---training-|-microsoft-learn
-read-in...), [Implement responsible AI practices](study_notes.md#introduction---training-|-microsoft-learn
-read-in...) | 10/10 |
-| [Mitigate AI risks - Training | Microsoft Learn
-Read in...](study_notes.md#mitigate-ai-risks---training-|-microsoft-learn
-read-in...) | [Prepare agent architecture and SDLC processes](study_notes.md#mitigate-ai-risks---training-|-microsoft-learn
-read-in...), [Design and implement agentic solutions](study_notes.md#mitigate-ai-risks---training-|-microsoft-learn
-read-in...), [Secure and govern agentic AI solutions](study_notes.md#mitigate-ai-risks---training-|-microsoft-learn
-read-in...), [Collaborate with AI agents in the development workflow](study_notes.md#mitigate-ai-risks---training-|-microsoft-learn
-read-in...), [Implement responsible AI practices](study_notes.md#mitigate-ai-risks---training-|-microsoft-learn
-read-in...) | 10/10 |
-| [Modern Lifecycle Policy - Microsoft Lifecycle |...](study_notes.md#modern-lifecycle-policy---microsoft-lifecycle-|...) | [Prepare agent architecture and SDLC processes](study_notes.md#modern-lifecycle-policy---microsoft-lifecycle-|...), [Design and implement agentic solutions](study_notes.md#modern-lifecycle-policy---microsoft-lifecycle-|...), [Secure and govern agentic AI solutions](study_notes.md#modern-lifecycle-policy---microsoft-lifecycle-|...), [Collaborate with AI agents in the development workflow](study_notes.md#modern-lifecycle-policy---microsoft-lifecycle-|...), [Implement responsible AI practices](study_notes.md#modern-lifecycle-policy---microsoft-lifecycle-|...) | 10/10 |
-| [Study guide for Exam GH-600: Developing in Agentic AI...](study_notes.md#study-guide-for-exam-gh-600:-developing-in-agentic-ai...) | [Prepare agent architecture and SDLC processes](study_notes.md#study-guide-for-exam-gh-600:-developing-in-agentic-ai...), [Design and implement agentic solutions](study_notes.md#study-guide-for-exam-gh-600:-developing-in-agentic-ai...), [Secure and govern agentic AI solutions](study_notes.md#study-guide-for-exam-gh-600:-developing-in-agentic-ai...), [Collaborate with AI agents in the development workflow](study_notes.md#study-guide-for-exam-gh-600:-developing-in-agentic-ai...), [Implement responsible AI practices](study_notes.md#study-guide-for-exam-gh-600:-developing-in-agentic-ai...) | 10/10 |
-| [Terms of Use | Microsoft Learn
-learn](study_notes.md#terms-of-use-|-microsoft-learn
-learn) | [Prepare agent architecture and SDLC processes](study_notes.md#terms-of-use-|-microsoft-learn
-learn), [Design and implement agentic solutions](study_notes.md#terms-of-use-|-microsoft-learn
-learn), [Secure and govern agentic AI solutions](study_notes.md#terms-of-use-|-microsoft-learn
-learn), [Collaborate with AI agents in the development workflow](study_notes.md#terms-of-use-|-microsoft-learn
-learn), [Implement responsible AI practices](study_notes.md#terms-of-use-|-microsoft-learn
-learn) | 10/10 |
-| [Tooling, MCP, and Agent Execution Environments -...](study_notes.md#tooling,-mcp,-and-agent-execution-environments--...) | [Prepare agent architecture and SDLC processes](study_notes.md#tooling,-mcp,-and-agent-execution-environments--...), [Design and implement agentic solutions](study_notes.md#tooling,-mcp,-and-agent-execution-environments--...), [Secure and govern agentic AI solutions](study_notes.md#tooling,-mcp,-and-agent-execution-environments--...), [Collaborate with AI agents in the development workflow](study_notes.md#tooling,-mcp,-and-agent-execution-environments--...), [Implement responsible AI practices](study_notes.md#tooling,-mcp,-and-agent-execution-environments--...) | 10/10 |
-| [About online exams with Pearson VUE | Microsoft...](study_notes.md#about-online-exams-with-pearson-vue-|-microsoft...) | [Prepare agent architecture and SDLC processes](study_notes.md#about-online-exams-with-pearson-vue-|-microsoft...), [Design and implement agentic solutions](study_notes.md#about-online-exams-with-pearson-vue-|-microsoft...), [Secure and govern agentic AI solutions](study_notes.md#about-online-exams-with-pearson-vue-|-microsoft...), [Implement responsible AI practices](study_notes.md#about-online-exams-with-pearson-vue-|-microsoft...) | 10/10 |
-| [Microsoft previous versions of technical documentation |...](study_notes.md#microsoft-previous-versions-of-technical-documentation-|...) | [Prepare agent architecture and SDLC processes](study_notes.md#microsoft-previous-versions-of-technical-documentation-|...), [Design and implement agentic solutions](study_notes.md#microsoft-previous-versions-of-technical-documentation-|...), [Secure and govern agentic AI solutions](study_notes.md#microsoft-previous-versions-of-technical-documentation-|...), [Implement responsible AI practices](study_notes.md#microsoft-previous-versions-of-technical-documentation-|...) | 10/10 |
-| [Request exam accommodations and frequently asked...](study_notes.md#request-exam-accommodations-and-frequently-asked...) | [Prepare agent architecture and SDLC processes](study_notes.md#request-exam-accommodations-and-frequently-asked...), [Design and implement agentic solutions](study_notes.md#request-exam-accommodations-and-frequently-asked...), [Secure and govern agentic AI solutions](study_notes.md#request-exam-accommodations-and-frequently-asked...), [Implement responsible AI practices](study_notes.md#request-exam-accommodations-and-frequently-asked...) | 10/10 |
-| [Microsoft Certification Renewal | Microsoft...](study_notes.md#microsoft-certification-renewal-|-microsoft...) | [Design and implement agentic solutions](study_notes.md#microsoft-certification-renewal-|-microsoft...), [Secure and govern agentic AI solutions](study_notes.md#microsoft-certification-renewal-|-microsoft...), [Implement responsible AI practices](study_notes.md#microsoft-certification-renewal-|-microsoft...) | 9/10 |
+### MCP (Domains 2, 4, 5)
+
+| Domain | Aspect | Key Point |
+|--------|--------|-----------|
+| **2** | Implementation | Building servers, defining tools, configuring transport |
+| **4** | Security | Permissions, secret injection, access boundaries |
+| **5** | Collaboration | Using MCP tools in CI/CD, team-shared servers |
+
+MCP is the exam's most cross-cutting topic. You need to know how to implement servers (Domain 2), secure them (Domain 4), and use them in team workflows (Domain 5).
+
+---
+
+### Human Oversight (Domains 1, 4, 5, 6)
+
+| Domain | Aspect | Key Point |
+|--------|--------|-----------|
+| **1** | Architecture | Designing autonomy levels into agent systems |
+| **4** | Security | Approval gates for sensitive operations |
+| **5** | Collaboration | Human-agent interaction patterns |
+| **6** | Responsible AI | Accountability principle requires human control |
+
+Human oversight is a requirement across all domains. The exam tests whether you know WHEN human approval is needed and HOW to implement it.
+
+---
+
+### Security (Domains 2, 4, 5, 6)
+
+| Domain | Aspect | Key Point |
+|--------|--------|-----------|
+| **2** | Implementation | Secure tool configuration, secret handling in MCP |
+| **4** | Core | Access controls, permissions, audit, governance |
+| **5** | CI/CD | Security scanning in pipelines, safe automation |
+| **6** | Compliance | Regulatory compliance, privacy protection |
+
+Security is never just Domain 4. Every domain has security implications that the exam tests.
+
+---
+
+### Performance Monitoring (Domains 3, 4, 5)
+
+| Domain | Aspect | Key Point |
+|--------|--------|-----------|
+| **3** | Core | KPIs, metrics, evaluation frameworks |
+| **4** | Security | Audit logs, anomaly detection |
+| **5** | CI/CD | Build/test metrics, deployment success rates |
+
+Monitoring spans observability (performance), security (audit), and process (CI/CD metrics).
+
+---
 
 ## Integrative Themes
 
-Themes that span 3 or more exam domains, showing how concepts integrate across the certification scope.
+### Theme 1: "Defense in Depth" — Layers of Safety
 
-### github copilot
+Security and responsible AI create overlapping layers:
 
-**Domains**: Prepare agent architecture and SDLC processes, Design and implement agentic solutions, Secure and govern agentic AI solutions, Collaborate with AI agents in the development workflow, Implement responsible AI practices
+1. **Architecture Layer** (D1): Design with least privilege, proper autonomy levels
+2. **Implementation Layer** (D2): Tool permissions, MCP access control
+3. **Runtime Layer** (D4): Audit logging, approval gates, secret management
+4. **Process Layer** (D5): CI/CD security checks, code review
+5. **Governance Layer** (D6): Compliance monitoring, bias detection, incident response
 
-- github copilot in Prepare agent architecture and SDLC processes
-- github copilot in Design and implement agentic solutions
-- github copilot in Secure and govern agentic AI solutions
-- github copilot in Collaborate with AI agents in the development workflow
-- github copilot in Implement responsible AI practices
+### Theme 2: "Measure Everything" — Data-Driven Agent Management
 
-### github actions
+| What to Measure | Why | Where |
+|----------------|-----|-------|
+| Task completion | Agent effectiveness | D3 |
+| Security events | Threat detection | D4 |
+| Bias indicators | Fairness compliance | D6 |
+| CI/CD metrics | Process efficiency | D5 |
+| User satisfaction | Tool adoption | D3, D5 |
 
-**Domains**: Prepare agent architecture and SDLC processes, Design and implement agentic solutions, Secure and govern agentic AI solutions, Collaborate with AI agents in the development workflow
+### Theme 3: "Context is King" — Information Flow
 
-- github actions in Prepare agent architecture and SDLC processes
-- github actions in Design and implement agentic solutions
-- github actions in Secure and govern agentic AI solutions
-- github actions in Collaborate with AI agents in the development workflow
+How agents get, use, and protect information connects Domains 2, 4, and 5:
 
-### pull request
+- **Getting context**: File reads, MCP resources, search (D2)
+- **Protecting context**: Access controls, data classification (D4)
+- **Sharing context**: Team-shared configs, CI/CD integration (D5)
+- **Context quality**: Affects output quality and performance (D3)
 
-**Domains**: Prepare agent architecture and SDLC processes, Design and implement agentic solutions, Secure and govern agentic AI solutions
+---
 
-- pull request in Prepare agent architecture and SDLC processes
-- pull request in Design and implement agentic solutions
-- pull request in Secure and govern agentic AI solutions
+## Exam Strategy for Cross-Domain Questions
 
-### security
+!!! tip "Advanced Question Strategy"
+    When you see a scenario-based question that mentions multiple concepts:
 
-**Domains**: Prepare agent architecture and SDLC processes, Design and implement agentic solutions, Secure and govern agentic AI solutions, Implement responsible AI practices
-
-- security in Prepare agent architecture and SDLC processes
-- security in Design and implement agentic solutions
-- security in Secure and govern agentic AI solutions
-- security in Implement responsible AI practices
-
-### api
-
-**Domains**: Design and implement agentic solutions, Secure and govern agentic AI solutions, Implement responsible AI practices
-
-- api in Design and implement agentic solutions
-- api in Secure and govern agentic AI solutions
-- api in Implement responsible AI practices
-
-### testing
-
-**Domains**: Design and implement agentic solutions, Secure and govern agentic AI solutions, Implement responsible AI practices
-
-- testing in Design and implement agentic solutions
-- testing in Secure and govern agentic AI solutions
-- testing in Implement responsible AI practices
+    1. Identify which domains are involved
+    2. Check if the answer requires balancing competing concerns (security vs. usability)
+    3. Look for the answer that addresses ALL mentioned domains, not just one
+    4. Eliminate answers that ignore security or responsible AI requirements
+    5. The correct answer usually involves multiple controls working together

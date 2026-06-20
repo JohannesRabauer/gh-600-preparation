@@ -1,8 +1,8 @@
 # MkDocs configuration for GH-600 Exam Prep Study Website
-# Satisfies Requirements: 13.1-13.7, 14.1, 14.2, 14.5, 14.7
 
 site_name: GH-600 Exam Prep
 site_url: https://JohannesRabauer.github.io/gh-600-preparation/
+site_description: Comprehensive study guide for the GitHub Certified Agentic AI Developer (GH-600) certification
 use_directory_urls: true
 
 theme:
@@ -11,12 +11,14 @@ theme:
   features:
     - navigation.sidebar
     - navigation.tabs
-    - navigation.path          # breadcrumbs (Req 13.7)
+    - navigation.path
     - navigation.indexes
-    - navigation.footer        # prev/next navigation (Req 13.7)
-    - search.suggest           # search suggestions (Req 13.4)
-    - search.highlight         # highlight search matches (Req 13.4)
-    - content.code.copy        # code copy button
+    - navigation.footer
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
   palette:
     - scheme: default
       primary: deep purple
@@ -30,29 +32,37 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-  font: false  # Disable external Google Fonts CDN (Req 14.7)
+  font: false
+  icon:
+    repo: fontawesome/brands/github
 
 plugins:
-  - search                     # Client-side full-text search (Req 13.4)
+  - search
 
 markdown_extensions:
-  - admonition                 # Callout blocks: Note, Tip, Warning, Important (Req 13.5)
-  - pymdownx.details           # Collapsible admonitions
-  - pymdownx.superfences:      # Fenced code blocks and Mermaid diagrams (Req 13.5)
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.highlight:        # Syntax highlighting (Req 13.5)
+  - pymdownx.highlight:
       anchor_linenums: true
-  - pymdownx.inlinehilite      # Inline code highlighting
-  - tables                     # Tables (Req 13.5)
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
   - toc:
-      permalink: true          # Permalink anchors for headings
-  - attr_list                  # Attribute lists for extended Markdown
-  - md_in_html                 # Markdown inside HTML blocks
+      permalink: true
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 extra_css:
+  - assets/css/custom.css
   - assets/css/quiz.css
 
 extra_javascript:
@@ -61,19 +71,17 @@ extra_javascript:
 extra:
   social: []
 
-# Placeholder nav structure for standalone MkDocs builds.
-# The SiteRenderer dynamically regenerates this from pipeline artifacts.
 nav:
-- Home: index.md
-- Study Notes: study_notes.md
-- Curriculum: curriculum.md
-- Revision Resources: revision.md
-- Practice Questions: questions.md
-- Mock Exams:
-  - Overview: mock_exam.md
-  - "Mock Exam 1 (Interactive)": mock_exam_1.md
-  - "Mock Exam 2 (Interactive)": mock_exam_2.md
-  - "Mock Exam 3 (Interactive)": mock_exam_3.md
-- Gap Analysis: gap_report.md
-- Readiness Assessment: readiness.md
-- Cross-Domain Connections: cross_domain.md
+  - Home: index.md
+  - Study Notes: study_notes.md
+  - Curriculum: curriculum.md
+  - Revision Resources: revision.md
+  - Practice Questions: questions.md
+  - Mock Exams:
+      - Overview: mock_exam.md
+      - "Mock Exam 1": mock_exam_1.md
+      - "Mock Exam 2": mock_exam_2.md
+      - "Mock Exam 3": mock_exam_3.md
+  - Gap Analysis: gap_report.md
+  - Readiness Assessment: readiness.md
+  - Cross-Domain Connections: cross_domain.md

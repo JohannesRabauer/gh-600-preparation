@@ -2,2952 +2,1573 @@
 
 ## Table of Contents
 
-- [Exam scoring and score reports | Microsoft Learn
-Table...](#exam-scoring-and-score-reports-|-microsoft-learn
-table...)
-- [Request exam accommodations and frequently asked...](#request-exam-accommodations-and-frequently-asked...)
-- [Search Product and Services Lifecycle Information -...](#search-product-and-services-lifecycle-information--...)
-- [Exam and Applied Skills assessment lab retake policies |...](#exam-and-applied-skills-assessment-lab-retake-policies-|...)
-- [Prerequisite concept: the user interface](#prerequisite-concept:-the-user-interface)
-- [Study guide for Exam GH-600: Developing in Agentic AI...](#study-guide-for-exam-gh-600:-developing-in-agentic-ai...)
-- [Tooling, MCP, and Agent Execution Environments -...](#tooling,-mcp,-and-agent-execution-environments--...)
-- [Microsoft previous versions of technical documentation |...](#microsoft-previous-versions-of-technical-documentation-|...)
-- [Terms of Use | Microsoft Learn
-learn](#terms-of-use-|-microsoft-learn
-learn)
-- [Modern Lifecycle Policy - Microsoft Lifecycle |...](#modern-lifecycle-policy---microsoft-lifecycle-|...)
-- [Browse Credentials | Microsoft Learn
-Browse...](#browse-credentials-|-microsoft-learn
-browse...)
-- [About online exams with Pearson VUE | Microsoft...](#about-online-exams-with-pearson-vue-|-microsoft...)
-- [Exercise - Develop with AI-powered code suggestions by...](#exercise---develop-with-ai-powered-code-suggestions-by...)
-- [Microsoft Certification Renewal | Microsoft...](#microsoft-certification-renewal-|-microsoft...)
-- [Introduction - Training | Microsoft Learn
-Read in...](#introduction---training-|-microsoft-learn
-read-in...)
-- [Mitigate AI risks - Training | Microsoft Learn
-Read in...](#mitigate-ai-risks---training-|-microsoft-learn
-read-in...)
-
-- [Cross-Domain Themes](#cross-domain-themes)
-
+- [Domain 1: Prepare Agent Architecture and SDLC Processes](#domain-1-prepare-agent-architecture-and-sdlc-processes)
+- [Domain 2: Design and Implement Agentic Solutions](#domain-2-design-and-implement-agentic-solutions)
+- [Domain 3: Evaluate and Optimize Agent Performance](#domain-3-evaluate-and-optimize-agent-performance)
+- [Domain 4: Secure and Govern Agentic AI Solutions](#domain-4-secure-and-govern-agentic-ai-solutions)
+- [Domain 5: Collaborate with AI Agents in Development](#domain-5-collaborate-with-ai-agents-in-development)
+- [Domain 6: Implement Responsible AI Practices](#domain-6-implement-responsible-ai-practices)
 
 ---
 
+## Domain 1: Prepare Agent Architecture and SDLC Processes
 
-## Exam scoring and score reports | Microsoft Learn
-Table...
+**Weight: 15–20% of exam**
 
-| Property | Value |
-|----------|-------|
-| Domain | domain-1 |
-| Priority Score | 10/10 |
-| High Priority | Yes |
+### 1.1 Agent Architecture Patterns
 
+#### Overview
 
-### Overview
+Agent architecture defines how AI agents are structured, how they communicate, and how they fit within software systems. In the GitHub ecosystem, agents operate as autonomous or semi-autonomous components that can plan, execute, and iterate on development tasks.
 
-Exam scoring and score reports | Microsoft Learn
-Table... is a key concept within the Prepare agent architecture and SDLC processes domain of the GH-600 certification. Exam scoring and score reports | Microsoft Learn
-Table of contents
-Exit editor mode
-Ask Learn
-Ask Learn
-Reading mode
-Table of contents
-Read in English
-Add
-Add to plan
-Edit
-Copy Markdown
-Print
-Note
-Access to this page requires authorization. Foundations of Agentic AI in GitHub - Training | Microsoft Learn
-Read in English
-Foundations of Agentic AI in GitHub
-Module
-8 Units
-Feedback
-Intermediate
-DevOps Engineer
-Administrator
-Developer
-Solution Architect
-GitHub
-Learn how AI coding agents are transforming software development by planning, acting, and improving within GitHub workflows. About beta Certification exams | Microsoft Learn
-Table of contents
-Exit editor mode
-Ask Learn
-Ask Learn
-Reading mode
-Table of contents
-Read in English
-Add
-Add to plan
-Edit
-Copy Markdown
-Print
-Note
-Access to this page requires authorization. Understanding Exam scoring and score reports | Microsoft Learn
-Table... is essential for candidates preparing for the GitHub Certified Agentic AI Developer exam. This topic encompasses 5 distinct knowledge areas that together provide comprehensive coverage.
+#### Key Architecture Patterns
 
-### Detailed Explanation
+| Pattern | Description | Use Case |
+|---------|-------------|----------|
+| **Single Agent** | One LLM with tools | Simple code generation, single-file edits |
+| **Multi-Agent** | Multiple specialized agents | Complex workflows, code review + testing |
+| **Orchestrator-Worker** | Central coordinator delegates tasks | Large-scale refactoring, multi-step pipelines |
+| **Hierarchical** | Agents supervise sub-agents | Enterprise workflows with approval chains |
 
-Exam scoring and score reports | Microsoft Learn
-Table... represents a fundamental area of knowledge within the Prepare agent architecture and SDLC processes domain of the GH-600 certification. Exam scoring and score reports | Microsoft Learn
-Table of contents
-Exit editor mode
-Ask Learn
-Ask Learn
-Reading mode
-Table of contents
-Read in English
-Add
-Add to plan
-Edit
-Copy Markdown
-Print
-Note
-Access to this page requires authorization. Foundations of Agentic AI in GitHub - Training | Microsoft Learn
-Read in English
-Foundations of Agentic AI in GitHub
-Module
-8 Units
-Feedback
-Intermediate
-DevOps Engineer
-Administrator
-Developer
-Solution Architect
-GitHub
-Learn how AI coding agents are transforming software development by planning, acting, and improving within GitHub workflows. About beta Certification exams | Microsoft Learn
-Table of contents
-Exit editor mode
-Ask Learn
-Ask Learn
-Reading mode
-Table of contents
-Read in English
-Add
-Add to plan
-Edit
-Copy Markdown
-Print
-Note
-Access to this page requires authorization. This concept is integral to understanding how GitHub Copilot and agentic AI solutions function within modern software development lifecycles. Candidates must demonstrate proficiency in applying these concepts to real-world development scenarios.
+#### How GitHub Copilot Implements Agent Architecture
 
-In the context of the GH-600 exam, Exam scoring and score reports | Microsoft Learn
-Table... relates to the broader theme of leveraging AI agents in software development. This includes understanding how agentic solutions can be designed, implemented, evaluated, secured, and governed throughout the development lifecycle. The exam tests both theoretical understanding and practical application of these concepts in enterprise development environments.
+GitHub Copilot agent mode uses a **plan-execute-iterate** loop:
 
-Practical application of Exam scoring and score reports | Microsoft Learn
-Table... involves working with GitHub Copilot's agent mode, understanding tool integration, and managing AI-assisted development workflows. Developers need to understand how to configure, customize, and optimize these capabilities for their specific use cases. This requires knowledge of both the technical implementation details and the organizational processes that support effective AI adoption.
-
-As a high-priority topic, Exam scoring and score reports | Microsoft Learn
-Table... receives additional emphasis in exam preparation. The exam may include multiple questions testing different aspects of this concept, from basic recall to complex scenario-based analysis. Candidates should expect questions that require combining knowledge of Exam scoring and score reports | Microsoft Learn
-Table... with other related topics to solve multi-step problems.
-
-Advanced scenarios involving Exam scoring and score reports | Microsoft Learn
-Table... often require understanding of integration patterns, security considerations, performance optimization, and governance frameworks. The ability to evaluate trade-offs and make informed decisions about implementation approaches is critical. Exam questions may present real-world situations requiring analysis of multiple factors simultaneously, testing the candidate's depth of understanding beyond surface-level knowledge.
-
-### Key Facts
-
-- Exam scoring and score reports | Microsoft Learn
-Table... is part of the Prepare agent architecture and SDLC processes domain (domain-1) in the GH-600 certification.
-- This topic covers 5 knowledge point(s) that candidates must understand.
-- Exam scoring and score reports | Microsoft Learn
-Table of contents
-Exit editor mode
-Ask Learn
-Ask Learn
-Reading mode
-Table of contents
-Read in English
-Add
-Add to plan
-Edit
-Copy Markdown
-Print
-Note
-Access to this page requires authorization. Foundations of Agentic AI in GitHub - Training | Microsoft Learn
-Read in English
-Foundations of Agentic AI in GitHub
-Module
-8 Units
-Feedback
-Intermediate
-DevOps Engineer
-Administrator
-Developer
-Solution Architect
-GitHub
-Learn how AI coding agents are transforming software development by planning, acting, and improving within GitHub workflows. About beta Certification exams | Microsoft Learn
-Table of contents
-Exit editor mode
-Ask Learn
-Ask Learn
-Reading mode
-Table of contents
-Read in English
-Add
-Add to plan
-Edit
-Copy Markdown
-Print
-Note
-Access to this page requires authorization.
-- Falls under the sub-domain: Identify agent roles within development workflows.
-
-
-### Common Mistakes
-
-!!! warning "Avoid These Mistakes"
-
-    - Confusing Exam scoring and score reports | Microsoft Learn
-Table... with related but distinct concepts in the Prepare agent architecture and SDLC processes domain.
-
-    - Focusing only on theoretical knowledge of Exam scoring and score reports | Microsoft Learn
-Table... without understanding practical implementation scenarios.
-
-    - Skipping steps in the Exam scoring and score reports | Microsoft Learn
-Table... workflow or performing them out of the required order.
-
-
-### Examples
-
-1. A developer uses Exam scoring and score reports | Microsoft Learn
-Table... when configuring GitHub Copilot agent mode to assist with code generation and review tasks in their development workflow.
-2. In an enterprise setting, Exam scoring and score reports | Microsoft Learn
-Table... is applied to ensure that AI-assisted development processes meet organizational standards for security and governance.
-3. A team follows the Exam scoring and score reports | Microsoft Learn
-Table... procedure to set up their CI/CD pipeline with agentic AI capabilities.
-
-
-
-
-
-### Step-by-Step Instructions
-
-
-1. **Identify requirements for Exam scoring and score reports | Microsoft Learn
-Table...**
-
-    - *Rationale*: Understanding requirements ensures the correct approach is selected for the specific use case.
-
-
-2. **Configure the environment for Exam scoring and score reports | Microsoft Learn
-Table...**
-
-    - *Rationale*: Proper environment setup prevents issues during implementation and ensures all dependencies are met.
-
-
-3. **Implement Exam scoring and score reports | Microsoft Learn
-Table... following best practices**
-
-    - *Rationale*: Following established patterns ensures reliability, security, and maintainability of the solution.
-
-
-4. **Validate and test the Exam scoring and score reports | Microsoft Learn
-Table... implementation**
-
-    - *Rationale*: Testing confirms correct behavior and catches issues before they impact production systems.
-
-
-5. **Monitor and iterate on Exam scoring and score reports | Microsoft Learn
-Table...**
-
-    - *Rationale*: Ongoing monitoring enables continuous improvement and early detection of any degradation.
-
-
-
-
-### Exam Tips
-
-!!! tip "Exam Tips"
-
-    - Focus on understanding the practical applications of Exam scoring and score reports | Microsoft Learn
-Table... rather than just memorizing definitions.
-
-    - This is a high-priority topic (score: 10/10). Expect multiple exam questions testing different aspects of Exam scoring and score reports | Microsoft Learn
-Table....
-
-    - Exam scoring and score reports | Microsoft Learn
-Table... appears across 5 domains — be prepared for cross-domain questions.
-
-
-
-### Related Topics
-
-| Topic | Domain | Relationship |
-|-------|--------|-------------|
-| [topic-006](#topic-006) | Design and implement agentic solutions | Shares concepts (agentic, engineer, solution) with Study guide for Exam GH-600: Developing in Agentic AI... |
-| [topic-007](#topic-007) | Design and implement agentic solutions | Shares concepts (engineer, mode, solution) with Tooling, MCP, and Agent Execution Environments -... |
-| [topic-008](#topic-008) | Design and implement agentic solutions | Shares concepts (learn, microsoft) with Microsoft previous versions of technical documentation |... |
-| [topic-009](#topic-009) | Secure and govern agentic AI solutions | Shares concepts (editor, mode, requires) with Terms of Use | Microsoft Learn
-learn |
-| [topic-010](#topic-010) | Secure and govern agentic AI solutions | Shares concepts (editor, mode, requires) with Modern Lifecycle Policy - Microsoft Lifecycle |... |
-| [topic-011](#topic-011) | Secure and govern agentic AI solutions | Shares concepts (learn, microsoft) with Browse Credentials | Microsoft Learn
-Browse... |
-| [topic-012](#topic-012) | Secure and govern agentic AI solutions | Shares concepts (editor, mode, requires) with About online exams with Pearson VUE | Microsoft... |
-| [topic-013](#topic-013) | Collaborate with AI agents in the development workflow | Shares concepts (editor, mode, requires) with Exercise - Develop with AI-powered code suggestions by... |
-| [topic-014](#topic-014) | Implement responsible AI practices | Shares concepts (certification, learn, microsoft) with Microsoft Certification Renewal | Microsoft... |
-| [topic-015](#topic-015) | Implement responsible AI practices | Shares concepts (add, english, learn) with Introduction - Training | Microsoft Learn
-Read in... |
-| [topic-016](#topic-016) | Implement responsible AI practices | Shares concepts (add, english, learn) with Mitigate AI risks - Training | Microsoft Learn
-Read in... |
-
-
-
----
-
-
-## Request exam accommodations and frequently asked...
-
-| Property | Value |
-|----------|-------|
-| Domain | domain-1 |
-| Priority Score | 10/10 |
-| High Priority | Yes |
-
-!!! note "Supplemented Content"
-    Some content in this section was inferred from related materials and marked accordingly.
-
-
-
-### Overview
-
-Request exam accommodations and frequently asked... is a key concept within the Prepare agent architecture and SDLC processes domain of the GH-600 certification. Request exam accommodations and frequently asked questions | Microsoft Learn
-Table of contents
-Exit editor mode
-Ask Learn
-Ask Learn
-Reading mode
-Table of contents
-Read in English
-Add
-Add to plan
-Edit
-Copy Markdown
-Print
-Note
-Access to this page requires authorization. Introduction - Training | Microsoft Learn
-Read in English
-Add
-Add to plan
-Introduction
-Completed
-5 minutes
-Agentic systems are changing how software is built and maintained. Understanding Request exam accommodations and frequently asked... is essential for candidates preparing for the GitHub Certified Agentic AI Developer exam. This topic encompasses 2 distinct knowledge areas that together provide comprehensive coverage.
-
-### Detailed Explanation
-
-Request exam accommodations and frequently asked... represents a fundamental area of knowledge within the Prepare agent architecture and SDLC processes domain of the GH-600 certification. Request exam accommodations and frequently asked questions | Microsoft Learn
-Table of contents
-Exit editor mode
-Ask Learn
-Ask Learn
-Reading mode
-Table of contents
-Read in English
-Add
-Add to plan
-Edit
-Copy Markdown
-Print
-Note
-Access to this page requires authorization. Introduction - Training | Microsoft Learn
-Read in English
-Add
-Add to plan
-Introduction
-Completed
-5 minutes
-Agentic systems are changing how software is built and maintained. This concept is integral to understanding how GitHub Copilot and agentic AI solutions function within modern software development lifecycles. Candidates must demonstrate proficiency in applying these concepts to real-world development scenarios.
-
-In the context of the GH-600 exam, Request exam accommodations and frequently asked... relates to the broader theme of leveraging AI agents in software development. This includes understanding how agentic solutions can be designed, implemented, evaluated, secured, and governed throughout the development lifecycle. The exam tests both theoretical understanding and practical application of these concepts in enterprise development environments.
-
-Practical application of Request exam accommodations and frequently asked... involves working with GitHub Copilot's agent mode, understanding tool integration, and managing AI-assisted development workflows. Developers need to understand how to configure, customize, and optimize these capabilities for their specific use cases. This requires knowledge of both the technical implementation details and the organizational processes that support effective AI adoption.
-
-As a high-priority topic, Request exam accommodations and frequently asked... receives additional emphasis in exam preparation. The exam may include multiple questions testing different aspects of this concept, from basic recall to complex scenario-based analysis. Candidates should expect questions that require combining knowledge of Request exam accommodations and frequently asked... with other related topics to solve multi-step problems.
-
-Advanced scenarios involving Request exam accommodations and frequently asked... often require understanding of integration patterns, security considerations, performance optimization, and governance frameworks. The ability to evaluate trade-offs and make informed decisions about implementation approaches is critical. Exam questions may present real-world situations requiring analysis of multiple factors simultaneously, testing the candidate's depth of understanding beyond surface-level knowledge.
-
-Furthermore, Request exam accommodations and frequently asked... connects to broader themes in the Prepare agent architecture and SDLC processes domain including best practices, enterprise adoption patterns, and continuous improvement of AI-assisted development processes. Understanding these connections helps candidates answer cross-domain questions.
-
-> [!NOTE] Supplemented content
-This topic had limited source material and content was inferred from domain context.
-
-### Key Facts
-
-- Request exam accommodations and frequently asked... is part of the Prepare agent architecture and SDLC processes domain (domain-1) in the GH-600 certification.
-- This topic covers 2 knowledge point(s) that candidates must understand.
-- Request exam accommodations and frequently asked questions | Microsoft Learn
-Table of contents
-Exit editor mode
-Ask Learn
-Ask Learn
-Reading mode
-Table of contents
-Read in English
-Add
-Add to plan
-Edit
-Copy Markdown
-Print
-Note
-Access to this page requires authorization. Introduction - Training | Microsoft Learn
-Read in English
-Add
-Add to plan
-Introduction
-Completed
-5 minutes
-Agentic systems are changing how software is built and maintained.
-- Falls under the sub-domain: Design agent architecture patterns.
-
-
-### Common Mistakes
-
-!!! warning "Avoid These Mistakes"
-
-    - Confusing Request exam accommodations and frequently asked... with related but distinct concepts in the Prepare agent architecture and SDLC processes domain.
-
-    - Focusing only on theoretical knowledge of Request exam accommodations and frequently asked... without understanding practical implementation scenarios.
-
-
-### Examples
-
-1. A developer uses Request exam accommodations and frequently asked... when configuring GitHub Copilot agent mode to assist with code generation and review tasks in their development workflow.
-2. In an enterprise setting, Request exam accommodations and frequently asked... is applied to ensure that AI-assisted development processes meet organizational standards for security and governance.
-
-
-
-
-
-
-### Exam Tips
-
-!!! tip "Exam Tips"
-
-    - Focus on understanding the practical applications of Request exam accommodations and frequently asked... rather than just memorizing definitions.
-
-    - This is a high-priority topic (score: 10/10). Expect multiple exam questions testing different aspects of Request exam accommodations and frequently asked....
-
-    - Request exam accommodations and frequently asked... appears across 4 domains — be prepared for cross-domain questions.
-
-
-
-### Related Topics
-
-| Topic | Domain | Relationship |
-|-------|--------|-------------|
-| [topic-006](#topic-006) | Design and implement agentic solutions | Shares concepts (agentic, mode, requires) with Study guide for Exam GH-600: Developing in Agentic AI... |
-| [topic-007](#topic-007) | Design and implement agentic solutions | Shares concepts (editor, mode, requires) with Tooling, MCP, and Agent Execution Environments -... |
-| [topic-008](#topic-008) | Design and implement agentic solutions | Shares concepts (learn, microsoft) with Microsoft previous versions of technical documentation |... |
-| [topic-009](#topic-009) | Secure and govern agentic AI solutions | Shares concepts (editor, mode, requires) with Terms of Use | Microsoft Learn
-learn |
-| [topic-010](#topic-010) | Secure and govern agentic AI solutions | Shares concepts (editor, mode, requires) with Modern Lifecycle Policy - Microsoft Lifecycle |... |
-| [topic-011](#topic-011) | Secure and govern agentic AI solutions | Shares concepts (learn, microsoft) with Browse Credentials | Microsoft Learn
-Browse... |
-| [topic-012](#topic-012) | Secure and govern agentic AI solutions | Shares concepts (editor, mode, requires) with About online exams with Pearson VUE | Microsoft... |
-| [topic-013](#topic-013) | Collaborate with AI agents in the development workflow | Shares concepts (editor, mode, requires) with Exercise - Develop with AI-powered code suggestions by... |
-| [topic-014](#topic-014) | Implement responsible AI practices | Shares concepts (learn, microsoft) with Microsoft Certification Renewal | Microsoft... |
-| [topic-015](#topic-015) | Implement responsible AI practices | Shares concepts (add, english, learn) with Introduction - Training | Microsoft Learn
-Read in... |
-| [topic-016](#topic-016) | Implement responsible AI practices | Shares concepts (add, english, learn) with Mitigate AI risks - Training | Microsoft Learn
-Read in... |
-
-
-
----
-
-
-## Search Product and Services Lifecycle Information -...
-
-| Property | Value |
-|----------|-------|
-| Domain | domain-1 |
-| Priority Score | 8/10 |
-| High Priority | Yes |
-
-
-### Overview
-
-Search Product and Services Lifecycle Information -... is a key concept within the Prepare agent architecture and SDLC processes domain of the GH-600 certification. Search Product and Services Lifecycle Information - Microsoft Lifecycle | Microsoft Learn
-Search Product and Services Lifecycle Information
-Note
-Export lifecycle information from the
-Lifecycle Export
-page. Search Product and Services Lifecycle Information - Microsoft Lifecycle | Microsoft Learn
-Search Product and Services Lifecycle Information
-Note
-Export lifecycle information from the
-Lifecycle Export
-page. Renew your Microsoft Certification - FAQ | Microsoft Learn
-Table of contents
-Exit editor mode
-Ask Learn
-Ask Learn
-Reading mode
-Table of contents
-Read in English
-Add
-Add to plan
-Edit
-Copy Markdown
-Print
-Note
-Access to this page requires authorization. Understanding Search Product and Services Lifecycle Information -... is essential for candidates preparing for the GitHub Certified Agentic AI Developer exam. This topic encompasses 3 distinct knowledge areas that together provide comprehensive coverage.
-
-### Detailed Explanation
-
-Search Product and Services Lifecycle Information -... represents a fundamental area of knowledge within the Prepare agent architecture and SDLC processes domain of the GH-600 certification. Search Product and Services Lifecycle Information - Microsoft Lifecycle | Microsoft Learn
-Search Product and Services Lifecycle Information
-Note
-Export lifecycle information from the
-Lifecycle Export
-page. Search Product and Services Lifecycle Information - Microsoft Lifecycle | Microsoft Learn
-Search Product and Services Lifecycle Information
-Note
-Export lifecycle information from the
-Lifecycle Export
-page. Renew your Microsoft Certification - FAQ | Microsoft Learn
-Table of contents
-Exit editor mode
-Ask Learn
-Ask Learn
-Reading mode
-Table of contents
-Read in English
-Add
-Add to plan
-Edit
-Copy Markdown
-Print
-Note
-Access to this page requires authorization. This concept is integral to understanding how GitHub Copilot and agentic AI solutions function within modern software development lifecycles. Candidates must demonstrate proficiency in applying these concepts to real-world development scenarios.
-
-In the context of the GH-600 exam, Search Product and Services Lifecycle Information -... relates to the broader theme of leveraging AI agents in software development. This includes understanding how agentic solutions can be designed, implemented, evaluated, secured, and governed throughout the development lifecycle. The exam tests both theoretical understanding and practical application of these concepts in enterprise development environments.
-
-Practical application of Search Product and Services Lifecycle Information -... involves working with GitHub Copilot's agent mode, understanding tool integration, and managing AI-assisted development workflows. Developers need to understand how to configure, customize, and optimize these capabilities for their specific use cases. This requires knowledge of both the technical implementation details and the organizational processes that support effective AI adoption.
-
-As a high-priority topic, Search Product and Services Lifecycle Information -... receives additional emphasis in exam preparation. The exam may include multiple questions testing different aspects of this concept, from basic recall to complex scenario-based analysis. Candidates should expect questions that require combining knowledge of Search Product and Services Lifecycle Information -... with other related topics to solve multi-step problems.
-
-Advanced scenarios involving Search Product and Services Lifecycle Information -... often require understanding of integration patterns, security considerations, performance optimization, and governance frameworks. The ability to evaluate trade-offs and make informed decisions about implementation approaches is critical. Exam questions may present real-world situations requiring analysis of multiple factors simultaneously, testing the candidate's depth of understanding beyond surface-level knowledge.
-
-Furthermore, Search Product and Services Lifecycle Information -... connects to broader themes in the Prepare agent architecture and SDLC processes domain including best practices, enterprise adoption patterns, and continuous improvement of AI-assisted development processes. Understanding these connections helps candidates answer cross-domain questions.
-
-### Key Facts
-
-- Search Product and Services Lifecycle Information -... is part of the Prepare agent architecture and SDLC processes domain (domain-1) in the GH-600 certification.
-- This topic covers 3 knowledge point(s) that candidates must understand.
-- Search Product and Services Lifecycle Information - Microsoft Lifecycle | Microsoft Learn
-Search Product and Services Lifecycle Information
-Note
-Export lifecycle information from the
-Lifecycle Export
-page. Search Product and Services Lifecycle Information - Microsoft Lifecycle | Microsoft Learn
-Search Product and Services Lifecycle Information
-Note
-Export lifecycle information from the
-Lifecycle Export
-page. Renew your Microsoft Certification - FAQ | Microsoft Learn
-Table of contents
-Exit editor mode
-Ask Learn
-Ask Learn
-Reading mode
-Table of contents
-Read in English
-Add
-Add to plan
-Edit
-Copy Markdown
-Print
-Note
-Access to this page requires authorization.
-- Falls under the sub-domain: Plan agent communication and orchestration.
-
-
-### Common Mistakes
-
-!!! warning "Avoid These Mistakes"
-
-    - Confusing Search Product and Services Lifecycle Information -... with related but distinct concepts in the Prepare agent architecture and SDLC processes domain.
-
-    - Focusing only on theoretical knowledge of Search Product and Services Lifecycle Information -... without understanding practical implementation scenarios.
-
-
-### Examples
-
-1. A developer uses Search Product and Services Lifecycle Information -... when configuring GitHub Copilot agent mode to assist with code generation and review tasks in their development workflow.
-2. In an enterprise setting, Search Product and Services Lifecycle Information -... is applied to ensure that AI-assisted development processes meet organizational standards for security and governance.
-
-
-
-
-
-
-### Exam Tips
-
-!!! tip "Exam Tips"
-
-    - Focus on understanding the practical applications of Search Product and Services Lifecycle Information -... rather than just memorizing definitions.
-
-    - This is a high-priority topic (score: 8/10). Expect multiple exam questions testing different aspects of Search Product and Services Lifecycle Information -....
-
-
-
-### Related Topics
-
-| Topic | Domain | Relationship |
-|-------|--------|-------------|
-| [topic-006](#topic-006) | Design and implement agentic solutions | Shares concepts (mode, requires, your) with Study guide for Exam GH-600: Developing in Agentic AI... |
-| [topic-007](#topic-007) | Design and implement agentic solutions | Shares concepts (editor, mode, requires) with Tooling, MCP, and Agent Execution Environments -... |
-| [topic-008](#topic-008) | Design and implement agentic solutions | Shares concepts (learn, search, services) with Microsoft previous versions of technical documentation |... |
-| [topic-009](#topic-009) | Secure and govern agentic AI solutions | Shares concepts (editor, mode, requires) with Terms of Use | Microsoft Learn
-learn |
-| [topic-010](#topic-010) | Secure and govern agentic AI solutions | Shares concepts (editor, mode, requires) with Modern Lifecycle Policy - Microsoft Lifecycle |... |
-| [topic-011](#topic-011) | Secure and govern agentic AI solutions | Shares concepts (learn, microsoft, your) with Browse Credentials | Microsoft Learn
-Browse... |
-| [topic-012](#topic-012) | Secure and govern agentic AI solutions | Shares concepts (editor, mode, requires) with About online exams with Pearson VUE | Microsoft... |
-| [topic-013](#topic-013) | Collaborate with AI agents in the development workflow | Shares concepts (editor, mode, requires) with Exercise - Develop with AI-powered code suggestions by... |
-| [topic-014](#topic-014) | Implement responsible AI practices | Shares concepts (learn, microsoft, your) with Microsoft Certification Renewal | Microsoft... |
-| [topic-015](#topic-015) | Implement responsible AI practices | Shares concepts (add, english, learn) with Introduction - Training | Microsoft Learn
-Read in... |
-| [topic-016](#topic-016) | Implement responsible AI practices | Shares concepts (add, english, learn) with Mitigate AI risks - Training | Microsoft Learn
-Read in... |
-
-
-
----
-
-
-## Exam and Applied Skills assessment lab retake policies |...
-
-| Property | Value |
-|----------|-------|
-| Domain | domain-1 |
-| Priority Score | 8/10 |
-| High Priority | Yes |
-
-!!! note "Supplemented Content"
-    Some content in this section was inferred from related materials and marked accordingly.
-
-
-
-### Overview
-
-Exam and Applied Skills assessment lab retake policies |... is a key concept within the Prepare agent architecture and SDLC processes domain of the GH-600 certification. Exam and Applied Skills assessment lab retake policies | Microsoft Learn
-Table of contents
-Exit editor mode
-Ask Learn
-Ask Learn
-Reading mode
-Table of contents
-Read in English
-Add
-Add to plan
-Edit
-Copy Markdown
-Print
-Note
-Access to this page requires authorization. Exam and Applied Skills assessment lab retake policies | Microsoft Learn
-Table of contents
-Exit editor mode
-Ask Learn
-Ask Learn
-Reading mode
-Table of contents
-Read in English
-Add
-Add to plan
-Edit
-Copy Markdown
-Print
-Note
-Access to this page requires authorization. Understanding Exam and Applied Skills assessment lab retake policies |... is essential for candidates preparing for the GitHub Certified Agentic AI Developer exam. This topic encompasses 2 distinct knowledge areas that together provide comprehensive coverage.
-
-### Detailed Explanation
-
-Exam and Applied Skills assessment lab retake policies |... represents a fundamental area of knowledge within the Prepare agent architecture and SDLC processes domain of the GH-600 certification. Exam and Applied Skills assessment lab retake policies | Microsoft Learn
-Table of contents
-Exit editor mode
-Ask Learn
-Ask Learn
-Reading mode
-Table of contents
-Read in English
-Add
-Add to plan
-Edit
-Copy Markdown
-Print
-Note
-Access to this page requires authorization. Exam and Applied Skills assessment lab retake policies | Microsoft Learn
-Table of contents
-Exit editor mode
-Ask Learn
-Ask Learn
-Reading mode
-Table of contents
-Read in English
-Add
-Add to plan
-Edit
-Copy Markdown
-Print
-Note
-Access to this page requires authorization. This concept is integral to understanding how GitHub Copilot and agentic AI solutions function within modern software development lifecycles. Candidates must demonstrate proficiency in applying these concepts to real-world development scenarios.
-
-In the context of the GH-600 exam, Exam and Applied Skills assessment lab retake policies |... relates to the broader theme of leveraging AI agents in software development. This includes understanding how agentic solutions can be designed, implemented, evaluated, secured, and governed throughout the development lifecycle. The exam tests both theoretical understanding and practical application of these concepts in enterprise development environments.
-
-Practical application of Exam and Applied Skills assessment lab retake policies |... involves working with GitHub Copilot's agent mode, understanding tool integration, and managing AI-assisted development workflows. Developers need to understand how to configure, customize, and optimize these capabilities for their specific use cases. This requires knowledge of both the technical implementation details and the organizational processes that support effective AI adoption.
-
-As a high-priority topic, Exam and Applied Skills assessment lab retake policies |... receives additional emphasis in exam preparation. The exam may include multiple questions testing different aspects of this concept, from basic recall to complex scenario-based analysis. Candidates should expect questions that require combining knowledge of Exam and Applied Skills assessment lab retake policies |... with other related topics to solve multi-step problems.
-
-Advanced scenarios involving Exam and Applied Skills assessment lab retake policies |... often require understanding of integration patterns, security considerations, performance optimization, and governance frameworks. The ability to evaluate trade-offs and make informed decisions about implementation approaches is critical. Exam questions may present real-world situations requiring analysis of multiple factors simultaneously, testing the candidate's depth of understanding beyond surface-level knowledge.
-
-Furthermore, Exam and Applied Skills assessment lab retake policies |... connects to broader themes in the Prepare agent architecture and SDLC processes domain including best practices, enterprise adoption patterns, and continuous improvement of AI-assisted development processes. Understanding these connections helps candidates answer cross-domain questions.
-
-> [!NOTE] Supplemented content
-This topic had limited source material and content was inferred from domain context.
-
-### Key Facts
-
-- Exam and Applied Skills assessment lab retake policies |... is part of the Prepare agent architecture and SDLC processes domain (domain-1) in the GH-600 certification.
-- This topic covers 2 knowledge point(s) that candidates must understand.
-- Exam and Applied Skills assessment lab retake policies | Microsoft Learn
-Table of contents
-Exit editor mode
-Ask Learn
-Ask Learn
-Reading mode
-Table of contents
-Read in English
-Add
-Add to plan
-Edit
-Copy Markdown
-Print
-Note
-Access to this page requires authorization. Exam and Applied Skills assessment lab retake policies | Microsoft Learn
-Table of contents
-Exit editor mode
-Ask Learn
-Ask Learn
-Reading mode
-Table of contents
-Read in English
-Add
-Add to plan
-Edit
-Copy Markdown
-Print
-Note
-Access to this page requires authorization.
-- Falls under the sub-domain: Select appropriate agent frameworks and tools.
-
-
-### Common Mistakes
-
-!!! warning "Avoid These Mistakes"
-
-    - Confusing Exam and Applied Skills assessment lab retake policies |... with related but distinct concepts in the Prepare agent architecture and SDLC processes domain.
-
-    - Focusing only on theoretical knowledge of Exam and Applied Skills assessment lab retake policies |... without understanding practical implementation scenarios.
-
-
-### Examples
-
-1. A developer uses Exam and Applied Skills assessment lab retake policies |... when configuring GitHub Copilot agent mode to assist with code generation and review tasks in their development workflow.
-2. In an enterprise setting, Exam and Applied Skills assessment lab retake policies |... is applied to ensure that AI-assisted development processes meet organizational standards for security and governance.
-
-
-
-
-
-
-### Exam Tips
-
-!!! tip "Exam Tips"
-
-    - Focus on understanding the practical applications of Exam and Applied Skills assessment lab retake policies |... rather than just memorizing definitions.
-
-    - This is a high-priority topic (score: 8/10). Expect multiple exam questions testing different aspects of Exam and Applied Skills assessment lab retake policies |....
-
-
-
-### Related Topics
-
-| Topic | Domain | Relationship |
-|-------|--------|-------------|
-| [topic-006](#topic-006) | Design and implement agentic solutions | Shares concepts (editor, mode, requires) with Study guide for Exam GH-600: Developing in Agentic AI... |
-| [topic-007](#topic-007) | Design and implement agentic solutions | Shares concepts (editor, mode, requires) with Tooling, MCP, and Agent Execution Environments -... |
-| [topic-008](#topic-008) | Design and implement agentic solutions | Shares concepts (learn, microsoft) with Microsoft previous versions of technical documentation |... |
-| [topic-009](#topic-009) | Secure and govern agentic AI solutions | Shares concepts (editor, mode, requires) with Terms of Use | Microsoft Learn
-learn |
-| [topic-010](#topic-010) | Secure and govern agentic AI solutions | Shares concepts (editor, mode, requires) with Modern Lifecycle Policy - Microsoft Lifecycle |... |
-| [topic-011](#topic-011) | Secure and govern agentic AI solutions | Shares concepts (learn, microsoft, skills) with Browse Credentials | Microsoft Learn
-Browse... |
-| [topic-012](#topic-012) | Secure and govern agentic AI solutions | Shares concepts (editor, mode, requires) with About online exams with Pearson VUE | Microsoft... |
-| [topic-013](#topic-013) | Collaborate with AI agents in the development workflow | Shares concepts (editor, mode, requires) with Exercise - Develop with AI-powered code suggestions by... |
-| [topic-014](#topic-014) | Implement responsible AI practices | Shares concepts (learn, microsoft, skills) with Microsoft Certification Renewal | Microsoft... |
-| [topic-015](#topic-015) | Implement responsible AI practices | Shares concepts (add, english, learn) with Introduction - Training | Microsoft Learn
-Read in... |
-| [topic-016](#topic-016) | Implement responsible AI practices | Shares concepts (add, english, learn) with Mitigate AI risks - Training | Microsoft Learn
-Read in... |
-
-
-
----
-
-
-## Prerequisite concept: the user interface
-
-| Property | Value |
-|----------|-------|
-| Domain | domain-1 |
-| Priority Score | 8/10 |
-| High Priority | Yes |
-
-!!! note "Supplemented Content"
-    Some content in this section was inferred from related materials and marked accordingly.
-
-
-
-### Overview
-
-Prerequisite concept: the user interface is a key concept within the Prepare agent architecture and SDLC processes domain of the GH-600 certification. Prerequisite concept: the user interface. Understanding Prerequisite concept: the user interface is essential for candidates preparing for the GitHub Certified Agentic AI Developer exam.
-
-### Detailed Explanation
-
-Prerequisite concept: the user interface represents a fundamental area of knowledge within the Prepare agent architecture and SDLC processes domain of the GH-600 certification. Prerequisite concept: the user interface. This concept is integral to understanding how GitHub Copilot and agentic AI solutions function within modern software development lifecycles. Candidates must demonstrate proficiency in applying these concepts to real-world development scenarios.
-
-In the context of the GH-600 exam, Prerequisite concept: the user interface relates to the broader theme of leveraging AI agents in software development. This includes understanding how agentic solutions can be designed, implemented, evaluated, secured, and governed throughout the development lifecycle. The exam tests both theoretical understanding and practical application of these concepts in enterprise development environments.
-
-Practical application of Prerequisite concept: the user interface involves working with GitHub Copilot's agent mode, understanding tool integration, and managing AI-assisted development workflows. Developers need to understand how to configure, customize, and optimize these capabilities for their specific use cases. This requires knowledge of both the technical implementation details and the organizational processes that support effective AI adoption.
-
-As a high-priority topic, Prerequisite concept: the user interface receives additional emphasis in exam preparation. The exam may include multiple questions testing different aspects of this concept, from basic recall to complex scenario-based analysis. Candidates should expect questions that require combining knowledge of Prerequisite concept: the user interface with other related topics to solve multi-step problems.
-
-Advanced scenarios involving Prerequisite concept: the user interface often require understanding of integration patterns, security considerations, performance optimization, and governance frameworks. The ability to evaluate trade-offs and make informed decisions about implementation approaches is critical. Exam questions may present real-world situations requiring analysis of multiple factors simultaneously, testing the candidate's depth of understanding beyond surface-level knowledge.
-
-Furthermore, Prerequisite concept: the user interface connects to broader themes in the Prepare agent architecture and SDLC processes domain including best practices, enterprise adoption patterns, and continuous improvement of AI-assisted development processes. Understanding these connections helps candidates answer cross-domain questions.
-
-Furthermore, Prerequisite concept: the user interface connects to broader themes in the Prepare agent architecture and SDLC processes domain including best practices, enterprise adoption patterns, and continuous improvement of AI-assisted development processes. Understanding these connections helps candidates answer cross-domain questions.
-
-Furthermore, Prerequisite concept: the user interface connects to broader themes in the Prepare agent architecture and SDLC processes domain including best practices, enterprise adoption patterns, and continuous improvement of AI-assisted development processes. Understanding these connections helps candidates answer cross-domain questions.
-
-> [!NOTE] Supplemented content
-This topic had limited source material and content was inferred from domain context.
-
-### Key Facts
-
-- Prerequisite concept: the user interface is part of the Prepare agent architecture and SDLC processes domain (domain-1) in the GH-600 certification.
-- This topic covers 1 knowledge point(s) that candidates must understand.
-- Prerequisite concept: the user interface.
-
-
-### Common Mistakes
-
-!!! warning "Avoid These Mistakes"
-
-    - Confusing Prerequisite concept: the user interface with related but distinct concepts in the Prepare agent architecture and SDLC processes domain.
-
-    - Focusing only on theoretical knowledge of Prerequisite concept: the user interface without understanding practical implementation scenarios.
-
-
-### Examples
-
-1. A developer uses Prerequisite concept: the user interface when configuring GitHub Copilot agent mode to assist with code generation and review tasks in their development workflow.
-2. In an enterprise setting, Prerequisite concept: the user interface is applied to ensure that AI-assisted development processes meet organizational standards for security and governance.
-
-
-
-
-
-
-### Exam Tips
-
-!!! tip "Exam Tips"
-
-    - Focus on understanding the practical applications of Prerequisite concept: the user interface rather than just memorizing definitions.
-
-    - This is a high-priority topic (score: 8/10). Expect multiple exam questions testing different aspects of Prerequisite concept: the user interface.
-
-
-
-
----
-
-
-## Study guide for Exam GH-600: Developing in Agentic AI...
-
-| Property | Value |
-|----------|-------|
-| Domain | domain-2 |
-| Priority Score | 10/10 |
-| High Priority | Yes |
-
-
-### Overview
-
-Study guide for Exam GH-600: Developing in Agentic AI... is a key concept within the Design and implement agentic solutions domain of the GH-600 certification. Study guide for Exam GH-600: Developing in Agentic AI Systems | Microsoft Learn
-Table of contents
-Exit editor mode
-Ask Learn
-Ask Learn
-Reading mode
-Table of contents
-Read in English
-Add
-Add to plan
-Edit
-Copy Markdown
-Print
-Note
-Access to this page requires authorization. Introduction to GitHub Copilot - Training | Microsoft Learn
-Read in English
-Introduction to GitHub Copilot
-Module
-7 Units
-Feedback
-Beginner
-DevOps Engineer
-Administrator
-Developer
-Solution Architect
-Student
-GitHub
-Azure
-GitHub Copilot is an AI-powered coding assistant that helps you generate, understand, refactor, and debug code in real time using both inline suggestions and a conversational chat experience—directly from your development environment. Building Applications with GitHub Copilot Agent Mode - Training | Microsoft Learn
-Read in English
-Building applications with GitHub Copilot agent mode
-Module
-6 Units
-Feedback
-Intermediate
-DevOps Engineer
-Administrator
-Developer
-Solution Architect
-Student
-GitHub
-Azure
-Learn how to build applications using GitHub Copilot Agent Mode by prompting autonomous development tasks, using documentation for guidance, and understanding how Agent Mode iteratively manages, refactors, and improves your codebase. Understanding Study guide for Exam GH-600: Developing in Agentic AI... is essential for candidates preparing for the GitHub Certified Agentic AI Developer exam. This topic encompasses 54 distinct knowledge areas that together provide comprehensive coverage.
-
-### Detailed Explanation
-
-Study guide for Exam GH-600: Developing in Agentic AI... represents a fundamental area of knowledge within the Design and implement agentic solutions domain of the GH-600 certification. Study guide for Exam GH-600: Developing in Agentic AI Systems | Microsoft Learn
-Table of contents
-Exit editor mode
-Ask Learn
-Ask Learn
-Reading mode
-Table of contents
-Read in English
-Add
-Add to plan
-Edit
-Copy Markdown
-Print
-Note
-Access to this page requires authorization. Introduction to GitHub Copilot - Training | Microsoft Learn
-Read in English
-Introduction to GitHub Copilot
-Module
-7 Units
-Feedback
-Beginner
-DevOps Engineer
-Administrator
-Developer
-Solution Architect
-Student
-GitHub
-Azure
-GitHub Copilot is an AI-powered coding assistant that helps you generate, understand, refactor, and debug code in real time using both inline suggestions and a conversational chat experience—directly from your development environment. Building Applications with GitHub Copilot Agent Mode - Training | Microsoft Learn
-Read in English
-Building applications with GitHub Copilot agent mode
-Module
-6 Units
-Feedback
-Intermediate
-DevOps Engineer
-Administrator
-Developer
-Solution Architect
-Student
-GitHub
-Azure
-Learn how to build applications using GitHub Copilot Agent Mode by prompting autonomous development tasks, using documentation for guidance, and understanding how Agent Mode iteratively manages, refactors, and improves your codebase. This concept is integral to understanding how GitHub Copilot and agentic AI solutions function within modern software development lifecycles. Candidates must demonstrate proficiency in applying these concepts to real-world development scenarios.
-
-In the context of the GH-600 exam, Study guide for Exam GH-600: Developing in Agentic AI... relates to the broader theme of leveraging AI agents in software development. This includes understanding how agentic solutions can be designed, implemented, evaluated, secured, and governed throughout the development lifecycle. The exam tests both theoretical understanding and practical application of these concepts in enterprise development environments.
-
-Practical application of Study guide for Exam GH-600: Developing in Agentic AI... involves working with GitHub Copilot's agent mode, understanding tool integration, and managing AI-assisted development workflows. Developers need to understand how to configure, customize, and optimize these capabilities for their specific use cases. This requires knowledge of both the technical implementation details and the organizational processes that support effective AI adoption.
-
-As a high-priority topic, Study guide for Exam GH-600: Developing in Agentic AI... receives additional emphasis in exam preparation. The exam may include multiple questions testing different aspects of this concept, from basic recall to complex scenario-based analysis. Candidates should expect questions that require combining knowledge of Study guide for Exam GH-600: Developing in Agentic AI... with other related topics to solve multi-step problems.
-
-Advanced scenarios involving Study guide for Exam GH-600: Developing in Agentic AI... often require understanding of integration patterns, security considerations, performance optimization, and governance frameworks. The ability to evaluate trade-offs and make informed decisions about implementation approaches is critical. Exam questions may present real-world situations requiring analysis of multiple factors simultaneously, testing the candidate's depth of understanding beyond surface-level knowledge.
-
-### Key Facts
-
-- Study guide for Exam GH-600: Developing in Agentic AI... is part of the Design and implement agentic solutions domain (domain-2) in the GH-600 certification.
-- This topic covers 54 knowledge point(s) that candidates must understand.
-- Study guide for Exam GH-600: Developing in Agentic AI Systems | Microsoft Learn
-Table of contents
-Exit editor mode
-Ask Learn
-Ask Learn
-Reading mode
-Table of contents
-Read in English
-Add
-Add to plan
-Edit
-Copy Markdown
-Print
-Note
-Access to this page requires authorization. Introduction to GitHub Copilot - Training | Microsoft Learn
-Read in English
-Introduction to GitHub Copilot
-Module
-7 Units
-Feedback
-Beginner
-DevOps Engineer
-Administrator
-Developer
-Solution Architect
-Student
-GitHub
-Azure
-GitHub Copilot is an AI-powered coding assistant that helps you generate, understand, refactor, and debug code in real time using both inline suggestions and a conversational chat experience—directly from your development environment. Building Applications with GitHub Copilot Agent Mode - Training | Microsoft Learn
-Read in English
-Building applications with GitHub Copilot agent mode
-Module
-6 Units
-Feedback
-Intermediate
-DevOps Engineer
-Administrator
-Developer
-Solution Architect
-Student
-GitHub
-Azure
-Learn how to build applications using GitHub Copilot Agent Mode by prompting autonomous development tasks, using documentation for guidance, and understanding how Agent Mode iteratively manages, refactors, and improves your codebase.
-- Falls under the sub-domain: Implement GitHub Copilot agent mode.
-
-
-### Common Mistakes
-
-!!! warning "Avoid These Mistakes"
-
-    - Confusing Study guide for Exam GH-600: Developing in Agentic AI... with related but distinct concepts in the Design and implement agentic solutions domain.
-
-    - Focusing only on theoretical knowledge of Study guide for Exam GH-600: Developing in Agentic AI... without understanding practical implementation scenarios.
-
-    - Skipping steps in the Study guide for Exam GH-600: Developing in Agentic AI... workflow or performing them out of the required order.
-
-    - Using incorrect syntax or configuration values when implementing Study guide for Exam GH-600: Developing in Agentic AI... in practice.
-
-
-### Examples
-
-1. A developer uses Study guide for Exam GH-600: Developing in Agentic AI... when configuring GitHub Copilot agent mode to assist with code generation and review tasks in their development workflow.
-2. In an enterprise setting, Study guide for Exam GH-600: Developing in Agentic AI... is applied to ensure that AI-assisted development processes meet organizational standards for security and governance.
-3. A team follows the Study guide for Exam GH-600: Developing in Agentic AI... procedure to set up their CI/CD pipeline with agentic AI capabilities.
-4. A configuration file demonstrates how Study guide for Exam GH-600: Developing in Agentic AI... settings control agent behavior and permissions.
-
-
-
-### Code Examples
-
-
-```python
-# Implementation of Study guide for Exam GH-600: Developing in Agentic AI...
-def configure_study_guide_for_exam_gh_600_developing_in_agentic_ai():
-    """Configure Study guide for Exam GH-600: Developing in Agentic AI... settings."""
-    config = {
-        "enabled": True,  # Activate the feature
-        "mode": "agent",  # Use agent mode
-    }
-    return config  # Return configuration
+```mermaid
+graph TD
+    A[User Request] --> B[Agent Plans Steps]
+    B --> C[Execute Step with Tools]
+    C --> D{Check Result}
+    D -->|Success| E[Next Step or Complete]
+    D -->|Failure| F[Revise Plan]
+    F --> C
 ```
 
-!!! tip "Code Notes"
-    This example demonstrates a basic Study guide for Exam GH-600: Developing in Agentic AI... configuration with inline comments explaining each setting.
+1. **Planning**: The agent analyzes the request and creates a multi-step plan
+2. **Tool Selection**: Chooses appropriate tools (file read/write, terminal, search)
+3. **Execution**: Runs each step, observing results
+4. **Iteration**: Adjusts plan based on outcomes (errors, test failures)
 
+#### Detailed Explanation
 
+Agentic AI architecture in GitHub represents a paradigm shift from simple code completion to autonomous task execution. An agent is an LLM-powered system that can reason about problems, break them into sub-tasks, use tools to interact with the environment, and iterate based on feedback.
 
+The key distinction between a simple AI assistant and an agent is **autonomy**. While a basic assistant responds to a single prompt, an agent:
 
+- Maintains state across multiple interactions
+- Makes decisions about which tools to use
+- Can recover from errors without human intervention
+- Produces verifiable outputs (code that compiles, tests that pass)
 
+In the GitHub SDLC context, agents participate at multiple stages:
 
-### Step-by-Step Instructions
+- **Design**: Suggesting architecture, generating diagrams
+- **Implementation**: Writing code, creating files, running commands
+- **Testing**: Writing and executing tests, fixing failures
+- **Review**: Analyzing code quality, suggesting improvements
+- **Deployment**: Configuring CI/CD, managing releases
 
+!!! tip "Exam Tip"
+    The exam tests whether you understand the *boundaries* of agent autonomy. Know when an agent should act independently vs. when it should ask for human approval.
 
-1. **Identify requirements for Study guide for Exam GH-600: Developing in Agentic AI...**
+#### Common Mistakes
 
-    - *Rationale*: Understanding requirements ensures the correct approach is selected for the specific use case.
-
-
-2. **Configure the environment for Study guide for Exam GH-600: Developing in Agentic AI...**
-
-    - *Rationale*: Proper environment setup prevents issues during implementation and ensures all dependencies are met.
-
-
-3. **Implement Study guide for Exam GH-600: Developing in Agentic AI... following best practices**
-
-    - *Rationale*: Following established patterns ensures reliability, security, and maintainability of the solution.
-
-
-4. **Validate and test the Study guide for Exam GH-600: Developing in Agentic AI... implementation**
-
-    - *Rationale*: Testing confirms correct behavior and catches issues before they impact production systems.
-
-
-5. **Monitor and iterate on Study guide for Exam GH-600: Developing in Agentic AI...**
-
-    - *Rationale*: Ongoing monitoring enables continuous improvement and early detection of any degradation.
-
-
-
-
-### Exam Tips
-
-!!! tip "Exam Tips"
-
-    - Focus on understanding the practical applications of Study guide for Exam GH-600: Developing in Agentic AI... rather than just memorizing definitions.
-
-    - This is a high-priority topic (score: 10/10). Expect multiple exam questions testing different aspects of Study guide for Exam GH-600: Developing in Agentic AI....
-
-    - Study guide for Exam GH-600: Developing in Agentic AI... appears across 5 domains — be prepared for cross-domain questions.
-
-
-
-### Related Topics
-
-| Topic | Domain | Relationship |
-|-------|--------|-------------|
-| [topic-001](#topic-001) | Prepare agent architecture and SDLC processes | Shares concepts (agentic, engineer, solution) with Exam scoring and score reports | Microsoft Learn
-Table... |
-| [topic-002](#topic-002) | Prepare agent architecture and SDLC processes | Shares concepts (agentic, mode, requires) with Request exam accommodations and frequently asked... |
-| [topic-003](#topic-003) | Prepare agent architecture and SDLC processes | Shares concepts (mode, requires, your) with Search Product and Services Lifecycle Information -... |
-| [topic-004](#topic-004) | Prepare agent architecture and SDLC processes | Shares concepts (editor, mode, requires) with Exam and Applied Skills assessment lab retake policies |... |
-| [topic-009](#topic-009) | Secure and govern agentic AI solutions | Shares concepts (editor, mode, requires) with Terms of Use | Microsoft Learn
-learn |
-| [topic-010](#topic-010) | Secure and govern agentic AI solutions | Shares concepts (editor, mode, requires) with Modern Lifecycle Policy - Microsoft Lifecycle |... |
-| [topic-011](#topic-011) | Secure and govern agentic AI solutions | Shares concepts (learn, microsoft, your) with Browse Credentials | Microsoft Learn
-Browse... |
-| [topic-012](#topic-012) | Secure and govern agentic AI solutions | Shares concepts (editor, mode, requires) with About online exams with Pearson VUE | Microsoft... |
-| [topic-013](#topic-013) | Collaborate with AI agents in the development workflow | Shares concepts (editor, mode, requires) with Exercise - Develop with AI-powered code suggestions by... |
-| [topic-014](#topic-014) | Implement responsible AI practices | Shares concepts (generate, learn, microsoft) with Microsoft Certification Renewal | Microsoft... |
-| [topic-015](#topic-015) | Implement responsible AI practices | Shares concepts (add, english, learn) with Introduction - Training | Microsoft Learn
-Read in... |
-| [topic-016](#topic-016) | Implement responsible AI practices | Shares concepts (add, english, learn) with Mitigate AI risks - Training | Microsoft Learn
-Read in... |
-
-
+!!! warning "Avoid These"
+    - Assuming agents can replace all human decision-making in SDLC
+    - Confusing agent mode (autonomous multi-step) with chat mode (single response)
+    - Ignoring the need for human oversight in production-impacting changes
 
 ---
 
-
-## Tooling, MCP, and Agent Execution Environments -...
-
-| Property | Value |
-|----------|-------|
-| Domain | domain-2 |
-| Priority Score | 10/10 |
-| High Priority | Yes |
-
-
-### Overview
-
-Tooling, MCP, and Agent Execution Environments -... is a key concept within the Design and implement agentic solutions domain of the GH-600 certification. Tooling, MCP, and Agent Execution Environments - Training | Microsoft Learn
-Read in English
-Tooling, MCP, and Agent Execution Environments
-Module
-7 Units
-Feedback
-Intermediate
-DevOps Engineer
-Administrator
-Developer
-Solution Architect
-GitHub
-Learn how agents use tools, MCP, and GitHub workflows to execute tasks safely, with clear boundaries, security controls, and scalable automation. Microsoft Edge channel overview | Microsoft Learn
-Table of contents
-Exit editor mode
-Ask Learn
-Ask Learn
-Reading mode
-Table of contents
-Read in English
-Add
-Add to plan
-Edit
-Copy Markdown
-Print
-Note
-Access to this page requires authorization. Product Lifecycle FAQ - Extended Security Updates | Microsoft Learn
-Table of contents
-Exit editor mode
-Ask Learn
-Ask Learn
-Reading mode
-Table of contents
-Read in English
-Add
-Add to plan
-Edit
-Copy Markdown
-Print
-Note
-Access to this page requires authorization. Understanding Tooling, MCP, and Agent Execution Environments -... is essential for candidates preparing for the GitHub Certified Agentic AI Developer exam. This topic encompasses 4 distinct knowledge areas that together provide comprehensive coverage.
-
-### Detailed Explanation
-
-Tooling, MCP, and Agent Execution Environments -... represents a fundamental area of knowledge within the Design and implement agentic solutions domain of the GH-600 certification. Tooling, MCP, and Agent Execution Environments - Training | Microsoft Learn
-Read in English
-Tooling, MCP, and Agent Execution Environments
-Module
-7 Units
-Feedback
-Intermediate
-DevOps Engineer
-Administrator
-Developer
-Solution Architect
-GitHub
-Learn how agents use tools, MCP, and GitHub workflows to execute tasks safely, with clear boundaries, security controls, and scalable automation. Microsoft Edge channel overview | Microsoft Learn
-Table of contents
-Exit editor mode
-Ask Learn
-Ask Learn
-Reading mode
-Table of contents
-Read in English
-Add
-Add to plan
-Edit
-Copy Markdown
-Print
-Note
-Access to this page requires authorization. Product Lifecycle FAQ - Extended Security Updates | Microsoft Learn
-Table of contents
-Exit editor mode
-Ask Learn
-Ask Learn
-Reading mode
-Table of contents
-Read in English
-Add
-Add to plan
-Edit
-Copy Markdown
-Print
-Note
-Access to this page requires authorization. This concept is integral to understanding how GitHub Copilot and agentic AI solutions function within modern software development lifecycles. Candidates must demonstrate proficiency in applying these concepts to real-world development scenarios.
-
-In the context of the GH-600 exam, Tooling, MCP, and Agent Execution Environments -... relates to the broader theme of leveraging AI agents in software development. This includes understanding how agentic solutions can be designed, implemented, evaluated, secured, and governed throughout the development lifecycle. The exam tests both theoretical understanding and practical application of these concepts in enterprise development environments.
-
-Practical application of Tooling, MCP, and Agent Execution Environments -... involves working with GitHub Copilot's agent mode, understanding tool integration, and managing AI-assisted development workflows. Developers need to understand how to configure, customize, and optimize these capabilities for their specific use cases. This requires knowledge of both the technical implementation details and the organizational processes that support effective AI adoption.
-
-As a high-priority topic, Tooling, MCP, and Agent Execution Environments -... receives additional emphasis in exam preparation. The exam may include multiple questions testing different aspects of this concept, from basic recall to complex scenario-based analysis. Candidates should expect questions that require combining knowledge of Tooling, MCP, and Agent Execution Environments -... with other related topics to solve multi-step problems.
-
-Advanced scenarios involving Tooling, MCP, and Agent Execution Environments -... often require understanding of integration patterns, security considerations, performance optimization, and governance frameworks. The ability to evaluate trade-offs and make informed decisions about implementation approaches is critical. Exam questions may present real-world situations requiring analysis of multiple factors simultaneously, testing the candidate's depth of understanding beyond surface-level knowledge.
-
-### Key Facts
-
-- Tooling, MCP, and Agent Execution Environments -... is part of the Design and implement agentic solutions domain (domain-2) in the GH-600 certification.
-- This topic covers 4 knowledge point(s) that candidates must understand.
-- Tooling, MCP, and Agent Execution Environments - Training | Microsoft Learn
-Read in English
-Tooling, MCP, and Agent Execution Environments
-Module
-7 Units
-Feedback
-Intermediate
-DevOps Engineer
-Administrator
-Developer
-Solution Architect
-GitHub
-Learn how agents use tools, MCP, and GitHub workflows to execute tasks safely, with clear boundaries, security controls, and scalable automation. Microsoft Edge channel overview | Microsoft Learn
-Table of contents
-Exit editor mode
-Ask Learn
-Ask Learn
-Reading mode
-Table of contents
-Read in English
-Add
-Add to plan
-Edit
-Copy Markdown
-Print
-Note
-Access to this page requires authorization. Product Lifecycle FAQ - Extended Security Updates | Microsoft Learn
-Table of contents
-Exit editor mode
-Ask Learn
-Ask Learn
-Reading mode
-Table of contents
-Read in English
-Add
-Add to plan
-Edit
-Copy Markdown
-Print
-Note
-Access to this page requires authorization.
-- Falls under the sub-domain: Configure agent tools and capabilities.
-
-
-### Common Mistakes
-
-!!! warning "Avoid These Mistakes"
-
-    - Confusing Tooling, MCP, and Agent Execution Environments -... with related but distinct concepts in the Design and implement agentic solutions domain.
-
-    - Focusing only on theoretical knowledge of Tooling, MCP, and Agent Execution Environments -... without understanding practical implementation scenarios.
-
-    - Skipping steps in the Tooling, MCP, and Agent Execution Environments -... workflow or performing them out of the required order.
-
-
-### Examples
-
-1. A developer uses Tooling, MCP, and Agent Execution Environments -... when configuring GitHub Copilot agent mode to assist with code generation and review tasks in their development workflow.
-2. In an enterprise setting, Tooling, MCP, and Agent Execution Environments -... is applied to ensure that AI-assisted development processes meet organizational standards for security and governance.
-3. A team follows the Tooling, MCP, and Agent Execution Environments -... procedure to set up their CI/CD pipeline with agentic AI capabilities.
-
-
-
-
-
-### Step-by-Step Instructions
-
-
-1. **Identify requirements for Tooling, MCP, and Agent Execution Environments -...**
-
-    - *Rationale*: Understanding requirements ensures the correct approach is selected for the specific use case.
-
-
-2. **Configure the environment for Tooling, MCP, and Agent Execution Environments -...**
-
-    - *Rationale*: Proper environment setup prevents issues during implementation and ensures all dependencies are met.
-
-
-3. **Implement Tooling, MCP, and Agent Execution Environments -... following best practices**
-
-    - *Rationale*: Following established patterns ensures reliability, security, and maintainability of the solution.
-
-
-4. **Validate and test the Tooling, MCP, and Agent Execution Environments -... implementation**
-
-    - *Rationale*: Testing confirms correct behavior and catches issues before they impact production systems.
-
-
-5. **Monitor and iterate on Tooling, MCP, and Agent Execution Environments -...**
-
-    - *Rationale*: Ongoing monitoring enables continuous improvement and early detection of any degradation.
-
-
-
-
-### Exam Tips
-
-!!! tip "Exam Tips"
-
-    - Focus on understanding the practical applications of Tooling, MCP, and Agent Execution Environments -... rather than just memorizing definitions.
-
-    - This is a high-priority topic (score: 10/10). Expect multiple exam questions testing different aspects of Tooling, MCP, and Agent Execution Environments -....
-
-    - Tooling, MCP, and Agent Execution Environments -... appears across 5 domains — be prepared for cross-domain questions.
-
-
-
-### Related Topics
-
-| Topic | Domain | Relationship |
-|-------|--------|-------------|
-| [topic-001](#topic-001) | Prepare agent architecture and SDLC processes | Shares concepts (engineer, mode, solution) with Exam scoring and score reports | Microsoft Learn
-Table... |
-| [topic-002](#topic-002) | Prepare agent architecture and SDLC processes | Shares concepts (editor, mode, requires) with Request exam accommodations and frequently asked... |
-| [topic-003](#topic-003) | Prepare agent architecture and SDLC processes | Shares concepts (editor, mode, requires) with Search Product and Services Lifecycle Information -... |
-| [topic-004](#topic-004) | Prepare agent architecture and SDLC processes | Shares concepts (editor, mode, requires) with Exam and Applied Skills assessment lab retake policies |... |
-| [topic-009](#topic-009) | Secure and govern agentic AI solutions | Shares concepts (editor, mode, requires) with Terms of Use | Microsoft Learn
-learn |
-| [topic-010](#topic-010) | Secure and govern agentic AI solutions | Shares concepts (editor, mode, requires) with Modern Lifecycle Policy - Microsoft Lifecycle |... |
-| [topic-011](#topic-011) | Secure and govern agentic AI solutions | Shares concepts (learn, microsoft) with Browse Credentials | Microsoft Learn
-Browse... |
-| [topic-012](#topic-012) | Secure and govern agentic AI solutions | Shares concepts (editor, mode, requires) with About online exams with Pearson VUE | Microsoft... |
-| [topic-013](#topic-013) | Collaborate with AI agents in the development workflow | Shares concepts (editor, mode, requires) with Exercise - Develop with AI-powered code suggestions by... |
-| [topic-014](#topic-014) | Implement responsible AI practices | Shares concepts (learn, microsoft) with Microsoft Certification Renewal | Microsoft... |
-| [topic-015](#topic-015) | Implement responsible AI practices | Shares concepts (add, english, learn) with Introduction - Training | Microsoft Learn
-Read in... |
-| [topic-016](#topic-016) | Implement responsible AI practices | Shares concepts (add, english, learn) with Mitigate AI risks - Training | Microsoft Learn
-Read in... |
-
-
-
----
-
-
-## Microsoft previous versions of technical documentation |...
-
-| Property | Value |
-|----------|-------|
-| Domain | domain-2 |
-| Priority Score | 10/10 |
-| High Priority | Yes |
-
-!!! note "Supplemented Content"
-    Some content in this section was inferred from related materials and marked accordingly.
-
-
-
-### Overview
-
-Microsoft previous versions of technical documentation |... is a key concept within the Design and implement agentic solutions domain of the GH-600 certification. Microsoft previous versions of technical documentation | Microsoft Learn
-Documentation
-Previous versions
-Search for in-depth articles on previous versions of Microsoft products, services and technologies. Understanding Microsoft previous versions of technical documentation |... is essential for candidates preparing for the GitHub Certified Agentic AI Developer exam.
-
-### Detailed Explanation
-
-Microsoft previous versions of technical documentation |... represents a fundamental area of knowledge within the Design and implement agentic solutions domain of the GH-600 certification. Microsoft previous versions of technical documentation | Microsoft Learn
-Documentation
-Previous versions
-Search for in-depth articles on previous versions of Microsoft products, services and technologies. This concept is integral to understanding how GitHub Copilot and agentic AI solutions function within modern software development lifecycles. Candidates must demonstrate proficiency in applying these concepts to real-world development scenarios.
-
-In the context of the GH-600 exam, Microsoft previous versions of technical documentation |... relates to the broader theme of leveraging AI agents in software development. This includes understanding how agentic solutions can be designed, implemented, evaluated, secured, and governed throughout the development lifecycle. The exam tests both theoretical understanding and practical application of these concepts in enterprise development environments.
-
-Practical application of Microsoft previous versions of technical documentation |... involves working with GitHub Copilot's agent mode, understanding tool integration, and managing AI-assisted development workflows. Developers need to understand how to configure, customize, and optimize these capabilities for their specific use cases. This requires knowledge of both the technical implementation details and the organizational processes that support effective AI adoption.
-
-As a high-priority topic, Microsoft previous versions of technical documentation |... receives additional emphasis in exam preparation. The exam may include multiple questions testing different aspects of this concept, from basic recall to complex scenario-based analysis. Candidates should expect questions that require combining knowledge of Microsoft previous versions of technical documentation |... with other related topics to solve multi-step problems.
-
-Advanced scenarios involving Microsoft previous versions of technical documentation |... often require understanding of integration patterns, security considerations, performance optimization, and governance frameworks. The ability to evaluate trade-offs and make informed decisions about implementation approaches is critical. Exam questions may present real-world situations requiring analysis of multiple factors simultaneously, testing the candidate's depth of understanding beyond surface-level knowledge.
-
-Furthermore, Microsoft previous versions of technical documentation |... connects to broader themes in the Design and implement agentic solutions domain including best practices, enterprise adoption patterns, and continuous improvement of AI-assisted development processes. Understanding these connections helps candidates answer cross-domain questions.
-
-Furthermore, Microsoft previous versions of technical documentation |... connects to broader themes in the Design and implement agentic solutions domain including best practices, enterprise adoption patterns, and continuous improvement of AI-assisted development processes. Understanding these connections helps candidates answer cross-domain questions.
-
-> [!NOTE] Supplemented content
-This topic had limited source material and content was inferred from domain context.
-
-### Key Facts
-
-- Microsoft previous versions of technical documentation |... is part of the Design and implement agentic solutions domain (domain-2) in the GH-600 certification.
-- This topic covers 1 knowledge point(s) that candidates must understand.
-- Microsoft previous versions of technical documentation | Microsoft Learn
-Documentation
-Previous versions
-Search for in-depth articles on previous versions of Microsoft products, services and technologies.
-- Falls under the sub-domain: Build custom agent extensions.
-
-
-### Common Mistakes
-
-!!! warning "Avoid These Mistakes"
-
-    - Confusing Microsoft previous versions of technical documentation |... with related but distinct concepts in the Design and implement agentic solutions domain.
-
-    - Focusing only on theoretical knowledge of Microsoft previous versions of technical documentation |... without understanding practical implementation scenarios.
-
-
-### Examples
-
-1. A developer uses Microsoft previous versions of technical documentation |... when configuring GitHub Copilot agent mode to assist with code generation and review tasks in their development workflow.
-2. In an enterprise setting, Microsoft previous versions of technical documentation |... is applied to ensure that AI-assisted development processes meet organizational standards for security and governance.
-
-
-
-
-
-
-### Exam Tips
-
-!!! tip "Exam Tips"
-
-    - Focus on understanding the practical applications of Microsoft previous versions of technical documentation |... rather than just memorizing definitions.
-
-    - This is a high-priority topic (score: 10/10). Expect multiple exam questions testing different aspects of Microsoft previous versions of technical documentation |....
-
-    - Microsoft previous versions of technical documentation |... appears across 4 domains — be prepared for cross-domain questions.
-
-
-
-### Related Topics
-
-| Topic | Domain | Relationship |
-|-------|--------|-------------|
-| [topic-001](#topic-001) | Prepare agent architecture and SDLC processes | Shares concepts (learn, microsoft) with Exam scoring and score reports | Microsoft Learn
-Table... |
-| [topic-002](#topic-002) | Prepare agent architecture and SDLC processes | Shares concepts (learn, microsoft) with Request exam accommodations and frequently asked... |
-| [topic-003](#topic-003) | Prepare agent architecture and SDLC processes | Shares concepts (learn, search, services) with Search Product and Services Lifecycle Information -... |
-| [topic-004](#topic-004) | Prepare agent architecture and SDLC processes | Shares concepts (learn, microsoft) with Exam and Applied Skills assessment lab retake policies |... |
-| [topic-009](#topic-009) | Secure and govern agentic AI solutions | Shares concepts (documentation, learn, microsoft) with Terms of Use | Microsoft Learn
-learn |
-| [topic-010](#topic-010) | Secure and govern agentic AI solutions | Shares concepts (learn, microsoft) with Modern Lifecycle Policy - Microsoft Lifecycle |... |
-| [topic-011](#topic-011) | Secure and govern agentic AI solutions | Shares concepts (learn, microsoft) with Browse Credentials | Microsoft Learn
-Browse... |
-| [topic-012](#topic-012) | Secure and govern agentic AI solutions | Shares concepts (learn, microsoft) with About online exams with Pearson VUE | Microsoft... |
-| [topic-013](#topic-013) | Collaborate with AI agents in the development workflow | Shares concepts (learn, microsoft) with Exercise - Develop with AI-powered code suggestions by... |
-| [topic-014](#topic-014) | Implement responsible AI practices | Shares concepts (learn, microsoft, technologies) with Microsoft Certification Renewal | Microsoft... |
-| [topic-015](#topic-015) | Implement responsible AI practices | Shares concepts (learn, microsoft) with Introduction - Training | Microsoft Learn
-Read in... |
-| [topic-016](#topic-016) | Implement responsible AI practices | Shares concepts (learn, microsoft) with Mitigate AI risks - Training | Microsoft Learn
-Read in... |
-
-
-
----
-
-
-## Terms of Use | Microsoft Learn
-learn
-
-| Property | Value |
-|----------|-------|
-| Domain | domain-4 |
-| Priority Score | 10/10 |
-| High Priority | Yes |
-
-
-### Overview
-
-Terms of Use | Microsoft Learn
-learn is a key concept within the Secure and govern agentic AI solutions domain of the GH-600 certification. Terms of Use | Microsoft Learn
-learn. Available exam accommodations and associated documentation requirements | Microsoft Learn
-Table of contents
-Exit editor mode
-Ask Learn
-Ask Learn
-Reading mode
-Table of contents
-Read in English
-Add
-Add to plan
-Edit
-Copy Markdown
-Print
-Note
-Access to this page requires authorization. Control and operate agents - observability, tools, MCP, secrets, hooks, and reliability - Training | Microsoft Learn
-Read in English
-Add
-Add to plan
-Control and operate agents - observability, tools, MCP, secrets, hooks, and reliability
-Completed
-5 minutes
-In this unit, you will learn:
-Discover the evidence and artifacts that are required for agent work
-How to control tools, MCP integrations, and secrets safely
-How hooks enforce guardrails and audit logging
-How to design for reliability using retries, escalation, and least privilege
-Required evidence and artifacts for agents
-An agent system must produce visible artifacts for every meaningful action. Understanding Terms of Use | Microsoft Learn
-learn is essential for candidates preparing for the GitHub Certified Agentic AI Developer exam. This topic encompasses 4 distinct knowledge areas that together provide comprehensive coverage.
-
-### Detailed Explanation
-
-Terms of Use | Microsoft Learn
-learn represents a fundamental area of knowledge within the Secure and govern agentic AI solutions domain of the GH-600 certification. Terms of Use | Microsoft Learn
-learn. Available exam accommodations and associated documentation requirements | Microsoft Learn
-Table of contents
-Exit editor mode
-Ask Learn
-Ask Learn
-Reading mode
-Table of contents
-Read in English
-Add
-Add to plan
-Edit
-Copy Markdown
-Print
-Note
-Access to this page requires authorization. Control and operate agents - observability, tools, MCP, secrets, hooks, and reliability - Training | Microsoft Learn
-Read in English
-Add
-Add to plan
-Control and operate agents - observability, tools, MCP, secrets, hooks, and reliability
-Completed
-5 minutes
-In this unit, you will learn:
-Discover the evidence and artifacts that are required for agent work
-How to control tools, MCP integrations, and secrets safely
-How hooks enforce guardrails and audit logging
-How to design for reliability using retries, escalation, and least privilege
-Required evidence and artifacts for agents
-An agent system must produce visible artifacts for every meaningful action. This concept is integral to understanding how GitHub Copilot and agentic AI solutions function within modern software development lifecycles. Candidates must demonstrate proficiency in applying these concepts to real-world development scenarios.
-
-In the context of the GH-600 exam, Terms of Use | Microsoft Learn
-learn relates to the broader theme of leveraging AI agents in software development. This includes understanding how agentic solutions can be designed, implemented, evaluated, secured, and governed throughout the development lifecycle. The exam tests both theoretical understanding and practical application of these concepts in enterprise development environments.
-
-Practical application of Terms of Use | Microsoft Learn
-learn involves working with GitHub Copilot's agent mode, understanding tool integration, and managing AI-assisted development workflows. Developers need to understand how to configure, customize, and optimize these capabilities for their specific use cases. This requires knowledge of both the technical implementation details and the organizational processes that support effective AI adoption.
-
-As a high-priority topic, Terms of Use | Microsoft Learn
-learn receives additional emphasis in exam preparation. The exam may include multiple questions testing different aspects of this concept, from basic recall to complex scenario-based analysis. Candidates should expect questions that require combining knowledge of Terms of Use | Microsoft Learn
-learn with other related topics to solve multi-step problems.
-
-Advanced scenarios involving Terms of Use | Microsoft Learn
-learn often require understanding of integration patterns, security considerations, performance optimization, and governance frameworks. The ability to evaluate trade-offs and make informed decisions about implementation approaches is critical. Exam questions may present real-world situations requiring analysis of multiple factors simultaneously, testing the candidate's depth of understanding beyond surface-level knowledge.
-
-### Key Facts
-
-- Terms of Use | Microsoft Learn
-learn is part of the Secure and govern agentic AI solutions domain (domain-4) in the GH-600 certification.
-- This topic covers 4 knowledge point(s) that candidates must understand.
-- Terms of Use | Microsoft Learn
-learn. Available exam accommodations and associated documentation requirements | Microsoft Learn
-Table of contents
-Exit editor mode
-Ask Learn
-Ask Learn
-Reading mode
-Table of contents
-Read in English
-Add
-Add to plan
-Edit
-Copy Markdown
-Print
-Note
-Access to this page requires authorization. Control and operate agents - observability, tools, MCP, secrets, hooks, and reliability - Training | Microsoft Learn
-Read in English
-Add
-Add to plan
-Control and operate agents - observability, tools, MCP, secrets, hooks, and reliability
-Completed
-5 minutes
-In this unit, you will learn:
-Discover the evidence and artifacts that are required for agent work
-How to control tools, MCP integrations, and secrets safely
-How hooks enforce guardrails and audit logging
-How to design for reliability using retries, escalation, and least privilege
-Required evidence and artifacts for agents
-An agent system must produce visible artifacts for every meaningful action.
-- Falls under the sub-domain: Monitor agent actions for security compliance.
-
-
-### Common Mistakes
-
-!!! warning "Avoid These Mistakes"
-
-    - Confusing Terms of Use | Microsoft Learn
-learn with related but distinct concepts in the Secure and govern agentic AI solutions domain.
-
-    - Focusing only on theoretical knowledge of Terms of Use | Microsoft Learn
-learn without understanding practical implementation scenarios.
-
-
-### Examples
-
-1. A developer uses Terms of Use | Microsoft Learn
-learn when configuring GitHub Copilot agent mode to assist with code generation and review tasks in their development workflow.
-2. In an enterprise setting, Terms of Use | Microsoft Learn
-learn is applied to ensure that AI-assisted development processes meet organizational standards for security and governance.
-
-
-
-
-
-
-### Exam Tips
-
-!!! tip "Exam Tips"
-
-    - Focus on understanding the practical applications of Terms of Use | Microsoft Learn
-learn rather than just memorizing definitions.
-
-    - This is a high-priority topic (score: 10/10). Expect multiple exam questions testing different aspects of Terms of Use | Microsoft Learn
-learn.
-
-    - Terms of Use | Microsoft Learn
-learn appears across 5 domains — be prepared for cross-domain questions.
-
-
-
-### Related Topics
-
-| Topic | Domain | Relationship |
-|-------|--------|-------------|
-| [topic-001](#topic-001) | Prepare agent architecture and SDLC processes | Shares concepts (editor, mode, requires) with Exam scoring and score reports | Microsoft Learn
-Table... |
-| [topic-002](#topic-002) | Prepare agent architecture and SDLC processes | Shares concepts (editor, mode, requires) with Request exam accommodations and frequently asked... |
-| [topic-003](#topic-003) | Prepare agent architecture and SDLC processes | Shares concepts (editor, mode, requires) with Search Product and Services Lifecycle Information -... |
-| [topic-004](#topic-004) | Prepare agent architecture and SDLC processes | Shares concepts (editor, mode, requires) with Exam and Applied Skills assessment lab retake policies |... |
-| [topic-006](#topic-006) | Design and implement agentic solutions | Shares concepts (editor, mode, requires) with Study guide for Exam GH-600: Developing in Agentic AI... |
-| [topic-007](#topic-007) | Design and implement agentic solutions | Shares concepts (editor, mode, requires) with Tooling, MCP, and Agent Execution Environments -... |
-| [topic-008](#topic-008) | Design and implement agentic solutions | Shares concepts (documentation, learn, microsoft) with Microsoft previous versions of technical documentation |... |
-| [topic-013](#topic-013) | Collaborate with AI agents in the development workflow | Shares concepts (editor, mode, requires) with Exercise - Develop with AI-powered code suggestions by... |
-| [topic-014](#topic-014) | Implement responsible AI practices | Shares concepts (learn, microsoft, using) with Microsoft Certification Renewal | Microsoft... |
-| [topic-015](#topic-015) | Implement responsible AI practices | Shares concepts (add, english, learn) with Introduction - Training | Microsoft Learn
-Read in... |
-| [topic-016](#topic-016) | Implement responsible AI practices | Shares concepts (add, english, learn) with Mitigate AI risks - Training | Microsoft Learn
-Read in... |
-
-
-
----
-
-
-## Modern Lifecycle Policy - Microsoft Lifecycle |...
-
-| Property | Value |
-|----------|-------|
-| Domain | domain-4 |
-| Priority Score | 10/10 |
-| High Priority | Yes |
-
-
-### Overview
-
-Modern Lifecycle Policy - Microsoft Lifecycle |... is a key concept within the Secure and govern agentic AI solutions domain of the GH-600 certification. Modern Lifecycle Policy - Microsoft Lifecycle | Microsoft Learn
-Table of contents
-Exit editor mode
-Ask Learn
-Ask Learn
-Reading mode
-Table of contents
-Read in English
-Add
-Add to plan
-Edit
-Copy Markdown
-Print
-Note
-Access to this page requires authorization. Microsoft Edge Supported Operating Systems | Microsoft Learn
-Table of contents
-Exit editor mode
-Ask Learn
-Ask Learn
-Reading mode
-Table of contents
-Read in English
-Add
-Add to plan
-Edit
-Copy Markdown
-Print
-Note
-Access to this page requires authorization. Agent execution limits and protections - Training | Microsoft Learn
-Read in English
-Add
-Add to plan
-Agent execution limits and protections
-Completed
-5 minutes
-Agents can take actions in repositories, but those actions run within platform limits and protections. Understanding Modern Lifecycle Policy - Microsoft Lifecycle |... is essential for candidates preparing for the GitHub Certified Agentic AI Developer exam. This topic encompasses 4 distinct knowledge areas that together provide comprehensive coverage.
-
-### Detailed Explanation
-
-Modern Lifecycle Policy - Microsoft Lifecycle |... represents a fundamental area of knowledge within the Secure and govern agentic AI solutions domain of the GH-600 certification. Modern Lifecycle Policy - Microsoft Lifecycle | Microsoft Learn
-Table of contents
-Exit editor mode
-Ask Learn
-Ask Learn
-Reading mode
-Table of contents
-Read in English
-Add
-Add to plan
-Edit
-Copy Markdown
-Print
-Note
-Access to this page requires authorization. Microsoft Edge Supported Operating Systems | Microsoft Learn
-Table of contents
-Exit editor mode
-Ask Learn
-Ask Learn
-Reading mode
-Table of contents
-Read in English
-Add
-Add to plan
-Edit
-Copy Markdown
-Print
-Note
-Access to this page requires authorization. Agent execution limits and protections - Training | Microsoft Learn
-Read in English
-Add
-Add to plan
-Agent execution limits and protections
-Completed
-5 minutes
-Agents can take actions in repositories, but those actions run within platform limits and protections. This concept is integral to understanding how GitHub Copilot and agentic AI solutions function within modern software development lifecycles. Candidates must demonstrate proficiency in applying these concepts to real-world development scenarios.
-
-In the context of the GH-600 exam, Modern Lifecycle Policy - Microsoft Lifecycle |... relates to the broader theme of leveraging AI agents in software development. This includes understanding how agentic solutions can be designed, implemented, evaluated, secured, and governed throughout the development lifecycle. The exam tests both theoretical understanding and practical application of these concepts in enterprise development environments.
-
-Practical application of Modern Lifecycle Policy - Microsoft Lifecycle |... involves working with GitHub Copilot's agent mode, understanding tool integration, and managing AI-assisted development workflows. Developers need to understand how to configure, customize, and optimize these capabilities for their specific use cases. This requires knowledge of both the technical implementation details and the organizational processes that support effective AI adoption.
-
-As a high-priority topic, Modern Lifecycle Policy - Microsoft Lifecycle |... receives additional emphasis in exam preparation. The exam may include multiple questions testing different aspects of this concept, from basic recall to complex scenario-based analysis. Candidates should expect questions that require combining knowledge of Modern Lifecycle Policy - Microsoft Lifecycle |... with other related topics to solve multi-step problems.
-
-Advanced scenarios involving Modern Lifecycle Policy - Microsoft Lifecycle |... often require understanding of integration patterns, security considerations, performance optimization, and governance frameworks. The ability to evaluate trade-offs and make informed decisions about implementation approaches is critical. Exam questions may present real-world situations requiring analysis of multiple factors simultaneously, testing the candidate's depth of understanding beyond surface-level knowledge.
-
-### Key Facts
-
-- Modern Lifecycle Policy - Microsoft Lifecycle |... is part of the Secure and govern agentic AI solutions domain (domain-4) in the GH-600 certification.
-- This topic covers 4 knowledge point(s) that candidates must understand.
-- Modern Lifecycle Policy - Microsoft Lifecycle | Microsoft Learn
-Table of contents
-Exit editor mode
-Ask Learn
-Ask Learn
-Reading mode
-Table of contents
-Read in English
-Add
-Add to plan
-Edit
-Copy Markdown
-Print
-Note
-Access to this page requires authorization. Microsoft Edge Supported Operating Systems | Microsoft Learn
-Table of contents
-Exit editor mode
-Ask Learn
-Ask Learn
-Reading mode
-Table of contents
-Read in English
-Add
-Add to plan
-Edit
-Copy Markdown
-Print
-Note
-Access to this page requires authorization. Agent execution limits and protections - Training | Microsoft Learn
-Read in English
-Add
-Add to plan
-Agent execution limits and protections
-Completed
-5 minutes
-Agents can take actions in repositories, but those actions run within platform limits and protections.
-- Falls under the sub-domain: Implement access controls for AI agents.
-
-
-### Common Mistakes
-
-!!! warning "Avoid These Mistakes"
-
-    - Confusing Modern Lifecycle Policy - Microsoft Lifecycle |... with related but distinct concepts in the Secure and govern agentic AI solutions domain.
-
-    - Focusing only on theoretical knowledge of Modern Lifecycle Policy - Microsoft Lifecycle |... without understanding practical implementation scenarios.
-
-    - Skipping steps in the Modern Lifecycle Policy - Microsoft Lifecycle |... workflow or performing them out of the required order.
-
-
-### Examples
-
-1. A developer uses Modern Lifecycle Policy - Microsoft Lifecycle |... when configuring GitHub Copilot agent mode to assist with code generation and review tasks in their development workflow.
-2. In an enterprise setting, Modern Lifecycle Policy - Microsoft Lifecycle |... is applied to ensure that AI-assisted development processes meet organizational standards for security and governance.
-3. A team follows the Modern Lifecycle Policy - Microsoft Lifecycle |... procedure to set up their CI/CD pipeline with agentic AI capabilities.
-
-
-
-
-
-### Step-by-Step Instructions
-
-
-1. **Identify requirements for Modern Lifecycle Policy - Microsoft Lifecycle |...**
-
-    - *Rationale*: Understanding requirements ensures the correct approach is selected for the specific use case.
-
-
-2. **Configure the environment for Modern Lifecycle Policy - Microsoft Lifecycle |...**
-
-    - *Rationale*: Proper environment setup prevents issues during implementation and ensures all dependencies are met.
-
-
-3. **Implement Modern Lifecycle Policy - Microsoft Lifecycle |... following best practices**
-
-    - *Rationale*: Following established patterns ensures reliability, security, and maintainability of the solution.
-
-
-4. **Validate and test the Modern Lifecycle Policy - Microsoft Lifecycle |... implementation**
-
-    - *Rationale*: Testing confirms correct behavior and catches issues before they impact production systems.
-
-
-5. **Monitor and iterate on Modern Lifecycle Policy - Microsoft Lifecycle |...**
-
-    - *Rationale*: Ongoing monitoring enables continuous improvement and early detection of any degradation.
-
-
-
-
-### Exam Tips
-
-!!! tip "Exam Tips"
-
-    - Focus on understanding the practical applications of Modern Lifecycle Policy - Microsoft Lifecycle |... rather than just memorizing definitions.
-
-    - This is a high-priority topic (score: 10/10). Expect multiple exam questions testing different aspects of Modern Lifecycle Policy - Microsoft Lifecycle |....
-
-    - Modern Lifecycle Policy - Microsoft Lifecycle |... appears across 5 domains — be prepared for cross-domain questions.
-
-
-
-### Related Topics
-
-| Topic | Domain | Relationship |
-|-------|--------|-------------|
-| [topic-001](#topic-001) | Prepare agent architecture and SDLC processes | Shares concepts (editor, mode, requires) with Exam scoring and score reports | Microsoft Learn
-Table... |
-| [topic-002](#topic-002) | Prepare agent architecture and SDLC processes | Shares concepts (editor, mode, requires) with Request exam accommodations and frequently asked... |
-| [topic-003](#topic-003) | Prepare agent architecture and SDLC processes | Shares concepts (editor, mode, requires) with Search Product and Services Lifecycle Information -... |
-| [topic-004](#topic-004) | Prepare agent architecture and SDLC processes | Shares concepts (editor, mode, requires) with Exam and Applied Skills assessment lab retake policies |... |
-| [topic-006](#topic-006) | Design and implement agentic solutions | Shares concepts (editor, mode, requires) with Study guide for Exam GH-600: Developing in Agentic AI... |
-| [topic-007](#topic-007) | Design and implement agentic solutions | Shares concepts (editor, mode, requires) with Tooling, MCP, and Agent Execution Environments -... |
-| [topic-008](#topic-008) | Design and implement agentic solutions | Shares concepts (learn, microsoft) with Microsoft previous versions of technical documentation |... |
-| [topic-013](#topic-013) | Collaborate with AI agents in the development workflow | Shares concepts (editor, mode, requires) with Exercise - Develop with AI-powered code suggestions by... |
-| [topic-014](#topic-014) | Implement responsible AI practices | Shares concepts (learn, microsoft) with Microsoft Certification Renewal | Microsoft... |
-| [topic-015](#topic-015) | Implement responsible AI practices | Shares concepts (add, english, learn) with Introduction - Training | Microsoft Learn
-Read in... |
-| [topic-016](#topic-016) | Implement responsible AI practices | Shares concepts (add, english, learn) with Mitigate AI risks - Training | Microsoft Learn
-Read in... |
-
-
-
----
-
-
-## Browse Credentials | Microsoft Learn
-Browse...
-
-| Property | Value |
-|----------|-------|
-| Domain | domain-4 |
-| Priority Score | 8/10 |
-| High Priority | Yes |
-
-!!! note "Supplemented Content"
-    Some content in this section was inferred from related materials and marked accordingly.
-
-
-
-### Overview
-
-Browse Credentials | Microsoft Learn
-Browse... is a key concept within the Secure and govern agentic AI solutions domain of the GH-600 certification. Browse Credentials | Microsoft Learn
-Browse Credentials
-Learn new skills to boost your productivity and enable your organization to accomplish more with Microsoft Credentials. Understanding Browse Credentials | Microsoft Learn
-Browse... is essential for candidates preparing for the GitHub Certified Agentic AI Developer exam.
-
-### Detailed Explanation
-
-Browse Credentials | Microsoft Learn
-Browse... represents a fundamental area of knowledge within the Secure and govern agentic AI solutions domain of the GH-600 certification. Browse Credentials | Microsoft Learn
-Browse Credentials
-Learn new skills to boost your productivity and enable your organization to accomplish more with Microsoft Credentials. This concept is integral to understanding how GitHub Copilot and agentic AI solutions function within modern software development lifecycles. Candidates must demonstrate proficiency in applying these concepts to real-world development scenarios.
-
-In the context of the GH-600 exam, Browse Credentials | Microsoft Learn
-Browse... relates to the broader theme of leveraging AI agents in software development. This includes understanding how agentic solutions can be designed, implemented, evaluated, secured, and governed throughout the development lifecycle. The exam tests both theoretical understanding and practical application of these concepts in enterprise development environments.
-
-Practical application of Browse Credentials | Microsoft Learn
-Browse... involves working with GitHub Copilot's agent mode, understanding tool integration, and managing AI-assisted development workflows. Developers need to understand how to configure, customize, and optimize these capabilities for their specific use cases. This requires knowledge of both the technical implementation details and the organizational processes that support effective AI adoption.
-
-As a high-priority topic, Browse Credentials | Microsoft Learn
-Browse... receives additional emphasis in exam preparation. The exam may include multiple questions testing different aspects of this concept, from basic recall to complex scenario-based analysis. Candidates should expect questions that require combining knowledge of Browse Credentials | Microsoft Learn
-Browse... with other related topics to solve multi-step problems.
-
-Advanced scenarios involving Browse Credentials | Microsoft Learn
-Browse... often require understanding of integration patterns, security considerations, performance optimization, and governance frameworks. The ability to evaluate trade-offs and make informed decisions about implementation approaches is critical. Exam questions may present real-world situations requiring analysis of multiple factors simultaneously, testing the candidate's depth of understanding beyond surface-level knowledge.
-
-Furthermore, Browse Credentials | Microsoft Learn
-Browse... connects to broader themes in the Secure and govern agentic AI solutions domain including best practices, enterprise adoption patterns, and continuous improvement of AI-assisted development processes. Understanding these connections helps candidates answer cross-domain questions.
-
-Furthermore, Browse Credentials | Microsoft Learn
-Browse... connects to broader themes in the Secure and govern agentic AI solutions domain including best practices, enterprise adoption patterns, and continuous improvement of AI-assisted development processes. Understanding these connections helps candidates answer cross-domain questions.
-
-Furthermore, Browse Credentials | Microsoft Learn
-Browse... connects to broader themes in the Secure and govern agentic AI solutions domain including best practices, enterprise adoption patterns, and continuous improvement of AI-assisted development processes. Understanding these connections helps candidates answer cross-domain questions.
-
-> [!NOTE] Supplemented content
-This topic had limited source material and content was inferred from domain context.
-
-### Key Facts
-
-- Browse Credentials | Microsoft Learn
-Browse... is part of the Secure and govern agentic AI solutions domain (domain-4) in the GH-600 certification.
-- This topic covers 1 knowledge point(s) that candidates must understand.
-- Browse Credentials | Microsoft Learn
-Browse Credentials
-Learn new skills to boost your productivity and enable your organization to accomplish more with Microsoft Credentials.
-- Falls under the sub-domain: Manage secrets and credentials in agent workflows.
-
-
-### Common Mistakes
-
-!!! warning "Avoid These Mistakes"
-
-    - Confusing Browse Credentials | Microsoft Learn
-Browse... with related but distinct concepts in the Secure and govern agentic AI solutions domain.
-
-    - Focusing only on theoretical knowledge of Browse Credentials | Microsoft Learn
-Browse... without understanding practical implementation scenarios.
-
-
-### Examples
-
-1. A developer uses Browse Credentials | Microsoft Learn
-Browse... when configuring GitHub Copilot agent mode to assist with code generation and review tasks in their development workflow.
-2. In an enterprise setting, Browse Credentials | Microsoft Learn
-Browse... is applied to ensure that AI-assisted development processes meet organizational standards for security and governance.
-
-
-
-
-
-
-### Exam Tips
-
-!!! tip "Exam Tips"
-
-    - Focus on understanding the practical applications of Browse Credentials | Microsoft Learn
-Browse... rather than just memorizing definitions.
-
-    - This is a high-priority topic (score: 8/10). Expect multiple exam questions testing different aspects of Browse Credentials | Microsoft Learn
-Browse....
-
-
-
-### Related Topics
-
-| Topic | Domain | Relationship |
-|-------|--------|-------------|
-| [topic-001](#topic-001) | Prepare agent architecture and SDLC processes | Shares concepts (learn, microsoft) with Exam scoring and score reports | Microsoft Learn
-Table... |
-| [topic-002](#topic-002) | Prepare agent architecture and SDLC processes | Shares concepts (learn, microsoft) with Request exam accommodations and frequently asked... |
-| [topic-003](#topic-003) | Prepare agent architecture and SDLC processes | Shares concepts (learn, microsoft, your) with Search Product and Services Lifecycle Information -... |
-| [topic-004](#topic-004) | Prepare agent architecture and SDLC processes | Shares concepts (learn, microsoft, skills) with Exam and Applied Skills assessment lab retake policies |... |
-| [topic-006](#topic-006) | Design and implement agentic solutions | Shares concepts (learn, microsoft, your) with Study guide for Exam GH-600: Developing in Agentic AI... |
-| [topic-007](#topic-007) | Design and implement agentic solutions | Shares concepts (learn, microsoft) with Tooling, MCP, and Agent Execution Environments -... |
-| [topic-008](#topic-008) | Design and implement agentic solutions | Shares concepts (learn, microsoft) with Microsoft previous versions of technical documentation |... |
-| [topic-013](#topic-013) | Collaborate with AI agents in the development workflow | Shares concepts (learn, microsoft) with Exercise - Develop with AI-powered code suggestions by... |
-| [topic-014](#topic-014) | Implement responsible AI practices | Shares concepts (learn, microsoft, your) with Microsoft Certification Renewal | Microsoft... |
-| [topic-015](#topic-015) | Implement responsible AI practices | Shares concepts (learn, microsoft) with Introduction - Training | Microsoft Learn
-Read in... |
-| [topic-016](#topic-016) | Implement responsible AI practices | Shares concepts (learn, microsoft) with Mitigate AI risks - Training | Microsoft Learn
-Read in... |
-
-
-
----
-
-
-## About online exams with Pearson VUE | Microsoft...
-
-| Property | Value |
-|----------|-------|
-| Domain | domain-4 |
-| Priority Score | 10/10 |
-| High Priority | Yes |
-
-!!! note "Supplemented Content"
-    Some content in this section was inferred from related materials and marked accordingly.
-
-
-
-### Overview
-
-About online exams with Pearson VUE | Microsoft... is a key concept within the Secure and govern agentic AI solutions domain of the GH-600 certification. About online exams with Pearson VUE | Microsoft Learn
-Table of contents
-Exit editor mode
-Ask Learn
-Ask Learn
-Reading mode
-Table of contents
-Read in English
-Add
-Add to plan
-Edit
-Copy Markdown
-Print
-Note
-Access to this page requires authorization. Understanding About online exams with Pearson VUE | Microsoft... is essential for candidates preparing for the GitHub Certified Agentic AI Developer exam.
-
-### Detailed Explanation
-
-About online exams with Pearson VUE | Microsoft... represents a fundamental area of knowledge within the Secure and govern agentic AI solutions domain of the GH-600 certification. About online exams with Pearson VUE | Microsoft Learn
-Table of contents
-Exit editor mode
-Ask Learn
-Ask Learn
-Reading mode
-Table of contents
-Read in English
-Add
-Add to plan
-Edit
-Copy Markdown
-Print
-Note
-Access to this page requires authorization. This concept is integral to understanding how GitHub Copilot and agentic AI solutions function within modern software development lifecycles. Candidates must demonstrate proficiency in applying these concepts to real-world development scenarios.
-
-In the context of the GH-600 exam, About online exams with Pearson VUE | Microsoft... relates to the broader theme of leveraging AI agents in software development. This includes understanding how agentic solutions can be designed, implemented, evaluated, secured, and governed throughout the development lifecycle. The exam tests both theoretical understanding and practical application of these concepts in enterprise development environments.
-
-Practical application of About online exams with Pearson VUE | Microsoft... involves working with GitHub Copilot's agent mode, understanding tool integration, and managing AI-assisted development workflows. Developers need to understand how to configure, customize, and optimize these capabilities for their specific use cases. This requires knowledge of both the technical implementation details and the organizational processes that support effective AI adoption.
-
-As a high-priority topic, About online exams with Pearson VUE | Microsoft... receives additional emphasis in exam preparation. The exam may include multiple questions testing different aspects of this concept, from basic recall to complex scenario-based analysis. Candidates should expect questions that require combining knowledge of About online exams with Pearson VUE | Microsoft... with other related topics to solve multi-step problems.
-
-Advanced scenarios involving About online exams with Pearson VUE | Microsoft... often require understanding of integration patterns, security considerations, performance optimization, and governance frameworks. The ability to evaluate trade-offs and make informed decisions about implementation approaches is critical. Exam questions may present real-world situations requiring analysis of multiple factors simultaneously, testing the candidate's depth of understanding beyond surface-level knowledge.
-
-Furthermore, About online exams with Pearson VUE | Microsoft... connects to broader themes in the Secure and govern agentic AI solutions domain including best practices, enterprise adoption patterns, and continuous improvement of AI-assisted development processes. Understanding these connections helps candidates answer cross-domain questions.
-
-Furthermore, About online exams with Pearson VUE | Microsoft... connects to broader themes in the Secure and govern agentic AI solutions domain including best practices, enterprise adoption patterns, and continuous improvement of AI-assisted development processes. Understanding these connections helps candidates answer cross-domain questions.
-
-> [!NOTE] Supplemented content
-This topic had limited source material and content was inferred from domain context.
-
-### Key Facts
-
-- About online exams with Pearson VUE | Microsoft... is part of the Secure and govern agentic AI solutions domain (domain-4) in the GH-600 certification.
-- This topic covers 1 knowledge point(s) that candidates must understand.
-- About online exams with Pearson VUE | Microsoft Learn
-Table of contents
-Exit editor mode
-Ask Learn
-Ask Learn
-Reading mode
-Table of contents
-Read in English
-Add
-Add to plan
-Edit
-Copy Markdown
-Print
-Note
-Access to this page requires authorization.
-- Falls under the sub-domain: Configure agent permissions and boundaries.
-
-
-### Common Mistakes
-
-!!! warning "Avoid These Mistakes"
-
-    - Confusing About online exams with Pearson VUE | Microsoft... with related but distinct concepts in the Secure and govern agentic AI solutions domain.
-
-    - Focusing only on theoretical knowledge of About online exams with Pearson VUE | Microsoft... without understanding practical implementation scenarios.
-
-
-### Examples
-
-1. A developer uses About online exams with Pearson VUE | Microsoft... when configuring GitHub Copilot agent mode to assist with code generation and review tasks in their development workflow.
-2. In an enterprise setting, About online exams with Pearson VUE | Microsoft... is applied to ensure that AI-assisted development processes meet organizational standards for security and governance.
-
-
-
-
-
-
-### Exam Tips
-
-!!! tip "Exam Tips"
-
-    - Focus on understanding the practical applications of About online exams with Pearson VUE | Microsoft... rather than just memorizing definitions.
-
-    - This is a high-priority topic (score: 10/10). Expect multiple exam questions testing different aspects of About online exams with Pearson VUE | Microsoft....
-
-    - About online exams with Pearson VUE | Microsoft... appears across 4 domains — be prepared for cross-domain questions.
-
-
-
-### Related Topics
-
-| Topic | Domain | Relationship |
-|-------|--------|-------------|
-| [topic-001](#topic-001) | Prepare agent architecture and SDLC processes | Shares concepts (editor, mode, requires) with Exam scoring and score reports | Microsoft Learn
-Table... |
-| [topic-002](#topic-002) | Prepare agent architecture and SDLC processes | Shares concepts (editor, mode, requires) with Request exam accommodations and frequently asked... |
-| [topic-003](#topic-003) | Prepare agent architecture and SDLC processes | Shares concepts (editor, mode, requires) with Search Product and Services Lifecycle Information -... |
-| [topic-004](#topic-004) | Prepare agent architecture and SDLC processes | Shares concepts (editor, mode, requires) with Exam and Applied Skills assessment lab retake policies |... |
-| [topic-006](#topic-006) | Design and implement agentic solutions | Shares concepts (editor, mode, requires) with Study guide for Exam GH-600: Developing in Agentic AI... |
-| [topic-007](#topic-007) | Design and implement agentic solutions | Shares concepts (editor, mode, requires) with Tooling, MCP, and Agent Execution Environments -... |
-| [topic-008](#topic-008) | Design and implement agentic solutions | Shares concepts (learn, microsoft) with Microsoft previous versions of technical documentation |... |
-| [topic-013](#topic-013) | Collaborate with AI agents in the development workflow | Shares concepts (editor, mode, requires) with Exercise - Develop with AI-powered code suggestions by... |
-| [topic-014](#topic-014) | Implement responsible AI practices | Shares concepts (learn, microsoft) with Microsoft Certification Renewal | Microsoft... |
-| [topic-015](#topic-015) | Implement responsible AI practices | Shares concepts (add, english, learn) with Introduction - Training | Microsoft Learn
-Read in... |
-| [topic-016](#topic-016) | Implement responsible AI practices | Shares concepts (add, english, learn) with Mitigate AI risks - Training | Microsoft Learn
-Read in... |
-
-
-
----
-
-
-## Exercise - Develop with AI-powered code suggestions by...
-
-| Property | Value |
-|----------|-------|
-| Domain | domain-5 |
-| Priority Score | 10/10 |
-| High Priority | Yes |
-
-!!! note "Supplemented Content"
-    Some content in this section was inferred from related materials and marked accordingly.
-
-
-
-### Overview
-
-Exercise - Develop with AI-powered code suggestions by... is a key concept within the Collaborate with AI agents in the development workflow domain of the GH-600 certification. Exercise - Develop with AI-powered code suggestions by using GitHub Copilot and VS Code - Training | Microsoft Learn
-Read in English
-Add
-Add to plan
-Exercise - Develop with AI-powered code suggestions by using GitHub Copilot and VS Code
-Completed
-1 minute
-This exercise walks you through the following steps:
-Install GitHub Copilot by using GitHub Codespaces
-Prompt GitHub Copilot for code suggestions
-Accept code suggestions from GitHub Copilot
-Instructions
-Select the
-Start the exercise on GitHub
-button at the bottom of this page. Prepare for an exam | Microsoft Learn
-Table of contents
-Exit editor mode
-Ask Learn
-Ask Learn
-Reading mode
-Table of contents
-Read in English
-Add
-Add to plan
-Edit
-Copy Markdown
-Print
-Note
-Access to this page requires authorization. Understanding Exercise - Develop with AI-powered code suggestions by... is essential for candidates preparing for the GitHub Certified Agentic AI Developer exam. This topic encompasses 2 distinct knowledge areas that together provide comprehensive coverage.
-
-### Detailed Explanation
-
-Exercise - Develop with AI-powered code suggestions by... represents a fundamental area of knowledge within the Collaborate with AI agents in the development workflow domain of the GH-600 certification. Exercise - Develop with AI-powered code suggestions by using GitHub Copilot and VS Code - Training | Microsoft Learn
-Read in English
-Add
-Add to plan
-Exercise - Develop with AI-powered code suggestions by using GitHub Copilot and VS Code
-Completed
-1 minute
-This exercise walks you through the following steps:
-Install GitHub Copilot by using GitHub Codespaces
-Prompt GitHub Copilot for code suggestions
-Accept code suggestions from GitHub Copilot
-Instructions
-Select the
-Start the exercise on GitHub
-button at the bottom of this page. Prepare for an exam | Microsoft Learn
-Table of contents
-Exit editor mode
-Ask Learn
-Ask Learn
-Reading mode
-Table of contents
-Read in English
-Add
-Add to plan
-Edit
-Copy Markdown
-Print
-Note
-Access to this page requires authorization. This concept is integral to understanding how GitHub Copilot and agentic AI solutions function within modern software development lifecycles. Candidates must demonstrate proficiency in applying these concepts to real-world development scenarios.
-
-In the context of the GH-600 exam, Exercise - Develop with AI-powered code suggestions by... relates to the broader theme of leveraging AI agents in software development. This includes understanding how agentic solutions can be designed, implemented, evaluated, secured, and governed throughout the development lifecycle. The exam tests both theoretical understanding and practical application of these concepts in enterprise development environments.
-
-Practical application of Exercise - Develop with AI-powered code suggestions by... involves working with GitHub Copilot's agent mode, understanding tool integration, and managing AI-assisted development workflows. Developers need to understand how to configure, customize, and optimize these capabilities for their specific use cases. This requires knowledge of both the technical implementation details and the organizational processes that support effective AI adoption.
-
-As a high-priority topic, Exercise - Develop with AI-powered code suggestions by... receives additional emphasis in exam preparation. The exam may include multiple questions testing different aspects of this concept, from basic recall to complex scenario-based analysis. Candidates should expect questions that require combining knowledge of Exercise - Develop with AI-powered code suggestions by... with other related topics to solve multi-step problems.
-
-Advanced scenarios involving Exercise - Develop with AI-powered code suggestions by... often require understanding of integration patterns, security considerations, performance optimization, and governance frameworks. The ability to evaluate trade-offs and make informed decisions about implementation approaches is critical. Exam questions may present real-world situations requiring analysis of multiple factors simultaneously, testing the candidate's depth of understanding beyond surface-level knowledge.
-
-> [!NOTE] Supplemented content
-This topic had limited source material and content was inferred from domain context.
-
-### Key Facts
-
-- Exercise - Develop with AI-powered code suggestions by... is part of the Collaborate with AI agents in the development workflow domain (domain-5) in the GH-600 certification.
-- This topic covers 2 knowledge point(s) that candidates must understand.
-- Exercise - Develop with AI-powered code suggestions by using GitHub Copilot and VS Code - Training | Microsoft Learn
-Read in English
-Add
-Add to plan
-Exercise - Develop with AI-powered code suggestions by using GitHub Copilot and VS Code
-Completed
-1 minute
-This exercise walks you through the following steps:
-Install GitHub Copilot by using GitHub Codespaces
-Prompt GitHub Copilot for code suggestions
-Accept code suggestions from GitHub Copilot
-Instructions
-Select the
-Start the exercise on GitHub
-button at the bottom of this page. Prepare for an exam | Microsoft Learn
-Table of contents
-Exit editor mode
-Ask Learn
-Ask Learn
-Reading mode
-Table of contents
-Read in English
-Add
-Add to plan
-Edit
-Copy Markdown
-Print
-Note
-Access to this page requires authorization.
-- Falls under the sub-domain: Use GitHub Copilot for code generation and review.
-
-
-### Common Mistakes
-
-!!! warning "Avoid These Mistakes"
-
-    - Confusing Exercise - Develop with AI-powered code suggestions by... with related but distinct concepts in the Collaborate with AI agents in the development workflow domain.
-
-    - Focusing only on theoretical knowledge of Exercise - Develop with AI-powered code suggestions by... without understanding practical implementation scenarios.
-
-    - Skipping steps in the Exercise - Develop with AI-powered code suggestions by... workflow or performing them out of the required order.
-
-    - Using incorrect syntax or configuration values when implementing Exercise - Develop with AI-powered code suggestions by... in practice.
-
-
-### Examples
-
-1. A developer uses Exercise - Develop with AI-powered code suggestions by... when configuring GitHub Copilot agent mode to assist with code generation and review tasks in their development workflow.
-2. In an enterprise setting, Exercise - Develop with AI-powered code suggestions by... is applied to ensure that AI-assisted development processes meet organizational standards for security and governance.
-3. A team follows the Exercise - Develop with AI-powered code suggestions by... procedure to set up their CI/CD pipeline with agentic AI capabilities.
-4. A configuration file demonstrates how Exercise - Develop with AI-powered code suggestions by... settings control agent behavior and permissions.
-
-
-
-### Code Examples
-
-
-```python
-# Implementation of Exercise - Develop with AI-powered code suggestions by...
-def configure_exercise_develop_with_ai_powered_code_suggestions_by():
-    """Configure Exercise - Develop with AI-powered code suggestions by... settings."""
-    config = {
-        "enabled": True,  # Activate the feature
-        "mode": "agent",  # Use agent mode
-    }
-    return config  # Return configuration
+### 1.2 SDLC Integration Points for AI Agents
+
+#### Overview
+
+AI agents integrate into the Software Development Lifecycle at specific touchpoints where they add the most value. Understanding these integration points is critical for designing effective agentic workflows.
+
+#### Integration Points by SDLC Phase
+
+| Phase | Agent Capability | Example |
+|-------|-----------------|---------|
+| **Planning** | Requirements analysis, story decomposition | Breaking epics into implementable tasks |
+| **Design** | Architecture suggestions, API design | Generating OpenAPI specs from descriptions |
+| **Coding** | Code generation, refactoring, file creation | Implementing features across multiple files |
+| **Testing** | Test generation, bug reproduction | Writing unit tests, finding edge cases |
+| **Review** | Code review, security scanning | Identifying vulnerabilities, style issues |
+| **Deploy** | CI/CD config, release notes | Generating changelogs, configuring workflows |
+| **Monitor** | Log analysis, incident response | Summarizing error patterns, suggesting fixes |
+
+#### Agent Mode in the IDE
+
+GitHub Copilot's agent mode transforms the IDE into an autonomous development environment:
+
+```yaml
+# Agent mode capabilities in VS Code / IDE
+capabilities:
+  - file_creation: Create new files and directories
+  - file_editing: Modify existing source code
+  - terminal_execution: Run shell commands
+  - search: Find code patterns across the codebase
+  - web_browsing: Fetch documentation (with MCP)
+  - test_running: Execute and verify tests
 ```
 
-!!! tip "Code Notes"
-    This example demonstrates a basic Exercise - Develop with AI-powered code suggestions by... configuration with inline comments explaining each setting.
-
-
-
-
-
-
-### Step-by-Step Instructions
-
-
-1. **Identify requirements for Exercise - Develop with AI-powered code suggestions by...**
-
-    - *Rationale*: Understanding requirements ensures the correct approach is selected for the specific use case.
-
-
-2. **Configure the environment for Exercise - Develop with AI-powered code suggestions by...**
-
-    - *Rationale*: Proper environment setup prevents issues during implementation and ensures all dependencies are met.
-
-
-3. **Implement Exercise - Develop with AI-powered code suggestions by... following best practices**
-
-    - *Rationale*: Following established patterns ensures reliability, security, and maintainability of the solution.
-
-
-4. **Validate and test the Exercise - Develop with AI-powered code suggestions by... implementation**
-
-    - *Rationale*: Testing confirms correct behavior and catches issues before they impact production systems.
-
-
-5. **Monitor and iterate on Exercise - Develop with AI-powered code suggestions by...**
-
-    - *Rationale*: Ongoing monitoring enables continuous improvement and early detection of any degradation.
-
-
-
-
-### Exam Tips
-
-!!! tip "Exam Tips"
-
-    - Focus on understanding the practical applications of Exercise - Develop with AI-powered code suggestions by... rather than just memorizing definitions.
-
-    - This is a high-priority topic (score: 10/10). Expect multiple exam questions testing different aspects of Exercise - Develop with AI-powered code suggestions by....
-
-    - Exercise - Develop with AI-powered code suggestions by... appears across 5 domains — be prepared for cross-domain questions.
-
-
-
-### Related Topics
-
-| Topic | Domain | Relationship |
-|-------|--------|-------------|
-| [topic-001](#topic-001) | Prepare agent architecture and SDLC processes | Shares concepts (editor, mode, requires) with Exam scoring and score reports | Microsoft Learn
-Table... |
-| [topic-002](#topic-002) | Prepare agent architecture and SDLC processes | Shares concepts (editor, mode, requires) with Request exam accommodations and frequently asked... |
-| [topic-003](#topic-003) | Prepare agent architecture and SDLC processes | Shares concepts (editor, mode, requires) with Search Product and Services Lifecycle Information -... |
-| [topic-004](#topic-004) | Prepare agent architecture and SDLC processes | Shares concepts (editor, mode, requires) with Exam and Applied Skills assessment lab retake policies |... |
-| [topic-006](#topic-006) | Design and implement agentic solutions | Shares concepts (editor, mode, requires) with Study guide for Exam GH-600: Developing in Agentic AI... |
-| [topic-007](#topic-007) | Design and implement agentic solutions | Shares concepts (editor, mode, requires) with Tooling, MCP, and Agent Execution Environments -... |
-| [topic-008](#topic-008) | Design and implement agentic solutions | Shares concepts (learn, microsoft) with Microsoft previous versions of technical documentation |... |
-| [topic-009](#topic-009) | Secure and govern agentic AI solutions | Shares concepts (editor, mode, requires) with Terms of Use | Microsoft Learn
-learn |
-| [topic-010](#topic-010) | Secure and govern agentic AI solutions | Shares concepts (editor, mode, requires) with Modern Lifecycle Policy - Microsoft Lifecycle |... |
-| [topic-011](#topic-011) | Secure and govern agentic AI solutions | Shares concepts (learn, microsoft) with Browse Credentials | Microsoft Learn
-Browse... |
-| [topic-012](#topic-012) | Secure and govern agentic AI solutions | Shares concepts (editor, mode, requires) with About online exams with Pearson VUE | Microsoft... |
-| [topic-014](#topic-014) | Implement responsible AI practices | Shares concepts (learn, microsoft, using) with Microsoft Certification Renewal | Microsoft... |
-| [topic-015](#topic-015) | Implement responsible AI practices | Shares concepts (add, english, learn) with Introduction - Training | Microsoft Learn
-Read in... |
-| [topic-016](#topic-016) | Implement responsible AI practices | Shares concepts (add, english, learn) with Mitigate AI risks - Training | Microsoft Learn
-Read in... |
-
-
-
----
-
-
-## Microsoft Certification Renewal | Microsoft...
-
-| Property | Value |
-|----------|-------|
-| Domain | domain-6 |
-| Priority Score | 9/10 |
-| High Priority | Yes |
-
-!!! note "Supplemented Content"
-    Some content in this section was inferred from related materials and marked accordingly.
-
-
-
-### Overview
-
-Microsoft Certification Renewal | Microsoft... is a key concept within the Implement responsible AI practices domain of the GH-600 certification. Microsoft Certification Renewal | Microsoft Learn
-MICROSOFT CERTIFICATION RENEWAL
-Keep pace with technology
-Validate your skills and advance your career by annually renewing your Microsoft Certification for free. Principles for AI-Generated Content | Microsoft Learn
-Our principles for using AI-generated and machine-translated content on Microsoft Learn
-Microsoft uses AI technologies to generate some of the text and code examples that we publish on
-Microsoft Learn. Understanding Microsoft Certification Renewal | Microsoft... is essential for candidates preparing for the GitHub Certified Agentic AI Developer exam. This topic encompasses 2 distinct knowledge areas that together provide comprehensive coverage.
-
-### Detailed Explanation
-
-Microsoft Certification Renewal | Microsoft... represents a fundamental area of knowledge within the Implement responsible AI practices domain of the GH-600 certification. Microsoft Certification Renewal | Microsoft Learn
-MICROSOFT CERTIFICATION RENEWAL
-Keep pace with technology
-Validate your skills and advance your career by annually renewing your Microsoft Certification for free. Principles for AI-Generated Content | Microsoft Learn
-Our principles for using AI-generated and machine-translated content on Microsoft Learn
-Microsoft uses AI technologies to generate some of the text and code examples that we publish on
-Microsoft Learn. This concept is integral to understanding how GitHub Copilot and agentic AI solutions function within modern software development lifecycles. Candidates must demonstrate proficiency in applying these concepts to real-world development scenarios.
-
-In the context of the GH-600 exam, Microsoft Certification Renewal | Microsoft... relates to the broader theme of leveraging AI agents in software development. This includes understanding how agentic solutions can be designed, implemented, evaluated, secured, and governed throughout the development lifecycle. The exam tests both theoretical understanding and practical application of these concepts in enterprise development environments.
-
-Practical application of Microsoft Certification Renewal | Microsoft... involves working with GitHub Copilot's agent mode, understanding tool integration, and managing AI-assisted development workflows. Developers need to understand how to configure, customize, and optimize these capabilities for their specific use cases. This requires knowledge of both the technical implementation details and the organizational processes that support effective AI adoption.
-
-As a high-priority topic, Microsoft Certification Renewal | Microsoft... receives additional emphasis in exam preparation. The exam may include multiple questions testing different aspects of this concept, from basic recall to complex scenario-based analysis. Candidates should expect questions that require combining knowledge of Microsoft Certification Renewal | Microsoft... with other related topics to solve multi-step problems.
-
-Advanced scenarios involving Microsoft Certification Renewal | Microsoft... often require understanding of integration patterns, security considerations, performance optimization, and governance frameworks. The ability to evaluate trade-offs and make informed decisions about implementation approaches is critical. Exam questions may present real-world situations requiring analysis of multiple factors simultaneously, testing the candidate's depth of understanding beyond surface-level knowledge.
-
-Furthermore, Microsoft Certification Renewal | Microsoft... connects to broader themes in the Implement responsible AI practices domain including best practices, enterprise adoption patterns, and continuous improvement of AI-assisted development processes. Understanding these connections helps candidates answer cross-domain questions.
-
-Furthermore, Microsoft Certification Renewal | Microsoft... connects to broader themes in the Implement responsible AI practices domain including best practices, enterprise adoption patterns, and continuous improvement of AI-assisted development processes. Understanding these connections helps candidates answer cross-domain questions.
-
-> [!NOTE] Supplemented content
-This topic had limited source material and content was inferred from domain context.
-
-### Key Facts
-
-- Microsoft Certification Renewal | Microsoft... is part of the Implement responsible AI practices domain (domain-6) in the GH-600 certification.
-- This topic covers 2 knowledge point(s) that candidates must understand.
-- Microsoft Certification Renewal | Microsoft Learn
-MICROSOFT CERTIFICATION RENEWAL
-Keep pace with technology
-Validate your skills and advance your career by annually renewing your Microsoft Certification for free. Principles for AI-Generated Content | Microsoft Learn
-Our principles for using AI-generated and machine-translated content on Microsoft Learn
-Microsoft uses AI technologies to generate some of the text and code examples that we publish on
-Microsoft Learn.
-- Falls under the sub-domain: Ensure compliance with responsible AI policies.
-
-
-### Common Mistakes
-
-!!! warning "Avoid These Mistakes"
-
-    - Confusing Microsoft Certification Renewal | Microsoft... with related but distinct concepts in the Implement responsible AI practices domain.
-
-    - Focusing only on theoretical knowledge of Microsoft Certification Renewal | Microsoft... without understanding practical implementation scenarios.
-
-    - Using incorrect syntax or configuration values when implementing Microsoft Certification Renewal | Microsoft... in practice.
-
-
-### Examples
-
-1. A developer uses Microsoft Certification Renewal | Microsoft... when configuring GitHub Copilot agent mode to assist with code generation and review tasks in their development workflow.
-2. In an enterprise setting, Microsoft Certification Renewal | Microsoft... is applied to ensure that AI-assisted development processes meet organizational standards for security and governance.
-3. A configuration file demonstrates how Microsoft Certification Renewal | Microsoft... settings control agent behavior and permissions.
-
-
-
-### Code Examples
-
-
-```python
-# Implementation of Microsoft Certification Renewal | Microsoft...
-def configure_microsoft_certification_renewal_microsoft():
-    """Configure Microsoft Certification Renewal | Microsoft... settings."""
-    config = {
-        "enabled": True,  # Activate the feature
-        "mode": "agent",  # Use agent mode
-    }
-    return config  # Return configuration
+#### How Agents Fit the SDLC
+
+```mermaid
+graph LR
+    subgraph "Plan"
+        A[Decompose Tasks]
+    end
+    subgraph "Code"
+        B[Generate Code]
+        C[Run Tests]
+    end
+    subgraph "Review"
+        D[PR Review]
+    end
+    subgraph "Deploy"
+        E[CI/CD]
+    end
+    A --> B --> C --> D --> E
 ```
 
-!!! tip "Code Notes"
-    This example demonstrates a basic Microsoft Certification Renewal | Microsoft... configuration with inline comments explaining each setting.
-
-
-
-
-
-
-
-### Exam Tips
-
-!!! tip "Exam Tips"
-
-    - Focus on understanding the practical applications of Microsoft Certification Renewal | Microsoft... rather than just memorizing definitions.
-
-    - This is a high-priority topic (score: 9/10). Expect multiple exam questions testing different aspects of Microsoft Certification Renewal | Microsoft....
-
-    - Microsoft Certification Renewal | Microsoft... appears across 3 domains — be prepared for cross-domain questions.
-
-
-
-### Related Topics
-
-| Topic | Domain | Relationship |
-|-------|--------|-------------|
-| [topic-001](#topic-001) | Prepare agent architecture and SDLC processes | Shares concepts (certification, learn, microsoft) with Exam scoring and score reports | Microsoft Learn
-Table... |
-| [topic-002](#topic-002) | Prepare agent architecture and SDLC processes | Shares concepts (learn, microsoft) with Request exam accommodations and frequently asked... |
-| [topic-003](#topic-003) | Prepare agent architecture and SDLC processes | Shares concepts (learn, microsoft, your) with Search Product and Services Lifecycle Information -... |
-| [topic-004](#topic-004) | Prepare agent architecture and SDLC processes | Shares concepts (learn, microsoft, skills) with Exam and Applied Skills assessment lab retake policies |... |
-| [topic-006](#topic-006) | Design and implement agentic solutions | Shares concepts (generate, learn, microsoft) with Study guide for Exam GH-600: Developing in Agentic AI... |
-| [topic-007](#topic-007) | Design and implement agentic solutions | Shares concepts (learn, microsoft) with Tooling, MCP, and Agent Execution Environments -... |
-| [topic-008](#topic-008) | Design and implement agentic solutions | Shares concepts (learn, microsoft, technologies) with Microsoft previous versions of technical documentation |... |
-| [topic-009](#topic-009) | Secure and govern agentic AI solutions | Shares concepts (learn, microsoft, using) with Terms of Use | Microsoft Learn
-learn |
-| [topic-010](#topic-010) | Secure and govern agentic AI solutions | Shares concepts (learn, microsoft) with Modern Lifecycle Policy - Microsoft Lifecycle |... |
-| [topic-011](#topic-011) | Secure and govern agentic AI solutions | Shares concepts (learn, microsoft, your) with Browse Credentials | Microsoft Learn
-Browse... |
-| [topic-012](#topic-012) | Secure and govern agentic AI solutions | Shares concepts (learn, microsoft) with About online exams with Pearson VUE | Microsoft... |
-| [topic-013](#topic-013) | Collaborate with AI agents in the development workflow | Shares concepts (learn, microsoft, using) with Exercise - Develop with AI-powered code suggestions by... |
-
-
+!!! tip "Exam Tip"
+    Know which agent capabilities map to which SDLC phases. The exam may present scenarios asking where agent intervention is most appropriate.
 
 ---
 
+### 1.3 Agent Communication and Orchestration
 
-## Introduction - Training | Microsoft Learn
-Read in...
+#### Overview
 
-| Property | Value |
-|----------|-------|
-| Domain | domain-6 |
-| Priority Score | 10/10 |
-| High Priority | Yes |
+When multiple agents or agent components work together, they need clear communication protocols and orchestration strategies. This topic covers how agents coordinate within GitHub workflows.
 
-!!! note "Supplemented Content"
-    Some content in this section was inferred from related materials and marked accordingly.
+#### Communication Patterns
 
+| Pattern | Description | When to Use |
+|---------|-------------|------------|
+| **Request-Response** | Agent asks, tool responds | File operations, API calls |
+| **Event-Driven** | Agent reacts to triggers | PR opened, test failed, file changed |
+| **Publish-Subscribe** | Agents broadcast status | Multi-agent coordination |
+| **Shared Context** | Agents read/write shared state | Complex multi-step workflows |
 
+#### Orchestration with GitHub Actions
 
-### Overview
+```yaml
+# Example: Agent-orchestrated CI/CD workflow
+name: Agent-Assisted Development
+on:
+  pull_request:
+    types: [opened, synchronize]
 
-Introduction - Training | Microsoft Learn
-Read in... is a key concept within the Implement responsible AI practices domain of the GH-600 certification. Introduction - Training | Microsoft Learn
-Read in English
-Add
-Add to plan
-Introduction
-Completed
-3 minutes
-This module explores the responsible use of AI in the context of GitHub Copilot, a generative AI tool for developers. Summary - Training | Microsoft Learn
-Read in English
-Add
-Add to plan
-Summary
-Completed
-3 minutes
-Microsoft and GitHub are leaders and innovators in the AI space. Understanding Introduction - Training | Microsoft Learn
-Read in... is essential for candidates preparing for the GitHub Certified Agentic AI Developer exam. This topic encompasses 2 distinct knowledge areas that together provide comprehensive coverage.
+jobs:
+  agent-review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: AI Code Review
+        uses: github/copilot-review-action@v1
+        with:
+          model: gpt-4
+          scope: changed-files
+      - name: AI Test Generation
+        uses: github/copilot-test-gen@v1
+        with:
+          coverage_target: 80%
+```
 
-### Detailed Explanation
+#### Key Facts
 
-Introduction - Training | Microsoft Learn
-Read in... represents a fundamental area of knowledge within the Implement responsible AI practices domain of the GH-600 certification. Introduction - Training | Microsoft Learn
-Read in English
-Add
-Add to plan
-Introduction
-Completed
-3 minutes
-This module explores the responsible use of AI in the context of GitHub Copilot, a generative AI tool for developers. Summary - Training | Microsoft Learn
-Read in English
-Add
-Add to plan
-Summary
-Completed
-3 minutes
-Microsoft and GitHub are leaders and innovators in the AI space. This concept is integral to understanding how GitHub Copilot and agentic AI solutions function within modern software development lifecycles. Candidates must demonstrate proficiency in applying these concepts to real-world development scenarios.
+- Agents communicate through **tool calls** (function invocations with structured inputs/outputs)
+- GitHub Copilot uses a **message-based protocol** between the IDE and the AI backend
+- MCP (Model Context Protocol) standardizes how agents interact with external tools
+- Agent orchestration respects **rate limits** and **token budgets**
 
-In the context of the GH-600 exam, Introduction - Training | Microsoft Learn
-Read in... relates to the broader theme of leveraging AI agents in software development. This includes understanding how agentic solutions can be designed, implemented, evaluated, secured, and governed throughout the development lifecycle. The exam tests both theoretical understanding and practical application of these concepts in enterprise development environments.
-
-Practical application of Introduction - Training | Microsoft Learn
-Read in... involves working with GitHub Copilot's agent mode, understanding tool integration, and managing AI-assisted development workflows. Developers need to understand how to configure, customize, and optimize these capabilities for their specific use cases. This requires knowledge of both the technical implementation details and the organizational processes that support effective AI adoption.
-
-As a high-priority topic, Introduction - Training | Microsoft Learn
-Read in... receives additional emphasis in exam preparation. The exam may include multiple questions testing different aspects of this concept, from basic recall to complex scenario-based analysis. Candidates should expect questions that require combining knowledge of Introduction - Training | Microsoft Learn
-Read in... with other related topics to solve multi-step problems.
-
-Advanced scenarios involving Introduction - Training | Microsoft Learn
-Read in... often require understanding of integration patterns, security considerations, performance optimization, and governance frameworks. The ability to evaluate trade-offs and make informed decisions about implementation approaches is critical. Exam questions may present real-world situations requiring analysis of multiple factors simultaneously, testing the candidate's depth of understanding beyond surface-level knowledge.
-
-Furthermore, Introduction - Training | Microsoft Learn
-Read in... connects to broader themes in the Implement responsible AI practices domain including best practices, enterprise adoption patterns, and continuous improvement of AI-assisted development processes. Understanding these connections helps candidates answer cross-domain questions.
-
-> [!NOTE] Supplemented content
-This topic had limited source material and content was inferred from domain context.
-
-### Key Facts
-
-- Introduction - Training | Microsoft Learn
-Read in... is part of the Implement responsible AI practices domain (domain-6) in the GH-600 certification.
-- This topic covers 2 knowledge point(s) that candidates must understand.
-- Introduction - Training | Microsoft Learn
-Read in English
-Add
-Add to plan
-Introduction
-Completed
-3 minutes
-This module explores the responsible use of AI in the context of GitHub Copilot, a generative AI tool for developers. Summary - Training | Microsoft Learn
-Read in English
-Add
-Add to plan
-Summary
-Completed
-3 minutes
-Microsoft and GitHub are leaders and innovators in the AI space.
-- Falls under the sub-domain: Apply ethical guidelines to agent behavior.
-
-
-### Common Mistakes
-
-!!! warning "Avoid These Mistakes"
-
-    - Confusing Introduction - Training | Microsoft Learn
-Read in... with related but distinct concepts in the Implement responsible AI practices domain.
-
-    - Focusing only on theoretical knowledge of Introduction - Training | Microsoft Learn
-Read in... without understanding practical implementation scenarios.
-
-
-### Examples
-
-1. A developer uses Introduction - Training | Microsoft Learn
-Read in... when configuring GitHub Copilot agent mode to assist with code generation and review tasks in their development workflow.
-2. In an enterprise setting, Introduction - Training | Microsoft Learn
-Read in... is applied to ensure that AI-assisted development processes meet organizational standards for security and governance.
-
-
-
-
-
-
-### Exam Tips
-
-!!! tip "Exam Tips"
-
-    - Focus on understanding the practical applications of Introduction - Training | Microsoft Learn
-Read in... rather than just memorizing definitions.
-
-    - This is a high-priority topic (score: 10/10). Expect multiple exam questions testing different aspects of Introduction - Training | Microsoft Learn
-Read in....
-
-    - Introduction - Training | Microsoft Learn
-Read in... appears across 5 domains — be prepared for cross-domain questions.
-
-
-
-### Related Topics
-
-| Topic | Domain | Relationship |
-|-------|--------|-------------|
-| [topic-001](#topic-001) | Prepare agent architecture and SDLC processes | Shares concepts (add, english, learn) with Exam scoring and score reports | Microsoft Learn
-Table... |
-| [topic-002](#topic-002) | Prepare agent architecture and SDLC processes | Shares concepts (add, english, learn) with Request exam accommodations and frequently asked... |
-| [topic-003](#topic-003) | Prepare agent architecture and SDLC processes | Shares concepts (add, english, learn) with Search Product and Services Lifecycle Information -... |
-| [topic-004](#topic-004) | Prepare agent architecture and SDLC processes | Shares concepts (add, english, learn) with Exam and Applied Skills assessment lab retake policies |... |
-| [topic-006](#topic-006) | Design and implement agentic solutions | Shares concepts (add, english, learn) with Study guide for Exam GH-600: Developing in Agentic AI... |
-| [topic-007](#topic-007) | Design and implement agentic solutions | Shares concepts (add, english, learn) with Tooling, MCP, and Agent Execution Environments -... |
-| [topic-008](#topic-008) | Design and implement agentic solutions | Shares concepts (learn, microsoft) with Microsoft previous versions of technical documentation |... |
-| [topic-009](#topic-009) | Secure and govern agentic AI solutions | Shares concepts (add, english, learn) with Terms of Use | Microsoft Learn
-learn |
-| [topic-010](#topic-010) | Secure and govern agentic AI solutions | Shares concepts (add, english, learn) with Modern Lifecycle Policy - Microsoft Lifecycle |... |
-| [topic-011](#topic-011) | Secure and govern agentic AI solutions | Shares concepts (learn, microsoft) with Browse Credentials | Microsoft Learn
-Browse... |
-| [topic-012](#topic-012) | Secure and govern agentic AI solutions | Shares concepts (add, english, learn) with About online exams with Pearson VUE | Microsoft... |
-| [topic-013](#topic-013) | Collaborate with AI agents in the development workflow | Shares concepts (add, english, learn) with Exercise - Develop with AI-powered code suggestions by... |
-
-
+!!! warning "Common Mistake"
+    Don't confuse agent-to-agent communication with user-to-agent communication. The exam distinguishes between how agents talk to tools (MCP/function calls) versus how users interact with agents (natural language prompts).
 
 ---
 
+### 1.4 Agent Roles Within Development Workflows
 
-## Mitigate AI risks - Training | Microsoft Learn
-Read in...
+#### Overview
 
-| Property | Value |
-|----------|-------|
-| Domain | domain-6 |
-| Priority Score | 10/10 |
-| High Priority | Yes |
+Different agents serve different roles within a development team's workflow. Understanding these roles helps you design systems where each agent has a clear responsibility.
 
-!!! note "Supplemented Content"
-    Some content in this section was inferred from related materials and marked accordingly.
+#### Agent Roles
 
+| Role | Responsibility | Autonomy Level |
+|------|---------------|----------------|
+| **Code Generator** | Write new code from specs | High — generates, tests, iterates |
+| **Code Reviewer** | Analyze PRs for quality/security | Medium — suggests, doesn't merge |
+| **Test Writer** | Create and maintain test suites | High — writes, runs, fixes |
+| **Documentation Agent** | Generate/update docs | Medium — drafts, human reviews |
+| **DevOps Agent** | Configure CI/CD, manage infra | Low — proposes, human approves |
+| **Security Scanner** | Find vulnerabilities | Medium — flags, suggests fixes |
 
+#### Autonomy Levels
 
-### Overview
+```
+┌─────────────────────────────────────────────────────┐
+│ Full Autonomy: Agent acts without human approval    │
+│   Examples: Code formatting, test execution         │
+├─────────────────────────────────────────────────────┤
+│ Supervised: Agent proposes, human approves          │
+│   Examples: PR merge, deployment, config changes    │
+├─────────────────────────────────────────────────────┤
+│ Advisory: Agent suggests, human decides             │
+│   Examples: Architecture decisions, feature design  │
+└─────────────────────────────────────────────────────┘
+```
 
-Mitigate AI risks - Training | Microsoft Learn
-Read in... is a key concept within the Implement responsible AI practices domain of the GH-600 certification. Mitigate AI risks - Training | Microsoft Learn
-Read in English
-Add
-Add to plan
-Mitigate AI risks
-Completed
-3 minutes
-Artificial Intelligence (AI) presents numerous opportunities for innovation and efficiency, but it also comes with significant risks that need to be carefully managed. Module assessment - Training | Microsoft Learn
-Read in English
-Add
-Add to plan
-Module assessment
-Completed
-3 minutes
-Choose the best response for each question. Understanding Mitigate AI risks - Training | Microsoft Learn
-Read in... is essential for candidates preparing for the GitHub Certified Agentic AI Developer exam. This topic encompasses 2 distinct knowledge areas that together provide comprehensive coverage.
-
-### Detailed Explanation
-
-Mitigate AI risks - Training | Microsoft Learn
-Read in... represents a fundamental area of knowledge within the Implement responsible AI practices domain of the GH-600 certification. Mitigate AI risks - Training | Microsoft Learn
-Read in English
-Add
-Add to plan
-Mitigate AI risks
-Completed
-3 minutes
-Artificial Intelligence (AI) presents numerous opportunities for innovation and efficiency, but it also comes with significant risks that need to be carefully managed. Module assessment - Training | Microsoft Learn
-Read in English
-Add
-Add to plan
-Module assessment
-Completed
-3 minutes
-Choose the best response for each question. This concept is integral to understanding how GitHub Copilot and agentic AI solutions function within modern software development lifecycles. Candidates must demonstrate proficiency in applying these concepts to real-world development scenarios.
-
-In the context of the GH-600 exam, Mitigate AI risks - Training | Microsoft Learn
-Read in... relates to the broader theme of leveraging AI agents in software development. This includes understanding how agentic solutions can be designed, implemented, evaluated, secured, and governed throughout the development lifecycle. The exam tests both theoretical understanding and practical application of these concepts in enterprise development environments.
-
-Practical application of Mitigate AI risks - Training | Microsoft Learn
-Read in... involves working with GitHub Copilot's agent mode, understanding tool integration, and managing AI-assisted development workflows. Developers need to understand how to configure, customize, and optimize these capabilities for their specific use cases. This requires knowledge of both the technical implementation details and the organizational processes that support effective AI adoption.
-
-As a high-priority topic, Mitigate AI risks - Training | Microsoft Learn
-Read in... receives additional emphasis in exam preparation. The exam may include multiple questions testing different aspects of this concept, from basic recall to complex scenario-based analysis. Candidates should expect questions that require combining knowledge of Mitigate AI risks - Training | Microsoft Learn
-Read in... with other related topics to solve multi-step problems.
-
-Advanced scenarios involving Mitigate AI risks - Training | Microsoft Learn
-Read in... often require understanding of integration patterns, security considerations, performance optimization, and governance frameworks. The ability to evaluate trade-offs and make informed decisions about implementation approaches is critical. Exam questions may present real-world situations requiring analysis of multiple factors simultaneously, testing the candidate's depth of understanding beyond surface-level knowledge.
-
-Furthermore, Mitigate AI risks - Training | Microsoft Learn
-Read in... connects to broader themes in the Implement responsible AI practices domain including best practices, enterprise adoption patterns, and continuous improvement of AI-assisted development processes. Understanding these connections helps candidates answer cross-domain questions.
-
-> [!NOTE] Supplemented content
-This topic had limited source material and content was inferred from domain context.
-
-### Key Facts
-
-- Mitigate AI risks - Training | Microsoft Learn
-Read in... is part of the Implement responsible AI practices domain (domain-6) in the GH-600 certification.
-- This topic covers 2 knowledge point(s) that candidates must understand.
-- Mitigate AI risks - Training | Microsoft Learn
-Read in English
-Add
-Add to plan
-Mitigate AI risks
-Completed
-3 minutes
-Artificial Intelligence (AI) presents numerous opportunities for innovation and efficiency, but it also comes with significant risks that need to be carefully managed. Module assessment - Training | Microsoft Learn
-Read in English
-Add
-Add to plan
-Module assessment
-Completed
-3 minutes
-Choose the best response for each question.
-- Falls under the sub-domain: Manage bias and fairness in agent outputs.
-
-
-### Common Mistakes
-
-!!! warning "Avoid These Mistakes"
-
-    - Confusing Mitigate AI risks - Training | Microsoft Learn
-Read in... with related but distinct concepts in the Implement responsible AI practices domain.
-
-    - Focusing only on theoretical knowledge of Mitigate AI risks - Training | Microsoft Learn
-Read in... without understanding practical implementation scenarios.
-
-
-### Examples
-
-1. A developer uses Mitigate AI risks - Training | Microsoft Learn
-Read in... when configuring GitHub Copilot agent mode to assist with code generation and review tasks in their development workflow.
-2. In an enterprise setting, Mitigate AI risks - Training | Microsoft Learn
-Read in... is applied to ensure that AI-assisted development processes meet organizational standards for security and governance.
-
-
-
-
-
-
-### Exam Tips
-
-!!! tip "Exam Tips"
-
-    - Focus on understanding the practical applications of Mitigate AI risks - Training | Microsoft Learn
-Read in... rather than just memorizing definitions.
-
-    - This is a high-priority topic (score: 10/10). Expect multiple exam questions testing different aspects of Mitigate AI risks - Training | Microsoft Learn
-Read in....
-
-    - Mitigate AI risks - Training | Microsoft Learn
-Read in... appears across 5 domains — be prepared for cross-domain questions.
-
-
-
-### Related Topics
-
-| Topic | Domain | Relationship |
-|-------|--------|-------------|
-| [topic-001](#topic-001) | Prepare agent architecture and SDLC processes | Shares concepts (add, english, learn) with Exam scoring and score reports | Microsoft Learn
-Table... |
-| [topic-002](#topic-002) | Prepare agent architecture and SDLC processes | Shares concepts (add, english, learn) with Request exam accommodations and frequently asked... |
-| [topic-003](#topic-003) | Prepare agent architecture and SDLC processes | Shares concepts (add, english, learn) with Search Product and Services Lifecycle Information -... |
-| [topic-004](#topic-004) | Prepare agent architecture and SDLC processes | Shares concepts (add, english, learn) with Exam and Applied Skills assessment lab retake policies |... |
-| [topic-006](#topic-006) | Design and implement agentic solutions | Shares concepts (add, english, learn) with Study guide for Exam GH-600: Developing in Agentic AI... |
-| [topic-007](#topic-007) | Design and implement agentic solutions | Shares concepts (add, english, learn) with Tooling, MCP, and Agent Execution Environments -... |
-| [topic-008](#topic-008) | Design and implement agentic solutions | Shares concepts (learn, microsoft) with Microsoft previous versions of technical documentation |... |
-| [topic-009](#topic-009) | Secure and govern agentic AI solutions | Shares concepts (add, english, learn) with Terms of Use | Microsoft Learn
-learn |
-| [topic-010](#topic-010) | Secure and govern agentic AI solutions | Shares concepts (add, english, learn) with Modern Lifecycle Policy - Microsoft Lifecycle |... |
-| [topic-011](#topic-011) | Secure and govern agentic AI solutions | Shares concepts (learn, microsoft) with Browse Credentials | Microsoft Learn
-Browse... |
-| [topic-012](#topic-012) | Secure and govern agentic AI solutions | Shares concepts (add, english, learn) with About online exams with Pearson VUE | Microsoft... |
-| [topic-013](#topic-013) | Collaborate with AI agents in the development workflow | Shares concepts (add, english, learn) with Exercise - Develop with AI-powered code suggestions by... |
-
-
+!!! tip "Exam Tip"
+    The exam frequently tests your ability to assign the correct autonomy level to an agent role. Remember: higher risk = lower autonomy = more human oversight.
 
 ---
 
+### 1.5 Selecting Agent Frameworks and Tools
 
+#### Overview
 
+Choosing the right framework determines how effectively agents operate. GitHub's ecosystem provides specific tools optimized for agentic development.
+
+#### Framework Comparison
+
+| Framework/Tool | Best For | Key Feature |
+|---------------|----------|-------------|
+| **GitHub Copilot Agent Mode** | IDE-based development | Built-in tool use, file editing |
+| **GitHub Copilot Extensions** | Custom agent behaviors | Domain-specific agents |
+| **GitHub Actions + AI** | CI/CD automation | Event-driven agent triggers |
+| **MCP Servers** | Tool integration | Standardized tool protocol |
+| **Custom GPT Agents** | Specialized workflows | Fine-tuned for specific tasks |
+
+#### Selection Criteria
+
+When selecting an agent framework, consider:
+
+1. **Task Complexity**: Simple tasks → Copilot Chat; Complex multi-step → Agent Mode
+2. **Integration Needs**: Need external tools? → MCP; GitHub-native? → Actions
+3. **Security Requirements**: Sensitive data? → On-premise; Public code? → Cloud
+4. **Team Size**: Solo developer → Agent Mode; Enterprise → Custom Extensions
+5. **Customization**: Off-the-shelf → Copilot; Custom behavior → Extensions + MCP
+
+```python
+# Example: Choosing agent configuration based on task
+def select_agent_config(task):
+    if task.complexity == "simple" and task.scope == "single_file":
+        return AgentConfig(mode="chat", tools=["code_completion"])
+    elif task.complexity == "complex" and task.scope == "multi_file":
+        return AgentConfig(mode="agent", tools=["file_edit", "terminal", "search"])
+    elif task.requires_external_data:
+        return AgentConfig(mode="agent", tools=["mcp_server"], mcp_servers=task.servers)
+```
+
+!!! note "Key Takeaway"
+    GitHub Copilot agent mode is the primary tool for the GH-600 exam. Understand when to use it vs. extensions vs. Actions-based automation.
+
+---
+
+## Domain 2: Design and Implement Agentic Solutions
+
+**Weight: 20–25% of exam** (highest-weighted domain)
+
+### 2.1 GitHub Copilot Agent Mode
+
+#### Overview
+
+Agent mode is Copilot's autonomous coding capability. Unlike chat (single response) or inline suggestions (autocomplete), agent mode executes multi-step tasks: editing files, running commands, fixing errors, and iterating until the task is complete.
+
+#### Agent Mode vs. Other Modes
+
+| Feature | Inline Suggestions | Chat | Agent Mode |
+|---------|-------------------|------|-----------|
+| Autonomy | None (you accept/reject) | Low (responds once) | High (multi-step) |
+| Tool Use | No | Limited | Full (files, terminal, search) |
+| Iteration | No | Manual follow-ups | Automatic |
+| Context | Current file | Conversation | Entire workspace |
+| File Edits | Single line/block | Suggests code | Creates/edits files directly |
+
+#### How Agent Mode Works
+
+```mermaid
+sequenceDiagram
+    participant U as User
+    participant A as Agent
+    participant T as Tools
+    participant E as Environment
+
+    U->>A: "Add authentication to the API"
+    A->>A: Create execution plan
+    A->>T: Read existing route files
+    T->>A: File contents
+    A->>T: Create auth middleware file
+    T->>A: File created
+    A->>T: Edit route files to use middleware
+    T->>A: Files updated
+    A->>T: Run tests
+    T->>A: 2 tests failing
+    A->>A: Analyze failures
+    A->>T: Fix test issues
+    T->>A: All tests passing
+    A->>U: "Done. Added JWT auth middleware..."
+```
+
+#### Activating Agent Mode
+
+In VS Code with GitHub Copilot:
+- Open the Copilot Chat panel
+- Select **Agent** mode (not Chat or Edit)
+- Type a complex, multi-step request
+- The agent will request tool approvals as it works
+
+#### Key Capabilities
+
+1. **File Operations**: Create, read, edit, delete files across the project
+2. **Terminal Commands**: Run builds, tests, linters, installers
+3. **Search**: Find code patterns, symbols, references across the workspace
+4. **Web Fetch**: Access documentation via MCP servers
+5. **Iterative Fixing**: Automatically fix build errors and test failures
+6. **Context Awareness**: Understands project structure, dependencies, patterns
+
+#### Code Example: Agent Mode Task
+
+```typescript
+// User prompt to agent mode:
+// "Create a REST API endpoint for user registration with validation"
+
+// Agent creates: src/routes/auth.ts
+import { Router, Request, Response } from 'express';
+import { body, validationResult } from 'express-validator';
+import bcrypt from 'bcrypt';
+import { User } from '../models/user';
+
+const router = Router();
+
+// Validation middleware
+const registerValidation = [
+  body('email').isEmail().normalizeEmail(),
+  body('password').isLength({ min: 8 })
+    .matches(/^(?=.*[A-Z])(?=.*[0-9])/),
+  body('name').trim().notEmpty(),
+];
+
+// POST /auth/register
+router.post('/register', registerValidation, async (req: Request, res: Response) => {
+  const errors = validationResult(req);
+  if (!errors.isEmpty()) {
+    return res.status(400).json({ errors: errors.array() });
+  }
+
+  const { email, password, name } = req.body;
+  const hashedPassword = await bcrypt.hash(password, 12);
+
+  const user = await User.create({ email, password: hashedPassword, name });
+  return res.status(201).json({ id: user.id, email: user.email });
+});
+
+export default router;
+```
+
+!!! tip "Exam Tip"
+    Know the difference between agent mode, edit mode, and chat mode. Agent mode is the only one that can autonomously create files, run terminal commands, and iterate on failures.
+
+#### Common Mistakes
+
+!!! warning "Avoid These"
+    - Using agent mode for simple single-line completions (overkill)
+    - Not reviewing agent-generated code before committing
+    - Expecting agents to handle production deployments without oversight
+    - Forgetting that agent mode requires tool approval for sensitive operations
+
+---
+
+### 2.2 Model Context Protocol (MCP)
+
+#### Overview
+
+MCP is an open standard that defines how AI models connect to external tools and data sources. It provides a unified protocol for agents to discover, invoke, and receive results from tools — similar to how HTTP standardized web communication.
+
+#### MCP Architecture
+
+```mermaid
+graph TB
+    subgraph "Host Application"
+        A[AI Agent / LLM]
+    end
+    subgraph "MCP Client"
+        B[Protocol Handler]
+    end
+    subgraph "MCP Servers"
+        C[Database Server]
+        D[File System Server]
+        E[API Server]
+        F[Documentation Server]
+    end
+    A --> B
+    B --> C
+    B --> D
+    B --> E
+    B --> F
+```
+
+#### MCP Components
+
+| Component | Role | Example |
+|-----------|------|---------|
+| **Host** | Application running the AI model | VS Code, IDE |
+| **Client** | Maintains connection to servers | Built into Copilot |
+| **Server** | Exposes tools, resources, prompts | Custom tool server |
+| **Transport** | Communication layer | stdio, HTTP/SSE |
+
+#### MCP Server Configuration
+
+```json
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/workspace"],
+      "env": {}
+    },
+    "postgres": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-postgres"],
+      "env": {
+        "DATABASE_URL": "postgresql://localhost/mydb"
+      }
+    },
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_TOKEN": "${GITHUB_TOKEN}"
+      }
+    }
+  }
+}
+```
+
+#### MCP Capabilities
+
+1. **Tools**: Functions the agent can call (e.g., `query_database`, `read_file`)
+2. **Resources**: Data the agent can access (e.g., file contents, API responses)
+3. **Prompts**: Pre-built prompt templates for common tasks
+4. **Sampling**: Server can request LLM completions from the host
+
+#### Tool Definition Example
+
+```json
+{
+  "name": "query_database",
+  "description": "Execute a read-only SQL query against the project database",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "query": {
+        "type": "string",
+        "description": "SQL SELECT query to execute"
+      }
+    },
+    "required": ["query"]
+  }
+}
+```
+
+!!! tip "Exam Tip"
+    MCP is heavily tested on the exam. Know the difference between tools (actions), resources (data access), and prompts (templates). Also know that MCP uses JSON-RPC 2.0 over stdio or HTTP/SSE transport.
+
+#### Key Facts
+
+- MCP is an **open standard** maintained by Anthropic, adopted by GitHub
+- It decouples AI models from specific tool implementations
+- Servers are **stateful** — they maintain connections and can track context
+- The protocol supports **capability negotiation** between client and server
+- Security: servers run with explicit permissions, tools require user approval
+
+---
+
+### 2.3 Multi-Step Agent Workflows
+
+#### Overview
+
+Complex development tasks require agents to execute multiple steps in sequence, making decisions at each stage. Designing effective multi-step workflows is a core competency tested on the exam.
+
+#### Workflow Design Principles
+
+1. **Decomposition**: Break complex tasks into atomic steps
+2. **Error Handling**: Plan for failures at each step
+3. **Checkpoints**: Save progress so work isn't lost on failure
+4. **Validation**: Verify outputs before proceeding to the next step
+5. **Rollback**: Be able to undo steps if later steps fail
+
+#### Example: Feature Implementation Workflow
+
+```mermaid
+graph TD
+    A[Understand Requirements] --> B[Analyze Codebase]
+    B --> C[Design Solution]
+    C --> D[Implement Changes]
+    D --> E[Write Tests]
+    E --> F{Tests Pass?}
+    F -->|Yes| G[Update Documentation]
+    F -->|No| H[Fix Implementation]
+    H --> E
+    G --> I[Create PR]
+```
+
+#### Workflow Configuration
+
+```yaml
+# Agent workflow definition
+workflow:
+  name: implement_feature
+  steps:
+    - id: analyze
+      action: read_files
+      params:
+        patterns: ["src/**/*.ts", "tests/**/*.ts"]
+      output: codebase_context
+
+    - id: plan
+      action: generate_plan
+      input: ${analyze.output}
+      output: implementation_plan
+
+    - id: implement
+      action: edit_files
+      input: ${plan.output}
+      validation:
+        - type: build
+          command: "npm run build"
+        - type: lint
+          command: "npm run lint"
+
+    - id: test
+      action: run_tests
+      command: "npm test"
+      on_failure: fix_and_retry
+      max_retries: 3
+
+    - id: document
+      action: update_docs
+      condition: ${test.status == 'pass'}
+```
+
+!!! note "Key Concept"
+    Agent workflows should be **idempotent** where possible — running the same step twice produces the same result. This enables safe retries.
+
+---
+
+### 2.4 Agent Tools and Capabilities
+
+#### Overview
+
+Tools are the interface between agents and the external world. An agent's effectiveness depends on the quality and breadth of its available tools.
+
+#### Built-in Copilot Agent Tools
+
+| Tool | Category | Description |
+|------|----------|-------------|
+| `read_file` | Read | Read file contents from workspace |
+| `write_file` | Write | Create or overwrite files |
+| `edit_file` | Write | Make targeted edits to existing files |
+| `list_directory` | Read | Browse project structure |
+| `search_files` | Read | Find patterns across codebase |
+| `run_command` | Shell | Execute terminal commands |
+| `web_search` | Web | Search for documentation |
+| `fetch_url` | Web | Read web page content |
+
+#### Custom Tool Development
+
+```typescript
+// Example: Custom MCP tool for a database
+import { Server } from "@modelcontextprotocol/sdk/server";
+
+const server = new Server({
+  name: "project-db",
+  version: "1.0.0",
+});
+
+server.setRequestHandler("tools/list", async () => ({
+  tools: [{
+    name: "query_users",
+    description: "Query the users table with filters",
+    inputSchema: {
+      type: "object",
+      properties: {
+        filter: { type: "string", description: "WHERE clause" },
+        limit: { type: "number", default: 10 }
+      }
+    }
+  }]
+}));
+
+server.setRequestHandler("tools/call", async (request) => {
+  const { name, arguments: args } = request.params;
+  if (name === "query_users") {
+    const results = await db.query(
+      `SELECT * FROM users WHERE ${args.filter} LIMIT ${args.limit}`
+    );
+    return { content: [{ type: "text", text: JSON.stringify(results) }] };
+  }
+});
+```
+
+#### Tool Categories and Permissions
+
+```
+┌─────────────────────────────────────────────┐
+│ Read Tools: Always safe, no approval needed │
+│   - read_file, search, list_directory       │
+├─────────────────────────────────────────────┤
+│ Write Tools: Require review/approval        │
+│   - write_file, edit_file, delete_file      │
+├─────────────────────────────────────────────┤
+│ Shell Tools: Highest risk, explicit consent │
+│   - run_command, install_package            │
+├─────────────────────────────────────────────┤
+│ Web Tools: Network access, data exposure    │
+│   - fetch_url, api_call                     │
+└─────────────────────────────────────────────┘
+```
+
+!!! tip "Exam Tip"
+    Understand tool categorization by risk level. The exam tests whether you can assign appropriate permission levels to different tool types.
+
+---
+
+### 2.5 Building Custom Agent Extensions
+
+#### Overview
+
+GitHub Copilot Extensions allow developers to create domain-specific agents that extend Copilot's capabilities. Extensions are invoked via `@mentions` in Copilot Chat.
+
+#### Extension Architecture
+
+```mermaid
+graph LR
+    A[User @mention] --> B[Copilot Platform]
+    B --> C[Extension Endpoint]
+    C --> D[Custom Logic]
+    D --> E[Response to User]
+    C --> F[External APIs]
+    C --> G[Databases]
+```
+
+#### Creating an Extension
+
+```typescript
+// GitHub Copilot Extension handler
+import { createServer } from 'http';
+
+const server = createServer(async (req, res) => {
+  if (req.method === 'POST' && req.url === '/agent') {
+    const body = await getBody(req);
+    const { messages, copilot_references } = JSON.parse(body);
+
+    // Process the user's message
+    const userMessage = messages[messages.length - 1].content;
+
+    // Generate response using your custom logic
+    const response = await processWithDomainKnowledge(userMessage);
+
+    // Stream response back
+    res.writeHead(200, {
+      'Content-Type': 'text/event-stream',
+      'Cache-Control': 'no-cache',
+    });
+
+    for await (const chunk of response) {
+      res.write(`data: ${JSON.stringify(chunk)}\n\n`);
+    }
+    res.end();
+  }
+});
+```
+
+#### Extension Capabilities
+
+- **Skill-based**: Specific actions (e.g., `@db query users`)
+- **Knowledge-based**: Domain expertise (e.g., `@docs explain MCP`)
+- **Workflow-based**: Multi-step processes (e.g., `@deploy staging`)
+
+---
+
+### 2.6 Agent Context Management
+
+#### Overview
+
+Context management determines what information an agent has access to when making decisions. Effective context management improves response quality and reduces hallucination.
+
+#### Context Sources
+
+| Source | Description | Scope |
+|--------|-------------|-------|
+| **Active File** | Currently open file | Always included |
+| **Workspace** | All project files | Searched on demand |
+| **Conversation** | Chat history | Current session |
+| **References** | `#file`, `#selection` mentions | Explicitly added |
+| **MCP Resources** | External data via MCP | When configured |
+| **Git History** | Recent changes, blame | On demand |
+
+#### Context Window Management
+
+```python
+# Conceptual: How context is prioritized
+def build_context(request, workspace):
+    context = ContextWindow(max_tokens=128000)
+
+    # Priority 1: User's explicit request
+    context.add(request.message, priority=1)
+
+    # Priority 2: Referenced files (#file mentions)
+    for ref in request.references:
+        context.add(ref.content, priority=2)
+
+    # Priority 3: Active file content
+    context.add(workspace.active_file, priority=3)
+
+    # Priority 4: Relevant files (semantic search)
+    relevant = workspace.search(request.message, top_k=10)
+    for file in relevant:
+        context.add(file.content, priority=4)
+
+    # Priority 5: Project structure
+    context.add(workspace.file_tree, priority=5)
+
+    return context.trim_to_fit()
+```
+
+!!! tip "Exam Tip"
+    Know the hierarchy of context sources and how agents decide what's relevant. The exam tests scenarios where context management affects output quality.
+
+---
+
+## Domain 3: Evaluate and Optimize Agent Performance
+
+**Weight: 10–15% of exam**
+
+### 3.1 Measuring Agent Output Quality
+
+#### Overview
+
+Agent output quality encompasses correctness, completeness, relevance, and adherence to coding standards. Measuring these dimensions requires both automated metrics and human evaluation.
+
+#### Quality Metrics
+
+| Metric | What It Measures | How to Measure |
+|--------|-----------------|----------------|
+| **Correctness** | Code compiles, tests pass | Automated CI checks |
+| **Completeness** | All requirements addressed | Requirement coverage analysis |
+| **Relevance** | Output matches the request | Human review, semantic similarity |
+| **Code Quality** | Follows standards, no smells | Linters, static analysis |
+| **Security** | No vulnerabilities introduced | SAST/DAST scanning |
+| **Performance** | Efficient algorithms, no regressions | Benchmarks, profiling |
+
+#### Evaluation Framework
+
+```python
+# Agent output evaluation pipeline
+class AgentEvaluator:
+    def evaluate(self, request, output):
+        scores = {
+            "correctness": self.check_builds_and_tests(output),
+            "completeness": self.check_requirements_coverage(request, output),
+            "quality": self.run_static_analysis(output),
+            "security": self.run_security_scan(output),
+        }
+        return EvaluationResult(
+            overall_score=sum(scores.values()) / len(scores),
+            dimension_scores=scores,
+            pass_threshold=0.8
+        )
+
+    def check_builds_and_tests(self, output):
+        build_result = run_command("npm run build")
+        test_result = run_command("npm test")
+        return 1.0 if build_result.ok and test_result.ok else 0.0
+```
+
+#### Key Evaluation Approaches
+
+1. **Ground Truth Comparison**: Compare agent output to known-correct solutions
+2. **A/B Testing**: Compare agent-assisted vs. manual development metrics
+3. **User Satisfaction**: Developer ratings of agent suggestions
+4. **Task Success Rate**: Percentage of tasks completed without human intervention
+5. **Regression Detection**: Monitoring for quality degradation over time
+
+!!! tip "Exam Tip"
+    The exam asks about both quantitative metrics (test pass rate, code coverage) and qualitative assessment (user satisfaction, code readability). Know both.
+
+---
+
+### 3.2 Optimizing Agent Response Latency
+
+#### Overview
+
+Latency directly impacts developer experience. Agents must balance thoroughness with speed to remain useful in interactive development workflows.
+
+#### Latency Optimization Strategies
+
+| Strategy | Impact | Trade-off |
+|----------|--------|-----------|
+| **Streaming responses** | Perceived speed improvement | More complex implementation |
+| **Caching common patterns** | 50-90% latency reduction for hits | Stale results possible |
+| **Model selection** | Smaller model = faster | May reduce quality |
+| **Context pruning** | Less data to process | May miss relevant info |
+| **Parallel tool calls** | Faster multi-step workflows | Higher resource usage |
+| **Speculative execution** | Start next step early | Wasted work if wrong |
+
+#### Response Time Targets
+
+```
+┌──────────────────────────────────────────────┐
+│ Inline suggestions: < 200ms (perceived instant) │
+│ Chat responses: < 2s first token (streaming)    │
+│ Agent mode steps: < 10s per action              │
+│ Full agent tasks: < 5min for complex features   │
+└──────────────────────────────────────────────┘
+```
+
+!!! note "Key Concept"
+    Token streaming is the primary technique for reducing perceived latency. The agent starts sending output before the full response is generated.
+
+---
+
+### 3.3 Agent Task Completion and Monitoring
+
+#### Overview
+
+Monitoring agent performance in production helps identify degradation, common failure modes, and optimization opportunities.
+
+#### Monitoring Dimensions
+
+```yaml
+# Agent performance monitoring configuration
+monitoring:
+  metrics:
+    - name: task_completion_rate
+      description: "Percentage of agent tasks completed without errors"
+      target: "> 85%"
+      alert_threshold: "< 70%"
+
+    - name: average_iterations
+      description: "Mean number of plan-execute cycles per task"
+      target: "< 5"
+      alert_threshold: "> 10"
+
+    - name: tool_call_success_rate
+      description: "Percentage of tool calls that succeed"
+      target: "> 95%"
+
+    - name: user_acceptance_rate
+      description: "Percentage of agent outputs accepted by users"
+      target: "> 75%"
+
+    - name: time_to_completion
+      description: "Average time from request to task completion"
+      target: "< 3 minutes"
+```
+
+#### Performance Dashboard Metrics
+
+| Metric | Good | Warning | Critical |
+|--------|------|---------|----------|
+| Task completion | > 85% | 70-85% | < 70% |
+| User acceptance | > 75% | 60-75% | < 60% |
+| Avg iterations | < 5 | 5-10 | > 10 |
+| Error rate | < 5% | 5-15% | > 15% |
+| Latency (p95) | < 5s | 5-15s | > 15s |
+
+!!! tip "Exam Tip"
+    Know the key performance indicators (KPIs) for agent systems and what constitutes acceptable vs. degraded performance. The exam uses scenarios with monitoring data.
+
+---
+
+## Domain 4: Secure and Govern Agentic AI Solutions
+
+**Weight: 15–20% of exam**
+
+### 4.1 Access Controls for AI Agents
+
+#### Overview
+
+AI agents operate with specific permissions that must be carefully scoped. The principle of least privilege applies: agents should only have access to the resources they need to complete their task.
+
+#### Permission Model
+
+```mermaid
+graph TD
+    A[Organization Policy] --> B[Repository Permissions]
+    B --> C[Agent Scope]
+    C --> D[Tool Permissions]
+    D --> E[Runtime Constraints]
+```
+
+#### Access Control Levels
+
+| Level | Controls | Example |
+|-------|----------|---------|
+| **Organization** | Which repos agents can access | "Copilot enabled for all repos" |
+| **Repository** | What operations are allowed | "Read-only for production repos" |
+| **User** | Individual permissions | "User X can use agent mode" |
+| **Session** | Per-invocation scope | "This task: read src/, write tests/" |
+| **Tool** | Per-tool approval | "Terminal commands require approval" |
+
+#### Implementing Least Privilege
+
+```json
+{
+  "agent_permissions": {
+    "file_access": {
+      "read": ["src/**", "tests/**", "docs/**"],
+      "write": ["src/**", "tests/**"],
+      "deny": [".env", "secrets/**", "*.key"]
+    },
+    "terminal": {
+      "allow": ["npm test", "npm run build", "npm run lint"],
+      "deny": ["rm -rf", "sudo *", "curl * | bash"]
+    },
+    "network": {
+      "allow": ["api.github.com", "registry.npmjs.org"],
+      "deny": ["*"]
+    }
+  }
+}
+```
+
+!!! warning "Common Mistake"
+    Don't grant agents blanket write access. Always scope file permissions to specific directories and exclude sensitive files like `.env`, credentials, and private keys.
+
+---
+
+### 4.2 Agent Permissions and Boundaries
+
+#### Overview
+
+Boundaries define what agents can and cannot do within a system. These boundaries must be enforced at multiple levels to prevent privilege escalation.
+
+#### Boundary Types
+
+| Boundary | Purpose | Enforcement |
+|----------|---------|-------------|
+| **Scope** | Limits what files/dirs are accessible | Workspace configuration |
+| **Action** | Limits what operations can be performed | Tool approval system |
+| **Time** | Limits how long an agent can run | Timeout settings |
+| **Resource** | Limits compute/API usage | Rate limiting, quotas |
+| **Data** | Limits what data can be read/sent | DLP policies |
+
+#### Configuration Example
+
+```yaml
+# .github/copilot-config.yml
+agent:
+  boundaries:
+    max_file_edits_per_task: 20
+    max_terminal_commands: 10
+    max_execution_time_minutes: 15
+    allowed_languages: [typescript, python, yaml]
+    forbidden_patterns:
+      - "process.env.*SECRET"
+      - "password.*=.*['\"]"
+      - "api_key.*=.*['\"]"
+    require_approval:
+      - file_deletion
+      - package_installation
+      - configuration_changes
+```
+
+#### Human-in-the-Loop Controls
+
+```
+Agent wants to:          User sees:              Options:
+─────────────────────    ────────────────────    ──────────────────
+Edit src/auth.ts    →    "Edit auth.ts?"    →    [Accept] [Reject]
+Run npm install     →    "Install packages?" →   [Accept] [Reject]
+Delete old tests    →    "Delete 3 files?"  →    [Accept] [Reject]
+Push to main        →    BLOCKED            →    [Not allowed]
+```
+
+!!! tip "Exam Tip"
+    The exam tests scenarios where you must identify which operations should require approval vs. which can be auto-approved. File reads = safe; file deletes/terminal = require approval.
+
+---
+
+### 4.3 Security Compliance Monitoring
+
+#### Overview
+
+Monitoring agent actions ensures they comply with security policies. All agent operations should be logged, auditable, and alertable.
+
+#### Audit Trail Requirements
+
+```json
+{
+  "agent_action_log": {
+    "timestamp": "2025-01-15T10:30:00Z",
+    "user": "developer@org.com",
+    "agent_session": "session-abc123",
+    "action": "file_write",
+    "target": "src/api/routes.ts",
+    "tool_used": "edit_file",
+    "approval_status": "auto_approved",
+    "content_hash": "sha256:abc123...",
+    "risk_level": "medium"
+  }
+}
+```
+
+#### Security Monitoring Checklist
+
+- [ ] All agent actions logged with timestamps and user identity
+- [ ] Sensitive file access triggers alerts
+- [ ] Code changes scanned for secret exposure
+- [ ] Network requests logged and filtered
+- [ ] Rate limiting enforced per user/session
+- [ ] Anomaly detection for unusual patterns
+- [ ] Regular audit reviews of agent activity
+
+---
+
+### 4.4 Data Governance for Agent Interactions
+
+#### Overview
+
+Agents process code, documentation, and potentially sensitive data. Data governance ensures that information flows are controlled and compliant.
+
+#### Data Classification
+
+| Level | Examples | Agent Access |
+|-------|----------|-------------|
+| **Public** | Open source code, docs | Unrestricted |
+| **Internal** | Private repos, internal APIs | With authentication |
+| **Confidential** | Customer data, secrets | Prohibited or encrypted |
+| **Restricted** | PII, financial data | Never exposed to agents |
+
+#### Data Governance Controls
+
+1. **Input Filtering**: Strip sensitive data before sending to LLM
+2. **Output Scanning**: Check agent output for leaked secrets
+3. **Context Boundaries**: Agents only see code in allowed repositories
+4. **Retention Policies**: Agent conversation data expires after X days
+5. **Geographic Controls**: Data stays in specified regions
+
+```python
+# Example: Pre-processing agent context to remove secrets
+def sanitize_context(file_content: str) -> str:
+    patterns = [
+        r'(?i)(api[_-]?key|secret|token|password)\s*[=:]\s*["\'].*?["\']',
+        r'(?i)bearer\s+[a-zA-Z0-9._-]+',
+        r'[a-zA-Z0-9+/]{40,}={0,2}',  # Base64-encoded secrets
+    ]
+    for pattern in patterns:
+        file_content = re.sub(pattern, '[REDACTED]', file_content)
+    return file_content
+```
+
+---
+
+### 4.5 Managing Secrets in Agent Workflows
+
+#### Overview
+
+Agents must never have direct access to plaintext secrets. All credential management should use secure vaults and environment variable injection.
+
+#### Secure Secret Handling
+
+```yaml
+# CORRECT: Agent uses environment variables, never sees actual values
+mcp_server:
+  command: "node"
+  args: ["./server.js"]
+  env:
+    DB_CONNECTION: "${secrets.DATABASE_URL}"
+    API_KEY: "${secrets.EXTERNAL_API_KEY}"
+
+# INCORRECT: Hardcoded secrets in agent-accessible config
+# api_key: "sk-abc123..."  # NEVER DO THIS
+```
+
+#### Secret Management Best Practices
+
+| Practice | Description |
+|----------|-------------|
+| Use vault services | GitHub Secrets, Azure Key Vault, AWS Secrets Manager |
+| Rotate regularly | Automated rotation on schedule |
+| Scope narrowly | Per-repo or per-environment secrets |
+| Audit access | Log all secret retrievals |
+| Never in code | Use .gitignore, pre-commit hooks, secret scanning |
+
+!!! tip "Exam Tip"
+    The exam asks about proper secret handling in agent workflows. Remember: agents should reference secrets by name (environment variables), never by value. GitHub's secret scanning should be enabled.
+
+---
+
+## Domain 5: Collaborate with AI Agents in Development
+
+**Weight: 15–20% of exam**
+
+### 5.1 GitHub Copilot for Code Generation and Review
+
+#### Overview
+
+Copilot assists at every stage of code creation: from initial generation through iteration to review. Understanding how to effectively collaborate with AI for code quality is essential.
+
+#### Code Generation Patterns
+
+| Pattern | Technique | Result |
+|---------|-----------|--------|
+| **Prompt-driven** | Describe what you need | Full function implementation |
+| **Test-first** | Write test, ask for implementation | TDD-compatible code |
+| **Refactor** | Select code, describe improvement | Optimized version |
+| **Pattern extension** | Show one example, ask for more | Consistent implementations |
+| **Documentation-first** | Write docs, generate code | Well-documented code |
+
+#### Effective Prompting for Code Generation
+
+```python
+# GOOD: Specific, constrained, with context
+# "Create a Python function that validates email addresses
+#  using regex, returns bool, handles edge cases like
+#  '+' aliases and subdomains"
+
+import re
+
+def validate_email(email: str) -> bool:
+    """Validate email address format including edge cases.
+
+    Handles: standard emails, + aliases, subdomains, TLDs up to 63 chars.
+    Rejects: double dots, leading/trailing dots, missing @.
+    """
+    pattern = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,63}$'
+    if not email or '..' in email:
+        return False
+    return bool(re.match(pattern, email))
+
+# BAD: Vague prompt → vague result
+# "validate email" → might return incomplete implementation
+```
+
+#### AI-Assisted Code Review
+
+```yaml
+# GitHub Actions: Copilot-powered PR review
+name: AI Code Review
+on: [pull_request]
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Copilot Review
+        uses: github/copilot-code-review@v1
+        with:
+          review_scope: "security,performance,best-practices"
+          severity_threshold: "medium"
+          auto_comment: true
+```
+
+!!! tip "Exam Tip"
+    Know the difference between code generation (creating new code) and code review (analyzing existing code). Both are tested, but different modes and approaches apply.
+
+---
+
+### 5.2 Agent-Assisted Debugging and Testing
+
+#### Overview
+
+AI agents can identify bugs, suggest fixes, generate test cases, and reproduce issues — significantly accelerating the debugging workflow.
+
+#### Debugging Workflow with Agents
+
+```mermaid
+graph TD
+    A[Bug Report / Error Log] --> B[Agent Analyzes Error]
+    B --> C[Identifies Root Cause]
+    C --> D[Suggests Fix]
+    D --> E[Generates Test for Bug]
+    E --> F[Verifies Fix Passes]
+    F --> G[Checks No Regressions]
+```
+
+#### Test Generation Capabilities
+
+| Type | Agent Approach | Example |
+|------|---------------|---------|
+| **Unit Tests** | Generate from function signature + docs | Test each branch/edge case |
+| **Integration Tests** | Analyze component interactions | Test API endpoints end-to-end |
+| **Edge Cases** | Identify boundary conditions | Null inputs, large values, unicode |
+| **Regression Tests** | Create test reproducing a bug | Ensures bug doesn't return |
+| **Property Tests** | Generate invariant-based tests | "Output always > 0" |
+
+#### Example: Agent-Generated Test
+
+```typescript
+// Agent prompt: "Write tests for the authenticate function"
+// Agent reads src/auth.ts, generates:
+
+describe('authenticate', () => {
+  it('returns user for valid credentials', async () => {
+    const result = await authenticate('user@test.com', 'validPass123');
+    expect(result).toHaveProperty('id');
+    expect(result).toHaveProperty('token');
+  });
+
+  it('throws UnauthorizedError for invalid password', async () => {
+    await expect(
+      authenticate('user@test.com', 'wrongPassword')
+    ).rejects.toThrow(UnauthorizedError);
+  });
+
+  it('throws NotFoundError for non-existent user', async () => {
+    await expect(
+      authenticate('ghost@test.com', 'anyPass')
+    ).rejects.toThrow(NotFoundError);
+  });
+
+  it('rate-limits after 5 failed attempts', async () => {
+    for (let i = 0; i < 5; i++) {
+      await authenticate('user@test.com', 'wrong').catch(() => {});
+    }
+    await expect(
+      authenticate('user@test.com', 'validPass123')
+    ).rejects.toThrow(RateLimitError);
+  });
+});
+```
+
+---
+
+### 5.3 AI Agents in CI/CD Pipelines
+
+#### Overview
+
+AI agents can automate CI/CD tasks: generating release notes, optimizing build configurations, auto-fixing lint errors, and managing deployments.
+
+#### Agent CI/CD Integration Points
+
+| Stage | Agent Capability | Value |
+|-------|-----------------|-------|
+| **Pre-commit** | Auto-fix formatting, lint issues | Cleaner commits |
+| **Build** | Optimize build config, cache strategies | Faster builds |
+| **Test** | Generate missing tests, fix flaky tests | Better coverage |
+| **Review** | Automated PR review, security scan | Faster reviews |
+| **Release** | Generate changelogs, version bumps | Consistent releases |
+| **Deploy** | Configuration validation, rollback decisions | Safer deployments |
+
+#### Example: AI-Enhanced CI/CD Pipeline
+
+```yaml
+name: AI-Enhanced CI/CD
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  ai-lint-fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: AI Auto-Fix Lint Issues
+        uses: github/copilot-autofix@v1
+        with:
+          fix_types: [formatting, imports, types]
+          auto_commit: true
+
+  ai-test-coverage:
+    runs-on: ubuntu-latest
+    needs: ai-lint-fix
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check Coverage Gaps
+        uses: github/copilot-test-gen@v1
+        with:
+          min_coverage: 80
+          generate_for_uncovered: true
+
+  ai-release-notes:
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Generate Release Notes
+        uses: github/copilot-release-notes@v1
+        with:
+          format: conventional-commits
+          include_breaking_changes: true
+```
+
+!!! tip "Exam Tip"
+    The exam tests your understanding of WHERE in the CI/CD pipeline agents add value and WHAT operations they should/shouldn't automate. Auto-deploying to production without human approval is always wrong.
+
+---
+
+### 5.4 Agent-Human Interaction Patterns
+
+#### Overview
+
+Effective collaboration between developers and AI agents requires clear communication patterns. The way you prompt, review, and guide agents directly impacts output quality.
+
+#### Interaction Patterns
+
+| Pattern | Description | When to Use |
+|---------|-------------|------------|
+| **Direct Instruction** | "Create X with Y properties" | Well-defined tasks |
+| **Iterative Refinement** | "Good, but change Z" | Complex tasks needing tuning |
+| **Constraint Setting** | "Must use library X, no external deps" | Specific requirements |
+| **Example-Driven** | "Like this file, but for users" | Pattern replication |
+| **Exploratory** | "What approaches could solve X?" | Design decisions |
+
+#### Best Practices for Agent Collaboration
+
+1. **Be specific**: "Add pagination with cursor-based approach" > "Add pagination"
+2. **Provide context**: Reference files, constraints, coding standards
+3. **Iterate**: Accept partial results, refine with follow-ups
+4. **Verify**: Always review agent output before committing
+5. **Guide**: When output is wrong, explain WHY, not just "try again"
+
+---
+
+## Domain 6: Implement Responsible AI Practices
+
+**Weight: 10–15% of exam**
+
+### 6.1 Ethical Guidelines for Agent Behavior
+
+#### Overview
+
+Responsible AI ensures that AI agents act ethically, transparently, and fairly. GitHub's approach to responsible AI is guided by Microsoft's six responsible AI principles.
+
+#### Microsoft's Responsible AI Principles
+
+| Principle | Description | Agent Application |
+|-----------|-------------|-------------------|
+| **Fairness** | Treat all users equitably | No bias in code suggestions |
+| **Reliability & Safety** | Perform consistently and safely | Predictable agent behavior |
+| **Privacy & Security** | Protect user data | No data leakage in suggestions |
+| **Inclusiveness** | Accessible to all abilities | Support diverse coding styles |
+| **Transparency** | Clear about capabilities/limits | Explain what agent can/can't do |
+| **Accountability** | Humans responsible for AI systems | Human oversight required |
+
+#### Implementing Ethical Guidelines
+
+```yaml
+# Responsible AI configuration for agent systems
+responsible_ai:
+  content_filtering:
+    - block_harmful_code: true
+    - block_biased_outputs: true
+    - flag_security_risks: true
+
+  transparency:
+    - show_confidence_scores: true
+    - explain_reasoning: true
+    - cite_sources: true
+
+  human_oversight:
+    - require_approval_for_deployment: true
+    - log_all_decisions: true
+    - enable_override: true
+
+  fairness:
+    - test_for_bias: true
+    - support_multiple_languages: true
+    - inclusive_naming_conventions: true
+```
+
+!!! tip "Exam Tip"
+    Memorize Microsoft's 6 responsible AI principles. The exam will present scenarios and ask which principle applies. FAIRNESS is about equal treatment, TRANSPARENCY is about explaining behavior.
+
+---
+
+### 6.2 Transparency and Explainability
+
+#### Overview
+
+Agents must be transparent about what they're doing and why. Users should understand agent decisions, limitations, and confidence levels.
+
+#### Transparency Requirements
+
+| Aspect | Implementation | Example |
+|--------|---------------|---------|
+| **Disclosure** | Clearly indicate AI-generated content | "This code was generated by Copilot" |
+| **Reasoning** | Explain why a suggestion was made | "Using singleton pattern because..." |
+| **Limitations** | Acknowledge uncertainty | "This may not handle edge case X" |
+| **Sources** | Cite training data influence | "Based on common patterns in React" |
+| **Confidence** | Signal reliability | High/Medium/Low confidence indicators |
+
+#### Explainability in Practice
+
+```typescript
+// Agent output with transparency markers
+interface AgentResponse {
+  code: string;
+  explanation: string;        // WHY this approach
+  confidence: number;         // 0.0 - 1.0
+  limitations: string[];      // Known issues
+  alternatives: string[];     // Other approaches considered
+  references: string[];       // Source patterns/docs
+}
+
+// Example response:
+// {
+//   code: "...",
+//   explanation: "Using JWT for stateless auth because your app is deployed across multiple servers",
+//   confidence: 0.85,
+//   limitations: ["Token rotation not implemented", "Refresh tokens not included"],
+//   alternatives: ["Session-based auth", "OAuth2 with PKCE"],
+//   references: ["RFC 7519", "OWASP JWT Guidelines"]
+// }
+```
+
+---
+
+### 6.3 Bias and Fairness in Agent Outputs
+
+#### Overview
+
+AI agents can perpetuate or introduce bias through code suggestions, variable naming, documentation, and architectural decisions. Identifying and mitigating bias is a key exam topic.
+
+#### Types of Bias in AI Agents
+
+| Bias Type | Example | Mitigation |
+|-----------|---------|-----------|
+| **Training Data** | Suggesting deprecated patterns | Use up-to-date models |
+| **Cultural** | English-only variable names | Support internationalization |
+| **Gender** | Gendered pronouns in docs | Use inclusive language |
+| **Accessibility** | Ignoring a11y in generated UI | Include ARIA attributes |
+| **Language** | Preferring one programming language | Support polyglot codebases |
+
+#### Bias Detection and Mitigation
+
+```python
+# Example: Checking agent output for bias indicators
+def check_for_bias(agent_output: str) -> list[BiasIssue]:
+    issues = []
+
+    # Check for non-inclusive language
+    non_inclusive = ["master", "slave", "whitelist", "blacklist"]
+    for term in non_inclusive:
+        if term in agent_output.lower():
+            issues.append(BiasIssue(
+                type="language",
+                term=term,
+                suggestion=INCLUSIVE_ALTERNATIVES[term]
+            ))
+
+    # Check for accessibility
+    if "<img" in agent_output and 'alt="' not in agent_output:
+        issues.append(BiasIssue(
+            type="accessibility",
+            term="image without alt text",
+            suggestion="Add descriptive alt attribute"
+        ))
+
+    return issues
+
+INCLUSIVE_ALTERNATIVES = {
+    "master": "main",
+    "slave": "replica",
+    "whitelist": "allowlist",
+    "blacklist": "denylist",
+}
+```
+
+---
+
+### 6.4 Compliance with Responsible AI Policies
+
+#### Overview
+
+Organizations must ensure their AI agent deployments comply with internal policies, industry regulations, and legal requirements.
+
+#### Compliance Framework
+
+| Layer | Requirement | Implementation |
+|-------|-------------|----------------|
+| **Legal** | Data protection (GDPR, CCPA) | Data minimization, consent |
+| **Industry** | Sector-specific regulations | Healthcare, finance compliance |
+| **Organizational** | Internal AI policies | Usage guidelines, training |
+| **Technical** | Security standards | Encryption, access control |
+
+#### Compliance Checklist for Agent Deployments
+
+- [ ] Data processing agreements in place
+- [ ] User consent for AI-assisted features
+- [ ] Code ownership and IP rights clarified
+- [ ] AI-generated content properly attributed
+- [ ] Audit logs maintained for all agent actions
+- [ ] Regular bias assessments conducted
+- [ ] Incident response plan for AI failures
+- [ ] User opt-out mechanisms available
+
+---
+
+### 6.5 Monitoring and Auditing Agent Decisions
+
+#### Overview
+
+Ongoing monitoring ensures agents continue to operate within responsible AI guidelines. Auditing provides evidence of compliance and identifies issues before they become problems.
+
+#### Monitoring Framework
+
+```yaml
+# Responsible AI monitoring configuration
+monitoring:
+  content_safety:
+    scan_outputs: true
+    alert_on_harmful_content: true
+    retention_days: 90
+
+  fairness_metrics:
+    track_suggestion_diversity: true
+    measure_language_coverage: true
+    report_frequency: weekly
+
+  compliance:
+    log_all_interactions: true
+    anonymize_after_days: 30
+    audit_schedule: quarterly
+
+  incident_response:
+    auto_escalate_threshold: critical
+    notification_channels: [email, slack]
+    max_response_time_hours: 4
+```
+
+!!! tip "Exam Tip"
+    The exam tests whether you know how to implement monitoring and auditing for responsible AI compliance. Key: log everything, alert on anomalies, review regularly, have an incident response plan.
+
+---
 
 ## Cross-Domain Themes
 
+### Theme: Security Runs Through Everything
 
-### github copilot
+Security isn't just Domain 4 — it appears across all domains:
+- **Domain 1**: Secure architecture design
+- **Domain 2**: Secure tool permissions in MCP
+- **Domain 3**: Security metrics in evaluation
+- **Domain 4**: Core security controls
+- **Domain 5**: Security in CI/CD pipelines
+- **Domain 6**: Compliance and governance
 
-**Domains**: Prepare agent architecture and SDLC processes, Design and implement agentic solutions, Secure and govern agentic AI solutions, Collaborate with AI agents in the development workflow, Implement responsible AI practices
+### Theme: Human Oversight is Non-Negotiable
 
-- github copilot in Prepare agent architecture and SDLC processes
-- github copilot in Design and implement agentic solutions
-- github copilot in Secure and govern agentic AI solutions
-- github copilot in Collaborate with AI agents in the development workflow
-- github copilot in Implement responsible AI practices
+Every domain requires appropriate human oversight:
+- Agents suggest, humans approve (production changes)
+- Agents generate, humans review (code quality)
+- Agents monitor, humans decide (incident response)
+- Agents flag, humans investigate (security alerts)
 
+### Theme: MCP Connects Multiple Domains
 
-
-### github actions
-
-**Domains**: Prepare agent architecture and SDLC processes, Design and implement agentic solutions, Secure and govern agentic AI solutions, Collaborate with AI agents in the development workflow
-
-- github actions in Prepare agent architecture and SDLC processes
-- github actions in Design and implement agentic solutions
-- github actions in Secure and govern agentic AI solutions
-- github actions in Collaborate with AI agents in the development workflow
-
-
-
-### pull request
-
-**Domains**: Prepare agent architecture and SDLC processes, Design and implement agentic solutions, Secure and govern agentic AI solutions
-
-- pull request in Prepare agent architecture and SDLC processes
-- pull request in Design and implement agentic solutions
-- pull request in Secure and govern agentic AI solutions
-
-
-
-### security
-
-**Domains**: Prepare agent architecture and SDLC processes, Design and implement agentic solutions, Secure and govern agentic AI solutions, Implement responsible AI practices
-
-- security in Prepare agent architecture and SDLC processes
-- security in Design and implement agentic solutions
-- security in Secure and govern agentic AI solutions
-- security in Implement responsible AI practices
-
-
-
-### api
-
-**Domains**: Design and implement agentic solutions, Secure and govern agentic AI solutions, Implement responsible AI practices
-
-- api in Design and implement agentic solutions
-- api in Secure and govern agentic AI solutions
-- api in Implement responsible AI practices
-
-
-
-### testing
-
-**Domains**: Design and implement agentic solutions, Secure and govern agentic AI solutions, Implement responsible AI practices
-
-- testing in Design and implement agentic solutions
-- testing in Secure and govern agentic AI solutions
-- testing in Implement responsible AI practices
-
-
-
-
+MCP appears in Domains 2, 4, and 5:
+- **Domain 2**: Implementing MCP servers and tools
+- **Domain 4**: Securing MCP connections and data
+- **Domain 5**: Using MCP in CI/CD and collaboration

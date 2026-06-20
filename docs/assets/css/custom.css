@@ -1,0 +1,251 @@
+/* Custom CSS for GH-600 Exam Prep Site
+ * Modern styling with subtle animations
+ */
+
+/* ============================================================
+   Smooth Page Transitions & Animations
+   ============================================================ */
+.md-content {
+  animation: fadeInUp 0.4s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Animate headings on scroll */
+.md-typeset h2,
+.md-typeset h3 {
+  animation: slideIn 0.5s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* ============================================================
+   Enhanced Admonitions
+   ============================================================ */
+.md-typeset .admonition,
+.md-typeset details {
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+  border-radius: 8px;
+}
+
+.md-typeset .admonition:hover,
+.md-typeset details:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transform: translateY(-1px);
+}
+
+/* ============================================================
+   Table Enhancements
+   ============================================================ */
+.md-typeset table:not([class]) {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+.md-typeset table:not([class]) thead {
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+}
+
+.md-typeset table:not([class]) thead th {
+  color: white;
+  font-weight: 600;
+}
+
+.md-typeset table:not([class]) tbody tr {
+  transition: background 0.2s ease;
+}
+
+.md-typeset table:not([class]) tbody tr:hover {
+  background: var(--md-code-bg-color);
+}
+
+/* ============================================================
+   Code Block Enhancements
+   ============================================================ */
+.md-typeset pre {
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+}
+
+.md-typeset pre:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* ============================================================
+   Navigation Enhancements
+   ============================================================ */
+.md-nav__link {
+  transition: color 0.2s ease, padding-left 0.2s ease;
+}
+
+.md-nav__link:hover {
+  padding-left: 4px;
+}
+
+.md-nav__item--active > .md-nav__link {
+  font-weight: 600;
+}
+
+/* ============================================================
+   Card-like sections for Study Notes
+   ============================================================ */
+.md-typeset h3 {
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+  margin-top: 2rem;
+}
+
+/* ============================================================
+   Flashcard Styling (details/summary)
+   ============================================================ */
+.md-typeset details.question {
+  border-left: 4px solid var(--md-primary-fg-color);
+  background: var(--md-code-bg-color);
+  margin-bottom: 0.75rem;
+  transition: all 0.3s ease;
+}
+
+.md-typeset details.question:hover {
+  border-left-color: var(--md-accent-fg-color);
+}
+
+.md-typeset details.question summary {
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.md-typeset details.question[open] {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+/* ============================================================
+   Hero Section (Landing Page)
+   ============================================================ */
+.hero-section {
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background: linear-gradient(135deg, 
+    var(--md-primary-fg-color) 0%, 
+    var(--md-accent-fg-color) 100%);
+  border-radius: 12px;
+  color: white;
+}
+
+.hero-section p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.1rem;
+}
+
+.hero-section strong {
+  display: block;
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+/* Dark mode hero */
+[data-md-color-scheme="slate"] .hero-section {
+  background: linear-gradient(135deg, 
+    var(--md-primary-fg-color) 0%, 
+    #6a1b9a 100%);
+}
+
+/* ============================================================
+   Smooth Scrolling
+   ============================================================ */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ============================================================
+   Mermaid Diagram Container
+   ============================================================ */
+.mermaid {
+  animation: fadeIn 0.6s ease-out;
+  margin: 1.5rem 0;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* ============================================================
+   Readiness Score Visual
+   ============================================================ */
+.readiness-score {
+  text-align: center;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  background: var(--md-code-bg-color);
+  border-radius: 12px;
+  border: 2px solid var(--md-primary-fg-color);
+}
+
+/* ============================================================
+   Progress Indicators
+   ============================================================ */
+.md-typeset .progress-bar {
+  height: 8px;
+  background: var(--md-default-fg-color--lightest);
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 0.5rem 0;
+}
+
+.md-typeset .progress-fill {
+  height: 100%;
+  background: var(--md-primary-fg-color);
+  border-radius: 4px;
+  transition: width 1s ease;
+}
+
+/* ============================================================
+   Responsive Enhancements
+   ============================================================ */
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 1.5rem 1rem;
+  }
+  
+  .hero-section strong {
+    font-size: 1.3rem;
+  }
+}
+
+/* ============================================================
+   Print Styles (for study materials)
+   ============================================================ */
+@media print {
+  .md-typeset .admonition,
+  .md-typeset details {
+    break-inside: avoid;
+  }
+  
+  .hero-section {
+    background: none;
+    color: inherit;
+    border: 2px solid #333;
+  }
+}

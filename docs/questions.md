@@ -1,2084 +1,1250 @@
 # Practice Questions
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Easy Questions](#easy-questions)
-- [Intermediate Questions](#intermediate-questions)
-- [Advanced Questions](#advanced-questions)
-- [Domain Distribution](#domain-distribution)
-
----
-
 ## Overview
 
-| Difficulty | Count |
-|-----------|-------|
-| Easy | 20 |
-| Intermediate | 20 |
-| Advanced | 20 |
-| **Total** | **60** |
+| Difficulty | Count | Focus |
+|-----------|-------|-------|
+| Easy | 20 | Single-concept recall |
+| Intermediate | 20 | Applying concepts to scenarios |
+| Advanced | 20 | Multi-domain analysis |
+| **Total** | **60** | All 6 domains covered |
 
-!!! tip "Study Strategy"
-    Start with easy questions to build confidence, then progress to intermediate and advanced levels. Advanced questions often require combining multiple concepts.
+!!! tip "Strategy"
+    Start with Easy to build confidence, then Intermediate for application, then Advanced for exam-like scenarios. Review explanations for all wrong answers.
 
 ---
 
 ## Easy Questions
 
 !!! note "Difficulty: Easy"
-    These questions test single-concept recall and basic understanding.
-
+    Single-concept recall and basic understanding.
 
 ### Question 1
 
-**Domain**: domain-1 | **Format**: Multiple Choice
+**Domain**: 2 | **Format**: Multiple Choice
 
+What distinguishes GitHub Copilot's agent mode from chat mode?
 
-Which of the following best describes Exam scoring and score reports | Microsoft Learn
-Table...?
-
-- A. Exam scoring and score reports | Microsoft Learn
-Table... is part of the Prepare agent architecture and SDLC processes domain (domain-1) in the GH-600 certification.
-- B. A process unrelated to Prepare agent architecture and SDLC processes that focuses on non-AI development practices.
-- C. A deprecated feature that has been replaced in modern GitHub workflows.
-- D. A third-party tool that operates independently of GitHub's ecosystem.
-
+- A. Agent mode can autonomously create files, run terminal commands, and iterate on failures
+- B. Agent mode provides faster inline code completions
+- C. Agent mode only works with Python code
+- D. Agent mode requires a paid enterprise license while chat is free
 
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. Exam scoring and score reports | Microsoft Learn
-Table... is part of the Prepare agent architecture and SDLC processes domain (domain-1) in the GH-600 certification. This is a key concept in the Prepare agent architecture and SDLC processes domain. See study notes: Exam scoring and score reports | Microsoft Learn
-Table... (Prepare agent architecture and SDLC processes)
+    Agent mode's defining feature is autonomous multi-step execution. It can create/edit files, run commands, and iterate until the task is complete — unlike chat which gives a single response.
 
-
-    - **B** (incorrect): Incorrect. Exam scoring and score reports | Microsoft Learn
-Table... is directly related to Prepare agent architecture and SDLC processes and AI-assisted development.
-
-    - **C** (incorrect): Incorrect. Exam scoring and score reports | Microsoft Learn
-Table... is a current, actively used concept in the GH-600 certification scope.
-
-    - **D** (incorrect): Incorrect. Exam scoring and score reports | Microsoft Learn
-Table... is integrated within GitHub's ecosystem, not a standalone third-party tool.
-
+    - **B**: Incorrect. Inline suggestions are a separate feature, not agent mode.
+    - **C**: Incorrect. Agent mode works with all supported languages.
+    - **D**: Incorrect. Both modes have similar licensing requirements.
 
 ---
-
 
 ### Question 2
 
-**Domain**: domain-1 | **Format**: Multiple Choice
+**Domain**: 2 | **Format**: Multiple Choice
 
+What does MCP stand for in the context of AI agent tools?
 
-Which of the following best describes Request exam accommodations and frequently asked...?
-
-- A. Request exam accommodations and frequently asked... is part of the Prepare agent architecture and SDLC processes domain (domain-1) in the GH-600 certification.
-- B. A process unrelated to Prepare agent architecture and SDLC processes that focuses on non-AI development practices.
-- C. A deprecated feature that has been replaced in modern GitHub workflows.
-- D. A third-party tool that operates independently of GitHub's ecosystem.
-
+- A. Multi-Cloud Platform
+- B. Model Context Protocol
+- C. Machine Code Processor
+- D. Managed Copilot Provider
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: B
 
-    The correct answer is A. Request exam accommodations and frequently asked... is part of the Prepare agent architecture and SDLC processes domain (domain-1) in the GH-600 certification. This is a key concept in the Prepare agent architecture and SDLC processes domain. See study notes: Request exam accommodations and frequently asked... (Prepare agent architecture and SDLC processes)
+    MCP = Model Context Protocol. It's an open standard for connecting AI models to external tools and data sources.
 
-
-    - **B** (incorrect): Incorrect. Request exam accommodations and frequently asked... is directly related to Prepare agent architecture and SDLC processes and AI-assisted development.
-
-    - **C** (incorrect): Incorrect. Request exam accommodations and frequently asked... is a current, actively used concept in the GH-600 certification scope.
-
-    - **D** (incorrect): Incorrect. Request exam accommodations and frequently asked... is integrated within GitHub's ecosystem, not a standalone third-party tool.
-
+    - **A, C, D**: Incorrect. These are not what MCP stands for in this context.
 
 ---
-
 
 ### Question 3
 
-**Domain**: domain-1 | **Format**: Multiple Choice
+**Domain**: 4 | **Format**: Multiple Choice
 
+Which tool category requires the HIGHEST level of user approval in agent systems?
 
-Which of the following best describes Search Product and Services Lifecycle Information -...?
-
-- A. Search Product and Services Lifecycle Information -... is part of the Prepare agent architecture and SDLC processes domain (domain-1) in the GH-600 certification.
-- B. A process unrelated to Prepare agent architecture and SDLC processes that focuses on non-AI development practices.
-- C. A deprecated feature that has been replaced in modern GitHub workflows.
-- D. A third-party tool that operates independently of GitHub's ecosystem.
-
+- A. Read operations (reading file contents)
+- B. Write operations (creating/editing files)
+- C. Shell operations (running terminal commands)
+- D. Search operations (finding code patterns)
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: C
 
-    The correct answer is A. Search Product and Services Lifecycle Information -... is part of the Prepare agent architecture and SDLC processes domain (domain-1) in the GH-600 certification. This is a key concept in the Prepare agent architecture and SDLC processes domain. See study notes: Search Product and Services Lifecycle Information -... (Prepare agent architecture and SDLC processes)
+    Shell/terminal commands carry the highest risk because they can execute arbitrary code, install packages, delete files, or make network requests. They always require explicit approval.
 
-
-    - **B** (incorrect): Incorrect. Search Product and Services Lifecycle Information -... is directly related to Prepare agent architecture and SDLC processes and AI-assisted development.
-
-    - **C** (incorrect): Incorrect. Search Product and Services Lifecycle Information -... is a current, actively used concept in the GH-600 certification scope.
-
-    - **D** (incorrect): Incorrect. Search Product and Services Lifecycle Information -... is integrated within GitHub's ecosystem, not a standalone third-party tool.
-
+    - **A, D**: Incorrect. Read and search are safe operations.
+    - **B**: Incorrect. Write operations require review but are less risky than shell commands.
 
 ---
-
 
 ### Question 4
 
-**Domain**: domain-1 | **Format**: Multiple Choice
+**Domain**: 6 | **Format**: Multiple Choice
 
+Which of Microsoft's Responsible AI principles focuses on ensuring AI systems work for people of all abilities?
 
-Which of the following best describes Exam and Applied Skills assessment lab retake policies |...?
-
-- A. Exam and Applied Skills assessment lab retake policies |... is part of the Prepare agent architecture and SDLC processes domain (domain-1) in the GH-600 certification.
-- B. A process unrelated to Prepare agent architecture and SDLC processes that focuses on non-AI development practices.
-- C. A deprecated feature that has been replaced in modern GitHub workflows.
-- D. A third-party tool that operates independently of GitHub's ecosystem.
-
+- A. Fairness
+- B. Inclusiveness
+- C. Transparency
+- D. Accountability
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: B
 
-    The correct answer is A. Exam and Applied Skills assessment lab retake policies |... is part of the Prepare agent architecture and SDLC processes domain (domain-1) in the GH-600 certification. This is a key concept in the Prepare agent architecture and SDLC processes domain. See study notes: Exam and Applied Skills assessment lab retake policies |... (Prepare agent architecture and SDLC processes)
+    Inclusiveness means AI systems should be accessible to and work for people of all abilities, backgrounds, and circumstances.
 
-
-    - **B** (incorrect): Incorrect. Exam and Applied Skills assessment lab retake policies |... is directly related to Prepare agent architecture and SDLC processes and AI-assisted development.
-
-    - **C** (incorrect): Incorrect. Exam and Applied Skills assessment lab retake policies |... is a current, actively used concept in the GH-600 certification scope.
-
-    - **D** (incorrect): Incorrect. Exam and Applied Skills assessment lab retake policies |... is integrated within GitHub's ecosystem, not a standalone third-party tool.
-
+    - **A**: Fairness is about equitable treatment, not accessibility.
+    - **C**: Transparency is about explaining AI behavior.
+    - **D**: Accountability is about human responsibility for AI systems.
 
 ---
-
 
 ### Question 5
 
-**Domain**: domain-2 | **Format**: Multiple Choice
+**Domain**: 1 | **Format**: Multiple Choice
 
+In an orchestrator-worker agent pattern, what is the orchestrator's primary role?
 
-Which of the following best describes Study guide for Exam GH-600: Developing in Agentic AI...?
-
-- A. Study guide for Exam GH-600: Developing in Agentic AI... is part of the Design and implement agentic solutions domain (domain-2) in the GH-600 certification.
-- B. A process unrelated to Design and implement agentic solutions that focuses on non-AI development practices.
-- C. A deprecated feature that has been replaced in modern GitHub workflows.
-- D. A third-party tool that operates independently of GitHub's ecosystem.
-
+- A. Execute all coding tasks directly
+- B. Coordinate and delegate tasks to specialized worker agents
+- C. Store all project data in memory
+- D. Provide the user interface
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: B
 
-    The correct answer is A. Study guide for Exam GH-600: Developing in Agentic AI... is part of the Design and implement agentic solutions domain (domain-2) in the GH-600 certification. This is a key concept in the Design and implement agentic solutions domain. See study notes: Study guide for Exam GH-600: Developing in Agentic AI... (Design and implement agentic solutions)
+    The orchestrator acts as a central coordinator that decomposes complex tasks and delegates them to specialized worker agents, then assembles the results.
 
-
-    - **B** (incorrect): Incorrect. Study guide for Exam GH-600: Developing in Agentic AI... is directly related to Design and implement agentic solutions and AI-assisted development.
-
-    - **C** (incorrect): Incorrect. Study guide for Exam GH-600: Developing in Agentic AI... is a current, actively used concept in the GH-600 certification scope.
-
-    - **D** (incorrect): Incorrect. Study guide for Exam GH-600: Developing in Agentic AI... is integrated within GitHub's ecosystem, not a standalone third-party tool.
-
+    - **A**: Workers execute tasks, not the orchestrator.
+    - **C**: Data storage is not the orchestrator's role.
+    - **D**: The UI is separate from orchestration logic.
 
 ---
-
 
 ### Question 6
 
-**Domain**: domain-2 | **Format**: Multiple Choice
+**Domain**: 2 | **Format**: Multiple Choice
 
+In MCP, what is the transport layer responsible for?
 
-Which of the following best describes Tooling, MCP, and Agent Execution Environments -...?
-
-- A. Tooling, MCP, and Agent Execution Environments -... is part of the Design and implement agentic solutions domain (domain-2) in the GH-600 certification.
-- B. A process unrelated to Design and implement agentic solutions that focuses on non-AI development practices.
-- C. A deprecated feature that has been replaced in modern GitHub workflows.
-- D. A third-party tool that operates independently of GitHub's ecosystem.
-
+- A. Storing tool definitions
+- B. Handling communication between client and server
+- C. Generating AI responses
+- D. Managing user authentication
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: B
 
-    The correct answer is A. Tooling, MCP, and Agent Execution Environments -... is part of the Design and implement agentic solutions domain (domain-2) in the GH-600 certification. This is a key concept in the Design and implement agentic solutions domain. See study notes: Tooling, MCP, and Agent Execution Environments -... (Design and implement agentic solutions)
+    The transport layer handles the actual communication between MCP client and server, using either stdio (local) or HTTP/SSE (remote).
 
-
-    - **B** (incorrect): Incorrect. Tooling, MCP, and Agent Execution Environments -... is directly related to Design and implement agentic solutions and AI-assisted development.
-
-    - **C** (incorrect): Incorrect. Tooling, MCP, and Agent Execution Environments -... is a current, actively used concept in the GH-600 certification scope.
-
-    - **D** (incorrect): Incorrect. Tooling, MCP, and Agent Execution Environments -... is integrated within GitHub's ecosystem, not a standalone third-party tool.
-
+    - **A**: Tool definitions are on the server.
+    - **C**: The host/LLM generates responses.
+    - **D**: Authentication is separate from transport.
 
 ---
-
 
 ### Question 7
 
-**Domain**: domain-2 | **Format**: Multiple Choice
+**Domain**: 3 | **Format**: Multiple Choice
 
+What is the target task completion rate for a well-performing agent system?
 
-Which of the following best describes Microsoft previous versions of technical documentation |...?
-
-- A. Microsoft previous versions of technical documentation |... is part of the Design and implement agentic solutions domain (domain-2) in the GH-600 certification.
-- B. A process unrelated to Design and implement agentic solutions that focuses on non-AI development practices.
-- C. A deprecated feature that has been replaced in modern GitHub workflows.
-- D. A third-party tool that operates independently of GitHub's ecosystem.
-
+- A. > 50%
+- B. > 70%
+- C. > 85%
+- D. > 99%
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: C
 
-    The correct answer is A. Microsoft previous versions of technical documentation |... is part of the Design and implement agentic solutions domain (domain-2) in the GH-600 certification. This is a key concept in the Design and implement agentic solutions domain. See study notes: Microsoft previous versions of technical documentation |... (Design and implement agentic solutions)
+    Target task completion rate is > 85%. Below 70% is considered critical and requires investigation.
 
-
-    - **B** (incorrect): Incorrect. Microsoft previous versions of technical documentation |... is directly related to Design and implement agentic solutions and AI-assisted development.
-
-    - **C** (incorrect): Incorrect. Microsoft previous versions of technical documentation |... is a current, actively used concept in the GH-600 certification scope.
-
-    - **D** (incorrect): Incorrect. Microsoft previous versions of technical documentation |... is integrated within GitHub's ecosystem, not a standalone third-party tool.
-
+    - **A, B**: These are below acceptable thresholds.
+    - **D**: 99% is unrealistic for complex autonomous tasks.
 
 ---
-
 
 ### Question 8
 
-**Domain**: domain-2 | **Format**: Multiple Choice
+**Domain**: 4 | **Format**: Multiple Choice
 
+How should secrets be provided to MCP servers?
 
-Which of the following best describes Study guide for Exam GH-600: Developing in Agentic AI...?
-
-- A. Study guide for Exam GH-600: Developing in Agentic AI... is part of the Design and implement agentic solutions domain (domain-2) in the GH-600 certification.
-- B. A process unrelated to Design and implement agentic solutions that focuses on non-AI development practices.
-- C. A deprecated feature that has been replaced in modern GitHub workflows.
-- D. A third-party tool that operates independently of GitHub's ecosystem.
-
+- A. Hardcoded in the MCP server source code
+- B. Via environment variables referencing a secrets vault
+- C. Passed directly in tool call parameters
+- D. Stored in a public configuration file
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: B
 
-    The correct answer is A. Study guide for Exam GH-600: Developing in Agentic AI... is part of the Design and implement agentic solutions domain (domain-2) in the GH-600 certification. This is a key concept in the Design and implement agentic solutions domain. See study notes: Study guide for Exam GH-600: Developing in Agentic AI... (Design and implement agentic solutions)
+    Secrets should be injected via environment variables that reference a vault (GitHub Secrets, Azure Key Vault, etc.). Never hardcode or expose them.
 
-
-    - **B** (incorrect): Incorrect. Study guide for Exam GH-600: Developing in Agentic AI... is directly related to Design and implement agentic solutions and AI-assisted development.
-
-    - **C** (incorrect): Incorrect. Study guide for Exam GH-600: Developing in Agentic AI... is a current, actively used concept in the GH-600 certification scope.
-
-    - **D** (incorrect): Incorrect. Study guide for Exam GH-600: Developing in Agentic AI... is integrated within GitHub's ecosystem, not a standalone third-party tool.
-
+    - **A, C, D**: All expose secrets in plaintext, which is a security violation.
 
 ---
-
 
 ### Question 9
 
-**Domain**: domain-3 | **Format**: Multiple Choice
+**Domain**: 5 | **Format**: Multiple Choice
 
+Which code generation pattern involves writing tests BEFORE asking the agent to implement the code?
 
-Which of the following best describes Measure agent output quality?
-
-- A. Measure agent output quality is part of the Evaluate and optimize agent performance domain.
-- B. A process unrelated to Evaluate and optimize agent performance that focuses on non-AI development practices.
-- C. A deprecated feature that has been replaced in modern GitHub workflows.
-- D. A third-party tool that operates independently of GitHub's ecosystem.
-
+- A. Prompt-driven
+- B. Test-first
+- C. Refactor
+- D. Pattern extension
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: B
 
-    The correct answer is A. Measure agent output quality is part of the Evaluate and optimize agent performance domain. This is a key concept in the Evaluate and optimize agent performance domain. See study notes: Measure agent output quality (Evaluate and optimize agent performance)
+    Test-first (TDD) pattern: write the test specifying expected behavior, then ask the agent to write code that passes the test.
 
-
-    - **B** (incorrect): Incorrect. Measure agent output quality is directly related to Evaluate and optimize agent performance and AI-assisted development.
-
-    - **C** (incorrect): Incorrect. Measure agent output quality is a current, actively used concept in the GH-600 certification scope.
-
-    - **D** (incorrect): Incorrect. Measure agent output quality is integrated within GitHub's ecosystem, not a standalone third-party tool.
-
+    - **A**: Prompt-driven describes the desired output in natural language.
+    - **C**: Refactor improves existing code.
+    - **D**: Pattern extension replicates from examples.
 
 ---
-
 
 ### Question 10
 
-**Domain**: domain-3 | **Format**: Multiple Choice
+**Domain**: 6 | **Format**: Multiple Choice
 
+What is the correct inclusive alternative to "whitelist"?
 
-Which of the following best describes Optimize agent response latency?
-
-- A. Optimize agent response latency is part of the Evaluate and optimize agent performance domain.
-- B. A process unrelated to Evaluate and optimize agent performance that focuses on non-AI development practices.
-- C. A deprecated feature that has been replaced in modern GitHub workflows.
-- D. A third-party tool that operates independently of GitHub's ecosystem.
-
+- A. Safelist
+- B. Allowlist
+- C. Goodlist
+- D. Greenlist
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: B
 
-    The correct answer is A. Optimize agent response latency is part of the Evaluate and optimize agent performance domain. This is a key concept in the Evaluate and optimize agent performance domain. See study notes: Optimize agent response latency (Evaluate and optimize agent performance)
+    The inclusive alternative to "whitelist" is "allowlist" (and "denylist" replaces "blacklist").
 
-
-    - **B** (incorrect): Incorrect. Optimize agent response latency is directly related to Evaluate and optimize agent performance and AI-assisted development.
-
-    - **C** (incorrect): Incorrect. Optimize agent response latency is a current, actively used concept in the GH-600 certification scope.
-
-    - **D** (incorrect): Incorrect. Optimize agent response latency is integrated within GitHub's ecosystem, not a standalone third-party tool.
-
+    - **A, C, D**: Not the standard inclusive replacements.
 
 ---
-
 
 ### Question 11
 
-**Domain**: domain-4 | **Format**: Multiple Choice
+**Domain**: 1 | **Format**: Multiple Choice
 
+Which autonomy level is appropriate for an agent performing production deployments?
 
-Which of the following best describes Terms of Use | Microsoft Learn
-learn?
-
-- A. Terms of Use | Microsoft Learn
-learn is part of the Secure and govern agentic AI solutions domain (domain-4) in the GH-600 certification.
-- B. A process unrelated to Secure and govern agentic AI solutions that focuses on non-AI development practices.
-- C. A deprecated feature that has been replaced in modern GitHub workflows.
-- D. A third-party tool that operates independently of GitHub's ecosystem.
-
+- A. Full autonomy
+- B. Supervised (requires human approval)
+- C. Advisory only
+- D. No agent involvement allowed
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: B
 
-    The correct answer is A. Terms of Use | Microsoft Learn
-learn is part of the Secure and govern agentic AI solutions domain (domain-4) in the GH-600 certification. This is a key concept in the Secure and govern agentic AI solutions domain. See study notes: Terms of Use | Microsoft Learn
-learn (Secure and govern agentic AI solutions)
+    Production deployments require supervised autonomy — the agent proposes changes but a human must explicitly approve before execution.
 
-
-    - **B** (incorrect): Incorrect. Terms of Use | Microsoft Learn
-learn is directly related to Secure and govern agentic AI solutions and AI-assisted development.
-
-    - **C** (incorrect): Incorrect. Terms of Use | Microsoft Learn
-learn is a current, actively used concept in the GH-600 certification scope.
-
-    - **D** (incorrect): Incorrect. Terms of Use | Microsoft Learn
-learn is integrated within GitHub's ecosystem, not a standalone third-party tool.
-
+    - **A**: Full autonomy is too risky for production.
+    - **C**: Advisory means the agent only suggests without acting.
+    - **D**: Agents can assist with deployments under supervision.
 
 ---
-
 
 ### Question 12
 
-**Domain**: domain-4 | **Format**: Multiple Choice
+**Domain**: 2 | **Format**: Multiple Choice
 
+What protocol does MCP use for communication messages?
 
-Which of the following best describes Modern Lifecycle Policy - Microsoft Lifecycle |...?
-
-- A. Modern Lifecycle Policy - Microsoft Lifecycle |... is part of the Secure and govern agentic AI solutions domain (domain-4) in the GH-600 certification.
-- B. A process unrelated to Secure and govern agentic AI solutions that focuses on non-AI development practices.
-- C. A deprecated feature that has been replaced in modern GitHub workflows.
-- D. A third-party tool that operates independently of GitHub's ecosystem.
-
+- A. REST
+- B. GraphQL
+- C. JSON-RPC 2.0
+- D. gRPC
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: C
 
-    The correct answer is A. Modern Lifecycle Policy - Microsoft Lifecycle |... is part of the Secure and govern agentic AI solutions domain (domain-4) in the GH-600 certification. This is a key concept in the Secure and govern agentic AI solutions domain. See study notes: Modern Lifecycle Policy - Microsoft Lifecycle |... (Secure and govern agentic AI solutions)
+    MCP uses JSON-RPC 2.0 as its message format over stdio or HTTP/SSE transport.
 
-
-    - **B** (incorrect): Incorrect. Modern Lifecycle Policy - Microsoft Lifecycle |... is directly related to Secure and govern agentic AI solutions and AI-assisted development.
-
-    - **C** (incorrect): Incorrect. Modern Lifecycle Policy - Microsoft Lifecycle |... is a current, actively used concept in the GH-600 certification scope.
-
-    - **D** (incorrect): Incorrect. Modern Lifecycle Policy - Microsoft Lifecycle |... is integrated within GitHub's ecosystem, not a standalone third-party tool.
-
+    - **A, B, D**: Not the protocols used by MCP.
 
 ---
-
 
 ### Question 13
 
-**Domain**: domain-4 | **Format**: Multiple Choice
+**Domain**: 3 | **Format**: Multiple Choice
 
+What is the primary technique for reducing perceived latency in agent responses?
 
-Which of the following best describes Browse Credentials | Microsoft Learn
-Browse...?
-
-- A. Browse Credentials | Microsoft Learn
-Browse... is part of the Secure and govern agentic AI solutions domain (domain-4) in the GH-600 certification.
-- B. A process unrelated to Secure and govern agentic AI solutions that focuses on non-AI development practices.
-- C. A deprecated feature that has been replaced in modern GitHub workflows.
-- D. A third-party tool that operates independently of GitHub's ecosystem.
-
+- A. Using a larger model
+- B. Token streaming
+- C. Disabling tools
+- D. Reducing context window
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: B
 
-    The correct answer is A. Browse Credentials | Microsoft Learn
-Browse... is part of the Secure and govern agentic AI solutions domain (domain-4) in the GH-600 certification. This is a key concept in the Secure and govern agentic AI solutions domain. See study notes: Browse Credentials | Microsoft Learn
-Browse... (Secure and govern agentic AI solutions)
+    Token streaming sends output incrementally as it's generated, so users see results immediately rather than waiting for the full response.
 
-
-    - **B** (incorrect): Incorrect. Browse Credentials | Microsoft Learn
-Browse... is directly related to Secure and govern agentic AI solutions and AI-assisted development.
-
-    - **C** (incorrect): Incorrect. Browse Credentials | Microsoft Learn
-Browse... is a current, actively used concept in the GH-600 certification scope.
-
-    - **D** (incorrect): Incorrect. Browse Credentials | Microsoft Learn
-Browse... is integrated within GitHub's ecosystem, not a standalone third-party tool.
-
+    - **A**: Larger models are slower.
+    - **C**: Disabling tools reduces capability, not latency perception.
+    - **D**: This can help actual latency but streaming is the primary perceived-speed technique.
 
 ---
-
 
 ### Question 14
 
-**Domain**: domain-4 | **Format**: Multiple Choice
+**Domain**: 4 | **Format**: Multiple Choice
 
+What information must an agent audit log include?
 
-Which of the following best describes About online exams with Pearson VUE | Microsoft...?
-
-- A. About online exams with Pearson VUE | Microsoft... is part of the Secure and govern agentic AI solutions domain (domain-4) in the GH-600 certification.
-- B. A process unrelated to Secure and govern agentic AI solutions that focuses on non-AI development practices.
-- C. A deprecated feature that has been replaced in modern GitHub workflows.
-- D. A third-party tool that operates independently of GitHub's ecosystem.
-
+- A. Only the final output
+- B. Timestamp, user identity, action, target, approval status, and risk level
+- C. Only errors and failures
+- D. Only tool names used
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: B
 
-    The correct answer is A. About online exams with Pearson VUE | Microsoft... is part of the Secure and govern agentic AI solutions domain (domain-4) in the GH-600 certification. This is a key concept in the Secure and govern agentic AI solutions domain. See study notes: About online exams with Pearson VUE | Microsoft... (Secure and govern agentic AI solutions)
+    Comprehensive audit logs must include: timestamp, user identity, session ID, action type, target resource, tool used, approval status, content hash, and risk level.
 
-
-    - **B** (incorrect): Incorrect. About online exams with Pearson VUE | Microsoft... is directly related to Secure and govern agentic AI solutions and AI-assisted development.
-
-    - **C** (incorrect): Incorrect. About online exams with Pearson VUE | Microsoft... is a current, actively used concept in the GH-600 certification scope.
-
-    - **D** (incorrect): Incorrect. About online exams with Pearson VUE | Microsoft... is integrated within GitHub's ecosystem, not a standalone third-party tool.
-
+    - **A, C, D**: These are incomplete and insufficient for proper auditing.
 
 ---
 
+### Question 15–20
+
+*(Questions 15-20 follow the same pattern covering remaining topics across all domains)*
 
 ### Question 15
 
-**Domain**: domain-5 | **Format**: Multiple Choice
+**Domain**: 5 | **Format**: Multiple Choice
 
+What should NEVER be fully automated in a CI/CD pipeline without human approval?
 
-Which of the following best describes Exercise - Develop with AI-powered code suggestions by...?
-
-- A. Exercise - Develop with AI-powered code suggestions by... is part of the Collaborate with AI agents in the development workflow domain (domain-5) in the GH-600 certification.
-- B. A process unrelated to Collaborate with AI agents in the development workflow that focuses on non-AI development practices.
-- C. A deprecated feature that has been replaced in modern GitHub workflows.
-- D. A third-party tool that operates independently of GitHub's ecosystem.
-
+- A. Code formatting
+- B. Running unit tests
+- C. Production deployment
+- D. Generating changelogs
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: C
 
-    The correct answer is A. Exercise - Develop with AI-powered code suggestions by... is part of the Collaborate with AI agents in the development workflow domain (domain-5) in the GH-600 certification. This is a key concept in the Collaborate with AI agents in the development workflow domain. See study notes: Exercise - Develop with AI-powered code suggestions by... (Collaborate with AI agents in the development workflow)
-
-
-    - **B** (incorrect): Incorrect. Exercise - Develop with AI-powered code suggestions by... is directly related to Collaborate with AI agents in the development workflow and AI-assisted development.
-
-    - **C** (incorrect): Incorrect. Exercise - Develop with AI-powered code suggestions by... is a current, actively used concept in the GH-600 certification scope.
-
-    - **D** (incorrect): Incorrect. Exercise - Develop with AI-powered code suggestions by... is integrated within GitHub's ecosystem, not a standalone third-party tool.
-
+    Production deployments must always have human approval gates. Formatting, testing, and changelog generation can be safely automated.
 
 ---
-
 
 ### Question 16
 
-**Domain**: domain-5 | **Format**: Multiple Choice
+**Domain**: 1 | **Format**: Multiple Choice
 
+What communication pattern does GitHub Copilot use between the IDE and AI backend?
 
-Which of the following best describes Exercise - Develop with AI-powered code suggestions by...?
-
-- A. Exercise - Develop with AI-powered code suggestions by... is part of the Collaborate with AI agents in the development workflow domain (domain-5) in the GH-600 certification.
-- B. A process unrelated to Collaborate with AI agents in the development workflow that focuses on non-AI development practices.
-- C. A deprecated feature that has been replaced in modern GitHub workflows.
-- D. A third-party tool that operates independently of GitHub's ecosystem.
-
+- A. Shared memory
+- B. Message-based protocol (tool calls with structured inputs/outputs)
+- C. Direct database queries
+- D. File system polling
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: B
 
-    The correct answer is A. Exercise - Develop with AI-powered code suggestions by... is part of the Collaborate with AI agents in the development workflow domain (domain-5) in the GH-600 certification. This is a key concept in the Collaborate with AI agents in the development workflow domain. See study notes: Exercise - Develop with AI-powered code suggestions by... (Collaborate with AI agents in the development workflow)
-
-
-    - **B** (incorrect): Incorrect. Exercise - Develop with AI-powered code suggestions by... is directly related to Collaborate with AI agents in the development workflow and AI-assisted development.
-
-    - **C** (incorrect): Incorrect. Exercise - Develop with AI-powered code suggestions by... is a current, actively used concept in the GH-600 certification scope.
-
-    - **D** (incorrect): Incorrect. Exercise - Develop with AI-powered code suggestions by... is integrated within GitHub's ecosystem, not a standalone third-party tool.
-
+    Copilot uses a message-based protocol where tool calls have structured JSON inputs and outputs.
 
 ---
-
 
 ### Question 17
 
-**Domain**: domain-5 | **Format**: Multiple Choice
+**Domain**: 2 | **Format**: Multiple Choice
 
+What are the three types of capabilities an MCP server can expose?
 
-Which of the following best describes Exercise - Develop with AI-powered code suggestions by...?
-
-- A. Exercise - Develop with AI-powered code suggestions by... is part of the Collaborate with AI agents in the development workflow domain (domain-5) in the GH-600 certification.
-- B. A process unrelated to Collaborate with AI agents in the development workflow that focuses on non-AI development practices.
-- C. A deprecated feature that has been replaced in modern GitHub workflows.
-- D. A third-party tool that operates independently of GitHub's ecosystem.
-
+- A. Tools, Resources, Prompts
+- B. Read, Write, Execute
+- C. Input, Output, State
+- D. Query, Mutation, Subscription
 
 ??? success "Answer"
     **Correct**: A
 
-    The correct answer is A. Exercise - Develop with AI-powered code suggestions by... is part of the Collaborate with AI agents in the development workflow domain (domain-5) in the GH-600 certification. This is a key concept in the Collaborate with AI agents in the development workflow domain. See study notes: Exercise - Develop with AI-powered code suggestions by... (Collaborate with AI agents in the development workflow)
-
-
-    - **B** (incorrect): Incorrect. Exercise - Develop with AI-powered code suggestions by... is directly related to Collaborate with AI agents in the development workflow and AI-assisted development.
-
-    - **C** (incorrect): Incorrect. Exercise - Develop with AI-powered code suggestions by... is a current, actively used concept in the GH-600 certification scope.
-
-    - **D** (incorrect): Incorrect. Exercise - Develop with AI-powered code suggestions by... is integrated within GitHub's ecosystem, not a standalone third-party tool.
-
+    MCP servers expose: Tools (actions/functions), Resources (data access), and Prompts (template prompts).
 
 ---
-
 
 ### Question 18
 
-**Domain**: domain-5 | **Format**: Multiple Choice
+**Domain**: 6 | **Format**: Multiple Choice
 
+Which Responsible AI principle requires AI systems to explain their behavior?
 
-Which of the following best describes Exercise - Develop with AI-powered code suggestions by...?
-
-- A. Exercise - Develop with AI-powered code suggestions by... is part of the Collaborate with AI agents in the development workflow domain (domain-5) in the GH-600 certification.
-- B. A process unrelated to Collaborate with AI agents in the development workflow that focuses on non-AI development practices.
-- C. A deprecated feature that has been replaced in modern GitHub workflows.
-- D. A third-party tool that operates independently of GitHub's ecosystem.
-
+- A. Fairness
+- B. Accountability
+- C. Transparency
+- D. Reliability
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: C
 
-    The correct answer is A. Exercise - Develop with AI-powered code suggestions by... is part of the Collaborate with AI agents in the development workflow domain (domain-5) in the GH-600 certification. This is a key concept in the Collaborate with AI agents in the development workflow domain. See study notes: Exercise - Develop with AI-powered code suggestions by... (Collaborate with AI agents in the development workflow)
-
-
-    - **B** (incorrect): Incorrect. Exercise - Develop with AI-powered code suggestions by... is directly related to Collaborate with AI agents in the development workflow and AI-assisted development.
-
-    - **C** (incorrect): Incorrect. Exercise - Develop with AI-powered code suggestions by... is a current, actively used concept in the GH-600 certification scope.
-
-    - **D** (incorrect): Incorrect. Exercise - Develop with AI-powered code suggestions by... is integrated within GitHub's ecosystem, not a standalone third-party tool.
-
+    Transparency requires AI systems to be understandable — explaining decisions, acknowledging limitations, and disclosing AI involvement.
 
 ---
-
 
 ### Question 19
 
-**Domain**: domain-6 | **Format**: Multiple Choice
+**Domain**: 3 | **Format**: Multiple Choice
 
+What is considered a critical error rate threshold for agent systems?
 
-Which of the following best describes Microsoft Certification Renewal | Microsoft...?
-
-- A. Microsoft Certification Renewal | Microsoft... is part of the Implement responsible AI practices domain (domain-6) in the GH-600 certification.
-- B. A process unrelated to Implement responsible AI practices that focuses on non-AI development practices.
-- C. A deprecated feature that has been replaced in modern GitHub workflows.
-- D. A third-party tool that operates independently of GitHub's ecosystem.
-
+- A. > 1%
+- B. > 5%
+- C. > 15%
+- D. > 50%
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: C
 
-    The correct answer is A. Microsoft Certification Renewal | Microsoft... is part of the Implement responsible AI practices domain (domain-6) in the GH-600 certification. This is a key concept in the Implement responsible AI practices domain. See study notes: Microsoft Certification Renewal | Microsoft... (Implement responsible AI practices)
-
-
-    - **B** (incorrect): Incorrect. Microsoft Certification Renewal | Microsoft... is directly related to Implement responsible AI practices and AI-assisted development.
-
-    - **C** (incorrect): Incorrect. Microsoft Certification Renewal | Microsoft... is a current, actively used concept in the GH-600 certification scope.
-
-    - **D** (incorrect): Incorrect. Microsoft Certification Renewal | Microsoft... is integrated within GitHub's ecosystem, not a standalone third-party tool.
-
+    Error rate > 15% is critical. Good is < 5%, warning is 5-15%.
 
 ---
-
 
 ### Question 20
 
-**Domain**: domain-6 | **Format**: Multiple Choice
+**Domain**: 4 | **Format**: Multiple Choice
 
+Which data classification level should NEVER be exposed to AI agents?
 
-Which of the following best describes Introduction - Training | Microsoft Learn
-Read in...?
-
-- A. Introduction - Training | Microsoft Learn
-Read in... is part of the Implement responsible AI practices domain (domain-6) in the GH-600 certification.
-- B. A process unrelated to Implement responsible AI practices that focuses on non-AI development practices.
-- C. A deprecated feature that has been replaced in modern GitHub workflows.
-- D. A third-party tool that operates independently of GitHub's ecosystem.
-
+- A. Public
+- B. Internal
+- C. Confidential
+- D. Restricted (PII, financial data)
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: D
 
-    The correct answer is A. Introduction - Training | Microsoft Learn
-Read in... is part of the Implement responsible AI practices domain (domain-6) in the GH-600 certification. This is a key concept in the Implement responsible AI practices domain. See study notes: Introduction - Training | Microsoft Learn
-Read in... (Implement responsible AI practices)
-
-
-    - **B** (incorrect): Incorrect. Introduction - Training | Microsoft Learn
-Read in... is directly related to Implement responsible AI practices and AI-assisted development.
-
-    - **C** (incorrect): Incorrect. Introduction - Training | Microsoft Learn
-Read in... is a current, actively used concept in the GH-600 certification scope.
-
-    - **D** (incorrect): Incorrect. Introduction - Training | Microsoft Learn
-Read in... is integrated within GitHub's ecosystem, not a standalone third-party tool.
-
+    Restricted data (PII, financial records) must never be exposed to AI agents. Even confidential data requires special handling.
 
 ---
-
-
 
 ## Intermediate Questions
 
 !!! note "Difficulty: Intermediate"
-    These questions require applying concepts to practical situations.
+    Applying concepts to specific scenarios.
 
+### Question 21
 
-### Question 1
+**Domain**: 2 | **Format**: Multiple Select
 
-**Domain**: domain-1 | **Format**: Multiple Choice
+A developer is configuring an MCP server for their project. Which of the following are valid MCP server configuration options? (Select all that apply)
 
-
-A developer needs to implement Exam scoring and score reports | Microsoft Learn
-Table... in their GitHub Copilot workflow. Which approach should they use?
-
-- A. A developer uses Exam scoring and score reports | Microsoft Learn
-Table... when configuring GitHub Copilot agent mode to assist with code generation and review tasks in their development workflow.
-- B. Skip Exam scoring and score reports | Microsoft Learn
-Table... configuration and rely on default settings without validation.
-- C. Implement a custom solution that bypasses GitHub's built-in Exam scoring and score reports | Microsoft Learn
-Table... support.
-- D. Defer Exam scoring and score reports | Microsoft Learn
-Table... implementation to a later phase without any interim measures.
-
+- A. Specifying the command to launch the server process
+- B. Passing environment variables for secrets
+- C. Defining the server's response format as XML
+- D. Listing arguments for the server command
+- E. Setting a disabled flag to temporarily turn off the server
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: A, B, D, E
 
-    The correct answer is A. When implementing Exam scoring and score reports | Microsoft Learn
-Table..., developers should follow established best practices that align with the Prepare agent architecture and SDLC processes domain requirements. See study notes: Exam scoring and score reports | Microsoft Learn
-Table... (Prepare agent architecture and SDLC processes)
+    MCP server config supports: `command` (launch command), `args` (arguments), `env` (environment variables), and `disabled` (enable/disable toggle).
 
-
-    - **B** (incorrect): Incorrect. Relying on defaults without validation may miss critical Exam scoring and score reports | Microsoft Learn
-Table... requirements.
-
-    - **C** (incorrect): Incorrect. Custom solutions that bypass built-in support add unnecessary complexity and risk.
-
-    - **D** (incorrect): Incorrect. Deferring without interim measures can lead to technical debt and security gaps.
-
+    - **C**: MCP uses JSON-RPC, not XML. The transport format is not configurable.
 
 ---
 
+### Question 22
 
-### Question 2
+**Domain**: 4 | **Format**: Scenario-Based
 
-**Domain**: domain-1 | **Format**: Multiple Select
+A security team is setting up agent permissions for a new development team. The team works on a customer-facing application with a database containing user PII. Which permission configuration is most appropriate?
 
-
-Which of the following are valid considerations when working with Request exam accommodations and frequently asked...? (Select all that apply)
-
-- A. Request exam accommodations and frequently asked... is part of the Prepare agent architecture and SDLC processes domain (domain-1) in the GH-600 certification.
-- B. This topic covers 2 knowledge point(s) that candidates must understand.
-- C. Ignoring Request exam accommodations and frequently asked... requirements has no impact on the development workflow.
-- D. Request exam accommodations and frequently asked... is only relevant for non-GitHub platforms.
-- E. Focus on understanding the practical applications of Request exam accommodations and frequently asked... rather than just memorizing definitions.
-
+- A. Grant full read/write access to all repository files and database queries
+- B. Grant read access to source code, write access to src/ and tests/ only, deny access to .env files and database containing PII
+- C. Deny all agent access since PII is involved
+- D. Grant read-only access with no write permissions for any files
 
 ??? success "Answer"
-    **Correct**: A, B, E
+    **Correct**: B
 
-    Options A, B, E are correct. When working with Request exam accommodations and frequently asked..., developers must consider multiple factors that align with Prepare agent architecture and SDLC processes best practices. See study notes: Request exam accommodations and frequently asked... (Prepare agent architecture and SDLC processes)
+    Least privilege means: agents can read code (needed for context), write only in appropriate directories (src, tests), and are explicitly denied access to secrets (.env) and restricted data (PII database).
 
-
-    - **C** (incorrect): Incorrect. Request exam accommodations and frequently asked... requirements directly impact workflow quality and outcomes.
-
-    - **D** (incorrect): Incorrect. Request exam accommodations and frequently asked... is a core GitHub ecosystem concept relevant to GH-600.
-
+    - **A**: Too permissive — exposes PII and secrets.
+    - **C**: Too restrictive — agents can still be useful without accessing PII directly.
+    - **D**: Too restrictive for development work — agents need write access to be useful.
 
 ---
 
+### Question 23
 
-### Question 3
+**Domain**: 1 | **Format**: Scenario-Based
 
-**Domain**: domain-1 | **Format**: Multiple Choice
+A team is building a system that needs to: refactor a large codebase, run tests after each change, generate documentation, and create a PR. Which agent architecture pattern is most appropriate?
 
-
-A developer needs to implement Search Product and Services Lifecycle Information -... in their GitHub Copilot workflow. Which approach should they use?
-
-- A. A developer uses Search Product and Services Lifecycle Information -... when configuring GitHub Copilot agent mode to assist with code generation and review tasks in their development workflow.
-- B. Skip Search Product and Services Lifecycle Information -... configuration and rely on default settings without validation.
-- C. Implement a custom solution that bypasses GitHub's built-in Search Product and Services Lifecycle Information -... support.
-- D. Defer Search Product and Services Lifecycle Information -... implementation to a later phase without any interim measures.
-
+- A. Single agent handling all tasks sequentially
+- B. Orchestrator-worker pattern with specialized agents
+- C. Advisory-only pattern where agents suggest but don't act
+- D. Peer-to-peer agents with no coordination
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: B
 
-    The correct answer is A. When implementing Search Product and Services Lifecycle Information -..., developers should follow established best practices that align with the Prepare agent architecture and SDLC processes domain requirements. See study notes: Search Product and Services Lifecycle Information -... (Prepare agent architecture and SDLC processes)
+    The orchestrator-worker pattern is ideal for complex multi-faceted tasks. The orchestrator coordinates, while specialized workers handle refactoring, testing, documentation, and PR creation respectively.
 
-
-    - **B** (incorrect): Incorrect. Relying on defaults without validation may miss critical Search Product and Services Lifecycle Information -... requirements.
-
-    - **C** (incorrect): Incorrect. Custom solutions that bypass built-in support add unnecessary complexity and risk.
-
-    - **D** (incorrect): Incorrect. Deferring without interim measures can lead to technical debt and security gaps.
-
+    - **A**: A single agent for this many diverse tasks risks losing context and quality.
+    - **C**: Advisory doesn't complete the task — human would do all work.
+    - **D**: Without coordination, agents would conflict and duplicate work.
 
 ---
 
+### Question 24
 
-### Question 4
+**Domain**: 5 | **Format**: Multiple Choice
 
-**Domain**: domain-1 | **Format**: Multiple Select
+A CI/CD pipeline runs AI-generated tests that are failing intermittently. What is the most appropriate agent-assisted response?
 
-
-Which of the following are valid considerations when working with Exam and Applied Skills assessment lab retake policies |...? (Select all that apply)
-
-- A. Exam and Applied Skills assessment lab retake policies |... is part of the Prepare agent architecture and SDLC processes domain (domain-1) in the GH-600 certification.
-- B. This topic covers 2 knowledge point(s) that candidates must understand.
-- C. Ignoring Exam and Applied Skills assessment lab retake policies |... requirements has no impact on the development workflow.
-- D. Exam and Applied Skills assessment lab retake policies |... is only relevant for non-GitHub platforms.
-- E. Focus on understanding the practical applications of Exam and Applied Skills assessment lab retake policies |... rather than just memorizing definitions.
-
+- A. Disable all AI-generated tests
+- B. Have the agent analyze flaky test patterns and suggest fixes for non-deterministic behavior
+- C. Replace all tests with manual testing
+- D. Increase the test timeout to 10 minutes
 
 ??? success "Answer"
-    **Correct**: A, B, E
+    **Correct**: B
 
-    Options A, B, E are correct. When working with Exam and Applied Skills assessment lab retake policies |..., developers must consider multiple factors that align with Prepare agent architecture and SDLC processes best practices. See study notes: Exam and Applied Skills assessment lab retake policies |... (Prepare agent architecture and SDLC processes)
+    Agents can identify patterns in flaky tests (race conditions, timing dependencies, external service calls) and suggest targeted fixes like adding retries, mocking external services, or fixing race conditions.
 
-
-    - **C** (incorrect): Incorrect. Exam and Applied Skills assessment lab retake policies |... requirements directly impact workflow quality and outcomes.
-
-    - **D** (incorrect): Incorrect. Exam and Applied Skills assessment lab retake policies |... is a core GitHub ecosystem concept relevant to GH-600.
-
+    - **A, C**: Throwing away tests is wasteful.
+    - **D**: Increasing timeout doesn't fix the root cause.
 
 ---
 
+### Question 25
 
-### Question 5
+**Domain**: 6 | **Format**: Multiple Select
 
-**Domain**: domain-2 | **Format**: Multiple Choice
+A company is auditing their AI agent deployment for responsible AI compliance. Which of the following should be part of their audit? (Select all that apply)
 
-
-A developer needs to implement Study guide for Exam GH-600: Developing in Agentic AI... in their GitHub Copilot workflow. Which approach should they use?
-
-- A. A developer uses Study guide for Exam GH-600: Developing in Agentic AI... when configuring GitHub Copilot agent mode to assist with code generation and review tasks in their development workflow.
-- B. Skip Study guide for Exam GH-600: Developing in Agentic AI... configuration and rely on default settings without validation.
-- C. Implement a custom solution that bypasses GitHub's built-in Study guide for Exam GH-600: Developing in Agentic AI... support.
-- D. Defer Study guide for Exam GH-600: Developing in Agentic AI... implementation to a later phase without any interim measures.
-
+- A. Reviewing audit logs of all agent actions
+- B. Testing for bias in agent outputs across different users
+- C. Verifying user consent mechanisms are in place
+- D. Checking that all agent-generated code is faster than human-written code
+- E. Confirming incident response plans exist for AI failures
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: A, B, C, E
 
-    The correct answer is A. When implementing Study guide for Exam GH-600: Developing in Agentic AI..., developers should follow established best practices that align with the Design and implement agentic solutions domain requirements. See study notes: Study guide for Exam GH-600: Developing in Agentic AI... (Design and implement agentic solutions)
+    Responsible AI compliance requires: audit logs (accountability), bias testing (fairness), consent (privacy), and incident response (reliability/safety).
 
-
-    - **B** (incorrect): Incorrect. Relying on defaults without validation may miss critical Study guide for Exam GH-600: Developing in Agentic AI... requirements.
-
-    - **C** (incorrect): Incorrect. Custom solutions that bypass built-in support add unnecessary complexity and risk.
-
-    - **D** (incorrect): Incorrect. Deferring without interim measures can lead to technical debt and security gaps.
-
+    - **D**: Performance comparison to human code is not a responsible AI requirement.
 
 ---
 
+### Question 26
 
-### Question 6
+**Domain**: 2 | **Format**: Scenario-Based
 
-**Domain**: domain-2 | **Format**: Multiple Select
+A developer needs their agent to query a PostgreSQL database during code generation. The database contains both schema information (useful for code gen) and user data (sensitive). What is the correct approach?
 
-
-Which of the following are valid considerations when working with Tooling, MCP, and Agent Execution Environments -...? (Select all that apply)
-
-- A. Tooling, MCP, and Agent Execution Environments -... is part of the Design and implement agentic solutions domain (domain-2) in the GH-600 certification.
-- B. This topic covers 4 knowledge point(s) that candidates must understand.
-- C. Ignoring Tooling, MCP, and Agent Execution Environments -... requirements has no impact on the development workflow.
-- D. Tooling, MCP, and Agent Execution Environments -... is only relevant for non-GitHub platforms.
-- E. Focus on understanding the practical applications of Tooling, MCP, and Agent Execution Environments -... rather than just memorizing definitions.
-
+- A. Give the agent full database access and trust it to ignore user data
+- B. Create an MCP server that exposes schema-only queries and blocks access to user tables
+- C. Copy the entire database to a text file and add it to the agent's context
+- D. Manually type schema information into every agent prompt
 
 ??? success "Answer"
-    **Correct**: A, B, E
+    **Correct**: B
 
-    Options A, B, E are correct. When working with Tooling, MCP, and Agent Execution Environments -..., developers must consider multiple factors that align with Design and implement agentic solutions best practices. See study notes: Tooling, MCP, and Agent Execution Environments -... (Design and implement agentic solutions)
+    Creating an MCP server with restricted access implements least privilege. The server exposes only schema queries (tools for reading table structures) and explicitly blocks access to tables containing user data.
 
-
-    - **C** (incorrect): Incorrect. Tooling, MCP, and Agent Execution Environments -... requirements directly impact workflow quality and outcomes.
-
-    - **D** (incorrect): Incorrect. Tooling, MCP, and Agent Execution Environments -... is a core GitHub ecosystem concept relevant to GH-600.
-
+    - **A**: Violates least privilege and data governance.
+    - **C**: Exposes user data and wastes context window.
+    - **D**: Impractical and doesn't leverage agent capabilities.
 
 ---
 
+### Question 27
 
-### Question 7
+**Domain**: 3 | **Format**: Multiple Choice
 
-**Domain**: domain-2 | **Format**: Multiple Choice
+An agent's task completion rate has dropped from 90% to 65% over the past week. What is the most likely first diagnostic step?
 
-
-A developer needs to implement Microsoft previous versions of technical documentation |... in their GitHub Copilot workflow. Which approach should they use?
-
-- A. A developer uses Microsoft previous versions of technical documentation |... when configuring GitHub Copilot agent mode to assist with code generation and review tasks in their development workflow.
-- B. Skip Microsoft previous versions of technical documentation |... configuration and rely on default settings without validation.
-- C. Implement a custom solution that bypasses GitHub's built-in Microsoft previous versions of technical documentation |... support.
-- D. Defer Microsoft previous versions of technical documentation |... implementation to a later phase without any interim measures.
-
+- A. Immediately switch to a different AI model
+- B. Analyze failure logs to identify common error patterns and affected task types
+- C. Disable agent mode for all users
+- D. Increase the agent's token budget
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: B
 
-    The correct answer is A. When implementing Microsoft previous versions of technical documentation |..., developers should follow established best practices that align with the Design and implement agentic solutions domain requirements. See study notes: Microsoft previous versions of technical documentation |... (Design and implement agentic solutions)
+    Diagnosing performance issues starts with data analysis — looking at failure logs to identify whether the problem is specific task types, tools, or contexts before making changes.
 
-
-    - **B** (incorrect): Incorrect. Relying on defaults without validation may miss critical Microsoft previous versions of technical documentation |... requirements.
-
-    - **C** (incorrect): Incorrect. Custom solutions that bypass built-in support add unnecessary complexity and risk.
-
-    - **D** (incorrect): Incorrect. Deferring without interim measures can lead to technical debt and security gaps.
-
+    - **A**: Switching models without diagnosis may not fix the issue.
+    - **C**: Too extreme without understanding the cause.
+    - **D**: Token budget may not be the issue.
 
 ---
 
+### Question 28
 
-### Question 8
+**Domain**: 1 | **Format**: Multiple Choice
 
-**Domain**: domain-2 | **Format**: Multiple Select
+Which framework selection criterion is MOST important when an agent needs to interact with proprietary internal APIs?
 
-
-Which of the following are valid considerations when working with Study guide for Exam GH-600: Developing in Agentic AI...? (Select all that apply)
-
-- A. Study guide for Exam GH-600: Developing in Agentic AI... is part of the Design and implement agentic solutions domain (domain-2) in the GH-600 certification.
-- B. This topic covers 54 knowledge point(s) that candidates must understand.
-- C. Ignoring Study guide for Exam GH-600: Developing in Agentic AI... requirements has no impact on the development workflow.
-- D. Study guide for Exam GH-600: Developing in Agentic AI... is only relevant for non-GitHub platforms.
-- E. Focus on understanding the practical applications of Study guide for Exam GH-600: Developing in Agentic AI... rather than just memorizing definitions.
-
+- A. Team size
+- B. Integration needs (MCP for external tool access)
+- C. Programming language support
+- D. Cost per token
 
 ??? success "Answer"
-    **Correct**: A, B, E
+    **Correct**: B
 
-    Options A, B, E are correct. When working with Study guide for Exam GH-600: Developing in Agentic AI..., developers must consider multiple factors that align with Design and implement agentic solutions best practices. See study notes: Study guide for Exam GH-600: Developing in Agentic AI... (Design and implement agentic solutions)
-
-
-    - **C** (incorrect): Incorrect. Study guide for Exam GH-600: Developing in Agentic AI... requirements directly impact workflow quality and outcomes.
-
-    - **D** (incorrect): Incorrect. Study guide for Exam GH-600: Developing in Agentic AI... is a core GitHub ecosystem concept relevant to GH-600.
-
+    When an agent needs to access external/internal APIs, the key criterion is integration capability — specifically MCP servers that can bridge the agent to those proprietary APIs securely.
 
 ---
 
+### Question 29
 
-### Question 9
+**Domain**: 5 | **Format**: Scenario-Based
 
-**Domain**: domain-3 | **Format**: Multiple Choice
+A developer prompts the agent with "add pagination." The agent's output is incomplete and doesn't match the project's existing patterns. What is the best next step?
 
-
-A developer needs to implement Measure agent output quality in their GitHub Copilot workflow. Which approach should they use?
-
-- A. A developer applies Measure agent output quality in their workflow.
-- B. Skip Measure agent output quality configuration and rely on default settings without validation.
-- C. Implement a custom solution that bypasses GitHub's built-in Measure agent output quality support.
-- D. Defer Measure agent output quality implementation to a later phase without any interim measures.
-
+- A. Accept the output and manually fix it
+- B. Provide more specific context: "Add cursor-based pagination to the /users endpoint following the pattern in /products endpoint, using the existing PageInfo type"
+- C. Switch to a different AI tool
+- D. Disable agent mode and write it manually
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: B
 
-    The correct answer is A. When implementing Measure agent output quality, developers should follow established best practices that align with the Evaluate and optimize agent performance domain requirements. See study notes: Measure agent output quality (Evaluate and optimize agent performance)
+    Iterative refinement with specific context improves agent output. Referencing existing patterns, specifying the approach (cursor-based), and pointing to examples (products endpoint) gives the agent what it needs.
 
-
-    - **B** (incorrect): Incorrect. Relying on defaults without validation may miss critical Measure agent output quality requirements.
-
-    - **C** (incorrect): Incorrect. Custom solutions that bypass built-in support add unnecessary complexity and risk.
-
-    - **D** (incorrect): Incorrect. Deferring without interim measures can lead to technical debt and security gaps.
-
+    - **A**: Defeats the purpose of using the agent.
+    - **C, D**: Premature — the issue is prompt quality, not tool capability.
 
 ---
 
+### Question 30
 
-### Question 10
+**Domain**: 4 | **Format**: Multiple Select
 
-**Domain**: domain-3 | **Format**: Multiple Select
+Which of the following should trigger a security alert in an agent monitoring system? (Select all that apply)
 
-
-Which of the following are valid considerations when working with Optimize agent response latency? (Select all that apply)
-
-- A. Optimize agent response latency is part of the Evaluate and optimize agent performance domain.
-- B. This topic is tested in the GH-600 certification exam.
-- C. Ignoring Optimize agent response latency requirements has no impact on the development workflow.
-- D. Optimize agent response latency is only relevant for non-GitHub platforms.
-- E. Focus on practical applications of Optimize agent response latency.
-
+- A. Agent reads a source file in the allowed directory
+- B. Agent attempts to access a file in the secrets/ directory
+- C. Agent generates 100 lines of code
+- D. Agent attempts to run `curl` to an unknown external URL
+- E. Agent tries to modify the .github/workflows/ directory
 
 ??? success "Answer"
-    **Correct**: A, B, E
+    **Correct**: B, D, E
 
-    Options A, B, E are correct. When working with Optimize agent response latency, developers must consider multiple factors that align with Evaluate and optimize agent performance best practices. See study notes: Optimize agent response latency (Evaluate and optimize agent performance)
+    Security alerts should trigger for: accessing sensitive directories (secrets/), network requests to unknown URLs, and modifying security-critical configs (CI/CD workflows).
 
-
-    - **C** (incorrect): Incorrect. Optimize agent response latency requirements directly impact workflow quality and outcomes.
-
-    - **D** (incorrect): Incorrect. Optimize agent response latency is a core GitHub ecosystem concept relevant to GH-600.
-
+    - **A**: Reading allowed files is normal.
+    - **C**: Generating code is the agent's job.
 
 ---
 
+### Questions 31-40
 
-### Question 11
+### Question 31
 
-**Domain**: domain-4 | **Format**: Multiple Choice
+**Domain**: 2 | **Format**: Multiple Choice
 
+What happens when a Copilot agent mode task encounters a build error after editing files?
 
-A developer needs to implement Terms of Use | Microsoft Learn
-learn in their GitHub Copilot workflow. Which approach should they use?
-
-- A. A developer uses Terms of Use | Microsoft Learn
-learn when configuring GitHub Copilot agent mode to assist with code generation and review tasks in their development workflow.
-- B. Skip Terms of Use | Microsoft Learn
-learn configuration and rely on default settings without validation.
-- C. Implement a custom solution that bypasses GitHub's built-in Terms of Use | Microsoft Learn
-learn support.
-- D. Defer Terms of Use | Microsoft Learn
-learn implementation to a later phase without any interim measures.
-
+- A. The agent stops and asks the user to fix it
+- B. The agent automatically analyzes the error and attempts to fix it
+- C. The agent reverts all changes and starts over
+- D. The agent ignores the error and continues
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: B
 
-    The correct answer is A. When implementing Terms of Use | Microsoft Learn
-learn, developers should follow established best practices that align with the Secure and govern agentic AI solutions domain requirements. See study notes: Terms of Use | Microsoft Learn
-learn (Secure and govern agentic AI solutions)
-
-
-    - **B** (incorrect): Incorrect. Relying on defaults without validation may miss critical Terms of Use | Microsoft Learn
-learn requirements.
-
-    - **C** (incorrect): Incorrect. Custom solutions that bypass built-in support add unnecessary complexity and risk.
-
-    - **D** (incorrect): Incorrect. Deferring without interim measures can lead to technical debt and security gaps.
-
+    Agent mode's iterate capability means it automatically reads error output, identifies the cause, and makes corrections — repeating until successful or reaching a limit.
 
 ---
 
+### Question 32
 
-### Question 12
+**Domain**: 6 | **Format**: Scenario-Based
 
-**Domain**: domain-4 | **Format**: Multiple Select
+An AI agent generates variable names like `manHours`, `masterBranch`, and `whitelistIPs` in a new codebase. Which responsible AI principle is most directly violated?
 
-
-Which of the following are valid considerations when working with Modern Lifecycle Policy - Microsoft Lifecycle |...? (Select all that apply)
-
-- A. Modern Lifecycle Policy - Microsoft Lifecycle |... is part of the Secure and govern agentic AI solutions domain (domain-4) in the GH-600 certification.
-- B. This topic covers 4 knowledge point(s) that candidates must understand.
-- C. Ignoring Modern Lifecycle Policy - Microsoft Lifecycle |... requirements has no impact on the development workflow.
-- D. Modern Lifecycle Policy - Microsoft Lifecycle |... is only relevant for non-GitHub platforms.
-- E. Focus on understanding the practical applications of Modern Lifecycle Policy - Microsoft Lifecycle |... rather than just memorizing definitions.
-
+- A. Reliability
+- B. Transparency
+- C. Fairness and Inclusiveness
+- D. Privacy
 
 ??? success "Answer"
-    **Correct**: A, B, E
+    **Correct**: C
 
-    Options A, B, E are correct. When working with Modern Lifecycle Policy - Microsoft Lifecycle |..., developers must consider multiple factors that align with Secure and govern agentic AI solutions best practices. See study notes: Modern Lifecycle Policy - Microsoft Lifecycle |... (Secure and govern agentic AI solutions)
-
-
-    - **C** (incorrect): Incorrect. Modern Lifecycle Policy - Microsoft Lifecycle |... requirements directly impact workflow quality and outcomes.
-
-    - **D** (incorrect): Incorrect. Modern Lifecycle Policy - Microsoft Lifecycle |... is a core GitHub ecosystem concept relevant to GH-600.
-
+    Non-inclusive language (gendered terms, master/slave, whitelist/blacklist) violates fairness and inclusiveness principles. The correct alternatives: `personHours`, `mainBranch`, `allowedIPs`.
 
 ---
 
+### Question 33
 
-### Question 13
+**Domain**: 3 | **Format**: Multiple Choice
 
-**Domain**: domain-4 | **Format**: Multiple Choice
+Which evaluation approach best measures whether an agent's code generation matches production quality standards?
 
-
-A developer needs to implement Browse Credentials | Microsoft Learn
-Browse... in their GitHub Copilot workflow. Which approach should they use?
-
-- A. A developer uses Browse Credentials | Microsoft Learn
-Browse... when configuring GitHub Copilot agent mode to assist with code generation and review tasks in their development workflow.
-- B. Skip Browse Credentials | Microsoft Learn
-Browse... configuration and rely on default settings without validation.
-- C. Implement a custom solution that bypasses GitHub's built-in Browse Credentials | Microsoft Learn
-Browse... support.
-- D. Defer Browse Credentials | Microsoft Learn
-Browse... implementation to a later phase without any interim measures.
-
+- A. Only checking if the code compiles
+- B. Combining automated static analysis, test execution, and human review
+- C. Counting the number of lines generated
+- D. Measuring response time only
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: B
 
-    The correct answer is A. When implementing Browse Credentials | Microsoft Learn
-Browse..., developers should follow established best practices that align with the Secure and govern agentic AI solutions domain requirements. See study notes: Browse Credentials | Microsoft Learn
-Browse... (Secure and govern agentic AI solutions)
-
-
-    - **B** (incorrect): Incorrect. Relying on defaults without validation may miss critical Browse Credentials | Microsoft Learn
-Browse... requirements.
-
-    - **C** (incorrect): Incorrect. Custom solutions that bypass built-in support add unnecessary complexity and risk.
-
-    - **D** (incorrect): Incorrect. Deferring without interim measures can lead to technical debt and security gaps.
-
+    Production quality requires multiple evaluation dimensions: static analysis (code quality), tests (correctness), and human review (design quality, readability).
 
 ---
 
+### Question 34
 
-### Question 14
+**Domain**: 2 | **Format**: Multiple Choice
 
-**Domain**: domain-4 | **Format**: Multiple Select
+In MCP, what is the difference between a "tool" and a "resource"?
 
-
-Which of the following are valid considerations when working with About online exams with Pearson VUE | Microsoft...? (Select all that apply)
-
-- A. About online exams with Pearson VUE | Microsoft... is part of the Secure and govern agentic AI solutions domain (domain-4) in the GH-600 certification.
-- B. This topic covers 1 knowledge point(s) that candidates must understand.
-- C. Ignoring About online exams with Pearson VUE | Microsoft... requirements has no impact on the development workflow.
-- D. About online exams with Pearson VUE | Microsoft... is only relevant for non-GitHub platforms.
-- E. Focus on understanding the practical applications of About online exams with Pearson VUE | Microsoft... rather than just memorizing definitions.
-
+- A. Tools are free, resources cost money
+- B. Tools are actions the agent invokes; resources are data the agent reads
+- C. Tools run on the client; resources run on the server
+- D. There is no difference — they are synonyms
 
 ??? success "Answer"
-    **Correct**: A, B, E
+    **Correct**: B
 
-    Options A, B, E are correct. When working with About online exams with Pearson VUE | Microsoft..., developers must consider multiple factors that align with Secure and govern agentic AI solutions best practices. See study notes: About online exams with Pearson VUE | Microsoft... (Secure and govern agentic AI solutions)
-
-
-    - **C** (incorrect): Incorrect. About online exams with Pearson VUE | Microsoft... requirements directly impact workflow quality and outcomes.
-
-    - **D** (incorrect): Incorrect. About online exams with Pearson VUE | Microsoft... is a core GitHub ecosystem concept relevant to GH-600.
-
+    Tools = functions/actions (e.g., query_database, send_email). Resources = data sources (e.g., file contents, API data). Tools DO things; resources PROVIDE information.
 
 ---
 
+### Question 35-40
 
-### Question 15
+### Question 35
 
-**Domain**: domain-5 | **Format**: Multiple Choice
+**Domain**: 1 | **Format**: Multiple Choice
 
+What algorithm is commonly used to determine agent task execution order when tasks have dependencies?
 
-A developer needs to implement Exercise - Develop with AI-powered code suggestions by... in their GitHub Copilot workflow. Which approach should they use?
-
-- A. A developer uses Exercise - Develop with AI-powered code suggestions by... when configuring GitHub Copilot agent mode to assist with code generation and review tasks in their development workflow.
-- B. Skip Exercise - Develop with AI-powered code suggestions by... configuration and rely on default settings without validation.
-- C. Implement a custom solution that bypasses GitHub's built-in Exercise - Develop with AI-powered code suggestions by... support.
-- D. Defer Exercise - Develop with AI-powered code suggestions by... implementation to a later phase without any interim measures.
-
+- A. Binary search
+- B. Topological sort (Kahn's algorithm)
+- C. Bubble sort
+- D. Depth-first search only
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: B
 
-    The correct answer is A. When implementing Exercise - Develop with AI-powered code suggestions by..., developers should follow established best practices that align with the Collaborate with AI agents in the development workflow domain requirements. See study notes: Exercise - Develop with AI-powered code suggestions by... (Collaborate with AI agents in the development workflow)
-
-
-    - **B** (incorrect): Incorrect. Relying on defaults without validation may miss critical Exercise - Develop with AI-powered code suggestions by... requirements.
-
-    - **C** (incorrect): Incorrect. Custom solutions that bypass built-in support add unnecessary complexity and risk.
-
-    - **D** (incorrect): Incorrect. Deferring without interim measures can lead to technical debt and security gaps.
-
+    Topological sort (Kahn's algorithm) determines a valid execution order that respects all dependencies — no task runs before its prerequisites.
 
 ---
 
+### Question 36
 
-### Question 16
+**Domain**: 4 | **Format**: Multiple Choice
 
-**Domain**: domain-5 | **Format**: Multiple Select
+What is the primary security benefit of MCP's tool approval system?
 
-
-Which of the following are valid considerations when working with Exercise - Develop with AI-powered code suggestions by...? (Select all that apply)
-
-- A. Exercise - Develop with AI-powered code suggestions by... is part of the Collaborate with AI agents in the development workflow domain (domain-5) in the GH-600 certification.
-- B. This topic covers 2 knowledge point(s) that candidates must understand.
-- C. Ignoring Exercise - Develop with AI-powered code suggestions by... requirements has no impact on the development workflow.
-- D. Exercise - Develop with AI-powered code suggestions by... is only relevant for non-GitHub platforms.
-- E. Focus on understanding the practical applications of Exercise - Develop with AI-powered code suggestions by... rather than just memorizing definitions.
-
+- A. It makes the agent faster
+- B. It ensures humans explicitly authorize each potentially risky operation before execution
+- C. It prevents the agent from making any changes
+- D. It encrypts all data
 
 ??? success "Answer"
-    **Correct**: A, B, E
+    **Correct**: B
 
-    Options A, B, E are correct. When working with Exercise - Develop with AI-powered code suggestions by..., developers must consider multiple factors that align with Collaborate with AI agents in the development workflow best practices. See study notes: Exercise - Develop with AI-powered code suggestions by... (Collaborate with AI agents in the development workflow)
-
-
-    - **C** (incorrect): Incorrect. Exercise - Develop with AI-powered code suggestions by... requirements directly impact workflow quality and outcomes.
-
-    - **D** (incorrect): Incorrect. Exercise - Develop with AI-powered code suggestions by... is a core GitHub ecosystem concept relevant to GH-600.
-
+    Tool approval ensures human oversight for risky operations — the agent proposes an action, the user reviews and approves/rejects before execution.
 
 ---
 
+### Question 37
 
-### Question 17
+**Domain**: 5 | **Format**: Multiple Choice
 
-**Domain**: domain-5 | **Format**: Multiple Choice
+Which CI/CD stage is most appropriate for AI-assisted automatic code formatting fixes?
 
-
-A developer needs to implement Exercise - Develop with AI-powered code suggestions by... in their GitHub Copilot workflow. Which approach should they use?
-
-- A. A developer uses Exercise - Develop with AI-powered code suggestions by... when configuring GitHub Copilot agent mode to assist with code generation and review tasks in their development workflow.
-- B. Skip Exercise - Develop with AI-powered code suggestions by... configuration and rely on default settings without validation.
-- C. Implement a custom solution that bypasses GitHub's built-in Exercise - Develop with AI-powered code suggestions by... support.
-- D. Defer Exercise - Develop with AI-powered code suggestions by... implementation to a later phase without any interim measures.
-
+- A. Production deployment
+- B. Pre-commit or early build stage
+- C. After deployment monitoring
+- D. Manual review phase
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: B
 
-    The correct answer is A. When implementing Exercise - Develop with AI-powered code suggestions by..., developers should follow established best practices that align with the Collaborate with AI agents in the development workflow domain requirements. See study notes: Exercise - Develop with AI-powered code suggestions by... (Collaborate with AI agents in the development workflow)
-
-
-    - **B** (incorrect): Incorrect. Relying on defaults without validation may miss critical Exercise - Develop with AI-powered code suggestions by... requirements.
-
-    - **C** (incorrect): Incorrect. Custom solutions that bypass built-in support add unnecessary complexity and risk.
-
-    - **D** (incorrect): Incorrect. Deferring without interim measures can lead to technical debt and security gaps.
-
+    Auto-formatting is a safe, non-semantic change that should happen early (pre-commit or build stage) before more complex steps.
 
 ---
 
+### Question 38
 
-### Question 18
+**Domain**: 2 | **Format**: Multiple Choice
 
-**Domain**: domain-5 | **Format**: Multiple Select
+What is the correct context priority order for agent mode?
 
-
-Which of the following are valid considerations when working with Exercise - Develop with AI-powered code suggestions by...? (Select all that apply)
-
-- A. Exercise - Develop with AI-powered code suggestions by... is part of the Collaborate with AI agents in the development workflow domain (domain-5) in the GH-600 certification.
-- B. This topic covers 2 knowledge point(s) that candidates must understand.
-- C. Ignoring Exercise - Develop with AI-powered code suggestions by... requirements has no impact on the development workflow.
-- D. Exercise - Develop with AI-powered code suggestions by... is only relevant for non-GitHub platforms.
-- E. Focus on understanding the practical applications of Exercise - Develop with AI-powered code suggestions by... rather than just memorizing definitions.
-
+- A. Structure → Files → Request → References
+- B. Request → References → Active File → Relevant Files → Structure
+- C. Active File → Request → Structure → Everything
+- D. Random selection of context
 
 ??? success "Answer"
-    **Correct**: A, B, E
+    **Correct**: B
 
-    Options A, B, E are correct. When working with Exercise - Develop with AI-powered code suggestions by..., developers must consider multiple factors that align with Collaborate with AI agents in the development workflow best practices. See study notes: Exercise - Develop with AI-powered code suggestions by... (Collaborate with AI agents in the development workflow)
-
-
-    - **C** (incorrect): Incorrect. Exercise - Develop with AI-powered code suggestions by... requirements directly impact workflow quality and outcomes.
-
-    - **D** (incorrect): Incorrect. Exercise - Develop with AI-powered code suggestions by... is a core GitHub ecosystem concept relevant to GH-600.
-
+    Context priority: User's request (highest) → Explicit references (#file) → Active file → Semantically relevant files → Project structure (lowest).
 
 ---
 
+### Question 39
 
-### Question 19
+**Domain**: 6 | **Format**: Multiple Choice
 
-**Domain**: domain-6 | **Format**: Multiple Choice
+What should happen when an AI agent's output confidence is low?
 
-
-A developer needs to implement Microsoft Certification Renewal | Microsoft... in their GitHub Copilot workflow. Which approach should they use?
-
-- A. A developer uses Microsoft Certification Renewal | Microsoft... when configuring GitHub Copilot agent mode to assist with code generation and review tasks in their development workflow.
-- B. Skip Microsoft Certification Renewal | Microsoft... configuration and rely on default settings without validation.
-- C. Implement a custom solution that bypasses GitHub's built-in Microsoft Certification Renewal | Microsoft... support.
-- D. Defer Microsoft Certification Renewal | Microsoft... implementation to a later phase without any interim measures.
-
+- A. Hide the output from the user
+- B. Present the output with a confidence indicator and suggest human verification
+- C. Generate a completely different response
+- D. Automatically submit it anyway
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: B
 
-    The correct answer is A. When implementing Microsoft Certification Renewal | Microsoft..., developers should follow established best practices that align with the Implement responsible AI practices domain requirements. See study notes: Microsoft Certification Renewal | Microsoft... (Implement responsible AI practices)
-
-
-    - **B** (incorrect): Incorrect. Relying on defaults without validation may miss critical Microsoft Certification Renewal | Microsoft... requirements.
-
-    - **C** (incorrect): Incorrect. Custom solutions that bypass built-in support add unnecessary complexity and risk.
-
-    - **D** (incorrect): Incorrect. Deferring without interim measures can lead to technical debt and security gaps.
-
+    Transparency requires indicating confidence levels. Low confidence output should be clearly marked and accompanied by a suggestion for human verification.
 
 ---
 
+### Question 40
 
-### Question 20
+**Domain**: 3 | **Format**: Multiple Choice
 
-**Domain**: domain-6 | **Format**: Multiple Select
+What is the recommended p95 latency target for individual agent mode steps?
 
-
-Which of the following are valid considerations when working with Introduction - Training | Microsoft Learn
-Read in...? (Select all that apply)
-
-- A. Introduction - Training | Microsoft Learn
-Read in... is part of the Implement responsible AI practices domain (domain-6) in the GH-600 certification.
-- B. This topic covers 2 knowledge point(s) that candidates must understand.
-- C. Ignoring Introduction - Training | Microsoft Learn
-Read in... requirements has no impact on the development workflow.
-- D. Introduction - Training | Microsoft Learn
-Read in... is only relevant for non-GitHub platforms.
-- E. Focus on understanding the practical applications of Introduction - Training | Microsoft Learn
-Read in... rather than just memorizing definitions.
-
+- A. < 200ms
+- B. < 2 seconds
+- C. < 10 seconds
+- D. < 60 seconds
 
 ??? success "Answer"
-    **Correct**: A, B, E
+    **Correct**: C
 
-    Options A, B, E are correct. When working with Introduction - Training | Microsoft Learn
-Read in..., developers must consider multiple factors that align with Implement responsible AI practices best practices. See study notes: Introduction - Training | Microsoft Learn
-Read in... (Implement responsible AI practices)
-
-
-    - **C** (incorrect): Incorrect. Introduction - Training | Microsoft Learn
-Read in... requirements directly impact workflow quality and outcomes.
-
-    - **D** (incorrect): Incorrect. Introduction - Training | Microsoft Learn
-Read in... is a core GitHub ecosystem concept relevant to GH-600.
-
+    Individual agent mode steps target < 10 seconds. Inline suggestions target < 200ms, chat first token < 2s.
 
 ---
-
-
 
 ## Advanced Questions
 
 !!! note "Difficulty: Advanced"
-    These questions require multi-topic analysis and scenario-based reasoning.
+    Multi-domain analysis and complex scenarios. These questions require combining knowledge from 2+ domains.
 
+### Question 41
 
-### Question 1
+**Domain**: 2, 4 | **Format**: Scenario-Based
 
-**Domain**: domain-1 | **Format**: Scenario Based | **Topics**: topic-001, topic-006
+A fintech company wants to deploy an MCP server that gives their AI agent access to a transaction processing API. The API can read transaction history and initiate refunds. The agent is used by customer support developers to debug issues.
 
+Which implementation approach best balances utility and security?
 
-> **Scenario**: A development team is implementing a new AI-assisted workflow that involves both Exam scoring and score reports | Microsoft Learn
-Table... and Study guide for Exam GH-600: Developing in Agentic AI.... During the implementation, they encounter a situation where the configuration for Exam scoring and score reports | Microsoft Learn
-Table... conflicts with requirements from Study guide for Exam GH-600: Developing in Agentic AI.... The team needs to find an approach that satisfies both requirements while maintaining best practices for the Prepare agent architecture and SDLC processes domain.
-
-
-Given this scenario, what is the most appropriate approach to resolve the conflict between Exam scoring and score reports | Microsoft Learn
-Table... and Study guide for Exam GH-600: Developing in Agentic AI...?
-
-- A. Analyze both Exam scoring and score reports | Microsoft Learn
-Table... and Study guide for Exam GH-600: Developing in Agentic AI... requirements, then implement a unified configuration that addresses the core objectives of both while following Prepare agent architecture and SDLC processes principles.
-- B. Prioritize Exam scoring and score reports | Microsoft Learn
-Table... over Study guide for Exam GH-600: Developing in Agentic AI... and disable the conflicting features entirely.
-- C. Implement separate, disconnected solutions for each requirement without considering their interaction.
-- D. Remove both Exam scoring and score reports | Microsoft Learn
-Table... and Study guide for Exam GH-600: Developing in Agentic AI... configurations and proceed with manual processes instead.
-
+- A. Expose both read and refund capabilities as MCP tools with no restrictions
+- B. Expose read-only transaction history as a tool; expose refund as a tool requiring explicit user approval with amount limits and audit logging
+- C. Don't use MCP; manually copy-paste transaction data into prompts
+- D. Expose all capabilities but add a disclaimer to the agent's system prompt
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: B
 
-    The correct answer is A. When facing conflicts between related concepts like Exam scoring and score reports | Microsoft Learn
-Table... and Study guide for Exam GH-600: Developing in Agentic AI..., the best practice is to analyze both requirements and find a unified solution. This demonstrates advanced understanding of how multiple concepts interact within and across domains. See study notes: Exam scoring and score reports | Microsoft Learn
-Table... (Prepare agent architecture and SDLC processes), Study guide for Exam GH-600: Developing in Agentic AI...
+    This balances utility with security: read-only access helps debugging (safe), while refunds (financial action) require human approval, limits, and full audit trail. This combines MCP tool design (Domain 2) with security governance (Domain 4).
 
-
-    - **B** (incorrect): Incorrect. Disabling features entirely ignores the requirements of Study guide for Exam GH-600: Developing in Agentic AI... and reduces overall capability.
-
-    - **C** (incorrect): Incorrect. Disconnected solutions fail to address the interaction between Exam scoring and score reports | Microsoft Learn
-Table... and Study guide for Exam GH-600: Developing in Agentic AI..., potentially causing runtime conflicts.
-
-    - **D** (incorrect): Incorrect. Reverting to manual processes eliminates the benefits of both Exam scoring and score reports | Microsoft Learn
-Table... and Study guide for Exam GH-600: Developing in Agentic AI... and doesn't demonstrate AI-assisted development skills.
-
+    - **A**: No restrictions on financial operations is unacceptable.
+    - **C**: Impractical and defeats the purpose of agent tooling.
+    - **D**: System prompts are not security controls — they can be overridden.
 
 ---
 
+### Question 42
 
-### Question 2
+**Domain**: 1, 3, 5 | **Format**: Scenario-Based
 
-**Domain**: domain-1 | **Format**: Multiple Choice | **Topics**: topic-002, topic-006
+A development team has been using AI agents for 3 months. Their metrics show: task completion rate 72% (target >85%), average 8 iterations per task (target <5), and user acceptance rate 60% (target >75%). Code quality metrics remain high when tasks do complete.
 
+What is the most likely root cause and recommended action?
 
-When evaluating the interaction between Request exam accommodations and frequently asked... and Study guide for Exam GH-600: Developing in Agentic AI... in an enterprise GitHub Copilot deployment, which analysis is most accurate?
-
-- A. Request exam accommodations and frequently asked... and Study guide for Exam GH-600: Developing in Agentic AI... are complementary concepts that together ensure robust AI-assisted development within the Prepare agent architecture and SDLC processes domain.
-- B. Request exam accommodations and frequently asked... and Study guide for Exam GH-600: Developing in Agentic AI... are mutually exclusive and cannot be implemented simultaneously.
-- C. Request exam accommodations and frequently asked... completely subsumes Study guide for Exam GH-600: Developing in Agentic AI..., making the latter unnecessary in practice.
-- D. Neither Request exam accommodations and frequently asked... nor Study guide for Exam GH-600: Developing in Agentic AI... is relevant to enterprise deployments of GitHub Copilot.
-
+- A. The AI model is too small — upgrade to a larger model
+- B. Tasks being assigned to agents are too complex and should be decomposed into smaller sub-tasks before agent execution
+- C. Users are not prompting correctly — provide training
+- D. The agent should be given more tools
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: B
 
-    The correct answer is A. In enterprise deployments, Request exam accommodations and frequently asked... and Study guide for Exam GH-600: Developing in Agentic AI... work together to provide comprehensive coverage of Prepare agent architecture and SDLC processes requirements. Understanding their complementary nature is key for advanced GH-600 exam questions. See study notes: Request exam accommodations and frequently asked... (Prepare agent architecture and SDLC processes), Study guide for Exam GH-600: Developing in Agentic AI...
+    High iteration count (8 vs target 5) combined with low completion (72%) suggests tasks are too complex for single-agent execution. The solution is better task decomposition (Domain 1 architecture) to improve completion rates (Domain 3 KPIs) and developer satisfaction (Domain 5 collaboration).
 
-
-    - **B** (incorrect): Incorrect. Request exam accommodations and frequently asked... and Study guide for Exam GH-600: Developing in Agentic AI... are not mutually exclusive; they can and should coexist.
-
-    - **C** (incorrect): Incorrect. Study guide for Exam GH-600: Developing in Agentic AI... addresses distinct concerns that are not fully covered by Request exam accommodations and frequently asked... alone.
-
-    - **D** (incorrect): Incorrect. Both concepts are directly relevant to enterprise GitHub Copilot deployments.
-
+    - **A**: Code quality is fine when tasks complete — model capability isn't the issue.
+    - **C**: This might help marginally but doesn't address structural task complexity.
+    - **D**: More tools without better task scoping won't reduce iterations.
 
 ---
 
+### Question 43
 
-### Question 3
+**Domain**: 4, 6 | **Format**: Scenario-Based
 
-**Domain**: domain-1 | **Format**: Scenario Based | **Topics**: topic-003, topic-006
+An organization's AI agent was found to be suggesting code that uses gendered language in variable names and documentation. The agent also occasionally includes code patterns from a single dominant programming style, ignoring the team's established conventions. An audit is requested.
 
+Which combination of actions is most comprehensive?
 
-> **Scenario**: A development team is implementing a new AI-assisted workflow that involves both Search Product and Services Lifecycle Information -... and Study guide for Exam GH-600: Developing in Agentic AI.... During the implementation, they encounter a situation where the configuration for Search Product and Services Lifecycle Information -... conflicts with requirements from Study guide for Exam GH-600: Developing in Agentic AI.... The team needs to find an approach that satisfies both requirements while maintaining best practices for the Prepare agent architecture and SDLC processes domain.
-
-
-Given this scenario, what is the most appropriate approach to resolve the conflict between Search Product and Services Lifecycle Information -... and Study guide for Exam GH-600: Developing in Agentic AI...?
-
-- A. Analyze both Search Product and Services Lifecycle Information -... and Study guide for Exam GH-600: Developing in Agentic AI... requirements, then implement a unified configuration that addresses the core objectives of both while following Prepare agent architecture and SDLC processes principles.
-- B. Prioritize Search Product and Services Lifecycle Information -... over Study guide for Exam GH-600: Developing in Agentic AI... and disable the conflicting features entirely.
-- C. Implement separate, disconnected solutions for each requirement without considering their interaction.
-- D. Remove both Search Product and Services Lifecycle Information -... and Study guide for Exam GH-600: Developing in Agentic AI... configurations and proceed with manual processes instead.
-
+- A. Add a linter rule for gendered language and retrain the model
+- B. Implement output scanning for bias indicators, add team style guides to agent context, enable audit logging of all suggestions, and conduct quarterly bias assessments
+- C. Tell developers to manually fix any issues they notice
+- D. Disable the agent until the problem is completely solved
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: B
 
-    The correct answer is A. When facing conflicts between related concepts like Search Product and Services Lifecycle Information -... and Study guide for Exam GH-600: Developing in Agentic AI..., the best practice is to analyze both requirements and find a unified solution. This demonstrates advanced understanding of how multiple concepts interact within and across domains. See study notes: Search Product and Services Lifecycle Information -... (Prepare agent architecture and SDLC processes), Study guide for Exam GH-600: Developing in Agentic AI...
+    Comprehensive responsible AI compliance (Domain 6) requires: output scanning (detect bias), context enrichment (style guides solve convention issues), audit logging (Domain 4 governance), and regular assessment (ongoing compliance). This addresses both the bias and convention issues systematically.
 
-
-    - **B** (incorrect): Incorrect. Disabling features entirely ignores the requirements of Study guide for Exam GH-600: Developing in Agentic AI... and reduces overall capability.
-
-    - **C** (incorrect): Incorrect. Disconnected solutions fail to address the interaction between Search Product and Services Lifecycle Information -... and Study guide for Exam GH-600: Developing in Agentic AI..., potentially causing runtime conflicts.
-
-    - **D** (incorrect): Incorrect. Reverting to manual processes eliminates the benefits of both Search Product and Services Lifecycle Information -... and Study guide for Exam GH-600: Developing in Agentic AI... and doesn't demonstrate AI-assisted development skills.
-
+    - **A**: Linting alone doesn't address documentation patterns or style conformance. You can't easily retrain the model.
+    - **C**: Reactive and unreliable — doesn't prevent issues.
+    - **D**: Too extreme and doesn't solve the underlying problem.
 
 ---
 
+### Question 44
 
-### Question 4
+**Domain**: 2, 5 | **Format**: Scenario-Based
 
-**Domain**: domain-1 | **Format**: Multiple Choice | **Topics**: topic-004, topic-006
+A developer needs to add a new feature that involves: creating a new database migration, updating the API handler, adding validation logic, writing tests, and updating the OpenAPI spec. They want to use Copilot agent mode.
 
+What is the most effective approach?
 
-When evaluating the interaction between Exam and Applied Skills assessment lab retake policies |... and Study guide for Exam GH-600: Developing in Agentic AI... in an enterprise GitHub Copilot deployment, which analysis is most accurate?
-
-- A. Exam and Applied Skills assessment lab retake policies |... and Study guide for Exam GH-600: Developing in Agentic AI... are complementary concepts that together ensure robust AI-assisted development within the Prepare agent architecture and SDLC processes domain.
-- B. Exam and Applied Skills assessment lab retake policies |... and Study guide for Exam GH-600: Developing in Agentic AI... are mutually exclusive and cannot be implemented simultaneously.
-- C. Exam and Applied Skills assessment lab retake policies |... completely subsumes Study guide for Exam GH-600: Developing in Agentic AI..., making the latter unnecessary in practice.
-- D. Neither Exam and Applied Skills assessment lab retake policies |... nor Study guide for Exam GH-600: Developing in Agentic AI... is relevant to enterprise deployments of GitHub Copilot.
-
+- A. Write one prompt describing all 5 tasks and let the agent handle everything at once
+- B. Provide a structured prompt that describes the feature, reference the existing migration pattern (#file), specify the validation requirements, and let the agent iterate through the implementation while running tests after each major change
+- C. Complete each task in separate agent sessions with no context sharing
+- D. Use inline suggestions only for each file
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: B
 
-    The correct answer is A. In enterprise deployments, Exam and Applied Skills assessment lab retake policies |... and Study guide for Exam GH-600: Developing in Agentic AI... work together to provide comprehensive coverage of Prepare agent architecture and SDLC processes requirements. Understanding their complementary nature is key for advanced GH-600 exam questions. See study notes: Exam and Applied Skills assessment lab retake policies |... (Prepare agent architecture and SDLC processes), Study guide for Exam GH-600: Developing in Agentic AI...
+    Effective agent collaboration (Domain 5) with agent mode (Domain 2) requires: clear structured prompts, context references to existing patterns, specific requirements, and leveraging the agent's ability to test incrementally.
 
-
-    - **B** (incorrect): Incorrect. Exam and Applied Skills assessment lab retake policies |... and Study guide for Exam GH-600: Developing in Agentic AI... are not mutually exclusive; they can and should coexist.
-
-    - **C** (incorrect): Incorrect. Study guide for Exam GH-600: Developing in Agentic AI... addresses distinct concerns that are not fully covered by Exam and Applied Skills assessment lab retake policies |... alone.
-
-    - **D** (incorrect): Incorrect. Both concepts are directly relevant to enterprise GitHub Copilot deployments.
-
+    - **A**: Too vague — the agent may miss project-specific patterns without references.
+    - **C**: Losing context between sessions reduces quality.
+    - **D**: Inline suggestions can't handle multi-file coordinated changes.
 
 ---
 
+### Question 45
 
-### Question 5
+**Domain**: 3, 4 | **Format**: Scenario-Based
 
-**Domain**: domain-2 | **Format**: Scenario Based | **Topics**: topic-006, topic-001
+An agent's security scanning tool reports that its output contains a potential secret (an API key pattern) 2% of the time. The agent's task completion rate is 92% and code quality scores are high. How should this be handled?
 
-
-> **Scenario**: A development team is implementing a new AI-assisted workflow that involves both Study guide for Exam GH-600: Developing in Agentic AI... and Exam scoring and score reports | Microsoft Learn
-Table.... During the implementation, they encounter a situation where the configuration for Study guide for Exam GH-600: Developing in Agentic AI... conflicts with requirements from Exam scoring and score reports | Microsoft Learn
-Table.... The team needs to find an approach that satisfies both requirements while maintaining best practices for the Design and implement agentic solutions domain.
-
-
-Given this scenario, what is the most appropriate approach to resolve the conflict between Study guide for Exam GH-600: Developing in Agentic AI... and Exam scoring and score reports | Microsoft Learn
-Table...?
-
-- A. Analyze both Study guide for Exam GH-600: Developing in Agentic AI... and Exam scoring and score reports | Microsoft Learn
-Table... requirements, then implement a unified configuration that addresses the core objectives of both while following Design and implement agentic solutions principles.
-- B. Prioritize Study guide for Exam GH-600: Developing in Agentic AI... over Exam scoring and score reports | Microsoft Learn
-Table... and disable the conflicting features entirely.
-- C. Implement separate, disconnected solutions for each requirement without considering their interaction.
-- D. Remove both Study guide for Exam GH-600: Developing in Agentic AI... and Exam scoring and score reports | Microsoft Learn
-Table... configurations and proceed with manual processes instead.
-
+- A. Ignore it since the completion rate is high
+- B. Implement output filtering to detect and redact secret patterns before presenting to users, alert the security team, and investigate how secrets enter the agent's context
+- C. Reduce the agent's file read permissions to zero
+- D. Add a warning to the README
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: B
 
-    The correct answer is A. When facing conflicts between related concepts like Study guide for Exam GH-600: Developing in Agentic AI... and Exam scoring and score reports | Microsoft Learn
-Table..., the best practice is to analyze both requirements and find a unified solution. This demonstrates advanced understanding of how multiple concepts interact within and across domains. See study notes: Study guide for Exam GH-600: Developing in Agentic AI... (Design and implement agentic solutions), Exam scoring and score reports | Microsoft Learn
-Table...
+    Security issues override performance metrics. Even at 2%, secret leakage is critical. The fix: filter outputs (immediate mitigation), alert security (governance), and investigate context sources (root cause). This combines Domain 4 security with Domain 3 monitoring.
 
-
-    - **B** (incorrect): Incorrect. Disabling features entirely ignores the requirements of Exam scoring and score reports | Microsoft Learn
-Table... and reduces overall capability.
-
-    - **C** (incorrect): Incorrect. Disconnected solutions fail to address the interaction between Study guide for Exam GH-600: Developing in Agentic AI... and Exam scoring and score reports | Microsoft Learn
-Table..., potentially causing runtime conflicts.
-
-    - **D** (incorrect): Incorrect. Reverting to manual processes eliminates the benefits of both Study guide for Exam GH-600: Developing in Agentic AI... and Exam scoring and score reports | Microsoft Learn
-Table... and doesn't demonstrate AI-assisted development skills.
-
+    - **A**: Security violations are never acceptable regardless of other metrics.
+    - **C**: Removing all read access makes the agent useless.
+    - **D**: A README warning doesn't prevent the issue.
 
 ---
 
+### Question 46
 
-### Question 6
+**Domain**: 1, 2 | **Format**: Multiple Select
 
-**Domain**: domain-2 | **Format**: Multiple Choice | **Topics**: topic-007, topic-001
+A team is designing an agent system for automated code review. Which architecture decisions are correct? (Select all that apply)
 
-
-When evaluating the interaction between Tooling, MCP, and Agent Execution Environments -... and Exam scoring and score reports | Microsoft Learn
-Table... in an enterprise GitHub Copilot deployment, which analysis is most accurate?
-
-- A. Tooling, MCP, and Agent Execution Environments -... and Exam scoring and score reports | Microsoft Learn
-Table... are complementary concepts that together ensure robust AI-assisted development within the Design and implement agentic solutions domain.
-- B. Tooling, MCP, and Agent Execution Environments -... and Exam scoring and score reports | Microsoft Learn
-Table... are mutually exclusive and cannot be implemented simultaneously.
-- C. Tooling, MCP, and Agent Execution Environments -... completely subsumes Exam scoring and score reports | Microsoft Learn
-Table..., making the latter unnecessary in practice.
-- D. Neither Tooling, MCP, and Agent Execution Environments -... nor Exam scoring and score reports | Microsoft Learn
-Table... is relevant to enterprise deployments of GitHub Copilot.
-
+- A. Use advisory autonomy level (agent suggests, humans decide to merge)
+- B. Give the review agent write access to merge PRs automatically
+- C. Design the agent to analyze changed files only (not entire repo) for efficiency
+- D. Include security scanning as part of the review agent's tools
+- E. Have the agent comment on PRs with findings and severity levels
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: A, C, D, E
 
-    The correct answer is A. In enterprise deployments, Tooling, MCP, and Agent Execution Environments -... and Exam scoring and score reports | Microsoft Learn
-Table... work together to provide comprehensive coverage of Design and implement agentic solutions requirements. Understanding their complementary nature is key for advanced GH-600 exam questions. See study notes: Tooling, MCP, and Agent Execution Environments -... (Design and implement agentic solutions), Exam scoring and score reports | Microsoft Learn
-Table...
+    Code review agents should: advise (not merge), scope to changed files (efficiency), include security scanning (comprehensive review), and comment with findings (actionable output).
 
-
-    - **B** (incorrect): Incorrect. Tooling, MCP, and Agent Execution Environments -... and Exam scoring and score reports | Microsoft Learn
-Table... are not mutually exclusive; they can and should coexist.
-
-    - **C** (incorrect): Incorrect. Exam scoring and score reports | Microsoft Learn
-Table... addresses distinct concerns that are not fully covered by Tooling, MCP, and Agent Execution Environments -... alone.
-
-    - **D** (incorrect): Incorrect. Both concepts are directly relevant to enterprise GitHub Copilot deployments.
-
+    - **B**: Merging PRs requires human decision — supervised or advisory autonomy for code review.
 
 ---
 
+### Question 47
 
-### Question 7
+**Domain**: 2, 4, 6 | **Format**: Scenario-Based
 
-**Domain**: domain-2 | **Format**: Scenario Based | **Topics**: topic-008, topic-001
+A healthcare company wants to use Copilot agent mode for developing their patient portal. The codebase includes mock patient data for testing and real API endpoints for the production system. Which configuration is most appropriate?
 
-
-> **Scenario**: A development team is implementing a new AI-assisted workflow that involves both Microsoft previous versions of technical documentation |... and Exam scoring and score reports | Microsoft Learn
-Table.... During the implementation, they encounter a situation where the configuration for Microsoft previous versions of technical documentation |... conflicts with requirements from Exam scoring and score reports | Microsoft Learn
-Table.... The team needs to find an approach that satisfies both requirements while maintaining best practices for the Design and implement agentic solutions domain.
-
-
-Given this scenario, what is the most appropriate approach to resolve the conflict between Microsoft previous versions of technical documentation |... and Exam scoring and score reports | Microsoft Learn
-Table...?
-
-- A. Analyze both Microsoft previous versions of technical documentation |... and Exam scoring and score reports | Microsoft Learn
-Table... requirements, then implement a unified configuration that addresses the core objectives of both while following Design and implement agentic solutions principles.
-- B. Prioritize Microsoft previous versions of technical documentation |... over Exam scoring and score reports | Microsoft Learn
-Table... and disable the conflicting features entirely.
-- C. Implement separate, disconnected solutions for each requirement without considering their interaction.
-- D. Remove both Microsoft previous versions of technical documentation |... and Exam scoring and score reports | Microsoft Learn
-Table... configurations and proceed with manual processes instead.
-
+- A. Standard agent mode with full workspace access
+- B. Agent mode with: read access to source code, write access restricted to src/ and tests/, explicit deny for any file containing patient data patterns, MCP tools that only access mock/test databases, audit logging enabled, and content filtering for PHI
+- C. No AI assistance allowed in healthcare
+- D. Agent mode with read-only access everywhere
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: B
 
-    The correct answer is A. When facing conflicts between related concepts like Microsoft previous versions of technical documentation |... and Exam scoring and score reports | Microsoft Learn
-Table..., the best practice is to analyze both requirements and find a unified solution. This demonstrates advanced understanding of how multiple concepts interact within and across domains. See study notes: Microsoft previous versions of technical documentation |... (Design and implement agentic solutions), Exam scoring and score reports | Microsoft Learn
-Table...
+    Healthcare requires layered controls combining: access restrictions (Domain 4), purpose-limited MCP tools (Domain 2), and compliance monitoring (Domain 6) — specifically HIPAA awareness around PHI (Protected Health Information).
 
-
-    - **B** (incorrect): Incorrect. Disabling features entirely ignores the requirements of Exam scoring and score reports | Microsoft Learn
-Table... and reduces overall capability.
-
-    - **C** (incorrect): Incorrect. Disconnected solutions fail to address the interaction between Microsoft previous versions of technical documentation |... and Exam scoring and score reports | Microsoft Learn
-Table..., potentially causing runtime conflicts.
-
-    - **D** (incorrect): Incorrect. Reverting to manual processes eliminates the benefits of both Microsoft previous versions of technical documentation |... and Exam scoring and score reports | Microsoft Learn
-Table... and doesn't demonstrate AI-assisted development skills.
-
+    - **A**: No restrictions in healthcare is a compliance violation.
+    - **C**: AI can be used in healthcare with proper controls.
+    - **D**: Read-only doesn't allow the agent to write code.
 
 ---
 
+### Question 48
 
-### Question 8
+**Domain**: 1, 5 | **Format**: Multiple Choice
 
-**Domain**: domain-2 | **Format**: Multiple Choice | **Topics**: topic-006, topic-001
+A development team of 50 engineers wants to standardize how they use AI agents. Their needs include: custom code review rules, internal API documentation access, and enforced coding standards. Which approach best fits?
 
-
-When evaluating the interaction between Study guide for Exam GH-600: Developing in Agentic AI... and Exam scoring and score reports | Microsoft Learn
-Table... in an enterprise GitHub Copilot deployment, which analysis is most accurate?
-
-- A. Study guide for Exam GH-600: Developing in Agentic AI... and Exam scoring and score reports | Microsoft Learn
-Table... are complementary concepts that together ensure robust AI-assisted development within the Design and implement agentic solutions domain.
-- B. Study guide for Exam GH-600: Developing in Agentic AI... and Exam scoring and score reports | Microsoft Learn
-Table... are mutually exclusive and cannot be implemented simultaneously.
-- C. Study guide for Exam GH-600: Developing in Agentic AI... completely subsumes Exam scoring and score reports | Microsoft Learn
-Table..., making the latter unnecessary in practice.
-- D. Neither Study guide for Exam GH-600: Developing in Agentic AI... nor Exam scoring and score reports | Microsoft Learn
-Table... is relevant to enterprise deployments of GitHub Copilot.
-
+- A. Each developer configures their own agent independently
+- B. Build GitHub Copilot Extensions for custom review rules, set up MCP servers for internal docs, and configure shared workspace settings for coding standards
+- C. Use only the default Copilot without any customization
+- D. Build a completely custom AI system from scratch
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: B
 
-    The correct answer is A. In enterprise deployments, Study guide for Exam GH-600: Developing in Agentic AI... and Exam scoring and score reports | Microsoft Learn
-Table... work together to provide comprehensive coverage of Design and implement agentic solutions requirements. Understanding their complementary nature is key for advanced GH-600 exam questions. See study notes: Study guide for Exam GH-600: Developing in Agentic AI... (Design and implement agentic solutions), Exam scoring and score reports | Microsoft Learn
-Table...
+    Enterprise standardization (Domain 1 SDLC integration) with team collaboration (Domain 5) requires: Extensions (custom behaviors), MCP (internal tool access), and shared config (consistency).
 
-
-    - **B** (incorrect): Incorrect. Study guide for Exam GH-600: Developing in Agentic AI... and Exam scoring and score reports | Microsoft Learn
-Table... are not mutually exclusive; they can and should coexist.
-
-    - **C** (incorrect): Incorrect. Exam scoring and score reports | Microsoft Learn
-Table... addresses distinct concerns that are not fully covered by Study guide for Exam GH-600: Developing in Agentic AI... alone.
-
-    - **D** (incorrect): Incorrect. Both concepts are directly relevant to enterprise GitHub Copilot deployments.
-
+    - **A**: Individual config creates inconsistency.
+    - **C**: Default settings don't address custom needs.
+    - **D**: Unnecessary when GitHub's ecosystem can be extended.
 
 ---
 
+### Question 49
 
-### Question 9
+**Domain**: 3, 6 | **Format**: Scenario-Based
 
-**Domain**: domain-3 | **Format**: Scenario Based | **Topics**: placeholder-domain-3-0, topic-001
+After deploying an AI code review agent, the team notices it consistently provides fewer comments on code written by experienced developers compared to juniors, even when code quality is similar. What principle is potentially violated and what should be done?
 
-
-> **Scenario**: A development team is implementing a new AI-assisted workflow that involves both Measure agent output quality and Exam scoring and score reports | Microsoft Learn
-Table.... During the implementation, they encounter a situation where the configuration for Measure agent output quality conflicts with requirements from Exam scoring and score reports | Microsoft Learn
-Table.... The team needs to find an approach that satisfies both requirements while maintaining best practices for the Evaluate and optimize agent performance domain.
-
-
-Given this scenario, what is the most appropriate approach to resolve the conflict between Measure agent output quality and Exam scoring and score reports | Microsoft Learn
-Table...?
-
-- A. Analyze both Measure agent output quality and Exam scoring and score reports | Microsoft Learn
-Table... requirements, then implement a unified configuration that addresses the core objectives of both while following Evaluate and optimize agent performance principles.
-- B. Prioritize Measure agent output quality over Exam scoring and score reports | Microsoft Learn
-Table... and disable the conflicting features entirely.
-- C. Implement separate, disconnected solutions for each requirement without considering their interaction.
-- D. Remove both Measure agent output quality and Exam scoring and score reports | Microsoft Learn
-Table... configurations and proceed with manual processes instead.
-
+- A. This is expected behavior — experienced developers write better code
+- B. The fairness principle may be violated. Investigate whether the agent exhibits bias based on author identity, implement blind review (remove author info from context), and add fairness metrics to monitoring
+- C. Disable the review agent for senior developers only
+- D. Increase the comment threshold for all developers
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: B
 
-    The correct answer is A. When facing conflicts between related concepts like Measure agent output quality and Exam scoring and score reports | Microsoft Learn
-Table..., the best practice is to analyze both requirements and find a unified solution. This demonstrates advanced understanding of how multiple concepts interact within and across domains. See study notes: Measure agent output quality (Evaluate and optimize agent performance), Exam scoring and score reports | Microsoft Learn
-Table...
+    This suggests author-based bias (Domain 6 fairness). The fix: investigate the bias source, implement blind review to remove the confounding variable, and add fairness monitoring (Domain 3 metrics).
 
-
-    - **B** (incorrect): Incorrect. Disabling features entirely ignores the requirements of Exam scoring and score reports | Microsoft Learn
-Table... and reduces overall capability.
-
-    - **C** (incorrect): Incorrect. Disconnected solutions fail to address the interaction between Measure agent output quality and Exam scoring and score reports | Microsoft Learn
-Table..., potentially causing runtime conflicts.
-
-    - **D** (incorrect): Incorrect. Reverting to manual processes eliminates the benefits of both Measure agent output quality and Exam scoring and score reports | Microsoft Learn
-Table... and doesn't demonstrate AI-assisted development skills.
-
+    - **A**: If code quality is similar, comment rates should be similar.
+    - **C, D**: These don't address the root cause.
 
 ---
 
+### Question 50
 
-### Question 10
+**Domain**: 2, 3, 4 | **Format**: Scenario-Based
 
-**Domain**: domain-3 | **Format**: Multiple Choice | **Topics**: placeholder-domain-3-1, topic-001
+A company's MCP server provides access to their deployment infrastructure. An agent used by developers can view deployment status (read) and trigger rollbacks (write). Recently, an agent triggered a rollback during business hours based on a false positive health check reading.
 
+Which combination of changes prevents this while maintaining agent utility?
 
-When evaluating the interaction between Optimize agent response latency and Exam scoring and score reports | Microsoft Learn
-Table... in an enterprise GitHub Copilot deployment, which analysis is most accurate?
-
-- A. Optimize agent response latency and Exam scoring and score reports | Microsoft Learn
-Table... are complementary concepts that together ensure robust AI-assisted development within the Evaluate and optimize agent performance domain.
-- B. Optimize agent response latency and Exam scoring and score reports | Microsoft Learn
-Table... are mutually exclusive and cannot be implemented simultaneously.
-- C. Optimize agent response latency completely subsumes Exam scoring and score reports | Microsoft Learn
-Table..., making the latter unnecessary in practice.
-- D. Neither Optimize agent response latency nor Exam scoring and score reports | Microsoft Learn
-Table... is relevant to enterprise deployments of GitHub Copilot.
-
+- A. Remove rollback capability entirely
+- B. Add time-based restrictions (rollback only during maintenance windows), require explicit user confirmation for rollbacks, implement health check validation requiring multiple consecutive failures before considering rollback, and add this incident to the audit log with a post-mortem
+- C. Make health checks less sensitive
+- D. Only allow rollbacks on weekends
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: B
 
-    The correct answer is A. In enterprise deployments, Optimize agent response latency and Exam scoring and score reports | Microsoft Learn
-Table... work together to provide comprehensive coverage of Evaluate and optimize agent performance requirements. Understanding their complementary nature is key for advanced GH-600 exam questions. See study notes: Optimize agent response latency (Evaluate and optimize agent performance), Exam scoring and score reports | Microsoft Learn
-Table...
+    This combines: permission boundaries with time-based rules (Domain 4), validation logic before critical actions (Domain 2 tool design), monitoring improvements (Domain 3), and proper incident handling.
 
-
-    - **B** (incorrect): Incorrect. Optimize agent response latency and Exam scoring and score reports | Microsoft Learn
-Table... are not mutually exclusive; they can and should coexist.
-
-    - **C** (incorrect): Incorrect. Exam scoring and score reports | Microsoft Learn
-Table... addresses distinct concerns that are not fully covered by Optimize agent response latency alone.
-
-    - **D** (incorrect): Incorrect. Both concepts are directly relevant to enterprise GitHub Copilot deployments.
-
+    - **A**: Removing the capability entirely reduces agent value.
+    - **C**: Less sensitive health checks miss real issues.
+    - **D**: Arbitrary time restrictions don't address the root cause.
 
 ---
 
+### Questions 51-60
 
-### Question 11
+### Question 51
 
-**Domain**: domain-4 | **Format**: Scenario Based | **Topics**: topic-009, topic-001
+**Domain**: 2, 4 | **Format**: Multiple Choice
 
+What is the security implication of using HTTP/SSE transport for MCP instead of stdio?
 
-> **Scenario**: A development team is implementing a new AI-assisted workflow that involves both Terms of Use | Microsoft Learn
-learn and Exam scoring and score reports | Microsoft Learn
-Table.... During the implementation, they encounter a situation where the configuration for Terms of Use | Microsoft Learn
-learn conflicts with requirements from Exam scoring and score reports | Microsoft Learn
-Table.... The team needs to find an approach that satisfies both requirements while maintaining best practices for the Secure and govern agentic AI solutions domain.
-
-
-Given this scenario, what is the most appropriate approach to resolve the conflict between Terms of Use | Microsoft Learn
-learn and Exam scoring and score reports | Microsoft Learn
-Table...?
-
-- A. Analyze both Terms of Use | Microsoft Learn
-learn and Exam scoring and score reports | Microsoft Learn
-Table... requirements, then implement a unified configuration that addresses the core objectives of both while following Secure and govern agentic AI solutions principles.
-- B. Prioritize Terms of Use | Microsoft Learn
-learn over Exam scoring and score reports | Microsoft Learn
-Table... and disable the conflicting features entirely.
-- C. Implement separate, disconnected solutions for each requirement without considering their interaction.
-- D. Remove both Terms of Use | Microsoft Learn
-learn and Exam scoring and score reports | Microsoft Learn
-Table... configurations and proceed with manual processes instead.
-
+- A. No security difference
+- B. HTTP/SSE enables remote server communication which introduces network attack surface, requiring TLS encryption and authentication
+- C. HTTP/SSE is always more secure than stdio
+- D. stdio requires more security configuration
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: B
 
-    The correct answer is A. When facing conflicts between related concepts like Terms of Use | Microsoft Learn
-learn and Exam scoring and score reports | Microsoft Learn
-Table..., the best practice is to analyze both requirements and find a unified solution. This demonstrates advanced understanding of how multiple concepts interact within and across domains. See study notes: Terms of Use | Microsoft Learn
-learn (Secure and govern agentic AI solutions), Exam scoring and score reports | Microsoft Learn
-Table...
-
-
-    - **B** (incorrect): Incorrect. Disabling features entirely ignores the requirements of Exam scoring and score reports | Microsoft Learn
-Table... and reduces overall capability.
-
-    - **C** (incorrect): Incorrect. Disconnected solutions fail to address the interaction between Terms of Use | Microsoft Learn
-learn and Exam scoring and score reports | Microsoft Learn
-Table..., potentially causing runtime conflicts.
-
-    - **D** (incorrect): Incorrect. Reverting to manual processes eliminates the benefits of both Terms of Use | Microsoft Learn
-learn and Exam scoring and score reports | Microsoft Learn
-Table... and doesn't demonstrate AI-assisted development skills.
-
+    HTTP/SSE transport communicates over the network (vs. stdio's local process communication), introducing risks that require TLS encryption and authentication to mitigate.
 
 ---
 
+### Question 52
 
-### Question 12
+**Domain**: 1, 6 | **Format**: Multiple Choice
 
-**Domain**: domain-4 | **Format**: Multiple Choice | **Topics**: topic-010, topic-001
+When designing an agent architecture, which responsible AI requirement is addressed by implementing a "human-in-the-loop" approval system?
 
-
-When evaluating the interaction between Modern Lifecycle Policy - Microsoft Lifecycle |... and Exam scoring and score reports | Microsoft Learn
-Table... in an enterprise GitHub Copilot deployment, which analysis is most accurate?
-
-- A. Modern Lifecycle Policy - Microsoft Lifecycle |... and Exam scoring and score reports | Microsoft Learn
-Table... are complementary concepts that together ensure robust AI-assisted development within the Secure and govern agentic AI solutions domain.
-- B. Modern Lifecycle Policy - Microsoft Lifecycle |... and Exam scoring and score reports | Microsoft Learn
-Table... are mutually exclusive and cannot be implemented simultaneously.
-- C. Modern Lifecycle Policy - Microsoft Lifecycle |... completely subsumes Exam scoring and score reports | Microsoft Learn
-Table..., making the latter unnecessary in practice.
-- D. Neither Modern Lifecycle Policy - Microsoft Lifecycle |... nor Exam scoring and score reports | Microsoft Learn
-Table... is relevant to enterprise deployments of GitHub Copilot.
-
+- A. Performance optimization
+- B. Accountability — ensuring humans maintain responsibility for AI-assisted decisions
+- C. Cost reduction
+- D. Faster development cycles
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: B
 
-    The correct answer is A. In enterprise deployments, Modern Lifecycle Policy - Microsoft Lifecycle |... and Exam scoring and score reports | Microsoft Learn
-Table... work together to provide comprehensive coverage of Secure and govern agentic AI solutions requirements. Understanding their complementary nature is key for advanced GH-600 exam questions. See study notes: Modern Lifecycle Policy - Microsoft Lifecycle |... (Secure and govern agentic AI solutions), Exam scoring and score reports | Microsoft Learn
-Table...
-
-
-    - **B** (incorrect): Incorrect. Modern Lifecycle Policy - Microsoft Lifecycle |... and Exam scoring and score reports | Microsoft Learn
-Table... are not mutually exclusive; they can and should coexist.
-
-    - **C** (incorrect): Incorrect. Exam scoring and score reports | Microsoft Learn
-Table... addresses distinct concerns that are not fully covered by Modern Lifecycle Policy - Microsoft Lifecycle |... alone.
-
-    - **D** (incorrect): Incorrect. Both concepts are directly relevant to enterprise GitHub Copilot deployments.
-
+    Human-in-the-loop directly addresses the Accountability principle: humans remain responsible for AI system outcomes by reviewing and approving critical actions.
 
 ---
 
+### Question 53-60
 
-### Question 13
+*(Questions 53-60 continue with similar cross-domain advanced scenarios covering all remaining topic combinations)*
 
-**Domain**: domain-4 | **Format**: Scenario Based | **Topics**: topic-011, topic-001
+### Question 53
 
+**Domain**: 5, 6 | **Format**: Multiple Choice
 
-> **Scenario**: A development team is implementing a new AI-assisted workflow that involves both Browse Credentials | Microsoft Learn
-Browse... and Exam scoring and score reports | Microsoft Learn
-Table.... During the implementation, they encounter a situation where the configuration for Browse Credentials | Microsoft Learn
-Browse... conflicts with requirements from Exam scoring and score reports | Microsoft Learn
-Table.... The team needs to find an approach that satisfies both requirements while maintaining best practices for the Secure and govern agentic AI solutions domain.
+A PR reviewer notices that an AI agent's auto-generated documentation uses only male pronouns. What is the correct response?
 
-
-Given this scenario, what is the most appropriate approach to resolve the conflict between Browse Credentials | Microsoft Learn
-Browse... and Exam scoring and score reports | Microsoft Learn
-Table...?
-
-- A. Analyze both Browse Credentials | Microsoft Learn
-Browse... and Exam scoring and score reports | Microsoft Learn
-Table... requirements, then implement a unified configuration that addresses the core objectives of both while following Secure and govern agentic AI solutions principles.
-- B. Prioritize Browse Credentials | Microsoft Learn
-Browse... over Exam scoring and score reports | Microsoft Learn
-Table... and disable the conflicting features entirely.
-- C. Implement separate, disconnected solutions for each requirement without considering their interaction.
-- D. Remove both Browse Credentials | Microsoft Learn
-Browse... and Exam scoring and score reports | Microsoft Learn
-Table... configurations and proceed with manual processes instead.
-
+- A. Accept it since it's technically correct
+- B. Flag it as a bias issue, fix the documentation to use gender-neutral language, and add inclusive language checks to the CI pipeline
+- C. Ignore it for now and address in a future sprint
+- D. Disable documentation generation
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: B
 
-    The correct answer is A. When facing conflicts between related concepts like Browse Credentials | Microsoft Learn
-Browse... and Exam scoring and score reports | Microsoft Learn
-Table..., the best practice is to analyze both requirements and find a unified solution. This demonstrates advanced understanding of how multiple concepts interact within and across domains. See study notes: Browse Credentials | Microsoft Learn
-Browse... (Secure and govern agentic AI solutions), Exam scoring and score reports | Microsoft Learn
-Table...
-
-
-    - **B** (incorrect): Incorrect. Disabling features entirely ignores the requirements of Exam scoring and score reports | Microsoft Learn
-Table... and reduces overall capability.
-
-    - **C** (incorrect): Incorrect. Disconnected solutions fail to address the interaction between Browse Credentials | Microsoft Learn
-Browse... and Exam scoring and score reports | Microsoft Learn
-Table..., potentially causing runtime conflicts.
-
-    - **D** (incorrect): Incorrect. Reverting to manual processes eliminates the benefits of both Browse Credentials | Microsoft Learn
-Browse... and Exam scoring and score reports | Microsoft Learn
-Table... and doesn't demonstrate AI-assisted development skills.
-
+    This is a fairness/inclusiveness issue. Fix immediately, then implement automated checks to prevent recurrence.
 
 ---
 
+### Question 54
 
-### Question 14
+**Domain**: 2, 3 | **Format**: Multiple Choice
 
-**Domain**: domain-4 | **Format**: Multiple Choice | **Topics**: topic-012, topic-001
+An agent mode task is taking 15 minutes to complete a feature that should take 3 minutes. The agent is on iteration 12. What does this indicate?
 
-
-When evaluating the interaction between About online exams with Pearson VUE | Microsoft... and Exam scoring and score reports | Microsoft Learn
-Table... in an enterprise GitHub Copilot deployment, which analysis is most accurate?
-
-- A. About online exams with Pearson VUE | Microsoft... and Exam scoring and score reports | Microsoft Learn
-Table... are complementary concepts that together ensure robust AI-assisted development within the Secure and govern agentic AI solutions domain.
-- B. About online exams with Pearson VUE | Microsoft... and Exam scoring and score reports | Microsoft Learn
-Table... are mutually exclusive and cannot be implemented simultaneously.
-- C. About online exams with Pearson VUE | Microsoft... completely subsumes Exam scoring and score reports | Microsoft Learn
-Table..., making the latter unnecessary in practice.
-- D. Neither About online exams with Pearson VUE | Microsoft... nor Exam scoring and score reports | Microsoft Learn
-Table... is relevant to enterprise deployments of GitHub Copilot.
-
+- A. The model is too slow — use a faster model
+- B. The agent is likely stuck in a fix-break cycle and should be interrupted for human guidance
+- C. This is normal for complex tasks
+- D. The agent needs more token budget
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: B
 
-    The correct answer is A. In enterprise deployments, About online exams with Pearson VUE | Microsoft... and Exam scoring and score reports | Microsoft Learn
-Table... work together to provide comprehensive coverage of Secure and govern agentic AI solutions requirements. Understanding their complementary nature is key for advanced GH-600 exam questions. See study notes: About online exams with Pearson VUE | Microsoft... (Secure and govern agentic AI solutions), Exam scoring and score reports | Microsoft Learn
-Table...
-
-
-    - **B** (incorrect): Incorrect. About online exams with Pearson VUE | Microsoft... and Exam scoring and score reports | Microsoft Learn
-Table... are not mutually exclusive; they can and should coexist.
-
-    - **C** (incorrect): Incorrect. Exam scoring and score reports | Microsoft Learn
-Table... addresses distinct concerns that are not fully covered by About online exams with Pearson VUE | Microsoft... alone.
-
-    - **D** (incorrect): Incorrect. Both concepts are directly relevant to enterprise GitHub Copilot deployments.
-
+    12 iterations (well above the target of <5) and 15 minutes (above the <5 min target) indicates the agent is stuck. Human intervention to guide or restructure the approach is needed.
 
 ---
 
+### Question 55
 
-### Question 15
+**Domain**: 4, 5 | **Format**: Multiple Choice
 
-**Domain**: domain-5 | **Format**: Scenario Based | **Topics**: topic-013, topic-001
+When should a CI/CD pipeline block a deployment based on AI agent analysis?
 
-
-> **Scenario**: A development team is implementing a new AI-assisted workflow that involves both Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
-Table.... During the implementation, they encounter a situation where the configuration for Exercise - Develop with AI-powered code suggestions by... conflicts with requirements from Exam scoring and score reports | Microsoft Learn
-Table.... The team needs to find an approach that satisfies both requirements while maintaining best practices for the Collaborate with AI agents in the development workflow domain.
-
-
-Given this scenario, what is the most appropriate approach to resolve the conflict between Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
-Table...?
-
-- A. Analyze both Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
-Table... requirements, then implement a unified configuration that addresses the core objectives of both while following Collaborate with AI agents in the development workflow principles.
-- B. Prioritize Exercise - Develop with AI-powered code suggestions by... over Exam scoring and score reports | Microsoft Learn
-Table... and disable the conflicting features entirely.
-- C. Implement separate, disconnected solutions for each requirement without considering their interaction.
-- D. Remove both Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
-Table... configurations and proceed with manual processes instead.
-
+- A. When the agent suggests a deployment might fail
+- B. When the agent detects confirmed security vulnerabilities at critical severity or policy violations in the code changes
+- C. When the agent's confidence is below 50%
+- D. Always — no deployment should proceed without agent approval
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: B
 
-    The correct answer is A. When facing conflicts between related concepts like Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
-Table..., the best practice is to analyze both requirements and find a unified solution. This demonstrates advanced understanding of how multiple concepts interact within and across domains. See study notes: Exercise - Develop with AI-powered code suggestions by... (Collaborate with AI agents in the development workflow), Exam scoring and score reports | Microsoft Learn
-Table...
-
-
-    - **B** (incorrect): Incorrect. Disabling features entirely ignores the requirements of Exam scoring and score reports | Microsoft Learn
-Table... and reduces overall capability.
-
-    - **C** (incorrect): Incorrect. Disconnected solutions fail to address the interaction between Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
-Table..., potentially causing runtime conflicts.
-
-    - **D** (incorrect): Incorrect. Reverting to manual processes eliminates the benefits of both Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
-Table... and doesn't demonstrate AI-assisted development skills.
-
+    AI should block deployments only for confirmed, objective findings (security vulnerabilities, policy violations) — not for subjective assessments or low confidence guesses.
 
 ---
 
+### Question 56
 
-### Question 16
+**Domain**: 1, 2 | **Format**: Multiple Choice
 
-**Domain**: domain-5 | **Format**: Multiple Choice | **Topics**: topic-013, topic-001
+Which is the correct execution flow for GitHub Copilot agent mode?
 
-
-When evaluating the interaction between Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
-Table... in an enterprise GitHub Copilot deployment, which analysis is most accurate?
-
-- A. Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
-Table... are complementary concepts that together ensure robust AI-assisted development within the Collaborate with AI agents in the development workflow domain.
-- B. Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
-Table... are mutually exclusive and cannot be implemented simultaneously.
-- C. Exercise - Develop with AI-powered code suggestions by... completely subsumes Exam scoring and score reports | Microsoft Learn
-Table..., making the latter unnecessary in practice.
-- D. Neither Exercise - Develop with AI-powered code suggestions by... nor Exam scoring and score reports | Microsoft Learn
-Table... is relevant to enterprise deployments of GitHub Copilot.
-
+- A. Generate code → Present to user → Done
+- B. Plan steps → Execute step with tools → Check result → Iterate if needed → Complete when all steps pass
+- C. Ask user for each line of code → Write it → Ask again
+- D. Generate all files simultaneously → Present result
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: B
 
-    The correct answer is A. In enterprise deployments, Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
-Table... work together to provide comprehensive coverage of Collaborate with AI agents in the development workflow requirements. Understanding their complementary nature is key for advanced GH-600 exam questions. See study notes: Exercise - Develop with AI-powered code suggestions by... (Collaborate with AI agents in the development workflow), Exam scoring and score reports | Microsoft Learn
-Table...
-
-
-    - **B** (incorrect): Incorrect. Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
-Table... are not mutually exclusive; they can and should coexist.
-
-    - **C** (incorrect): Incorrect. Exam scoring and score reports | Microsoft Learn
-Table... addresses distinct concerns that are not fully covered by Exercise - Develop with AI-powered code suggestions by... alone.
-
-    - **D** (incorrect): Incorrect. Both concepts are directly relevant to enterprise GitHub Copilot deployments.
-
+    Agent mode follows the Plan-Execute-Iterate loop: plan multi-step approach, execute using tools, check results, iterate on failures, complete when successful.
 
 ---
 
+### Question 57
 
-### Question 17
+**Domain**: 3, 5 | **Format**: Multiple Choice
 
-**Domain**: domain-5 | **Format**: Scenario Based | **Topics**: topic-013, topic-001
+A team measures that their AI-assisted code review catches 40% more bugs than manual review alone. However, developer satisfaction with the tool is only 55%. What is the likely issue and fix?
 
-
-> **Scenario**: A development team is implementing a new AI-assisted workflow that involves both Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
-Table.... During the implementation, they encounter a situation where the configuration for Exercise - Develop with AI-powered code suggestions by... conflicts with requirements from Exam scoring and score reports | Microsoft Learn
-Table.... The team needs to find an approach that satisfies both requirements while maintaining best practices for the Collaborate with AI agents in the development workflow domain.
-
-
-Given this scenario, what is the most appropriate approach to resolve the conflict between Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
-Table...?
-
-- A. Analyze both Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
-Table... requirements, then implement a unified configuration that addresses the core objectives of both while following Collaborate with AI agents in the development workflow principles.
-- B. Prioritize Exercise - Develop with AI-powered code suggestions by... over Exam scoring and score reports | Microsoft Learn
-Table... and disable the conflicting features entirely.
-- C. Implement separate, disconnected solutions for each requirement without considering their interaction.
-- D. Remove both Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
-Table... configurations and proceed with manual processes instead.
-
+- A. The tool is working fine — metrics prove it
+- B. The AI review is likely producing too many false positives or nitpicky comments, reducing signal-to-noise ratio. Tune severity thresholds and focus on high-impact findings
+- C. Developers don't understand the tool — more training needed
+- D. Remove the tool since satisfaction is low
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: B
 
-    The correct answer is A. When facing conflicts between related concepts like Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
-Table..., the best practice is to analyze both requirements and find a unified solution. This demonstrates advanced understanding of how multiple concepts interact within and across domains. See study notes: Exercise - Develop with AI-powered code suggestions by... (Collaborate with AI agents in the development workflow), Exam scoring and score reports | Microsoft Learn
-Table...
-
-
-    - **B** (incorrect): Incorrect. Disabling features entirely ignores the requirements of Exam scoring and score reports | Microsoft Learn
-Table... and reduces overall capability.
-
-    - **C** (incorrect): Incorrect. Disconnected solutions fail to address the interaction between Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
-Table..., potentially causing runtime conflicts.
-
-    - **D** (incorrect): Incorrect. Reverting to manual processes eliminates the benefits of both Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
-Table... and doesn't demonstrate AI-assisted development skills.
-
+    High bug detection + low satisfaction typically means noise — too many low-value comments drowning out important ones. Tuning severity and focusing on actionable, high-impact findings improves the ratio.
 
 ---
 
+### Question 58
 
-### Question 18
+**Domain**: 2, 6 | **Format**: Multiple Choice
 
-**Domain**: domain-5 | **Format**: Multiple Choice | **Topics**: topic-013, topic-001
+An MCP server provides access to a code search tool that indexes open source repositories. When should the agent's output from this tool be treated with extra caution?
 
-
-When evaluating the interaction between Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
-Table... in an enterprise GitHub Copilot deployment, which analysis is most accurate?
-
-- A. Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
-Table... are complementary concepts that together ensure robust AI-assisted development within the Collaborate with AI agents in the development workflow domain.
-- B. Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
-Table... are mutually exclusive and cannot be implemented simultaneously.
-- C. Exercise - Develop with AI-powered code suggestions by... completely subsumes Exam scoring and score reports | Microsoft Learn
-Table..., making the latter unnecessary in practice.
-- D. Neither Exercise - Develop with AI-powered code suggestions by... nor Exam scoring and score reports | Microsoft Learn
-Table... is relevant to enterprise deployments of GitHub Copilot.
-
+- A. Never — open source code is always safe to use
+- B. When the results may include code with restrictive licenses that could conflict with the project's licensing, or when code patterns might introduce security vulnerabilities
+- C. Only when the code is in a language the developer doesn't know
+- D. Only during production deployments
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: B
 
-    The correct answer is A. In enterprise deployments, Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
-Table... work together to provide comprehensive coverage of Collaborate with AI agents in the development workflow requirements. Understanding their complementary nature is key for advanced GH-600 exam questions. See study notes: Exercise - Develop with AI-powered code suggestions by... (Collaborate with AI agents in the development workflow), Exam scoring and score reports | Microsoft Learn
-Table...
-
-
-    - **B** (incorrect): Incorrect. Exercise - Develop with AI-powered code suggestions by... and Exam scoring and score reports | Microsoft Learn
-Table... are not mutually exclusive; they can and should coexist.
-
-    - **C** (incorrect): Incorrect. Exam scoring and score reports | Microsoft Learn
-Table... addresses distinct concerns that are not fully covered by Exercise - Develop with AI-powered code suggestions by... alone.
-
-    - **D** (incorrect): Incorrect. Both concepts are directly relevant to enterprise GitHub Copilot deployments.
-
+    Open source code carries licensing and security risks. Responsible AI (Domain 6) requires awareness of IP/licensing, and security (Domain 4) requires scanning external code for vulnerabilities.
 
 ---
 
+### Question 59
 
-### Question 19
+**Domain**: 4, 6 | **Format**: Multiple Choice
 
-**Domain**: domain-6 | **Format**: Scenario Based | **Topics**: topic-014, topic-001
+What is the key difference between transparency and accountability in the context of AI agents?
 
-
-> **Scenario**: A development team is implementing a new AI-assisted workflow that involves both Microsoft Certification Renewal | Microsoft... and Exam scoring and score reports | Microsoft Learn
-Table.... During the implementation, they encounter a situation where the configuration for Microsoft Certification Renewal | Microsoft... conflicts with requirements from Exam scoring and score reports | Microsoft Learn
-Table.... The team needs to find an approach that satisfies both requirements while maintaining best practices for the Implement responsible AI practices domain.
-
-
-Given this scenario, what is the most appropriate approach to resolve the conflict between Microsoft Certification Renewal | Microsoft... and Exam scoring and score reports | Microsoft Learn
-Table...?
-
-- A. Analyze both Microsoft Certification Renewal | Microsoft... and Exam scoring and score reports | Microsoft Learn
-Table... requirements, then implement a unified configuration that addresses the core objectives of both while following Implement responsible AI practices principles.
-- B. Prioritize Microsoft Certification Renewal | Microsoft... over Exam scoring and score reports | Microsoft Learn
-Table... and disable the conflicting features entirely.
-- C. Implement separate, disconnected solutions for each requirement without considering their interaction.
-- D. Remove both Microsoft Certification Renewal | Microsoft... and Exam scoring and score reports | Microsoft Learn
-Table... configurations and proceed with manual processes instead.
-
+- A. They are the same principle
+- B. Transparency = explain how the AI works and what it does; Accountability = humans are responsible for the AI's outcomes and have authority to override
+- C. Transparency = fast performance; Accountability = low cost
+- D. Transparency = user interface; Accountability = backend code
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: B
 
-    The correct answer is A. When facing conflicts between related concepts like Microsoft Certification Renewal | Microsoft... and Exam scoring and score reports | Microsoft Learn
-Table..., the best practice is to analyze both requirements and find a unified solution. This demonstrates advanced understanding of how multiple concepts interact within and across domains. See study notes: Microsoft Certification Renewal | Microsoft... (Implement responsible AI practices), Exam scoring and score reports | Microsoft Learn
-Table...
-
-
-    - **B** (incorrect): Incorrect. Disabling features entirely ignores the requirements of Exam scoring and score reports | Microsoft Learn
-Table... and reduces overall capability.
-
-    - **C** (incorrect): Incorrect. Disconnected solutions fail to address the interaction between Microsoft Certification Renewal | Microsoft... and Exam scoring and score reports | Microsoft Learn
-Table..., potentially causing runtime conflicts.
-
-    - **D** (incorrect): Incorrect. Reverting to manual processes eliminates the benefits of both Microsoft Certification Renewal | Microsoft... and Exam scoring and score reports | Microsoft Learn
-Table... and doesn't demonstrate AI-assisted development skills.
-
+    Transparency is about making AI behavior understandable (explainability). Accountability is about maintaining human responsibility and authority over AI systems.
 
 ---
 
+### Question 60
 
-### Question 20
+**Domain**: 1, 2, 4 | **Format**: Scenario-Based
 
-**Domain**: domain-6 | **Format**: Scenario Based | **Topics**: topic-015, topic-001
+A startup is deploying its first AI agent system. They want the agent to help with: code generation, PR reviews, and basic DevOps tasks. They have one repository, 5 developers, and limited security infrastructure. What is the best starting architecture?
 
-
-> **Scenario**: A development team is implementing a new AI-assisted workflow that involves both Introduction - Training | Microsoft Learn
-Read in... and Exam scoring and score reports | Microsoft Learn
-Table.... During the implementation, they encounter a situation where the configuration for Introduction - Training | Microsoft Learn
-Read in... conflicts with requirements from Exam scoring and score reports | Microsoft Learn
-Table.... The team needs to find an approach that satisfies both requirements while maintaining best practices for the Implement responsible AI practices domain.
-
-
-Given this scenario, what is the most appropriate approach to resolve the conflict between Introduction - Training | Microsoft Learn
-Read in... and Exam scoring and score reports | Microsoft Learn
-Table...?
-
-- A. Analyze both Introduction - Training | Microsoft Learn
-Read in... and Exam scoring and score reports | Microsoft Learn
-Table... requirements, then implement a unified configuration that addresses the core objectives of both while following Implement responsible AI practices principles.
-- B. Prioritize Introduction - Training | Microsoft Learn
-Read in... over Exam scoring and score reports | Microsoft Learn
-Table... and disable the conflicting features entirely.
-- C. Implement separate, disconnected solutions for each requirement without considering their interaction.
-- D. Remove both Introduction - Training | Microsoft Learn
-Read in... and Exam scoring and score reports | Microsoft Learn
-Table... configurations and proceed with manual processes instead.
-
+- A. Full multi-agent system with 10 specialized agents
+- B. Single agent with GitHub Copilot agent mode, basic MCP servers for internal tools, supervised autonomy for all operations, and GitHub's built-in secret scanning enabled
+- C. No agent — too risky for a startup
+- D. Fully autonomous agent with no human oversight
 
 ??? success "Answer"
-    **Correct**: A
+    **Correct**: B
 
-    The correct answer is A. When facing conflicts between related concepts like Introduction - Training | Microsoft Learn
-Read in... and Exam scoring and score reports | Microsoft Learn
-Table..., the best practice is to analyze both requirements and find a unified solution. This demonstrates advanced understanding of how multiple concepts interact within and across domains. See study notes: Introduction - Training | Microsoft Learn
-Read in... (Implement responsible AI practices), Exam scoring and score reports | Microsoft Learn
-Table...
+    A startup's first deployment should be simple: single agent mode (matches their single repo, small team), supervised autonomy (safe while learning), basic MCP (internal tool access), and GitHub's built-in security features (low overhead).
 
-
-    - **B** (incorrect): Incorrect. Disabling features entirely ignores the requirements of Exam scoring and score reports | Microsoft Learn
-Table... and reduces overall capability.
-
-    - **C** (incorrect): Incorrect. Disconnected solutions fail to address the interaction between Introduction - Training | Microsoft Learn
-Read in... and Exam scoring and score reports | Microsoft Learn
-Table..., potentially causing runtime conflicts.
-
-    - **D** (incorrect): Incorrect. Reverting to manual processes eliminates the benefits of both Introduction - Training | Microsoft Learn
-Read in... and Exam scoring and score reports | Microsoft Learn
-Table... and doesn't demonstrate AI-assisted development skills.
-
-
----
-
-
-
-## Domain Distribution
-
-| Domain | Questions |
-|--------|-----------|
-| domain-1 | 12 |
-| domain-2 | 12 |
-| domain-3 | 6 |
-| domain-4 | 12 |
-| domain-5 | 12 |
-| domain-6 | 6 |
-
+    - **A**: Over-engineered for 5 developers and one repo.
+    - **C**: Agents are safe with proper basic controls.
+    - **D**: Full autonomy without experience is dangerous.
