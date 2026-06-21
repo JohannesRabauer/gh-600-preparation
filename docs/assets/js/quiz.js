@@ -8,7 +8,7 @@
   /* ==========================================================================
      Constants
      ========================================================================== */
-  const STORAGE_KEY = "quiz_state";
+  const STORAGE_KEY = "quiz_state_" + window.location.pathname;
   const PASS_THRESHOLD = 0.7;
 
   /* ==========================================================================
@@ -491,6 +491,7 @@
         state.answers = {};
         state.endTime = null;
         state.startTime = Date.now();
+        try { localStorage.removeItem(STORAGE_KEY); } catch (e) {}
         render();
       });
     }
@@ -510,7 +511,7 @@
         retryIndices: state.retryIndices,
         questionCount: state.questions.length,
       };
-      sessionStorage.setItem(STORAGE_KEY, JSON.stringify(toSave));
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(toSave));
     } catch (e) {
       // sessionStorage may be unavailable
     }
@@ -518,7 +519,7 @@
 
   function loadState() {
     try {
-      const raw = sessionStorage.getItem(STORAGE_KEY);
+      const raw = localStorage.getItem(STORAGE_KEY);
       if (!raw) return null;
       const saved = JSON.parse(raw);
       return {
