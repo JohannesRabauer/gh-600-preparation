@@ -36,13 +36,14 @@ Your focused, no-fluff study system. Master all 6 domains. Score 70%+. Get certi
 ## :material-chart-pie: Domain Weights
 
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#6366f1', 'pieStrokeColor': '#fff', 'pieStrokeWidth': '2px', 'pie1': '#06b6d4', 'pie2': '#6366f1', 'pie3': '#f59e0b', 'pie4': '#ef4444', 'pie5': '#10b981', 'pie6': '#8b5cf6', 'pieTitleTextSize': '16px', 'pieSectionTextSize': '12px'}}}%%
 pie title GH-600 Exam Domains
-    "Design & Implement Agentic Solutions" : 22.5
-    "Prepare Agent Architecture & SDLC" : 17.5
-    "Secure & Govern Agentic AI" : 17.5
-    "Collaborate with AI Agents" : 17.5
-    "Evaluate & Optimize Performance" : 12.5
-    "Responsible AI Practices" : 12.5
+    "Design & Implement (D2)" : 22.5
+    "Architecture & SDLC (D1)" : 17.5
+    "Security & Govern (D4)" : 17.5
+    "Collaborate (D5)" : 17.5
+    "Performance (D3)" : 12.5
+    "Responsible AI (D6)" : 12.5
 ```
 
 ---
@@ -50,12 +51,19 @@ pie title GH-600 Exam Domains
 ## :material-map-marker-path: Your Study Path
 
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#6366f1', 'primaryTextColor': '#fff', 'lineColor': '#06b6d4', 'fontSize': '14px'}}}%%
 flowchart LR
-    A[":material-book: Study Guide"] --> B[":material-help-circle: Practice Questions"]
-    B --> C[":material-timer: Mock Exams"]
-    C --> D{Score ≥ 70%?}
-    D -->|Yes| E[":material-party-popper: Schedule Exam!"]
+    A["📖 Study Guide"]:::study --> B["❓ Practice Questions"]:::practice
+    B --> C["⏱️ Mock Exams"]:::mock
+    C --> D{"Score ≥ 70%?"}:::check
+    D -->|Yes| E["🎉 Schedule Exam!"]:::pass
     D -->|No| A
+
+    classDef study fill:#6366f1,stroke:#4f46e5,color:#fff,stroke-width:2px
+    classDef practice fill:#06b6d4,stroke:#0891b2,color:#fff,stroke-width:2px
+    classDef mock fill:#f59e0b,stroke:#d97706,color:#fff,stroke-width:2px
+    classDef check fill:#8b5cf6,stroke:#7c3aed,color:#fff,stroke-width:2px
+    classDef pass fill:#10b981,stroke:#059669,color:#fff,stroke-width:2px
 ```
 
 | Phase | Resource | Goal |
@@ -78,6 +86,33 @@ flowchart LR
 ---
 
 ## :material-view-grid: Domain Overview
+
+<div class="pictogram-grid" markdown>
+<div class="pictogram picto-d1">
+<span class="picto-icon">🏗️</span>
+<span class="picto-label">Architecture & SDLC</span>
+</div>
+<div class="pictogram picto-d2">
+<span class="picto-icon">⚙️</span>
+<span class="picto-label">Design & Implement</span>
+</div>
+<div class="pictogram picto-d3">
+<span class="picto-icon">📊</span>
+<span class="picto-label">Performance</span>
+</div>
+<div class="pictogram picto-d4">
+<span class="picto-icon">🛡️</span>
+<span class="picto-label">Security & Gov</span>
+</div>
+<div class="pictogram picto-d5">
+<span class="picto-icon">🤝</span>
+<span class="picto-label">Collaboration</span>
+</div>
+<div class="pictogram picto-d6">
+<span class="picto-icon">⚖️</span>
+<span class="picto-label">Responsible AI</span>
+</div>
+</div>
 
 !!! abstract "Domain 1 — Prepare Agent Architecture & SDLC (15–20%)"
 

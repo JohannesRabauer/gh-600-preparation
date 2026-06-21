@@ -9,34 +9,35 @@ The GH-600 exam tests integrated knowledge — concepts that span multiple domai
 ## Relationship Diagram
 
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#6366f1', 'primaryTextColor': '#fff', 'lineColor': '#94a3b8', 'fontSize': '13px'}}}%%
 graph LR
-    subgraph D1[Domain 1: Architecture]
-        A1[Agent Patterns]
-        A2[SDLC Integration]
+    subgraph D1[🏗️ Domain 1: Architecture]
+        A1[Agent Patterns]:::d1
+        A2[SDLC Integration]:::d1
     end
-    subgraph D2[Domain 2: Implementation]
-        B1[Agent Mode]
-        B2[MCP]
-        B3[Extensions]
+    subgraph D2[⚙️ Domain 2: Implementation]
+        B1[Agent Mode]:::d2
+        B2[MCP]:::d2
+        B3[Extensions]:::d2
     end
-    subgraph D3[Domain 3: Performance]
-        C1[Quality Metrics]
-        C2[Monitoring]
+    subgraph D3[📊 Domain 3: Performance]
+        C1[Quality Metrics]:::d3
+        C2[Monitoring]:::d3
     end
-    subgraph D4[Domain 4: Security]
-        D41[Access Control]
-        D42[Secrets Mgmt]
-        D43[Audit Logging]
+    subgraph D4[🛡️ Domain 4: Security]
+        D41[Access Control]:::d4
+        D42[Secrets Mgmt]:::d4
+        D43[Audit Logging]:::d4
     end
-    subgraph D5[Domain 5: Collaboration]
-        E1[Code Gen/Review]
-        E2[CI/CD]
-        E3[Testing]
+    subgraph D5[🤝 Domain 5: Collaboration]
+        E1[Code Gen/Review]:::d5
+        E2[CI/CD]:::d5
+        E3[Testing]:::d5
     end
-    subgraph D6[Domain 6: Responsible AI]
-        F1[6 Principles]
-        F2[Bias/Fairness]
-        F3[Compliance]
+    subgraph D6[⚖️ Domain 6: Responsible AI]
+        F1[6 Principles]:::d6
+        F2[Bias/Fairness]:::d6
+        F3[Compliance]:::d6
     end
 
     A1 --> B1
@@ -51,13 +52,36 @@ graph LR
     D43 --> F3
     E1 --> F2
     E2 --> D41
+
+    classDef d1 fill:#6366f1,stroke:#4f46e5,color:#fff
+    classDef d2 fill:#06b6d4,stroke:#0891b2,color:#fff
+    classDef d3 fill:#10b981,stroke:#059669,color:#fff
+    classDef d4 fill:#f59e0b,stroke:#d97706,color:#fff
+    classDef d5 fill:#ef4444,stroke:#dc2626,color:#fff
+    classDef d6 fill:#8b5cf6,stroke:#7c3aed,color:#fff
 ```
+
+<p class="diagram-caption">🔗 Arrows show how concepts from one domain connect to and depend on another</p>
 
 ---
 
 ## Key Cross-Domain Concepts
 
 ### MCP (Domains 2, 4, 5)
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#06b6d4', 'primaryTextColor': '#fff', 'lineColor': '#94a3b8', 'fontSize': '13px'}}}%%
+graph TB
+    MCP[🔌 MCP Protocol]:::center
+    MCP --> D2[⚙️ Domain 2: Build Servers & Tools]:::d2
+    MCP --> D4[🛡️ Domain 4: Secure & Govern Access]:::d4
+    MCP --> D5[🤝 Domain 5: CI/CD & Team Sharing]:::d5
+
+    classDef center fill:#06b6d4,stroke:#0891b2,color:#fff,stroke-width:3px
+    classDef d2 fill:#818cf8,stroke:#6366f1,color:#fff
+    classDef d4 fill:#f59e0b,stroke:#d97706,color:#fff
+    classDef d5 fill:#ef4444,stroke:#dc2626,color:#fff
+```
 
 | Domain | Aspect | Key Point |
 |--------|--------|-----------|

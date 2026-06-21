@@ -17,20 +17,58 @@
 ## Learning Path
 
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#6366f1', 'primaryTextColor': '#fff', 'primaryBorderColor': '#4f46e5', 'lineColor': '#06b6d4', 'secondaryColor': '#06b6d4', 'tertiaryColor': '#f0f9ff', 'fontSize': '14px'}}}%%
 graph TD
-    M1[Module 1: Foundations] --> M2[Module 2: Agent Architecture]
-    M2 --> M3[Module 3: Copilot Agent Mode]
-    M2 --> M4[Module 4: MCP Deep Dive]
-    M3 --> M5[Module 5: Multi-Step Workflows]
+    M1[🏗️ Module 1: Foundations]:::found --> M2[🧠 Module 2: Agent Architecture]:::arch
+    M2 --> M3[🤖 Module 3: Copilot Agent Mode]:::impl
+    M2 --> M4[🔌 Module 4: MCP Deep Dive]:::impl
+    M3 --> M5[⚡ Module 5: Multi-Step Workflows]:::impl
     M4 --> M5
-    M5 --> M6[Module 6: Security & Governance]
-    M5 --> M7[Module 7: Performance]
-    M6 --> M8[Module 8: CI/CD Integration]
+    M5 --> M6[🛡️ Module 6: Security & Governance]:::sec
+    M5 --> M7[📊 Module 7: Performance]:::perf
+    M6 --> M8[🔄 Module 8: CI/CD Integration]:::collab
     M7 --> M8
-    M8 --> M9[Module 9: Responsible AI]
-    M9 --> M10[Module 10: Cross-Domain Patterns]
-    M10 --> M11[Module 11: Mock Exam Prep]
-    M11 --> M12[Module 12: Final Review]
+    M8 --> M9[⚖️ Module 9: Responsible AI]:::rai
+    M9 --> M10[🔗 Module 10: Cross-Domain Patterns]:::cross
+    M10 --> M11[📝 Module 11: Mock Exam Prep]:::exam
+    M11 --> M12[🎯 Module 12: Final Review]:::exam
+
+    classDef found fill:#6366f1,stroke:#4f46e5,color:#fff,stroke-width:2px
+    classDef arch fill:#818cf8,stroke:#6366f1,color:#fff,stroke-width:2px
+    classDef impl fill:#06b6d4,stroke:#0891b2,color:#fff,stroke-width:2px
+    classDef sec fill:#f59e0b,stroke:#d97706,color:#fff,stroke-width:2px
+    classDef perf fill:#10b981,stroke:#059669,color:#fff,stroke-width:2px
+    classDef collab fill:#ef4444,stroke:#dc2626,color:#fff,stroke-width:2px
+    classDef rai fill:#8b5cf6,stroke:#7c3aed,color:#fff,stroke-width:2px
+    classDef cross fill:#ec4899,stroke:#db2777,color:#fff,stroke-width:2px
+    classDef exam fill:#14b8a6,stroke:#0d9488,color:#fff,stroke-width:2px
+```
+
+<p class="diagram-caption">📚 Modules are color-coded by domain — follow the arrows for prerequisite order</p>
+
+<div class="flow-pipeline" markdown>
+<div class="flow-step" style="--step-color: #6366f1"><div class="step-icon">📖</div><span class="step-label">Learn</span></div>
+<span class="flow-arrow">→</span>
+<div class="flow-step" style="--step-color: #06b6d4"><div class="step-icon">💻</div><span class="step-label">Practice</span></div>
+<span class="flow-arrow">→</span>
+<div class="flow-step" style="--step-color: #10b981"><div class="step-icon">🧪</div><span class="step-label">Test</span></div>
+<span class="flow-arrow">→</span>
+<div class="flow-step" style="--step-color: #f59e0b"><div class="step-icon">🔁</div><span class="step-label">Review</span></div>
+<span class="flow-arrow">→</span>
+<div class="flow-step" style="--step-color: #8b5cf6"><div class="step-icon">🎯</div><span class="step-label">Exam</span></div>
+</div>
+
+### Time Allocation by Domain
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'pie1': '#6366f1', 'pie2': '#06b6d4', 'pie3': '#10b981', 'pie4': '#f59e0b', 'pie5': '#ef4444', 'pie6': '#8b5cf6', 'pieStrokeColor': '#fff', 'pieStrokeWidth': '2px'}}}%%
+pie title Study Hours by Focus Area
+    "Implementation & MCP (5.5h)" : 5.5
+    "Architecture (3.5h)" : 3.5
+    "Security (3h)" : 3
+    "Collaboration (3h)" : 3
+    "Performance (1.5h)" : 1.5
+    "Responsible AI (1.5h)" : 1.5
 ```
 
 ---

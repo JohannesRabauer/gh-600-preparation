@@ -377,7 +377,7 @@
 }
 
 /* ==========================================================================
-   Mermaid Diagrams
+   Mermaid Diagrams — Colorful Themed
    ========================================================================== */
 
 .md-typeset .mermaid {
@@ -388,6 +388,181 @@
   padding: 1.5rem;
   box-shadow: var(--gh-shadow);
   overflow-x: auto;
+  animation: diagramFadeIn 0.6s ease-out;
+}
+
+@keyframes diagramFadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Colorful Mermaid node overrides */
+.mermaid .node rect,
+.mermaid .node circle,
+.mermaid .node polygon {
+  filter: drop-shadow(0 2px 8px rgba(99, 102, 241, 0.15));
+}
+
+.mermaid .edgePath .path { stroke-width: 2px !important; }
+
+/* ==========================================================================
+   Animated Pictogram Cards — Domain Icons
+   ========================================================================== */
+
+.pictogram-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 1.2rem;
+  margin: 2rem 0;
+}
+
+.pictogram {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1.5rem 1rem;
+  background: var(--gh-surface);
+  backdrop-filter: blur(var(--gh-blur));
+  border: 1px solid var(--gh-glass-border);
+  border-radius: var(--gh-radius);
+  box-shadow: var(--gh-shadow);
+  transition: transform var(--gh-transition), box-shadow var(--gh-transition);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.pictogram::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--picto-color, var(--gh-primary)), var(--picto-color-end, var(--gh-accent)));
+}
+
+.pictogram:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: var(--gh-shadow-hover);
+}
+
+.pictogram .picto-icon {
+  font-size: 2.5rem;
+  animation: pictoFloat 3s ease-in-out infinite;
+  filter: drop-shadow(0 2px 6px rgba(99, 102, 241, 0.2));
+}
+
+.pictogram .picto-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  opacity: 0.85;
+}
+
+@keyframes pictoFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+
+/* Staggered animation for each pictogram */
+.pictogram:nth-child(1) .picto-icon { animation-delay: 0s; }
+.pictogram:nth-child(2) .picto-icon { animation-delay: 0.3s; }
+.pictogram:nth-child(3) .picto-icon { animation-delay: 0.6s; }
+.pictogram:nth-child(4) .picto-icon { animation-delay: 0.9s; }
+.pictogram:nth-child(5) .picto-icon { animation-delay: 1.2s; }
+.pictogram:nth-child(6) .picto-icon { animation-delay: 1.5s; }
+
+/* Domain-specific pictogram colors */
+.picto-d1 { --picto-color: var(--domain-1); --picto-color-end: #818cf8; }
+.picto-d2 { --picto-color: var(--domain-2); --picto-color-end: #22d3ee; }
+.picto-d3 { --picto-color: var(--domain-3); --picto-color-end: #34d399; }
+.picto-d4 { --picto-color: var(--domain-4); --picto-color-end: #fbbf24; }
+.picto-d5 { --picto-color: var(--domain-5); --picto-color-end: #f87171; }
+.picto-d6 { --picto-color: var(--domain-6); --picto-color-end: #a78bfa; }
+
+/* ==========================================================================
+   Animated Flow Steps — Horizontal Pipeline
+   ========================================================================== */
+
+.flow-pipeline {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  margin: 2rem 0;
+  overflow-x: auto;
+  padding: 1rem 0;
+}
+
+.flow-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 1rem;
+  min-width: 100px;
+  text-align: center;
+  animation: stepPulse 2s ease-in-out infinite;
+}
+
+.flow-step .step-icon {
+  width: 48px; height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  color: #fff;
+  background: linear-gradient(135deg, var(--step-color, var(--gh-primary)), color-mix(in srgb, var(--step-color, var(--gh-primary)) 70%, #000));
+  box-shadow: 0 4px 12px color-mix(in srgb, var(--step-color, var(--gh-primary)) 40%, transparent);
+  transition: transform var(--gh-transition);
+}
+
+.flow-step:hover .step-icon { transform: scale(1.15); }
+
+.flow-step .step-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.flow-arrow {
+  font-size: 1.2rem;
+  color: var(--gh-primary-light);
+  opacity: 0.6;
+  animation: arrowPulse 1.5s ease-in-out infinite;
+  flex-shrink: 0;
+}
+
+@keyframes stepPulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.85; }
+}
+
+@keyframes arrowPulse {
+  0%, 100% { transform: translateX(0); opacity: 0.6; }
+  50% { transform: translateX(3px); opacity: 1; }
+}
+
+.flow-step:nth-child(1) { animation-delay: 0s; }
+.flow-step:nth-child(3) { animation-delay: 0.2s; }
+.flow-step:nth-child(5) { animation-delay: 0.4s; }
+.flow-step:nth-child(7) { animation-delay: 0.6s; }
+.flow-step:nth-child(9) { animation-delay: 0.8s; }
+.flow-step:nth-child(11) { animation-delay: 1s; }
+
+/* ==========================================================================
+   Diagram Caption
+   ========================================================================== */
+
+.diagram-caption {
+  text-align: center;
+  font-size: 0.8rem;
+  font-style: italic;
+  opacity: 0.7;
+  margin-top: -0.5rem;
+  margin-bottom: 1.5rem;
 }
 
 /* ==========================================================================

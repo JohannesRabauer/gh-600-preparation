@@ -113,6 +113,95 @@ Microsoft's 6 principles: **Fairness** (equitable treatment), **Reliability & Sa
 
 ---
 
+## Visual Cheat Sheets
+
+### Security Permission Hierarchy
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#f59e0b', 'primaryTextColor': '#fff', 'lineColor': '#94a3b8', 'fontSize': '13px'}}}%%
+graph TD
+    O[🏢 Organization]:::org --> R[📁 Repository]:::repo
+    R --> U[👤 User]:::user
+    U --> S[🔑 Session]:::session
+    S --> T[🔧 Tool]:::tool
+
+    classDef org fill:#6366f1,stroke:#4f46e5,color:#fff,stroke-width:2px
+    classDef repo fill:#06b6d4,stroke:#0891b2,color:#fff,stroke-width:2px
+    classDef user fill:#10b981,stroke:#059669,color:#fff,stroke-width:2px
+    classDef session fill:#f59e0b,stroke:#d97706,color:#fff,stroke-width:2px
+    classDef tool fill:#ef4444,stroke:#dc2626,color:#fff,stroke-width:2px
+```
+
+<p class="diagram-caption">🔒 Permissions narrow from broad (org) to specific (tool) — least privilege principle</p>
+
+### Tool Risk Levels
+
+<div class="flow-pipeline" markdown>
+<div class="flow-step" style="--step-color: #10b981"><div class="step-icon">📖</div><span class="step-label">Read (Safe)</span></div>
+<span class="flow-arrow">→</span>
+<div class="flow-step" style="--step-color: #f59e0b"><div class="step-icon">✏️</div><span class="step-label">Write (Review)</span></div>
+<span class="flow-arrow">→</span>
+<div class="flow-step" style="--step-color: #ef4444"><div class="step-icon">💻</div><span class="step-label">Shell (Approve)</span></div>
+<span class="flow-arrow">→</span>
+<div class="flow-step" style="--step-color: #7c3aed"><div class="step-icon">🌐</div><span class="step-label">Network (Careful)</span></div>
+</div>
+
+### Responsible AI — 6 Principles
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#8b5cf6', 'primaryTextColor': '#fff', 'lineColor': '#a78bfa', 'fontSize': '13px'}}}%%
+mindmap
+  root((⚖️ Responsible AI))
+    🤝 Fairness
+      Equitable treatment
+      No discrimination
+    🛡️ Reliability
+      Consistent performance
+      Graceful failure
+    🔐 Privacy
+      Data protection
+      Consent mechanisms
+    🌍 Inclusiveness
+      Accessible to all
+      Diverse perspectives
+    👁️ Transparency
+      Explain decisions
+      Disclose AI use
+    📋 Accountability
+      Human oversight
+      Audit trails
+```
+
+<p class="diagram-caption">⚖️ Microsoft's 6 Responsible AI principles — memorize all six for the exam</p>
+
+### Agent Mode vs Chat vs Inline
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#06b6d4', 'primaryTextColor': '#fff', 'lineColor': '#94a3b8', 'fontSize': '12px'}}}%%
+graph LR
+    subgraph Inline["✍️ Inline Suggestions"]
+        I1[Single line/block]:::inline
+        I2[No tools]:::inline
+        I3[Accept/reject]:::inline
+    end
+    subgraph Chat["💬 Chat Mode"]
+        C1[Conversation]:::chat
+        C2[Single response]:::chat
+        C3[Limited tools]:::chat
+    end
+    subgraph Agent["🤖 Agent Mode"]
+        A1[Multi-step]:::agent
+        A2[Full tool use]:::agent
+        A3[Autonomous iteration]:::agent
+    end
+
+    classDef inline fill:#64748b,stroke:#475569,color:#fff
+    classDef chat fill:#06b6d4,stroke:#0891b2,color:#fff
+    classDef agent fill:#6366f1,stroke:#4f46e5,color:#fff
+```
+
+---
+
 ## Flashcards
 
 !!! info "Study Method"

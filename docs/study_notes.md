@@ -54,13 +54,21 @@ Agent architecture defines how AI agents are structured, how they communicate, a
 GitHub Copilot agent mode uses a **plan-execute-iterate** loop:
 
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#6366f1', 'primaryTextColor': '#fff', 'primaryBorderColor': '#4f46e5', 'lineColor': '#06b6d4', 'fontSize': '14px'}}}%%
 graph TD
-    A[User Request] --> B[Agent Plans Steps]
-    B --> C[Execute Step with Tools]
-    C --> D{Check Result}
-    D -->|Success| E[Next Step or Complete]
-    D -->|Failure| F[Revise Plan]
+    A[🗣️ User Request]:::start --> B[🧠 Agent Plans Steps]:::plan
+    B --> C[🔧 Execute Step with Tools]:::exec
+    C --> D{✅ Check Result}:::check
+    D -->|Success| E[➡️ Next Step or Complete]:::success
+    D -->|Failure| F[🔄 Revise Plan]:::retry
     F --> C
+
+    classDef start fill:#6366f1,stroke:#4f46e5,color:#fff,stroke-width:2px
+    classDef plan fill:#818cf8,stroke:#6366f1,color:#fff,stroke-width:2px
+    classDef exec fill:#06b6d4,stroke:#0891b2,color:#fff,stroke-width:2px
+    classDef check fill:#f59e0b,stroke:#d97706,color:#fff,stroke-width:2px
+    classDef success fill:#10b981,stroke:#059669,color:#fff,stroke-width:2px
+    classDef retry fill:#ef4444,stroke:#dc2626,color:#fff,stroke-width:2px
 ```
 
 1. **Planning**: The agent analyzes the request and creates a multi-step plan
@@ -135,21 +143,27 @@ capabilities:
 #### How Agents Fit the SDLC
 
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#6366f1', 'primaryTextColor': '#fff', 'lineColor': '#06b6d4', 'fontSize': '13px'}}}%%
 graph LR
-    subgraph "Plan"
-        A[Decompose Tasks]
+    subgraph Plan["📋 Plan"]
+        A[Decompose Tasks]:::plan
     end
-    subgraph "Code"
-        B[Generate Code]
-        C[Run Tests]
+    subgraph Code["💻 Code"]
+        B[Generate Code]:::code
+        C[Run Tests]:::code
     end
-    subgraph "Review"
-        D[PR Review]
+    subgraph Review["🔍 Review"]
+        D[PR Review]:::review
     end
-    subgraph "Deploy"
-        E[CI/CD]
+    subgraph Deploy["🚀 Deploy"]
+        E[CI/CD]:::deploy
     end
     A --> B --> C --> D --> E
+
+    classDef plan fill:#6366f1,stroke:#4f46e5,color:#fff
+    classDef code fill:#06b6d4,stroke:#0891b2,color:#fff
+    classDef review fill:#f59e0b,stroke:#d97706,color:#fff
+    classDef deploy fill:#10b981,stroke:#059669,color:#fff
 ```
 
 !!! tip "Exam Tip"
@@ -295,21 +309,31 @@ def select_agent_config(task):
 ### MCP Architecture Overview
 
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#6366f1', 'primaryTextColor': '#fff', 'lineColor': '#06b6d4', 'fontSize': '14px'}}}%%
 graph TB
-  subgraph Host["Host (IDE/Editor)"]
-    Client["MCP Client"]
+  subgraph Host["🖥️ Host (IDE/Editor)"]
+    Client["🔌 MCP Client"]:::host
   end
-  subgraph Server["MCP Server"]
-    Tools["Tools (Actions)"]
-    Resources["Resources (Data)"]
-    Prompts["Prompts (Templates)"]
+  subgraph Server["☁️ MCP Server"]
+    Tools["🔧 Tools (Actions)"]:::tools
+    Resources["📂 Resources (Data)"]:::resources
+    Prompts["📝 Prompts (Templates)"]:::prompts
   end
-  Client -->|"JSON-RPC 2.0"| Transport
+  Client -->|"JSON-RPC 2.0"| Transport[🔀 Transport]:::transport
   Transport -->|"stdio / HTTP+SSE"| Server
-  Tools --> Execute["Execute Actions"]
-  Resources --> Read["Read Data"]
-  Prompts --> Template["Apply Templates"]
+  Tools --> Execute["⚡ Execute Actions"]:::exec
+  Resources --> Read["📖 Read Data"]:::exec
+  Prompts --> Template["📋 Apply Templates"]:::exec
+
+  classDef host fill:#6366f1,stroke:#4f46e5,color:#fff,stroke-width:2px
+  classDef tools fill:#06b6d4,stroke:#0891b2,color:#fff
+  classDef resources fill:#10b981,stroke:#059669,color:#fff
+  classDef prompts fill:#8b5cf6,stroke:#7c3aed,color:#fff
+  classDef transport fill:#f59e0b,stroke:#d97706,color:#fff
+  classDef exec fill:#64748b,stroke:#475569,color:#fff
 ```
+
+<p class="diagram-caption">🔌 MCP connects AI hosts to tool servers via a standardized JSON-RPC protocol</p>
 
 ### 2.1 GitHub Copilot Agent Mode
 
@@ -430,24 +454,32 @@ MCP is an open standard that defines how AI models connect to external tools and
 #### MCP Architecture
 
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#6366f1', 'primaryTextColor': '#fff', 'lineColor': '#94a3b8', 'fontSize': '13px'}}}%%
 graph TB
-    subgraph "Host Application"
-        A[AI Agent / LLM]
+    subgraph "🧠 Host Application"
+        A[AI Agent / LLM]:::host
     end
-    subgraph "MCP Client"
-        B[Protocol Handler]
+    subgraph "🔌 MCP Client"
+        B[Protocol Handler]:::client
     end
-    subgraph "MCP Servers"
-        C[Database Server]
-        D[File System Server]
-        E[API Server]
-        F[Documentation Server]
+    subgraph "☁️ MCP Servers"
+        C[🗄️ Database Server]:::db
+        D[📁 File System Server]:::fs
+        E[🌐 API Server]:::api
+        F[📚 Documentation Server]:::docs
     end
     A --> B
     B --> C
     B --> D
     B --> E
     B --> F
+
+    classDef host fill:#6366f1,stroke:#4f46e5,color:#fff,stroke-width:2px
+    classDef client fill:#818cf8,stroke:#6366f1,color:#fff
+    classDef db fill:#06b6d4,stroke:#0891b2,color:#fff
+    classDef fs fill:#10b981,stroke:#059669,color:#fff
+    classDef api fill:#f59e0b,stroke:#d97706,color:#fff
+    classDef docs fill:#8b5cf6,stroke:#7c3aed,color:#fff
 ```
 
 #### MCP Components
@@ -543,16 +575,26 @@ Complex development tasks require agents to execute multiple steps in sequence, 
 #### Example: Feature Implementation Workflow
 
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#6366f1', 'primaryTextColor': '#fff', 'lineColor': '#06b6d4', 'fontSize': '13px'}}}%%
 graph TD
-    A[Understand Requirements] --> B[Analyze Codebase]
-    B --> C[Design Solution]
-    C --> D[Implement Changes]
-    D --> E[Write Tests]
-    E --> F{Tests Pass?}
-    F -->|Yes| G[Update Documentation]
-    F -->|No| H[Fix Implementation]
+    A[📋 Understand Requirements]:::plan --> B[🔍 Analyze Codebase]:::plan
+    B --> C[✏️ Design Solution]:::design
+    C --> D[💻 Implement Changes]:::code
+    D --> E[🧪 Write Tests]:::test
+    E --> F{✅ Tests Pass?}:::check
+    F -->|Yes| G[📝 Update Documentation]:::docs
+    F -->|No| H[🔧 Fix Implementation]:::fix
     H --> E
-    G --> I[Create PR]
+    G --> I[🚀 Create PR]:::deploy
+
+    classDef plan fill:#6366f1,stroke:#4f46e5,color:#fff
+    classDef design fill:#818cf8,stroke:#6366f1,color:#fff
+    classDef code fill:#06b6d4,stroke:#0891b2,color:#fff
+    classDef test fill:#10b981,stroke:#059669,color:#fff
+    classDef check fill:#f59e0b,stroke:#d97706,color:#fff
+    classDef docs fill:#8b5cf6,stroke:#7c3aed,color:#fff
+    classDef fix fill:#ef4444,stroke:#dc2626,color:#fff
+    classDef deploy fill:#14b8a6,stroke:#0d9488,color:#fff
 ```
 
 #### Workflow Configuration
@@ -685,13 +727,22 @@ GitHub Copilot Extensions allow developers to create domain-specific agents that
 #### Extension Architecture
 
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#6366f1', 'primaryTextColor': '#fff', 'lineColor': '#06b6d4', 'fontSize': '13px'}}}%%
 graph LR
-    A[User @mention] --> B[Copilot Platform]
-    B --> C[Extension Endpoint]
-    C --> D[Custom Logic]
-    D --> E[Response to User]
-    C --> F[External APIs]
-    C --> G[Databases]
+    A[👤 User @mention]:::user --> B[🤖 Copilot Platform]:::platform
+    B --> C[🔌 Extension Endpoint]:::ext
+    C --> D[⚙️ Custom Logic]:::logic
+    D --> E[💬 Response to User]:::response
+    C --> F[🌐 External APIs]:::api
+    C --> G[🗄️ Databases]:::db
+
+    classDef user fill:#6366f1,stroke:#4f46e5,color:#fff
+    classDef platform fill:#818cf8,stroke:#6366f1,color:#fff
+    classDef ext fill:#06b6d4,stroke:#0891b2,color:#fff
+    classDef logic fill:#10b981,stroke:#059669,color:#fff
+    classDef response fill:#14b8a6,stroke:#0d9488,color:#fff
+    classDef api fill:#f59e0b,stroke:#d97706,color:#fff
+    classDef db fill:#8b5cf6,stroke:#7c3aed,color:#fff
 ```
 
 #### Creating an Extension
@@ -931,17 +982,21 @@ monitoring:
 ### Permission Layers Overview
 
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#f59e0b', 'primaryTextColor': '#fff', 'lineColor': '#94a3b8', 'fontSize': '14px'}}}%%
 graph TD
-  O["Organization Policy"] --> R["Repository Settings"]
-  R --> U["User Permissions"]
-  U --> S["Session Scope"]
-  S --> T["Tool-Level Access"]
-  style O fill:#e53935,color:#fff
-  style R fill:#fb8c00,color:#fff
-  style U fill:#fdd835,color:#000
-  style S fill:#43a047,color:#fff
-  style T fill:#1e88e5,color:#fff
+  O["🏢 Organization Policy"]:::org --> R["📁 Repository Settings"]:::repo
+  R --> U["👤 User Permissions"]:::user
+  U --> S["🔑 Session Scope"]:::session
+  S --> T["🔧 Tool-Level Access"]:::tool
+
+  classDef org fill:#ef4444,stroke:#dc2626,color:#fff,stroke-width:2px
+  classDef repo fill:#f59e0b,stroke:#d97706,color:#fff,stroke-width:2px
+  classDef user fill:#eab308,stroke:#ca8a04,color:#000,stroke-width:2px
+  classDef session fill:#10b981,stroke:#059669,color:#fff,stroke-width:2px
+  classDef tool fill:#06b6d4,stroke:#0891b2,color:#fff,stroke-width:2px
 ```
+
+<p class="diagram-caption">🔒 Each layer narrows what the agent can access — defense in depth</p>
 
 ### 4.1 Access Controls for AI Agents
 
@@ -952,11 +1007,18 @@ AI agents operate with specific permissions that must be carefully scoped. The p
 #### Permission Model
 
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#6366f1', 'primaryTextColor': '#fff', 'lineColor': '#06b6d4', 'fontSize': '13px'}}}%%
 graph TD
-    A[Organization Policy] --> B[Repository Permissions]
-    B --> C[Agent Scope]
-    C --> D[Tool Permissions]
-    D --> E[Runtime Constraints]
+    A[🏢 Organization Policy]:::org --> B[📁 Repository Permissions]:::repo
+    B --> C[🤖 Agent Scope]:::agent
+    C --> D[🔧 Tool Permissions]:::tool
+    D --> E[⚡ Runtime Constraints]:::runtime
+
+    classDef org fill:#6366f1,stroke:#4f46e5,color:#fff
+    classDef repo fill:#06b6d4,stroke:#0891b2,color:#fff
+    classDef agent fill:#10b981,stroke:#059669,color:#fff
+    classDef tool fill:#f59e0b,stroke:#d97706,color:#fff
+    classDef runtime fill:#ef4444,stroke:#dc2626,color:#fff
 ```
 
 #### Access Control Levels
@@ -1237,13 +1299,22 @@ AI agents can identify bugs, suggest fixes, generate test cases, and reproduce i
 #### Debugging Workflow with Agents
 
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#ef4444', 'primaryTextColor': '#fff', 'lineColor': '#06b6d4', 'fontSize': '13px'}}}%%
 graph TD
-    A[Bug Report / Error Log] --> B[Agent Analyzes Error]
-    B --> C[Identifies Root Cause]
-    C --> D[Suggests Fix]
-    D --> E[Generates Test for Bug]
-    E --> F[Verifies Fix Passes]
-    F --> G[Checks No Regressions]
+    A[🐛 Bug Report / Error Log]:::bug --> B[🔍 Agent Analyzes Error]:::analyze
+    B --> C[🎯 Identifies Root Cause]:::find
+    C --> D[💡 Suggests Fix]:::fix
+    D --> E[🧪 Generates Test for Bug]:::test
+    E --> F[✅ Verifies Fix Passes]:::verify
+    F --> G[🛡️ Checks No Regressions]:::safe
+
+    classDef bug fill:#ef4444,stroke:#dc2626,color:#fff
+    classDef analyze fill:#f59e0b,stroke:#d97706,color:#fff
+    classDef find fill:#06b6d4,stroke:#0891b2,color:#fff
+    classDef fix fill:#6366f1,stroke:#4f46e5,color:#fff
+    classDef test fill:#8b5cf6,stroke:#7c3aed,color:#fff
+    classDef verify fill:#10b981,stroke:#059669,color:#fff
+    classDef safe fill:#14b8a6,stroke:#0d9488,color:#fff
 ```
 
 #### Test Generation Capabilities
@@ -1394,33 +1465,36 @@ Effective collaboration between developers and AI agents requires clear communic
 ### Responsible AI Principles Map
 
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#8b5cf6', 'primaryTextColor': '#fff', 'lineColor': '#a78bfa', 'fontSize': '13px'}}}%%
 mindmap
-  root((Responsible AI))
-    Fairness
+  root((⚖️ Responsible AI))
+    🤝 Fairness
       Equitable treatment
       Bias detection
       Inclusive language
-    Reliability
+    🛡️ Reliability
       Consistent outputs
       Error handling
       Testing
-    Privacy
+    🔐 Privacy
       Data classification
       Secret management
       Consent
-    Inclusiveness
+    🌍 Inclusiveness
       Accessibility
       Multiple languages
       Diverse testing
-    Transparency
+    👁️ Transparency
       Explain decisions
       Cite sources
       Confidence levels
-    Accountability
+    📋 Accountability
       Human oversight
       Audit trails
       Incident response
 ```
+
+<p class="diagram-caption">⚖️ The 6 principles of Microsoft's Responsible AI framework — know each and its sub-topics</p>
 
 ### 6.1 Ethical Guidelines for Agent Behavior
 
@@ -1855,21 +1929,22 @@ MCP appears in Domains 2, 4, and 5:
 The following themes span multiple domains — expect exam questions that test your understanding of how these concepts interconnect:
 
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#6366f1', 'primaryTextColor': '#fff', 'lineColor': '#94a3b8', 'fontSize': '12px'}}}%%
 graph LR
-  subgraph "Cross-Cutting Concerns"
-    MCP["MCP Protocol"]
-    SEC["Security"]
-    HO["Human Oversight"]
-    PERF["Performance"]
+  subgraph CC["🔗 Cross-Cutting Concerns"]
+    MCP["🔌 MCP Protocol"]:::mcp
+    SEC["🛡️ Security"]:::sec
+    HO["👁️ Human Oversight"]:::ho
+    PERF["📊 Performance"]:::perf
   end
 
-  subgraph "Domains"
-    D1["D1: Architecture"]
-    D2["D2: Implementation"]
-    D3["D3: Performance"]
-    D4["D4: Security"]
-    D5["D5: Collaboration"]
-    D6["D6: Responsible AI"]
+  subgraph Domains["📚 Domains"]
+    D1["🏗️ D1: Architecture"]:::d1
+    D2["⚙️ D2: Implementation"]:::d2
+    D3["📊 D3: Performance"]:::d3
+    D4["🛡️ D4: Security"]:::d4
+    D5["🤝 D5: Collaboration"]:::d5
+    D6["⚖️ D6: Responsible AI"]:::d6
   end
 
   MCP --> D2
@@ -1888,7 +1963,20 @@ graph LR
   PERF --> D2
   PERF --> D3
   PERF --> D5
+
+  classDef mcp fill:#06b6d4,stroke:#0891b2,color:#fff
+  classDef sec fill:#f59e0b,stroke:#d97706,color:#fff
+  classDef ho fill:#8b5cf6,stroke:#7c3aed,color:#fff
+  classDef perf fill:#10b981,stroke:#059669,color:#fff
+  classDef d1 fill:#6366f1,stroke:#4f46e5,color:#fff
+  classDef d2 fill:#06b6d4,stroke:#0891b2,color:#fff
+  classDef d3 fill:#10b981,stroke:#059669,color:#fff
+  classDef d4 fill:#f59e0b,stroke:#d97706,color:#fff
+  classDef d5 fill:#ef4444,stroke:#dc2626,color:#fff
+  classDef d6 fill:#8b5cf6,stroke:#7c3aed,color:#fff
 ```
+
+<p class="diagram-caption">🔗 These four topics appear across multiple domains — expect cross-cutting exam questions</p>
 
 | Cross-Domain Theme | Where It Appears | Key Insight |
 |-------------------|------------------|-------------|
