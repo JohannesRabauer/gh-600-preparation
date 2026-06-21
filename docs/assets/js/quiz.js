@@ -46,9 +46,9 @@
     // Insert container before the first quiz div
     quizDivs[0].parentNode.insertBefore(containerEl, quizDivs[0]);
 
-    // Try to restore state from sessionStorage
+    // Try to restore state from localStorage
     const saved = loadState();
-    if (saved && saved.questions.length === questions.length) {
+    if (saved && saved.questionCount === questions.length) {
       state = saved;
       // Re-attach parsed question data (HTML refs not serializable)
       state.questions = questions;
@@ -524,6 +524,7 @@
       const saved = JSON.parse(raw);
       return {
         questions: [],
+        questionCount: saved.questionCount || 0,
         currentIndex: saved.currentIndex || 0,
         answers: saved.answers || {},
         startTime: saved.startTime || Date.now(),
