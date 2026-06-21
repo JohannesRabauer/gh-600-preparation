@@ -39,6 +39,8 @@ What distinguishes GitHub Copilot's agent mode from chat mode?
     - **C**: Incorrect. Agent mode works with all supported languages.
     - **D**: Incorrect. Both modes have similar licensing requirements.
 
+    <a href="study_notes/#21-github-copilot-agent-mode">📖 Study Guide</a>
+
 ---
 
 ### Question 2
@@ -58,6 +60,8 @@ What does MCP stand for in the context of AI agent tools?
     MCP = Model Context Protocol. It's an open standard for connecting AI models to external tools and data sources.
 
     - **A, C, D**: Incorrect. These are not what MCP stands for in this context.
+
+    <a href="study_notes/#22-model-context-protocol-mcp">📖 Study Guide</a>
 
 ---
 
@@ -79,6 +83,8 @@ Which tool category requires the HIGHEST level of user approval in agent systems
 
     - **A, D**: Incorrect. Read and search are safe operations.
     - **B**: Incorrect. Write operations require review but are less risky than shell commands.
+
+    <a href="study_notes/#42-agent-permissions-and-boundaries">📖 Study Guide</a>
 
 ---
 
@@ -102,6 +108,8 @@ Which of Microsoft's Responsible AI principles focuses on ensuring AI systems wo
     - **C**: Transparency is about explaining AI behavior.
     - **D**: Accountability is about human responsibility for AI systems.
 
+    <a href="study_notes/#61-ethical-guidelines-for-agent-behavior">📖 Study Guide</a>
+
 ---
 
 ### Question 5
@@ -123,6 +131,8 @@ In an orchestrator-worker agent pattern, what is the orchestrator's primary role
     - **A**: Workers execute tasks, not the orchestrator.
     - **C**: Data storage is not the orchestrator's role.
     - **D**: The UI is separate from orchestration logic.
+
+    <a href="study_notes/#11-agent-architecture-patterns">📖 Study Guide</a>
 
 ---
 
@@ -146,6 +156,8 @@ In MCP, what is the transport layer responsible for?
     - **C**: The host/LLM generates responses.
     - **D**: Authentication is separate from transport.
 
+    <a href="study_notes/#22-model-context-protocol-mcp">📖 Study Guide</a>
+
 ---
 
 ### Question 7
@@ -167,6 +179,8 @@ What is the target task completion rate for a well-performing agent system?
     - **A, B**: These are below acceptable thresholds.
     - **D**: 99% is unrealistic for complex autonomous tasks.
 
+    <a href="study_notes/#33-agent-task-completion-and-monitoring">📖 Study Guide</a>
+
 ---
 
 ### Question 8
@@ -186,6 +200,8 @@ How should secrets be provided to MCP servers?
     Secrets should be injected via environment variables that reference a vault (GitHub Secrets, Azure Key Vault, etc.). Never hardcode or expose them.
 
     - **A, C, D**: All expose secrets in plaintext, which is a security violation.
+
+    <a href="study_notes/#45-managing-secrets-in-agent-workflows">📖 Study Guide</a>
 
 ---
 
@@ -209,6 +225,8 @@ Which code generation pattern involves writing tests BEFORE asking the agent to 
     - **C**: Refactor improves existing code.
     - **D**: Pattern extension replicates from examples.
 
+    <a href="study_notes/#52-agent-assisted-debugging-and-testing">📖 Study Guide</a>
+
 ---
 
 ### Question 10
@@ -228,6 +246,8 @@ What is the correct inclusive alternative to "whitelist"?
     The inclusive alternative to "whitelist" is "allowlist" (and "denylist" replaces "blacklist").
 
     - **A, C, D**: Not the standard inclusive replacements.
+
+    <a href="study_notes/#63-bias-and-fairness-in-agent-outputs">📖 Study Guide</a>
 
 ---
 
@@ -251,6 +271,8 @@ Which autonomy level is appropriate for an agent performing production deploymen
     - **C**: Advisory means the agent only suggests without acting.
     - **D**: Agents can assist with deployments under supervision.
 
+    <a href="study_notes/#14-agent-roles-within-development-workflows">📖 Study Guide</a>
+
 ---
 
 ### Question 12
@@ -270,6 +292,8 @@ What protocol does MCP use for communication messages?
     MCP uses JSON-RPC 2.0 as its message format over stdio or HTTP/SSE transport.
 
     - **A, B, D**: Not the protocols used by MCP.
+
+    <a href="study_notes/#22-model-context-protocol-mcp">📖 Study Guide</a>
 
 ---
 
@@ -293,6 +317,8 @@ What is the primary technique for reducing perceived latency in agent responses?
     - **C**: Disabling tools reduces capability, not latency perception.
     - **D**: This can help actual latency but streaming is the primary perceived-speed technique.
 
+    <a href="study_notes/#32-optimizing-agent-response-latency">📖 Study Guide</a>
+
 ---
 
 ### Question 14
@@ -312,6 +338,8 @@ What information must an agent audit log include?
     Comprehensive audit logs must include: timestamp, user identity, session ID, action type, target resource, tool used, approval status, content hash, and risk level.
 
     - **A, C, D**: These are incomplete and insufficient for proper auditing.
+
+    <a href="study_notes/#43-security-compliance-monitoring">📖 Study Guide</a>
 
 ---
 
@@ -335,6 +363,8 @@ What should NEVER be fully automated in a CI/CD pipeline without human approval?
 
     Production deployments must always have human approval gates. Formatting, testing, and changelog generation can be safely automated.
 
+    <a href="study_notes/#53-ai-agents-in-cicd-pipelines">📖 Study Guide</a>
+
 ---
 
 ### Question 16
@@ -352,6 +382,8 @@ What communication pattern does GitHub Copilot use between the IDE and AI backen
     **Correct**: B
 
     Copilot uses a message-based protocol where tool calls have structured JSON inputs and outputs.
+
+    <a href="study_notes/#13-agent-communication-and-orchestration">📖 Study Guide</a>
 
 ---
 
@@ -371,6 +403,8 @@ What are the three types of capabilities an MCP server can expose?
 
     MCP servers expose: Tools (actions/functions), Resources (data access), and Prompts (template prompts).
 
+    <a href="study_notes/#24-agent-tools-and-capabilities">📖 Study Guide</a>
+
 ---
 
 ### Question 18
@@ -388,6 +422,8 @@ Which Responsible AI principle requires AI systems to explain their behavior?
     **Correct**: C
 
     Transparency requires AI systems to be understandable — explaining decisions, acknowledging limitations, and disclosing AI involvement.
+
+    <a href="study_notes/#62-transparency-and-explainability">📖 Study Guide</a>
 
 ---
 
@@ -407,6 +443,8 @@ What is considered a critical error rate threshold for agent systems?
 
     Error rate > 15% is critical. Good is < 5%, warning is 5-15%.
 
+    <a href="study_notes/#33-agent-task-completion-and-monitoring">📖 Study Guide</a>
+
 ---
 
 ### Question 20
@@ -424,6 +462,8 @@ Which data classification level should NEVER be exposed to AI agents?
     **Correct**: D
 
     Restricted data (PII, financial records) must never be exposed to AI agents. Even confidential data requires special handling.
+
+    <a href="study_notes/#44-data-governance-for-agent-interactions">📖 Study Guide</a>
 
 ---
 
@@ -451,6 +491,8 @@ A developer is configuring an MCP server for their project. Which of the followi
 
     - **C**: MCP uses JSON-RPC, not XML. The transport format is not configurable.
 
+    <a href="study_notes/#22-model-context-protocol-mcp">📖 Study Guide</a>
+
 ---
 
 ### Question 22
@@ -472,6 +514,8 @@ A security team is setting up agent permissions for a new development team. The 
     - **A**: Too permissive — exposes PII and secrets.
     - **C**: Too restrictive — agents can still be useful without accessing PII directly.
     - **D**: Too restrictive for development work — agents need write access to be useful.
+
+    <a href="study_notes/#41-access-controls-for-ai-agents">📖 Study Guide</a>
 
 ---
 
@@ -495,6 +539,8 @@ A team is building a system that needs to: refactor a large codebase, run tests 
     - **C**: Advisory doesn't complete the task — human would do all work.
     - **D**: Without coordination, agents would conflict and duplicate work.
 
+    <a href="study_notes/#11-agent-architecture-patterns">📖 Study Guide</a>
+
 ---
 
 ### Question 24
@@ -516,6 +562,8 @@ A CI/CD pipeline runs AI-generated tests that are failing intermittently. What i
     - **A, C**: Throwing away tests is wasteful.
     - **D**: Increasing timeout doesn't fix the root cause.
 
+    <a href="study_notes/#52-agent-assisted-debugging-and-testing">📖 Study Guide</a>
+
 ---
 
 ### Question 25
@@ -536,6 +584,8 @@ A company is auditing their AI agent deployment for responsible AI compliance. W
     Responsible AI compliance requires: audit logs (accountability), bias testing (fairness), consent (privacy), and incident response (reliability/safety).
 
     - **D**: Performance comparison to human code is not a responsible AI requirement.
+
+    <a href="study_notes/#64-compliance-with-responsible-ai-policies">📖 Study Guide</a>
 
 ---
 
@@ -559,6 +609,8 @@ A developer needs their agent to query a PostgreSQL database during code generat
     - **C**: Exposes user data and wastes context window.
     - **D**: Impractical and doesn't leverage agent capabilities.
 
+    <a href="study_notes/#22-model-context-protocol-mcp">📖 Study Guide</a>
+
 ---
 
 ### Question 27
@@ -581,6 +633,8 @@ An agent's task completion rate has dropped from 90% to 65% over the past week. 
     - **C**: Too extreme without understanding the cause.
     - **D**: Token budget may not be the issue.
 
+    <a href="study_notes/#33-agent-task-completion-and-monitoring">📖 Study Guide</a>
+
 ---
 
 ### Question 28
@@ -598,6 +652,8 @@ Which framework selection criterion is MOST important when an agent needs to int
     **Correct**: B
 
     When an agent needs to access external/internal APIs, the key criterion is integration capability — specifically MCP servers that can bridge the agent to those proprietary APIs securely.
+
+    <a href="study_notes/#15-selecting-agent-frameworks-and-tools">📖 Study Guide</a>
 
 ---
 
@@ -619,6 +675,8 @@ A developer prompts the agent with "add pagination." The agent's output is incom
 
     - **A**: Defeats the purpose of using the agent.
     - **C, D**: Premature — the issue is prompt quality, not tool capability.
+
+    <a href="study_notes/#54-agent-human-interaction-patterns">📖 Study Guide</a>
 
 ---
 
@@ -642,6 +700,8 @@ Which of the following should trigger a security alert in an agent monitoring sy
     - **A**: Reading allowed files is normal.
     - **C**: Generating code is the agent's job.
 
+    <a href="study_notes/#43-security-compliance-monitoring">📖 Study Guide</a>
+
 ---
 
 ### Questions 31-40
@@ -662,6 +722,8 @@ What happens when a Copilot agent mode task encounters a build error after editi
 
     Agent mode's iterate capability means it automatically reads error output, identifies the cause, and makes corrections — repeating until successful or reaching a limit.
 
+    <a href="study_notes/#21-github-copilot-agent-mode">📖 Study Guide</a>
+
 ---
 
 ### Question 32
@@ -679,6 +741,8 @@ An AI agent generates variable names like `manHours`, `masterBranch`, and `white
     **Correct**: C
 
     Non-inclusive language (gendered terms, master/slave, whitelist/blacklist) violates fairness and inclusiveness principles. The correct alternatives: `personHours`, `mainBranch`, `allowedIPs`.
+
+    <a href="study_notes/#63-bias-and-fairness-in-agent-outputs">📖 Study Guide</a>
 
 ---
 
@@ -698,6 +762,8 @@ Which evaluation approach best measures whether an agent's code generation match
 
     Production quality requires multiple evaluation dimensions: static analysis (code quality), tests (correctness), and human review (design quality, readability).
 
+    <a href="study_notes/#31-measuring-agent-output-quality">📖 Study Guide</a>
+
 ---
 
 ### Question 34
@@ -715,6 +781,8 @@ In MCP, what is the difference between a "tool" and a "resource"?
     **Correct**: B
 
     Tools = functions/actions (e.g., query_database, send_email). Resources = data sources (e.g., file contents, API data). Tools DO things; resources PROVIDE information.
+
+    <a href="study_notes/#24-agent-tools-and-capabilities">📖 Study Guide</a>
 
 ---
 
@@ -736,6 +804,8 @@ What algorithm is commonly used to determine agent task execution order when tas
 
     Topological sort (Kahn's algorithm) determines a valid execution order that respects all dependencies — no task runs before its prerequisites.
 
+    <a href="study_notes/#23-multi-step-agent-workflows">📖 Study Guide</a>
+
 ---
 
 ### Question 36
@@ -753,6 +823,8 @@ What is the primary security benefit of MCP's tool approval system?
     **Correct**: B
 
     Tool approval ensures human oversight for risky operations — the agent proposes an action, the user reviews and approves/rejects before execution.
+
+    <a href="study_notes/#42-agent-permissions-and-boundaries">📖 Study Guide</a>
 
 ---
 
@@ -772,6 +844,8 @@ Which CI/CD stage is most appropriate for AI-assisted automatic code formatting 
 
     Auto-formatting is a safe, non-semantic change that should happen early (pre-commit or build stage) before more complex steps.
 
+    <a href="study_notes/#53-ai-agents-in-cicd-pipelines">📖 Study Guide</a>
+
 ---
 
 ### Question 38
@@ -789,6 +863,8 @@ What is the correct context priority order for agent mode?
     **Correct**: B
 
     Context priority: User's request (highest) → Explicit references (#file) → Active file → Semantically relevant files → Project structure (lowest).
+
+    <a href="study_notes/#26-agent-context-management">📖 Study Guide</a>
 
 ---
 
@@ -808,6 +884,8 @@ What should happen when an AI agent's output confidence is low?
 
     Transparency requires indicating confidence levels. Low confidence output should be clearly marked and accompanied by a suggestion for human verification.
 
+    <a href="study_notes/#62-transparency-and-explainability">📖 Study Guide</a>
+
 ---
 
 ### Question 40
@@ -825,6 +903,8 @@ What is the recommended p95 latency target for individual agent mode steps?
     **Correct**: C
 
     Individual agent mode steps target < 10 seconds. Inline suggestions target < 200ms, chat first token < 2s.
+
+    <a href="study_notes/#32-optimizing-agent-response-latency">📖 Study Guide</a>
 
 ---
 
@@ -855,6 +935,8 @@ Which implementation approach best balances utility and security?
     - **C**: Impractical and defeats the purpose of agent tooling.
     - **D**: System prompts are not security controls — they can be overridden.
 
+    <a href="study_notes/#42-agent-permissions-and-boundaries">📖 Study Guide</a>
+
 ---
 
 ### Question 42
@@ -878,6 +960,8 @@ What is the most likely root cause and recommended action?
     - **A**: Code quality is fine when tasks complete — model capability isn't the issue.
     - **C**: This might help marginally but doesn't address structural task complexity.
     - **D**: More tools without better task scoping won't reduce iterations.
+
+    <a href="study_notes/#23-multi-step-agent-workflows">📖 Study Guide</a>
 
 ---
 
@@ -903,6 +987,8 @@ Which combination of actions is most comprehensive?
     - **C**: Reactive and unreliable — doesn't prevent issues.
     - **D**: Too extreme and doesn't solve the underlying problem.
 
+    <a href="study_notes/#65-monitoring-and-auditing-agent-decisions">📖 Study Guide</a>
+
 ---
 
 ### Question 44
@@ -927,6 +1013,8 @@ What is the most effective approach?
     - **C**: Losing context between sessions reduces quality.
     - **D**: Inline suggestions can't handle multi-file coordinated changes.
 
+    <a href="study_notes/#54-agent-human-interaction-patterns">📖 Study Guide</a>
+
 ---
 
 ### Question 45
@@ -949,6 +1037,8 @@ An agent's security scanning tool reports that its output contains a potential s
     - **C**: Removing all read access makes the agent useless.
     - **D**: A README warning doesn't prevent the issue.
 
+    <a href="study_notes/#45-managing-secrets-in-agent-workflows">📖 Study Guide</a>
+
 ---
 
 ### Question 46
@@ -969,6 +1059,8 @@ A team is designing an agent system for automated code review. Which architectur
     Code review agents should: advise (not merge), scope to changed files (efficiency), include security scanning (comprehensive review), and comment with findings (actionable output).
 
     - **B**: Merging PRs requires human decision — supervised or advisory autonomy for code review.
+
+    <a href="study_notes/#51-github-copilot-for-code-generation-and-review">📖 Study Guide</a>
 
 ---
 
@@ -992,6 +1084,8 @@ A healthcare company wants to use Copilot agent mode for developing their patien
     - **C**: AI can be used in healthcare with proper controls.
     - **D**: Read-only doesn't allow the agent to write code.
 
+    <a href="study_notes/#41-access-controls-for-ai-agents">📖 Study Guide</a>
+
 ---
 
 ### Question 48
@@ -1014,6 +1108,8 @@ A development team of 50 engineers wants to standardize how they use AI agents. 
     - **C**: Default settings don't address custom needs.
     - **D**: Unnecessary when GitHub's ecosystem can be extended.
 
+    <a href="study_notes/#25-building-custom-agent-extensions">📖 Study Guide</a>
+
 ---
 
 ### Question 49
@@ -1034,6 +1130,8 @@ After deploying an AI code review agent, the team notices it consistently provid
 
     - **A**: If code quality is similar, comment rates should be similar.
     - **C, D**: These don't address the root cause.
+
+    <a href="study_notes/#63-bias-and-fairness-in-agent-outputs">📖 Study Guide</a>
 
 ---
 
@@ -1059,6 +1157,8 @@ Which combination of changes prevents this while maintaining agent utility?
     - **C**: Less sensitive health checks miss real issues.
     - **D**: Arbitrary time restrictions don't address the root cause.
 
+    <a href="study_notes/#42-agent-permissions-and-boundaries">📖 Study Guide</a>
+
 ---
 
 ### Questions 51-60
@@ -1079,6 +1179,8 @@ What is the security implication of using HTTP/SSE transport for MCP instead of 
 
     HTTP/SSE transport communicates over the network (vs. stdio's local process communication), introducing risks that require TLS encryption and authentication to mitigate.
 
+    <a href="study_notes/#22-model-context-protocol-mcp">📖 Study Guide</a>
+
 ---
 
 ### Question 52
@@ -1096,6 +1198,8 @@ When designing an agent architecture, which responsible AI requirement is addres
     **Correct**: B
 
     Human-in-the-loop directly addresses the Accountability principle: humans remain responsible for AI system outcomes by reviewing and approving critical actions.
+
+    <a href="study_notes/#61-ethical-guidelines-for-agent-behavior">📖 Study Guide</a>
 
 ---
 
@@ -1119,6 +1223,8 @@ A PR reviewer notices that an AI agent's auto-generated documentation uses only 
 
     This is a fairness/inclusiveness issue. Fix immediately, then implement automated checks to prevent recurrence.
 
+    <a href="study_notes/#63-bias-and-fairness-in-agent-outputs">📖 Study Guide</a>
+
 ---
 
 ### Question 54
@@ -1136,6 +1242,8 @@ An agent mode task is taking 15 minutes to complete a feature that should take 3
     **Correct**: B
 
     12 iterations (well above the target of <5) and 15 minutes (above the <5 min target) indicates the agent is stuck. Human intervention to guide or restructure the approach is needed.
+
+    <a href="study_notes/#33-agent-task-completion-and-monitoring">📖 Study Guide</a>
 
 ---
 
@@ -1155,6 +1263,8 @@ When should a CI/CD pipeline block a deployment based on AI agent analysis?
 
     AI should block deployments only for confirmed, objective findings (security vulnerabilities, policy violations) — not for subjective assessments or low confidence guesses.
 
+    <a href="study_notes/#53-ai-agents-in-cicd-pipelines">📖 Study Guide</a>
+
 ---
 
 ### Question 56
@@ -1172,6 +1282,8 @@ Which is the correct execution flow for GitHub Copilot agent mode?
     **Correct**: B
 
     Agent mode follows the Plan-Execute-Iterate loop: plan multi-step approach, execute using tools, check results, iterate on failures, complete when successful.
+
+    <a href="study_notes/#21-github-copilot-agent-mode">📖 Study Guide</a>
 
 ---
 
@@ -1191,6 +1303,8 @@ A team measures that their AI-assisted code review catches 40% more bugs than ma
 
     High bug detection + low satisfaction typically means noise — too many low-value comments drowning out important ones. Tuning severity and focusing on actionable, high-impact findings improves the ratio.
 
+    <a href="study_notes/#31-measuring-agent-output-quality">📖 Study Guide</a>
+
 ---
 
 ### Question 58
@@ -1209,6 +1323,8 @@ An MCP server provides access to a code search tool that indexes open source rep
 
     Open source code carries licensing and security risks. Responsible AI (Domain 6) requires awareness of IP/licensing, and security (Domain 4) requires scanning external code for vulnerabilities.
 
+    <a href="study_notes/#61-ethical-guidelines-for-agent-behavior">📖 Study Guide</a>
+
 ---
 
 ### Question 59
@@ -1226,6 +1342,8 @@ What is the key difference between transparency and accountability in the contex
     **Correct**: B
 
     Transparency is about making AI behavior understandable (explainability). Accountability is about maintaining human responsibility and authority over AI systems.
+
+    <a href="study_notes/#62-transparency-and-explainability">📖 Study Guide</a>
 
 ---
 
@@ -1248,3 +1366,5 @@ A startup is deploying its first AI agent system. They want the agent to help wi
     - **A**: Over-engineered for 5 developers and one repo.
     - **C**: Agents are safe with proper basic controls.
     - **D**: Full autonomy without experience is dangerous.
+
+    <a href="study_notes/#12-sdlc-integration-points-for-ai-agents">📖 Study Guide</a>

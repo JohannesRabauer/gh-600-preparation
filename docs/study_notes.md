@@ -40,6 +40,10 @@ This comprehensive study guide covers all six domains of the **GitHub Certified 
 
 Agent architecture defines how AI agents are structured, how they communicate, and how they fit within software systems. In the GitHub ecosystem, agents operate as autonomous or semi-autonomous components that can plan, execute, and iterate on development tasks.
 
+!!! quote "Official Sources"
+    - [Azure AI Agent Architecture](https://learn.microsoft.com/en-us/azure/ai-services/agents/concepts/agents)
+    - [GitHub Copilot Agent Mode Overview](https://docs.github.com/en/copilot/using-github-copilot/using-agent-mode-in-github-copilot)
+
 #### Key Architecture Patterns
 
 | Pattern | Description | Use Case |
@@ -113,6 +117,9 @@ In the GitHub SDLC context, agents participate at multiple stages:
 
 AI agents integrate into the Software Development Lifecycle at specific touchpoints where they add the most value. Understanding these integration points is critical for designing effective agentic workflows.
 
+!!! quote "Official Sources"
+    - [GitHub Copilot Features Across the SDLC](https://docs.github.com/en/copilot/about-github-copilot/github-copilot-features)
+
 #### Integration Points by SDLC Phase
 
 | Phase | Agent Capability | Example |
@@ -177,6 +184,9 @@ graph LR
 
 When multiple agents or agent components work together, they need clear communication protocols and orchestration strategies. This topic covers how agents coordinate within GitHub workflows.
 
+!!! quote "Official Sources"
+    - [Model Context Protocol Specification](https://spec.modelcontextprotocol.io/)
+
 #### Communication Patterns
 
 | Pattern | Description | When to Use |
@@ -229,6 +239,9 @@ jobs:
 
 Different agents serve different roles within a development team's workflow. Understanding these roles helps you design systems where each agent has a clear responsibility.
 
+!!! quote "Official Sources"
+    - [GitHub Copilot Agent Capabilities](https://docs.github.com/en/copilot/using-github-copilot/using-agent-mode-in-github-copilot)
+
 #### Agent Roles
 
 | Role | Responsibility | Autonomy Level |
@@ -265,6 +278,9 @@ Different agents serve different roles within a development team's workflow. Und
 #### Overview
 
 Choosing the right framework determines how effectively agents operate. GitHub's ecosystem provides specific tools optimized for agentic development.
+
+!!! quote "Official Sources"
+    - [Copilot Extensions Ecosystem](https://docs.github.com/en/copilot/using-github-copilot/using-extensions-to-integrate-external-tools-with-copilot-chat)
 
 #### Framework Comparison
 
@@ -340,6 +356,10 @@ graph TB
 #### Overview
 
 Agent mode is Copilot's autonomous coding capability. Unlike chat (single response) or inline suggestions (autocomplete), agent mode executes multi-step tasks: editing files, running commands, fixing errors, and iterating until the task is complete.
+
+!!! quote "Official Sources"
+    - [GitHub Copilot Agent Mode](https://docs.github.com/en/copilot/using-github-copilot/using-agent-mode-in-github-copilot)
+    - [VS Code Agent Mode](https://code.visualstudio.com/docs/copilot/chat/chat-agent-mode)
 
 #### Agent Mode vs. Other Modes
 
@@ -450,6 +470,11 @@ export default router;
 #### Overview
 
 MCP is an open standard that defines how AI models connect to external tools and data sources. It provides a unified protocol for agents to discover, invoke, and receive results from tools — similar to how HTTP standardized web communication.
+
+!!! quote "Official Sources"
+    - [MCP Specification](https://spec.modelcontextprotocol.io/)
+    - [MCP Introduction](https://modelcontextprotocol.io/introduction)
+    - [GitHub Copilot MCP Integration](https://docs.github.com/en/copilot/customizing-copilot/extending-copilot-chat-with-mcp)
 
 #### MCP Architecture
 
@@ -564,6 +589,9 @@ graph TB
 
 Complex development tasks require agents to execute multiple steps in sequence, making decisions at each stage. Designing effective multi-step workflows is a core competency tested on the exam.
 
+!!! quote "Official Sources"
+    - [Agent Mode Multi-Step Workflows](https://docs.github.com/en/copilot/using-github-copilot/using-agent-mode-in-github-copilot)
+
 #### Workflow Design Principles
 
 1. **Decomposition**: Break complex tasks into atomic steps
@@ -646,6 +674,10 @@ workflow:
 
 Tools are the interface between agents and the external world. An agent's effectiveness depends on the quality and breadth of its available tools.
 
+!!! quote "Official Sources"
+    - [MCP Tools Specification](https://modelcontextprotocol.io/docs/concepts/tools)
+    - [VS Code Agent Mode Tools](https://code.visualstudio.com/docs/copilot/chat/chat-agent-mode)
+
 #### Built-in Copilot Agent Tools
 
 | Tool | Category | Description |
@@ -724,6 +756,9 @@ server.setRequestHandler("tools/call", async (request) => {
 
 GitHub Copilot Extensions allow developers to create domain-specific agents that extend Copilot's capabilities. Extensions are invoked via `@mentions` in Copilot Chat.
 
+!!! quote "Official Sources"
+    - [Building Copilot Extensions](https://docs.github.com/en/copilot/building-copilot-extensions)
+
 #### Extension Architecture
 
 ```mermaid
@@ -790,6 +825,9 @@ const server = createServer(async (req, res) => {
 
 Context management determines what information an agent has access to when making decisions. Effective context management improves response quality and reduces hallucination.
 
+!!! quote "Official Sources"
+    - [Copilot Chat Cheat Sheet](https://docs.github.com/en/copilot/using-github-copilot/copilot-chat/github-copilot-chat-cheat-sheet)
+
 #### Context Sources
 
 | Source | Description | Scope |
@@ -843,6 +881,9 @@ def build_context(request, workspace):
 #### Overview
 
 Agent output quality encompasses correctness, completeness, relevance, and adherence to coding standards. Measuring these dimensions requires both automated metrics and human evaluation.
+
+!!! quote "Official Sources"
+    - [Azure AI Agent Evaluations](https://learn.microsoft.com/en-us/azure/ai-services/agents/concepts/evaluations)
 
 #### Quality Metrics
 
@@ -898,6 +939,9 @@ class AgentEvaluator:
 
 Latency directly impacts developer experience. Agents must balance thoroughness with speed to remain useful in interactive development workflows.
 
+!!! quote "Official Sources"
+    - [Azure OpenAI Latency Optimization](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/latency)
+
 #### Latency Optimization Strategies
 
 | Strategy | Impact | Trade-off |
@@ -930,6 +974,9 @@ Latency directly impacts developer experience. Agents must balance thoroughness 
 #### Overview
 
 Monitoring agent performance in production helps identify degradation, common failure modes, and optimization opportunities.
+
+!!! quote "Official Sources"
+    - [Agent Tracing & Monitoring](https://learn.microsoft.com/en-us/azure/ai-services/agents/concepts/tracing)
 
 #### Monitoring Dimensions
 
@@ -1004,6 +1051,9 @@ graph TD
 
 AI agents operate with specific permissions that must be carefully scoped. The principle of least privilege applies: agents should only have access to the resources they need to complete their task.
 
+!!! quote "Official Sources"
+    - [Copilot Policy Management](https://docs.github.com/en/copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-policies-and-features-for-copilot-in-your-enterprise)
+
 #### Permission Model
 
 ```mermaid
@@ -1064,6 +1114,9 @@ graph TD
 
 Boundaries define what agents can and cannot do within a system. These boundaries must be enforced at multiple levels to prevent privilege escalation.
 
+!!! quote "Official Sources"
+    - [Agent Mode Permissions & Approval](https://docs.github.com/en/copilot/using-github-copilot/using-agent-mode-in-github-copilot)
+
 #### Boundary Types
 
 | Boundary | Purpose | Enforcement |
@@ -1116,6 +1169,10 @@ Push to main        →    BLOCKED            →    [Not allowed]
 
 Monitoring agent actions ensures they comply with security policies. All agent operations should be logged, auditable, and alertable.
 
+!!! quote "Official Sources"
+    - [Responsible Use of GitHub Copilot](https://docs.github.com/en/copilot/responsible-use-of-github-copilot-features)
+    - [Copilot Trust Center](https://resources.github.com/copilot-trust-center/)
+
 #### Audit Trail Requirements
 
 ```json
@@ -1151,6 +1208,9 @@ Monitoring agent actions ensures they comply with security policies. All agent o
 #### Overview
 
 Agents process code, documentation, and potentially sensitive data. Data governance ensures that information flows are controlled and compliant.
+
+!!! quote "Official Sources"
+    - [Data Handling in IDE](https://docs.github.com/en/copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-in-your-ide)
 
 #### Data Classification
 
@@ -1189,6 +1249,9 @@ def sanitize_context(file_content: str) -> str:
 #### Overview
 
 Agents must never have direct access to plaintext secrets. All credential management should use secure vaults and environment variable injection.
+
+!!! quote "Official Sources"
+    - [Using Secrets in GitHub Actions](https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions)
 
 #### Secure Secret Handling
 
@@ -1229,6 +1292,9 @@ mcp_server:
 #### Overview
 
 Copilot assists at every stage of code creation: from initial generation through iteration to review. Understanding how to effectively collaborate with AI for code quality is essential.
+
+!!! quote "Official Sources"
+    - [GitHub Copilot Code Review](https://docs.github.com/en/copilot/using-github-copilot/using-github-copilot-code-review)
 
 #### Code Generation Patterns
 
@@ -1295,6 +1361,9 @@ jobs:
 #### Overview
 
 AI agents can identify bugs, suggest fixes, generate test cases, and reproduce issues — significantly accelerating the debugging workflow.
+
+!!! quote "Official Sources"
+    - [VS Code Agent Mode for Debugging](https://code.visualstudio.com/docs/copilot/chat/chat-agent-mode)
 
 #### Debugging Workflow with Agents
 
@@ -1371,6 +1440,10 @@ describe('authenticate', () => {
 
 AI agents can automate CI/CD tasks: generating release notes, optimizing build configurations, auto-fixing lint errors, and managing deployments.
 
+!!! quote "Official Sources"
+    - [Copilot CLI for Pipelines](https://docs.github.com/en/copilot/using-github-copilot/using-github-copilot-in-the-command-line)
+    - [GitHub Copilot Overview](https://github.com/features/copilot)
+
 #### Agent CI/CD Integration Points
 
 | Stage | Agent Capability | Value |
@@ -1438,6 +1511,9 @@ jobs:
 
 Effective collaboration between developers and AI agents requires clear communication patterns. The way you prompt, review, and guide agents directly impacts output quality.
 
+!!! quote "Official Sources"
+    - [Copilot Chat Interaction Patterns](https://docs.github.com/en/copilot/using-github-copilot/copilot-chat/github-copilot-chat-cheat-sheet)
+
 #### Interaction Patterns
 
 | Pattern | Description | When to Use |
@@ -1502,6 +1578,10 @@ mindmap
 
 Responsible AI ensures that AI agents act ethically, transparently, and fairly. GitHub's approach to responsible AI is guided by Microsoft's six responsible AI principles.
 
+!!! quote "Official Sources"
+    - [Microsoft AI Principles](https://www.microsoft.com/en-us/ai/principles-and-approach)
+    - [Responsible Use of GitHub Copilot](https://docs.github.com/en/copilot/responsible-use-of-github-copilot-features)
+
 #### Microsoft's Responsible AI Principles
 
 | Principle | Description | Agent Application |
@@ -1550,6 +1630,9 @@ responsible_ai:
 
 Agents must be transparent about what they're doing and why. Users should understand agent decisions, limitations, and confidence levels.
 
+!!! quote "Official Sources"
+    - [Transparency in IDE](https://docs.github.com/en/copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-in-your-ide)
+
 #### Transparency Requirements
 
 | Aspect | Implementation | Example |
@@ -1591,6 +1674,9 @@ interface AgentResponse {
 #### Overview
 
 AI agents can perpetuate or introduce bias through code suggestions, variable naming, documentation, and architectural decisions. Identifying and mitigating bias is a key exam topic.
+
+!!! quote "Official Sources"
+    - [Azure OpenAI Content Filtering](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/content-filter)
 
 #### Types of Bias in AI Agents
 
@@ -1645,6 +1731,10 @@ INCLUSIVE_ALTERNATIVES = {
 
 Organizations must ensure their AI agent deployments comply with internal policies, industry regulations, and legal requirements.
 
+!!! quote "Official Sources"
+    - [Copilot Trust Center](https://resources.github.com/copilot-trust-center/)
+    - [Responsible AI Overview](https://learn.microsoft.com/en-us/azure/ai-services/responsible-use-of-ai-overview)
+
 #### Compliance Framework
 
 | Layer | Requirement | Implementation |
@@ -1672,6 +1762,9 @@ Organizations must ensure their AI agent deployments comply with internal polici
 #### Overview
 
 Ongoing monitoring ensures agents continue to operate within responsible AI guidelines. Auditing provides evidence of compliance and identifies issues before they become problems.
+
+!!! quote "Official Sources"
+    - [Copilot Audit Logs](https://docs.github.com/en/copilot/managing-copilot/managing-copilot-for-your-enterprise/reviewing-audit-logs-for-copilot-business)
 
 #### Monitoring Framework
 

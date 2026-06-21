@@ -12,7 +12,7 @@
 <div class="quiz-option" data-correct="true">A Copilot Extension for review logic combined with MCP servers that expose the security rulebook and design standards as resources, updated automatically</div>
 <div class="quiz-option" data-correct="false">A single large prompt containing all rules</div>
 <div class="quiz-option" data-correct="false">Manual code review by the security team for all PRs</div>
-<div class="quiz-explanation">Enterprise-scale customization requires: Extensions (custom review logic), MCP servers (dynamic access to frequently-updated documents), and resource exposure (standards as MCP resources that stay current). A prompt can't hold frequently-changing documents, and manual review doesn't scale.</div>
+<div class="quiz-explanation">Enterprise-scale customization requires: Extensions (custom review logic), MCP servers (dynamic access to frequently-updated documents), and resource exposure (standards as MCP resources that stay current). A prompt can't hold frequently-changing documents, and manual review doesn't scale. <a href="study_notes/#25-building-custom-agent-extensions">📖 Study Guide</a></div>
 </div>
 </div>
 
@@ -24,7 +24,7 @@
 <div class="quiz-option" data-correct="true">Fairness (biased toward one library) and Transparency (users should know about limitations). Fix: diversify context with team-approved library list, add selection criteria to prompts, and monitor suggestion diversity</div>
 <div class="quiz-option" data-correct="false">Reliability — the agent isn't reliable enough</div>
 <div class="quiz-option" data-correct="false">This isn't a problem — consistency is good</div>
-<div class="quiz-explanation">Training data bias causes unfair preference (Fairness violation). Users deserve to know about this limitation (Transparency). Fix: provide balanced context (approved library list), add decision criteria, and track diversity metrics over time.</div>
+<div class="quiz-explanation">Training data bias causes unfair preference (Fairness violation). Users deserve to know about this limitation (Transparency). Fix: provide balanced context (approved library list), add decision criteria, and track diversity metrics over time. <a href="study_notes/#63-bias-and-fairness-in-agent-outputs">📖 Study Guide</a></div>
 </div>
 </div>
 
@@ -36,7 +36,7 @@
 <div class="quiz-option" data-correct="true">Add test quality review criteria (mutation testing, behavioral assertions), tune the agent to prioritize meaningful assertions over trivial checks, and remove tests that add execution time without catching real bugs</div>
 <div class="quiz-option" data-correct="false">Reduce coverage target to 50%</div>
 <div class="quiz-option" data-correct="false">Keep all tests — more is always better</div>
-<div class="quiz-explanation">Coverage alone doesn't indicate quality. The fix combines: quality metrics (mutation testing reveals which tests actually catch bugs), agent tuning (better prompts for meaningful tests), and pruning (remove low-value tests that slow the suite). This balances coverage, quality, and speed.</div>
+<div class="quiz-explanation">Coverage alone doesn't indicate quality. The fix combines: quality metrics (mutation testing reveals which tests actually catch bugs), agent tuning (better prompts for meaningful tests), and pruning (remove low-value tests that slow the suite). This balances coverage, quality, and speed. <a href="study_notes/#31-measuring-agent-output-quality">📖 Study Guide</a></div>
 </div>
 </div>
 
@@ -48,7 +48,7 @@
 <div class="quiz-option" data-correct="true">Implement a data filtering layer that: redacts PII (names, emails, CC numbers) before exposing ticket content, exposes only technical details (error messages, stack traces, repro steps), and logs all access</div>
 <div class="quiz-option" data-correct="false">Don't build the integration — too risky</div>
 <div class="quiz-option" data-correct="false">Only expose ticket IDs without any content</div>
-<div class="quiz-explanation">The correct approach filters sensitive data at the server level: redact PII before the agent sees it, expose only the technical context developers need (errors, traces), and maintain audit logs. This balances utility (developers get bug context) with privacy (PII is protected).</div>
+<div class="quiz-explanation">The correct approach filters sensitive data at the server level: redact PII before the agent sees it, expose only the technical context developers need (errors, traces), and maintain audit logs. This balances utility (developers get bug context) with privacy (PII is protected). <a href="study_notes/#44-data-governance-for-agent-interactions">📖 Study Guide</a></div>
 </div>
 </div>
 
@@ -63,7 +63,7 @@ C) Advisory only — agents suggest but never act</div>
 <div class="quiz-option" data-correct="true">Option B — supervised autonomy with approval for sensitive ops (deploys, config changes) but auto-approve for safe ops (file edits, tests)</div>
 <div class="quiz-option" data-correct="false">Option C — advisory only is always safest</div>
 <div class="quiz-option" data-correct="false">No AI agents until the product is mature</div>
-<div class="quiz-explanation">Supervised autonomy balances speed and safety: auto-approve low-risk operations (reading, writing code, running tests) for speed, while requiring approval for higher-risk operations (deployments, config changes). Even for internal tools, full autonomy risks unintended changes, while advisory-only loses the speed benefit.</div>
+<div class="quiz-explanation">Supervised autonomy balances speed and safety: auto-approve low-risk operations (reading, writing code, running tests) for speed, while requiring approval for higher-risk operations (deployments, config changes). Even for internal tools, full autonomy risks unintended changes, while advisory-only loses the speed benefit. <a href="study_notes/#14-agent-roles-within-development-workflows">📖 Study Guide</a></div>
 </div>
 </div>
 
@@ -80,7 +80,7 @@ C) Advisory only — agents suggest but never act</div>
 <div class="quiz-option" data-correct="true">The agent completes tasks technically but doesn't match the team's coding style, conventions, or preferences</div>
 <div class="quiz-option" data-correct="false">The error rate is too high</div>
 <div class="quiz-option" data-correct="false">Tasks are too complex</div>
-<div class="quiz-explanation">High completion + low acceptance = the agent does the job but not the way developers want. The code works (tests pass, builds succeed) but doesn't match style preferences. Fix: add coding standards to context, reference example files, configure style guides.</div>
+<div class="quiz-explanation">High completion + low acceptance = the agent does the job but not the way developers want. The code works (tests pass, builds succeed) but doesn't match style preferences. Fix: add coding standards to context, reference example files, configure style guides. <a href="study_notes/#31-measuring-agent-output-quality">📖 Study Guide</a></div>
 </div>
 </div>
 
@@ -92,7 +92,7 @@ C) Advisory only — agents suggest but never act</div>
 <div class="quiz-option" data-correct="true">Add clear attribution indicating AI-generated content (transparency), while using AI assistance as a learning tool to help all team members improve their writing</div>
 <div class="quiz-option" data-correct="false">Make AI descriptions less detailed to match human quality</div>
 <div class="quiz-option" data-correct="false">Require all PR descriptions to be AI-generated for consistency</div>
-<div class="quiz-explanation">Transparency principle: AI-generated content should be clearly attributed. Additionally, framing AI as a learning tool (not a replacement) supports inclusiveness and helps the team grow. Don't reduce quality or force uniformity.</div>
+<div class="quiz-explanation">Transparency principle: AI-generated content should be clearly attributed. Additionally, framing AI as a learning tool (not a replacement) supports inclusiveness and helps the team grow. Don't reduce quality or force uniformity. <a href="study_notes/#62-transparency-and-explainability">📖 Study Guide</a></div>
 </div>
 </div>
 
@@ -105,7 +105,7 @@ C) Advisory only — agents suggest but never act</div>
 <div class="quiz-option" data-correct="false">Storing credentials in the tool response</div>
 <div class="quiz-option" data-correct="true">Audit logging of all tool invocations</div>
 <div class="quiz-option" data-correct="false">Making all tools auto-approved</div>
-<div class="quiz-explanation">Production MCP servers need: input validation (prevent injection), rate limiting (prevent abuse), authentication (for HTTP/SSE transport), and audit logging (compliance). Never store credentials in responses or auto-approve all tools.</div>
+<div class="quiz-explanation">Production MCP servers need: input validation (prevent injection), rate limiting (prevent abuse), authentication (for HTTP/SSE transport), and audit logging (compliance). Never store credentials in responses or auto-approve all tools. <a href="study_notes/#22-model-context-protocol-mcp">📖 Study Guide</a></div>
 </div>
 </div>
 
@@ -117,7 +117,7 @@ C) Advisory only — agents suggest but never act</div>
 <div class="quiz-option" data-correct="true">1) Define agent boundaries and permissions (CISO), 2) Document capabilities and limitations (compliance), 3) Start with supervised autonomy for a pilot team (dev speed), 4) Communicate that agents augment (not replace) developers (HR)</div>
 <div class="quiz-option" data-correct="false">Wait until all concerns are fully resolved before any deployment</div>
 <div class="quiz-option" data-correct="false">Ignore non-technical stakeholders</div>
-<div class="quiz-explanation">Successful deployment addresses all stakeholders: security first (boundaries), compliance second (documentation), controlled rollout third (pilot with supervision), and clear communication fourth (agents augment humans). This balances safety, governance, speed, and organizational change.</div>
+<div class="quiz-explanation">Successful deployment addresses all stakeholders: security first (boundaries), compliance second (documentation), controlled rollout third (pilot with supervision), and clear communication fourth (agents augment humans). This balances safety, governance, speed, and organizational change. <a href="study_notes/#64-compliance-with-responsible-ai-policies">📖 Study Guide</a></div>
 </div>
 </div>
 
@@ -128,7 +128,7 @@ C) Advisory only — agents suggest but never act</div>
 <div class="quiz-option" data-correct="true">Race conditions where parallel edits to related files may conflict or create inconsistencies</div>
 <div class="quiz-option" data-correct="false">Slower overall completion</div>
 <div class="quiz-option" data-correct="false">No risks — parallel is always better</div>
-<div class="quiz-explanation">Parallel tool calls can cause conflicts when editing related files — one edit might depend on the state created by another. The fix: identify dependencies between edits and only parallelize truly independent operations.</div>
+<div class="quiz-explanation">Parallel tool calls can cause conflicts when editing related files — one edit might depend on the state created by another. The fix: identify dependencies between edits and only parallelize truly independent operations. <a href="study_notes/#23-multi-step-agent-workflows">📖 Study Guide</a></div>
 </div>
 </div>
 </div>
