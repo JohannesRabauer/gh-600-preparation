@@ -11,7 +11,7 @@
 <div class="quiz-option" data-correct="false">Resources</div>
 <div class="quiz-option" data-correct="true">Prompts</div>
 <div class="quiz-option" data-correct="false">Sampling</div>
-<div class="quiz-explanation">MCP Prompts are pre-built prompt templates that servers can expose. Tools are actions to invoke, Resources are data to read, and Sampling allows servers to request LLM completions from the host. <a href="study_notes/#22-model-context-protocol-mcp">📖 Study Guide</a></div>
+<div class="quiz-explanation">MCP Prompts are pre-built prompt templates that servers can expose. Tools are actions to invoke, Resources are data to read, and Sampling allows servers to request LLM completions from the host. <a href="../study_notes/#22-model-context-protocol-mcp">📖 Study Guide</a></div>
 </div>
 </div>
 
@@ -22,7 +22,7 @@
 <div class="quiz-option" data-correct="true">Grant agents only the minimum permissions required to complete their specific task</div>
 <div class="quiz-option" data-correct="false">Remove all agent permissions by default</div>
 <div class="quiz-option" data-correct="false">Only allow agents to read files</div>
-<div class="quiz-explanation">Least privilege means agents get exactly the access they need — no more, no less. This minimizes risk while maintaining utility. Full access is too permissive; no access is too restrictive. <a href="study_notes/#41-access-controls-for-ai-agents">📖 Study Guide</a></div>
+<div class="quiz-explanation">Least privilege means agents get exactly the access they need — no more, no less. This minimizes risk while maintaining utility. Full access is too permissive; no access is too restrictive. <a href="../study_notes/#41-access-controls-for-ai-agents">📖 Study Guide</a></div>
 </div>
 </div>
 
@@ -34,7 +34,7 @@
 <div class="quiz-option" data-correct="true">Separate tools for read (auto-approved) and write (requires user confirmation), rate limiting on build triggers, and audit logging</div>
 <div class="quiz-option" data-correct="false">Only allow build status checks, never triggers</div>
 <div class="quiz-option" data-correct="false">Hardcode the CI/CD token in the server code</div>
-<div class="quiz-explanation">Best practice: separate read and write tools with different approval levels. Read (build status) is safe for auto-approval. Write (trigger build) requires human confirmation. Add rate limiting and audit logging for governance. <a href="study_notes/#42-agent-permissions-and-boundaries">📖 Study Guide</a></div>
+<div class="quiz-explanation">Best practice: separate read and write tools with different approval levels. Read (build status) is safe for auto-approval. Write (trigger build) requires human confirmation. Add rate limiting and audit logging for governance. <a href="../study_notes/#42-agent-permissions-and-boundaries">📖 Study Guide</a></div>
 </div>
 </div>
 
@@ -47,7 +47,7 @@
 <div class="quiz-option" data-correct="false">The AI model's internal weights</div>
 <div class="quiz-option" data-correct="true">Risk level of the operation</div>
 <div class="quiz-option" data-correct="true">Approval status (auto-approved, user-approved, denied)</div>
-<div class="quiz-explanation">Audit logs should contain: timestamp, user identity, session ID, action, target resource, tool used, approval status, content hash, and risk level. Model weights are internal implementation details, not audit data. <a href="study_notes/#43-security-compliance-monitoring">📖 Study Guide</a></div>
+<div class="quiz-explanation">Audit logs should contain: timestamp, user identity, session ID, action, target resource, tool used, approval status, content hash, and risk level. Model weights are internal implementation details, not audit data. <a href="../study_notes/#43-security-compliance-monitoring">📖 Study Guide</a></div>
 </div>
 </div>
 
@@ -58,7 +58,7 @@
 <div class="quiz-option" data-correct="false">The external tool being connected to</div>
 <div class="quiz-option" data-correct="false">The communication protocol</div>
 <div class="quiz-option" data-correct="false">The user's web browser</div>
-<div class="quiz-explanation">The Host is the application that runs the AI model and coordinates with MCP clients. In GitHub Copilot's case, the IDE (VS Code) is the host application. <a href="study_notes/#22-model-context-protocol-mcp">📖 Study Guide</a></div>
+<div class="quiz-explanation">The Host is the application that runs the AI model and coordinates with MCP clients. In GitHub Copilot's case, the IDE (VS Code) is the host application. <a href="../study_notes/#22-model-context-protocol-mcp">📖 Study Guide</a></div>
 </div>
 </div>
 
@@ -70,7 +70,7 @@
 <div class="quiz-option" data-correct="false">Pass it as a command line argument</div>
 <div class="quiz-option" data-correct="true">Store in GitHub Secrets and inject via environment variable in the workflow</div>
 <div class="quiz-option" data-correct="false">Email it to the agent service account</div>
-<div class="quiz-explanation">Secrets should be stored in a vault (GitHub Secrets) and injected at runtime via environment variables. They should never appear in code, logs, command lines, or any plaintext location. <a href="study_notes/#45-managing-secrets-in-agent-workflows">📖 Study Guide</a></div>
+<div class="quiz-explanation">Secrets should be stored in a vault (GitHub Secrets) and injected at runtime via environment variables. They should never appear in code, logs, command lines, or any plaintext location. <a href="../study_notes/#45-managing-secrets-in-agent-workflows">📖 Study Guide</a></div>
 </div>
 </div>
 
@@ -81,7 +81,7 @@
 <div class="quiz-option" data-correct="true">search_files</div>
 <div class="quiz-option" data-correct="false">run_command</div>
 <div class="quiz-option" data-correct="false">web_search</div>
-<div class="quiz-explanation">search_files is the tool for finding code patterns, symbols, and references across the workspace. It's a read operation that doesn't modify anything. <a href="study_notes/#24-agent-tools-and-capabilities">📖 Study Guide</a></div>
+<div class="quiz-explanation">search_files is the tool for finding code patterns, symbols, and references across the workspace. It's a read operation that doesn't modify anything. <a href="../study_notes/#24-agent-tools-and-capabilities">📖 Study Guide</a></div>
 </div>
 </div>
 
@@ -92,7 +92,7 @@
 <div class="quiz-option" data-correct="true">HTTP/SSE enables remote communication, introducing network attack surface requiring TLS and authentication</div>
 <div class="quiz-option" data-correct="false">HTTP/SSE is always more secure</div>
 <div class="quiz-option" data-correct="false">stdio has more security risks</div>
-<div class="quiz-explanation">HTTP/SSE communicates over the network (vs. stdio's local process communication). This introduces: man-in-the-middle risks (need TLS), unauthorized access risks (need auth), and data exposure risks (need encryption). <a href="study_notes/#22-model-context-protocol-mcp">📖 Study Guide</a></div>
+<div class="quiz-explanation">HTTP/SSE communicates over the network (vs. stdio's local process communication). This introduces: man-in-the-middle risks (need TLS), unauthorized access risks (need auth), and data exposure risks (need encryption). <a href="../study_notes/#22-model-context-protocol-mcp">📖 Study Guide</a></div>
 </div>
 </div>
 
@@ -103,7 +103,7 @@
 <div class="quiz-option" data-correct="true">Running the step multiple times produces the same result as running it once</div>
 <div class="quiz-option" data-correct="false">The step cannot fail</div>
 <div class="quiz-option" data-correct="false">The step requires no input</div>
-<div class="quiz-explanation">Idempotent steps are safe to retry because repeating them doesn't change the outcome. This is crucial for agent workflows: if a step fails mid-way, the agent can safely re-run it without causing duplicate effects. <a href="study_notes/#23-multi-step-agent-workflows">📖 Study Guide</a></div>
+<div class="quiz-explanation">Idempotent steps are safe to retry because repeating them doesn't change the outcome. This is crucial for agent workflows: if a step fails mid-way, the agent can safely re-run it without causing duplicate effects. <a href="../study_notes/#23-multi-step-agent-workflows">📖 Study Guide</a></div>
 </div>
 </div>
 
@@ -114,7 +114,7 @@
 <div class="quiz-option" data-correct="true">Commands like rm -rf, sudo, and curl piped to bash</div>
 <div class="quiz-option" data-correct="false">Running unit tests</div>
 <div class="quiz-option" data-correct="false">Creating new files</div>
-<div class="quiz-explanation">Destructive commands (rm -rf), privilege escalation (sudo), and arbitrary code execution (curl | bash) should always be denied. These can cause irreversible damage or compromise system security. <a href="study_notes/#42-agent-permissions-and-boundaries">📖 Study Guide</a></div>
+<div class="quiz-explanation">Destructive commands (rm -rf), privilege escalation (sudo), and arbitrary code execution (curl | bash) should always be denied. These can cause irreversible damage or compromise system security. <a href="../study_notes/#42-agent-permissions-and-boundaries">📖 Study Guide</a></div>
 </div>
 </div>
 
@@ -125,7 +125,7 @@
 <div class="quiz-option" data-correct="true">The server can request LLM completions from the host application</div>
 <div class="quiz-option" data-correct="false">The client samples random data from the server</div>
 <div class="quiz-option" data-correct="false">Performance sampling for monitoring</div>
-<div class="quiz-explanation">MCP Sampling allows servers to request that the host (which has the LLM) generate completions on behalf of the server. This enables servers to use AI capabilities without having their own model. <a href="study_notes/#22-model-context-protocol-mcp">📖 Study Guide</a></div>
+<div class="quiz-explanation">MCP Sampling allows servers to request that the host (which has the LLM) generate completions on behalf of the server. This enables servers to use AI capabilities without having their own model. <a href="../study_notes/#22-model-context-protocol-mcp">📖 Study Guide</a></div>
 </div>
 </div>
 
@@ -137,7 +137,7 @@
 <div class="quiz-option" data-correct="true">Immediately rotate the exposed key, remove the file from git history, enable secret scanning to prevent recurrence, and document the incident</div>
 <div class="quiz-option" data-correct="false">Make the repository private</div>
 <div class="quiz-option" data-correct="false">Ignore it since it's just a development key</div>
-<div class="quiz-explanation">Secret exposure requires: immediate rotation (the key is compromised), history cleanup (the key exists in git history even if the file is deleted), prevention (enable scanning), and documentation (learn from the incident). <a href="study_notes/#45-managing-secrets-in-agent-workflows">📖 Study Guide</a></div>
+<div class="quiz-explanation">Secret exposure requires: immediate rotation (the key is compromised), history cleanup (the key exists in git history even if the file is deleted), prevention (enable scanning), and documentation (learn from the incident). <a href="../study_notes/#45-managing-secrets-in-agent-workflows">📖 Study Guide</a></div>
 </div>
 </div>
 </div>
