@@ -4,8 +4,6 @@
     60 questions • 120 minutes • Score 700/1000 to pass
     This exam follows the official GH-600 domain weightings and question styles.
 
-## Domain 1: Prepare Agent Architecture & SDLC Processes (17%)
-
 <div class="quiz" data-domain="Agent Architecture & SDLC" data-type="single">
 <div class="quiz-question">
 <div class="quiz-stem">A team wants their coding agent to generate a refactoring plan before making changes. Which configuration separates planning from execution?</div>
@@ -121,8 +119,6 @@
 </div>
 
 
-
-## Domain 2: Implement Tool Use & Environment Interaction (23%)
 
 <div class="quiz" data-domain="Tool Use & Environment" data-type="single">
 <div class="quiz-question">
@@ -284,8 +280,6 @@
 
 
 
-## Domain 3: Manage Memory, State, and Execution (13%)
-
 <div class="quiz" data-domain="Memory, State & Execution" data-type="single">
 <div class="quiz-question">
 <div class="quiz-stem">What is the difference between short-term, long-term, and external memory for an agent?</div>
@@ -378,8 +372,6 @@
 </div>
 
 
-
-## Domain 4: Perform Evaluation, Error Analysis, and Tuning (17%)
 
 <div class="quiz" data-domain="Evaluation & Tuning" data-type="single">
 <div class="quiz-question">
@@ -497,8 +489,6 @@
 
 
 
-## Domain 5: Orchestrate Multi-Agent Coordination (17%)
-
 <div class="quiz" data-domain="Multi-Agent Coordination" data-type="single">
 <div class="quiz-question">
 <div class="quiz-stem">Which orchestration pattern has a central agent that decomposes work and delegates subtasks to specialized agents, then assembles their outputs?</div>
@@ -613,8 +603,6 @@
 </div>
 
 
-
-## Domain 6: Implement Guardrails and Accountability (13%)
 
 <div class="quiz" data-domain="Guardrails & Accountability" data-type="single">
 <div class="quiz-question">

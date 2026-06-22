@@ -4,8 +4,6 @@
     60 questions • 120 minutes • Score 700/1000 to pass
     Advanced scenario-based exam aligned with official GH-600 domains. Emphasizes cross-domain integration and real-world decision making.
 
-## Domain 1: Prepare Agent Architecture & SDLC Processes (17%)
-
 <div class="quiz" data-domain="Agent Architecture & SDLC" data-type="single">
 <div class="quiz-question">
 <div class="quiz-scenario">A platform team is setting up Copilot coding agents for their 50-developer organization. They want agents to handle routine tasks (dependency updates, test writing) autonomously, but ensure architectural decisions still require human input.</div>
@@ -119,8 +117,6 @@
 <div class="quiz-explanation">Without separation, flawed plans lead directly to flawed actions. Plan review is a low-cost checkpoint that prevents high-cost failures. This is why the exam emphasizes "Configure agent planning to be distinct from agent execution."</div>
 </div>
 </div>
-
-## Domain 2: Implement Tool Use & Environment Interaction (23%)
 
 <div class="quiz" data-domain="Tool Use & Environment" data-type="single">
 <div class="quiz-question">
@@ -273,8 +269,6 @@
 
 
 
-## Domain 3: Manage Memory, State, and Execution (13%)
-
 <div class="quiz" data-domain="Memory, State & Execution" data-type="single">
 <div class="quiz-question">
 <div class="quiz-scenario">A coding agent is asked to refactor a large module over multiple sessions. In session 1, it decided to use the Strategy pattern. In session 2, it starts using the Template Method pattern instead, contradicting its prior decision.</div>
@@ -365,8 +359,6 @@
 <div class="quiz-explanation">The exam covers "Capture task progress and decisions as durable artifacts." Effective checkpoints are structured (parseable), comprehensive (steps + decisions + state), and actionable (enough to resume without replaying everything).</div>
 </div>
 </div>
-
-## Domain 4: Perform Evaluation, Error Analysis, and Tuning (17%)
 
 <div class="quiz" data-domain="Evaluation & Tuning" data-type="single">
 <div class="quiz-question">
@@ -492,8 +484,6 @@
 
 
 
-## Domain 5: Orchestrate Multi-Agent Coordination (17%)
-
 <div class="quiz" data-domain="Multi-Agent Coordination" data-type="single">
 <div class="quiz-question">
 <div class="quiz-scenario">A CI pipeline uses three agents: SecurityScanner, CodeReviewer, and PerformanceAnalyzer. Each runs independently on a PR and posts its findings. Occasionally, SecurityScanner flags code that CodeReviewer suggested as an improvement.</div>
@@ -608,8 +598,6 @@
 <div class="quiz-explanation">The exam covers detecting "duplicated effort" as a multi-agent conflict type. Prevention through non-overlapping assignment and detection through output/scope comparison are both valid. Intentionally duplicating work is waste, not a strategy.</div>
 </div>
 </div>
-
-## Domain 6: Implement Guardrails and Accountability (13%)
 
 <div class="quiz" data-domain="Guardrails & Accountability" data-type="single">
 <div class="quiz-question">

@@ -4,8 +4,6 @@
     60 questions • 120 minutes • Score 700/1000 to pass
     This is the hardest mock exam. Questions require deep understanding of the official GH-600 domains with 2026-current GitHub Copilot features (cloud agent, coding agent, custom agents, MCP registries, copilot-setup-steps, custom instructions). If you pass this, you will pass the real exam.
 
-## Domain 1: Prepare Agent Architecture & SDLC Processes (15–20%)
-
 <div class="quiz" data-domain="Agent Architecture & SDLC" data-type="single">
 <div class="quiz-question">
 <div class="quiz-scenario">A team assigns a GitHub issue to Copilot cloud agent. The agent creates a branch, implements the feature, and opens a PR. During implementation, the agent modifies 3 files in `src/` as expected, but also modifies `.github/workflows/ci.yml` to add a new test step that the issue didn't request.</div>
@@ -128,8 +126,6 @@ They assign dependency version bumps to Tier 1, feature implementation to Tier 2
 </div>
 
 
-
-## Domain 2: Implement Tool Use & Environment Interaction (20–25%)
 
 <div class="quiz" data-domain="Tool Use & Environment" data-type="single">
 <div class="quiz-question">
@@ -339,8 +335,6 @@ The organization wants to prevent agents from deploying to production.</div>
 
 
 
-## Domain 3: Manage Memory, State, and Execution (10–15%)
-
 <div class="quiz" data-domain="Memory, State & Execution" data-type="single">
 <div class="quiz-question">
 <div class="quiz-scenario">A Copilot cloud agent receives a task to refactor a module across 3 sessions (the task is too large for one session). In session 1, it decides to extract an interface and creates `IPaymentProcessor.ts`. In session 2, it has no memory of session 1 and creates a different abstraction — an abstract class `BasePayment.ts` — contradicting the interface approach.</div>
@@ -446,8 +440,6 @@ The agent is interrupted and resumes in a new session.</div>
 </div>
 
 
-
-## Domain 4: Perform Evaluation, Error Analysis, and Tuning (15–20%)
 
 <div class="quiz" data-domain="Evaluation & Tuning" data-type="single">
 <div class="quiz-question">
@@ -575,8 +567,6 @@ The team wants to improve the merge rate.</div>
 
 
 
-## Domain 5: Orchestrate Multi-Agent Coordination (15–20%)
-
 <div class="quiz" data-domain="Multi-Agent Coordination" data-type="single">
 <div class="quiz-question">
 <div class="quiz-scenario">A team uses GitHub's mission control to orchestrate three coding agents working across different repositories:
@@ -700,8 +690,6 @@ Agent B depends on Agent A's API schema output. Agent C depends on both A and B'
 </div>
 
 
-
-## Domain 6: Implement Guardrails and Accountability (10–15%)
 
 <div class="quiz" data-domain="Guardrails & Accountability" data-type="single">
 <div class="quiz-question">
