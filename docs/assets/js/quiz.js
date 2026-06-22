@@ -60,6 +60,12 @@
       state.endTime = null;
       state.retryMode = false;
       state.retryIndices = [];
+      // Generate randomized orders on fresh start
+      state.questionOrder = shuffleArray(questions.map(function (_, i) { return i; }));
+      state.optionOrders = {};
+      questions.forEach(function (q, i) {
+        state.optionOrders[i] = shuffleArray(q.options.map(function (_, j) { return j; }));
+      });
     }
 
     render();
@@ -117,13 +123,15 @@
   }
 
   function renderQuestion() {
-    const indices = state.retryMode ? state.retryIndices : state.questions.map(function (_, i) { return i; });
+    const indices = state.retryMode ? state.retryIndices : (state.questionOrder || state.questions.map(function (_, i) { return i; }));
     const totalQuestions = indices.length;
     const displayIndex = state.currentIndex + 1;
 
     const actualIndex = indices[state.currentIndex];
     const q = state.questions[actualIndex];
     if (!q) return;
+
+    const optOrder = (state.optionOrders && state.optionOrders[actualIndex]) || q.options.map(function (_, i) { return i; });
 
     const answered = state.answers[actualIndex] !== undefined;
     const elapsed = formatTime(Date.now() - state.startTime);
@@ -156,10 +164,11 @@
     // Options
     html += '<div class="quiz-options-list" role="' + (isMulti ? "group" : "radiogroup") + '" aria-label="Answer options">';
 
-    q.options.forEach(function (opt, i) {
+    optOrder.forEach(function (origIdx, displayPos) {
+      var opt = q.options[origIdx];
       let classes = "quiz-option-btn";
       const answer = state.answers[actualIndex];
-      const selected = answer && answer.selected.indexOf(i) !== -1;
+      const selected = answer && answer.selected.indexOf(origIdx) !== -1;
       const disabled = answered;
 
       if (answered) {
@@ -171,7 +180,7 @@
         } else if (opt.correct && !selected) {
           classes += " quiz-option--missed";
         }
-      } else if (isMulti && state._tempSelection && state._tempSelection.indexOf(i) !== -1) {
+      } else if (isMulti && state._tempSelection && state._tempSelection.indexOf(origIdx) !== -1) {
         classes += " quiz-option--selected";
       }
 
@@ -180,10 +189,10 @@
       const role = isMulti ? "checkbox" : "radio";
 
       html += '<button class="' + classes + '"' + multiAttr + ' role="' + role + '"' + ariaChecked;
-      html += ' data-index="' + i + '" tabindex="0"';
+      html += ' data-index="' + origIdx + '" tabindex="0"';
       if (disabled) html += " disabled";
       html += ">";
-      html += '<span class="quiz-option-indicator">' + String.fromCharCode(65 + i) + "</span>";
+      html += '<span class="quiz-option-indicator">' + String.fromCharCode(65 + displayPos) + "</span>";
       html += '<span class="quiz-option-text">' + escapeHtml(opt.text) + "</span>";
       html += "</button>";
     });
@@ -280,7 +289,7 @@
 
     if (nextBtn) {
       nextBtn.addEventListener("click", function () {
-        const indices = state.retryMode ? state.retryIndices : state.questions.map(function (_, i) { return i; });
+        const indices = state.retryMode ? state.retryIndices : (state.questionOrder || state.questions.map(function (_, i) { return i; }));
         if (state.currentIndex < indices.length - 1) {
           state.currentIndex++;
           state._tempSelection = null;
@@ -351,7 +360,7 @@
      Results
      ========================================================================== */
   function renderResults() {
-    const indices = state.retryMode ? state.retryIndices : state.questions.map(function (_, i) { return i; });
+    const indices = state.retryMode ? state.retryIndices : (state.questionOrder || state.questions.map(function (_, i) { return i; }));
     const totalQuestions = indices.length;
     let correctCount = 0;
 
@@ -491,6 +500,11 @@
         state.answers = {};
         state.endTime = null;
         state.startTime = Date.now();
+        state.questionOrder = shuffleArray(state.questions.map(function (_, i) { return i; }));
+        state.optionOrders = {};
+        state.questions.forEach(function (q, i) {
+          state.optionOrders[i] = shuffleArray(q.options.map(function (_, j) { return j; }));
+        });
         try { localStorage.removeItem(STORAGE_KEY); } catch (e) {}
         render();
       });
@@ -510,6 +524,8 @@
         retryMode: state.retryMode,
         retryIndices: state.retryIndices,
         questionCount: state.questions.length,
+        questionOrder: state.questionOrder,
+        optionOrders: state.optionOrders,
       };
       localStorage.setItem(STORAGE_KEY, JSON.stringify(toSave));
     } catch (e) {
@@ -531,6 +547,8 @@
         endTime: saved.endTime || null,
         retryMode: saved.retryMode || false,
         retryIndices: saved.retryIndices || [],
+        questionOrder: saved.questionOrder || null,
+        optionOrders: saved.optionOrders || null,
       };
     } catch (e) {
       return null;
@@ -544,6 +562,15 @@
     var div = document.createElement("div");
     div.appendChild(document.createTextNode(str));
     return div.innerHTML;
+  }
+
+  function shuffleArray(arr) {
+    var a = arr.slice();
+    for (var i = a.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var tmp = a[i]; a[i] = a[j]; a[j] = tmp;
+    }
+    return a;
   }
 
   function formatTime(ms) {
@@ -594,5 +621,21 @@
     document.addEventListener("DOMContentLoaded", boot);
   } else {
     boot();
+  }
+
+  // Re-initialize on MkDocs Material instant navigation (SPA page switch).
+  // Material replaces page content without a full reload, so we observe the
+  // content container for changes to detect navigation.
+  var defined = typeof MutationObserver !== "undefined";
+  if (defined) {
+    var lastPath = location.pathname;
+    new MutationObserver(function () {
+      if (location.pathname !== lastPath) {
+        lastPath = location.pathname;
+        containerEl = null;
+        state = { questions: [], currentIndex: 0, answers: {}, startTime: null, endTime: null, retryMode: false, retryIndices: [] };
+        boot();
+      }
+    }).observe(document.body, { childList: true, subtree: true });
   }
 })();
