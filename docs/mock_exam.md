@@ -14,7 +14,7 @@
     Take these under realistic conditions: set a 120-minute timer, no reference materials, no breaks. This simulates the actual exam experience.
 
 !!! note "About Scoring"
-    The real GH-600 exam requires a score of **700/1000** to pass (not a simple percentage). Mock Exams 4 & 5 use 60 questions matching the real exam format. Exams 1-3 have 50 questions each and are still excellent practice.
+    The real GH-600 exam requires a score of **700/1000** to pass (not a simple percentage). All mock exams use 60-70 questions with heavy emphasis on practical CLI, MCP configuration, GitHub Actions YAML, and "what command/config" questions matching the real exam difficulty.
 
 ---
 
@@ -24,15 +24,15 @@
 
 | Exam | Questions | Focus | Domain Alignment |
 |------|-----------|-------|-----------------|
-| [**Mock Exam 1**](mock_exam_1.md) | 50 | Balanced across all domains | Original domains |
-| [**Mock Exam 2**](mock_exam_2.md) | 50 | Implementation & Security emphasis | Original domains |
-| [**Mock Exam 3**](mock_exam_3.md) | 50 | Advanced cross-domain scenarios | Original domains |
-| [**Mock Exam 4**](mock_exam_4.md) | 60 | Full exam simulation — official domain weightings | ✅ Official GH-600 domains |
-| [**Mock Exam 5**](mock_exam_5.md) | 60 | Advanced scenarios — official domain weightings | ✅ Official GH-600 domains |
-| [**Mock Exam 6**](mock_exam_6.md) | 60 | 🔥 **Expert level** — hardest exam, 2026-current features | ✅ Official GH-600 domains |
+| [**Mock Exam 1**](mock_exam_1.md) | 60 | Balanced + practical CLI & config questions | ✅ Official GH-600 domains |
+| [**Mock Exam 2**](mock_exam_2.md) | 60 | Heavy CLI, MCP config, Actions YAML | ✅ Official GH-600 domains |
+| [**Mock Exam 3**](mock_exam_3.md) | 60 | Advanced cross-domain + practical scenarios | ✅ Official GH-600 domains |
+| [**Mock Exam 4**](mock_exam_4.md) | 70 | Full exam simulation + 10 hard practical questions | ✅ Official GH-600 domains |
+| [**Mock Exam 5**](mock_exam_5.md) | 70 | Advanced scenarios + CLI/config deep dives | ✅ Official GH-600 domains |
+| [**Mock Exam 6**](mock_exam_6.md) | 70 | 🔥 **Expert level** — hardest exam + practical questions | ✅ Official GH-600 domains |
 
 !!! tip "Recommended Study Order"
-    Start with Exams 1-3 for foundational practice, then use Exams 4-5 for realistic exam simulation with official domain alignment. Attempt Exam 6 only when you're consistently scoring 80%+ on Exams 4-5 — it's designed as the final confidence check before your real exam.
+    Start with Exams 1-3 for foundational practice, then use Exams 4-6 for harder simulation. All exams now include practical "what command" and "what config" questions matching real exam difficulty. Attempt Exam 6 only when scoring 80%+ on Exams 4-5.
 
 ### How It Works
 
